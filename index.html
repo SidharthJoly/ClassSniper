@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidharth's Gym Booker</title>
+    <style>
+        body { font-family: -apple-system, sans-serif; background: #000; color: #fff; padding: 20px; text-align: center; }
+        .status-box { background: #1c1c1e; padding: 15px; border-radius: 12px; margin-bottom: 20px; border: 1px solid #333; }
+        .btn { background: #0A84FF; color: white; border: none; padding: 12px 24px; border-radius: 8px; font-weight: bold; width: 100%; margin-top: 10px; cursor: pointer; }
+        input { background: #1c1c1e; color: #fff; border: 1px solid #333; padding: 10px; border-radius: 8px; width: 80%; margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Gym Striker</h1>
+    
+    <div class="status-box">
+        <h3>Current Status</h3>
+        <p id="status-val">Loading...</p>
+    </div>
+
+    <div class="status-box">
+        <h3>Arm New Class</h3>
+        <input type="date" id="dateInput">
+        <input type="text" id="timeInput" placeholder="3:30 PM">
+        <button class="btn" onclick="armBot()">ARM BOT</button>
+    </div>
+
+    <script>
+        const USER = "YOUR_GITHUB_USERNAME";
+        const REPO = "gym-bot";
+        const TOKEN = "YOUR_GITHUB_PAT"; // Personal Access Token
+
+        async function getStatus() {
+            const res = await fetch(`https://raw.githubusercontent.com/${USER}/${REPO}/main/status.json`);
+            const data = await res.json();
+            document.getElementById('status-val').innerText = `${data.status} at ${data.time}`;
+        }
+
+        async function armBot() {
+            const date = document.getElementById('dateInput').value;
+            const time = document.getElementById('timeInput').value;
+            if(!date || !time) return alert("Fill everything!");
+
+            const content = btoa(JSON.stringify({ date, time }));
+            
+            // Get SHA first
+            const file = await fetch(`https://api.github.com/repos/${USER}/${REPO}/contents/pending_booking.json`, {
+                headers: { "Authorization": `token ${TOKEN}` }
+            }).then(r => r.json());
+
+            // Update file
+            await fetch(`https://api.github.com/repos/${USER}/${REPO}/contents/pending_booking.json`, {
+                method: "PUT",
+                headers: { "Authorization": `token ${TOKEN}` },
+                body: JSON.stringify({
+                    message: `Arming for ${time}`,
+                    content: content,
+                    sha: file.sha
+                })
+            });
+            alert("Bot Armed!");
+        }
+        getStatus();
+    </script>
+</body>
+</html>

@@ -3,6 +3,18 @@ on:
   schedule:
     - cron: '*/15 * * * *' 
   workflow_dispatch:
+    inputs:
+      class_date:
+        description: 'Date (YYYY-MM-DD)'
+        required: true
+        default: '2026-04-12'
+      class_time:
+        description: 'Time (e.g., 3:30 PM)'
+        required: true
+        default: '3:30 PM'
+
+permissions:
+  contents: write
 
 jobs:
   check_and_book:

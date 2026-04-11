@@ -1,0 +1,30 @@
+name: Gym Logic Engine
+on:
+  schedule:
+    - cron: '*/15 * * * *' 
+  workflow_dispatch:
+
+jobs:
+  check_and_book:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - name: Install Playwright
+        run: |
+          pip install playwright
+          playwright install chromium
+      - name: Run Booker
+        env:
+          GYM_EMAIL: ${{ secrets.GYM_EMAIL }}
+          GYM_PASSWORD: ${{ secrets.GYM_PASSWORD }}
+        run: python gym_script.py
+      - name: Commit Status
+        run: |
+          git config --global user.name "GymBot"
+          git add status.json
+          git commit -m "Update booking status" || echo "No changes"
+          git push

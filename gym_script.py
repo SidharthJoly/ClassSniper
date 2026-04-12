@@ -46,7 +46,12 @@ async def run_booking():
         await page.wait_for_url("**/booking**", timeout=20000)
         print("Login successful (or redirected).")
         # GO TO DATE
+        # GO TO DATE
+        print(f"Navigating to {target['date']}...")
         await page.goto(f"https://oneplayground.exerp.site/booking?centers=104&date={target['date']}")
+        
+        # Wait for the specific class list container to load, not the whole network
+        await page.wait_for_selector(".booking-class-item", timeout=15000)
         
         # 3. THE FINAL COUNTDOWN
         while datetime.now() < booking_opens_at:

@@ -46,24 +46,26 @@ async def run_booking():
         await page.wait_for_url("**/booking**", timeout=20000)
         print("Login successful (or redirected).")
         # GO TO DATE
-        target_date = target['date']
-        print(f"Navigating to {target_date}...")
-        await page.goto(f"https://oneplayground.exerp.site/booking?centers=104&date={target_date}")
+        print(f"Navigating to {target['date']}...")
+        await page.goto(f"https://oneplayground.exerp.site/booking?centers=104&date={target['date']}")
         
-        # 1. Wait for the main booking container instead of a specific class
+        # Wait for the container first
         try:
-            await page.wait_for_selector(".booking-classes-container", timeout=20000)
-            print("Booking container found.")
+            await page.wait_for_selector(".booking-classes-container", timeout=10000)
         except:
-            print("Container not found, checking if page is just empty...")
+            print("Container not found. Is the date correct?")
 
-        # 2. Add a tiny sleep to let the JS render the list
-        await asyncio.sleep(3)
+        # Check if any classes exist at all
+        classes = page.locator(".booking-class-item")
+        count = await classes.count()
+        print(f"Found {count} classes on this date.")
 
-        # 3. Debug: Take a screenshot if it fails (GitHub saves this in 'Actions' artifacts)
-        # await page.screenshot(path="debug_screen.png")
-        # Wait for the specific class list container to load, not the whole network
-        await page.wait_for_selector(".booking-class-item", timeout=15000)
+        if count == 0:
+            print("No classes found. Exiting to avoid timeout.")
+            return # This stops the script cleanly
+
+        # If classes exist, wait for the specific one
+        await page.wait_for_selector(".booking-class-item", timeout=5000)
         
         # 3. THE FINAL COUNTDOWN
         while datetime.now() < booking_opens_at:

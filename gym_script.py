@@ -53,23 +53,30 @@ async def run_booking():
         await page.wait_for_url("**/booking**", timeout=20000)
         print("Login successful (or redirected).")
         # GO TO DATE
-        print(f"Navigating to {target['date']}...")
-        await page.goto(f"https://oneplayground.exerp.site/booking?centers=104&date={target['date']}")
+        target_date = target['date']
+        print(f"Navigating to {target_date}...")
         
-        # Wait for the container first
-        try:
-            await page.wait_for_selector(".booking-classes-container", timeout=10000)
-        except:
-            print("Container not found. Is the date correct?")
+        # Try navigating directly
+        url = f"https://oneplayground.exerp.site/booking?centers=104&date={target_date}"
+        await page.goto(url)
+        
+        # Wait for the main page to actually settle
+        await asyncio.sleep(5) 
 
-        # Check if any classes exist at all
+        # Check for classes - if 0, try a 'Hard Reload'
         classes = page.locator(".booking-class-item")
         count = await classes.count()
-        print(f"Found {count} classes on this date.")
-
+        
         if count == 0:
-            print("No classes found. Exiting to avoid timeout.")
-            return # This stops the script cleanly
+            print("Zero classes found. Trying a page reload...")
+            await page.reload()
+            await asyncio.sleep(5)
+            count = await classes.count()
+            await page.screenshot(path="no_classes_debug.png", full_page=True)
+            print("Saved debug screenshot.")
+            return
+
+        print(f"Found {count} classes on this date.")
 
         # If classes exist, wait for the specific one
         await page.wait_for_selector(".booking-class-item", timeout=5000)

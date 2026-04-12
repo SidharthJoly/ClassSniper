@@ -6,62 +6,240 @@
     <title>Sidharth's Gym Booker</title>
     <style>
         body { font-family: -apple-system, sans-serif; background: #000; color: #fff; padding: 20px; text-align: center; }
-        .status-box { background: #1c1c1e; padding: 15px; border-radius: 12px; margin-bottom: 20px; border: 1px solid #333; }
+        .status-box { background: #1c1c1e; padding: 15px; border-radius: 12px; margin-bottom: 20px; border: 1px solid #333; text-align: left; }
         .btn { background: #0A84FF; color: white; border: none; padding: 12px 24px; border-radius: 8px; font-weight: bold; width: 100%; margin-top: 10px; cursor: pointer; }
-        input { background: #1c1c1e; color: #fff; border: 1px solid #333; padding: 10px; border-radius: 8px; width: 80%; margin-bottom: 10px; }
+        input, select { background: #1c1c1e; color: #fff; border: 1px solid #333; padding: 10px; border-radius: 8px; width: calc(100% - 22px); margin-bottom: 10px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+        th, td { padding: 10px; border-bottom: 1px solid #333; text-align: left; }
+        th { color: #0AF; }
+        .small { font-size: 0.9rem; color: #aaa; }
     </style>
 </head>
 <body>
     <h1>Gym Striker</h1>
-    
+
     <div class="status-box">
         <h3>Current Status</h3>
         <p id="status-val">Loading...</p>
     </div>
 
     <div class="status-box">
-        <h3>Arm New Class</h3>
+        <h3>GitHub Settings</h3>
+        <input type="text" id="userInput" placeholder="GitHub username">
+        <input type="text" id="repoInput" placeholder="Repository name" value="gym-bot">
+        <input type="password" id="tokenInput" placeholder="GitHub token (store locally)">
+        <button class="btn" onclick="saveSettings()">Save settings</button>
+        <p class="small">The token is stored in browser local storage and used to update pending bookings.</p>
+    </div>
+
+    <div class="status-box">
+        <h3>Scraped Classes</h3>
+        <button class="btn" onclick="loadClassList()">Refresh class list</button>
+        <div id="classList">Loading scraped class list…</div>
+        <p class="small">The class list is sourced from <code>class_list.json</code> in the repo. Select a class below to add it to pending bookings.</p>
+    </div>
+
+    <div class="status-box">
+        <h3>Pending Bookings</h3>
+        <button class="btn" onclick="loadPendingBookings()">Refresh pending bookings</button>
+        <div id="pendingList">Loading pending bookings…</div>
+    </div>
+
+    <div class="status-box">
+        <h3>Arm a Booking Manually</h3>
         <input type="date" id="dateInput">
         <input type="text" id="timeInput" placeholder="3:30 PM">
-        <button class="btn" onclick="armBot()">ARM BOT</button>
+        <button class="btn" onclick="armBooking()">Add pending booking</button>
     </div>
 
     <script>
-        const USER = "YOUR_GITHUB_USERNAME";
-        const REPO = "gym-bot";
-        const TOKEN = "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"; // Personal Access Token
+        const DEFAULT_REPO = 'gym-bot';
+        const BRANCH = 'main';
 
-        async function getStatus() {
-            const res = await fetch(`https://raw.githubusercontent.com/${USER}/${REPO}/main/status.json`);
-            const data = await res.json();
-            document.getElementById('status-val').innerText = `${data.status} at ${data.time}`;
+        function getSettings() {
+            const user = localStorage.getItem('github_user') || '';
+            const repo = localStorage.getItem('github_repo') || DEFAULT_REPO;
+            const token = localStorage.getItem('github_token') || '';
+            document.getElementById('userInput').value = user;
+            document.getElementById('repoInput').value = repo;
+            document.getElementById('tokenInput').value = token;
+            return { user, repo, token };
         }
 
-        async function armBot() {
-            const date = document.getElementById('dateInput').value;
-            const time = document.getElementById('timeInput').value;
-            if(!date || !time) return alert("Fill everything!");
+        function saveSettings() {
+            const user = document.getElementById('userInput').value.trim();
+            const repo = document.getElementById('repoInput').value.trim();
+            const token = document.getElementById('tokenInput').value.trim();
+            if (!user || !repo) return alert('Enter GitHub user and repo.');
+            localStorage.setItem('github_user', user);
+            localStorage.setItem('github_repo', repo);
+            localStorage.setItem('github_token', token);
+            alert('Settings saved locally.');
+        }
 
-            const content = btoa(JSON.stringify({ date, time }));
-            
-            // Get SHA first
-            const file = await fetch(`https://api.github.com/repos/${USER}/${REPO}/contents/pending_booking.json`, {
-                headers: { "Authorization": `token ${TOKEN}` }
-            }).then(r => r.json());
+        function getHeaders() {
+            const token = document.getElementById('tokenInput').value.trim() || localStorage.getItem('github_token') || '';
+            const headers = { 'Accept': 'application/vnd.github.v3+json' };
+            if (token) headers.Authorization = `token ${token}`;
+            return headers;
+        }
 
-            // Update file
-            await fetch(`https://api.github.com/repos/${USER}/${REPO}/contents/pending_booking.json`, {
-                method: "PUT",
-                headers: { "Authorization": `token ${TOKEN}` },
-                body: JSON.stringify({
-                    message: `Arming for ${time}`,
-                    content: content,
-                    sha: file.sha
-                })
+        function decodeContent(content) {
+            return decodeURIComponent(escape(atob(content.replace(/\n/g, ''))));
+        }
+
+        function encodeContent(text) {
+            return btoa(unescape(encodeURIComponent(text)));
+        }
+
+        async function githubGetFile(path) {
+            const { user, repo } = getSettings();
+            const response = await fetch(`https://api.github.com/repos/${user}/${repo}/contents/${path}?ref=${BRANCH}`, {
+                headers: getHeaders(),
             });
-            alert("Bot Armed!");
+            if (!response.ok) {
+                throw new Error(`Fetch failed: ${response.status} ${response.statusText}`);
+            }
+            return response.json();
         }
-        getStatus();
+
+        async function githubPutFile(path, message, content, sha) {
+            const { user, repo } = getSettings();
+            const response = await fetch(`https://api.github.com/repos/${user}/${repo}/contents/${path}`, {
+                method: 'PUT',
+                headers: getHeaders(),
+                body: JSON.stringify({ message, content, sha, branch: BRANCH }),
+            });
+            if (!response.ok) {
+                const body = await response.text();
+                throw new Error(`Commit failed: ${response.status} ${response.statusText}\n${body}`);
+            }
+            return response.json();
+        }
+
+        async function fetchRawJson(path) {
+            const file = await githubGetFile(path);
+            return JSON.parse(decodeContent(file.content));
+        }
+
+        async function loadStatus() {
+            const { user } = getSettings();
+            const statusEl = document.getElementById('status-val');
+            if (!user) {
+                statusEl.innerText = 'Enter GitHub username, repo, and token to load status.';
+                return;
+            }
+            try {
+                const data = await fetchRawJson('status.json');
+                statusEl.innerText = `${data.status} at ${data.time}`;
+            } catch (error) {
+                statusEl.innerText = 'Unable to load status.';
+                console.error(error);
+            }
+        }
+
+        async function loadClassList() {
+            const { user, repo } = getSettings();
+            const container = document.getElementById('classList');
+            if (!user || !repo) {
+                container.innerHTML = '<p>Enter GitHub username and repo, then save settings.</p>';
+                return;
+            }
+            container.innerHTML = 'Loading scraped class list…';
+            try {
+                const classes = await fetchRawJson('class_list.json');
+                if (!Array.isArray(classes) || classes.length === 0) {
+                    container.innerHTML = '<p>No scraped classes found in class_list.json.</p>';
+                    return;
+                }
+                const rows = classes.map((item, index) => {
+                    const desc = item.description || `${item.date} ${item.time}`;
+                    return `<tr>
+                        <td>${item.date}</td>
+                        <td>${item.time}</td>
+                        <td>${desc}</td>
+                        <td><button class="btn" onclick="addClassBooking(${index})">Select</button></td>
+                    </tr>`;
+                }).join('');
+                container.innerHTML = `<table><thead><tr><th>Date</th><th>Time</th><th>Description</th><th>Action</th></tr></thead><tbody>${rows}</tbody></table>`;
+            } catch (error) {
+                container.innerHTML = '<p>Unable to load class list.</p>';
+                console.error(error);
+            }
+        }
+
+        async function loadPendingBookings() {
+            const { user, repo } = getSettings();
+            const container = document.getElementById('pendingList');
+            if (!user || !repo) {
+                container.innerHTML = '<p>Enter GitHub username and repo, then save settings.</p>';
+                return;
+            }
+            container.innerHTML = 'Loading pending bookings…';
+            try {
+                const file = await githubGetFile('pending_booking.json');
+                const payload = JSON.parse(decodeContent(file.content));
+                const bookings = Array.isArray(payload) ? payload : [payload];
+                if (bookings.length === 0) {
+                    container.innerHTML = '<p>No pending bookings.</p>';
+                    return;
+                }
+                const rows = bookings.map((item, index) => `<tr>
+                    <td>${item.date}</td>
+                    <td>${item.time}</td>
+                    <td>${item.description || ''}</td>
+                </tr>`).join('');
+                container.innerHTML = `<table><thead><tr><th>Date</th><th>Time</th><th>Description</th></tr></thead><tbody>${rows}</tbody></table>`;
+            } catch (error) {
+                container.innerHTML = '<p>Unable to load pending bookings.</p>';
+                console.error(error);
+            }
+        }
+
+        async function armBooking() {
+            const date = document.getElementById('dateInput').value;
+            const time = document.getElementById('timeInput').value.trim();
+            if (!date || !time) return alert('Fill both date and time.');
+            await addBooking({ date, time });
+        }
+
+        async function addClassBooking(index) {
+            try {
+                const classes = await fetchRawJson('class_list.json');
+                const item = classes[index];
+                if (!item) return alert('Class not found.');
+                await addBooking({ date: item.date, time: item.time, description: item.description });
+            } catch (error) {
+                console.error(error);
+                alert('Unable to add selected class.');
+            }
+        }
+
+        async function addBooking(newBooking) {
+            try {
+                const file = await githubGetFile('pending_booking.json');
+                let payload = JSON.parse(decodeContent(file.content));
+                if (!Array.isArray(payload)) {
+                    payload = [payload];
+                }
+                const duplicate = payload.some(item => item.date === newBooking.date && item.time === newBooking.time);
+                if (duplicate) return alert('This booking is already pending.');
+                payload.push(newBooking);
+                const content = encodeContent(JSON.stringify(payload, null, 2));
+                await githubPutFile('pending_booking.json', `Add pending booking ${newBooking.date} ${newBooking.time}`, content, file.sha);
+                alert('Pending booking added.');
+                loadPendingBookings();
+                loadStatus();
+            } catch (error) {
+                console.error(error);
+                alert('Failed to update pending bookings. Check your token and repository settings.');
+            }
+        }
+
+        getSettings();
+        loadStatus();
+        loadClassList();
+        loadPendingBookings();
     </script>
 </body>
 </html>

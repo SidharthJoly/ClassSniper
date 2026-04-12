@@ -10,33 +10,66 @@ EMAIL = os.getenv("GYM_EMAIL")
 PASSWORD = os.getenv("GYM_PASSWORD")
 
 async def run_booking():
-    # 1. Load your selection from the repository
+    # 1. Load your pending bookings from the repository
     try:
         with open('pending_booking.json', 'r') as f:
-            target = json.load(f)
+            data = json.load(f)
     except FileNotFoundError:
         print("No pending_booking.json found. Create one to start.")
         return
 
+    if isinstance(data, dict):
+        targets = [data]
+    elif isinstance(data, list):
+        targets = data
+    else:
+        raise ValueError("pending_booking.json must contain an object or an array of objects")
+
     # Define Sydney Timezone
     sydney_tz = pytz.timezone('Australia/Sydney')
-    
-    # Get the target date/time as a Sydney-aware object
-    target_dt = sydney_tz.localize(datetime.strptime(f"{target['date']} {target['time']}", "%Y-%m-%d %I:%M %p"))
-    booking_opens_at = target_dt - timedelta(hours=72)
-    
+
+    bookings = []
+    for target in targets:
+        target_dt = sydney_tz.localize(datetime.strptime(f"{target['date']} {target['time']}", "%Y-%m-%d %I:%M %p"))
+        bookings.append({
+            "target": target,
+            "target_dt": target_dt,
+            "opens_at": target_dt - timedelta(hours=72),
+        })
+
+    bookings.sort(key=lambda entry: entry["opens_at"])
+    selected = bookings[0]
+    target = selected["target"]
+    booking_opens_at = selected["opens_at"]
+
     # Get CURRENT time in Sydney
     now = datetime.now(sydney_tz)
+    window = timedelta(minutes=15)
 
-    # Now the comparison will be accurate
-    if now < (booking_opens_at - timedelta(minutes=15)):
-        print(f"Too early. Opens at {booking_opens_at}. Current Sydney time: {now}")
+    if now < booking_opens_at - window:
+        print(
+            f"Too early for the next pending booking. Earliest open time is {booking_opens_at}, current Sydney time is {now}."
+        )
         return
-        
+
+    if now < booking_opens_at:
+        wait_seconds = (booking_opens_at - now).total_seconds() + 2
+        print(
+            f"Booking opens at {booking_opens_at}. Waiting {int(wait_seconds)} seconds to strike at {booking_opens_at + timedelta(seconds=2)}."
+        )
+        await asyncio.sleep(wait_seconds)
+        now = datetime.now(sydney_tz)
+    elif now < booking_opens_at + timedelta(seconds=2):
+        sleep_seconds = (booking_opens_at + timedelta(seconds=2) - now).total_seconds()
+        print(f"Booking is opening now. Sleeping {int(sleep_seconds)} seconds to hit the target window.")
+        await asyncio.sleep(sleep_seconds)
+        now = datetime.now(sydney_tz)
+
     result = {
         "status": "PENDING",
         "time": str(datetime.now()),
-        "target": target,
+        "selected_target": target,
+        "selected_open_time": str(booking_opens_at),
     }
 
     try:
@@ -122,7 +155,8 @@ async def run_booking():
                     })
     except Exception as e:
         print(f"Strike failed: {e}")
-        await page.screenshot(path="final_failure.png")
+        if 'page' in locals():
+            await page.screenshot(path="final_failure.png")
         result.update({
             "status": "ERROR",
             "time": str(datetime.now()),

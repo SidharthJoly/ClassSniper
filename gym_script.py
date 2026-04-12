@@ -3,6 +3,7 @@ import json
 import asyncio
 from datetime import datetime, timedelta
 from playwright.async_api import async_playwright
+import pytz
 
 # --- CONFIG FROM SECRETS ---
 EMAIL = os.getenv("GYM_EMAIL")
@@ -17,15 +18,21 @@ async def run_booking():
         print("No pending_booking.json found. Create one to start.")
         return
 
-    target_dt = datetime.strptime(f"{target['date']} {target['time']}", "%Y-%m-%d %I:%M %p")
+    # Define Sydney Timezone
+    sydney_tz = pytz.timezone('Australia/Sydney')
+    
+    # Get the target date/time as a Sydney-aware object
+    target_dt = sydney_tz.localize(datetime.strptime(f"{target['date']} {target['time']}", "%Y-%m-%d %I:%M %p"))
     booking_opens_at = target_dt - timedelta(hours=72)
-    now = datetime.now()
+    
+    # Get CURRENT time in Sydney
+    now = datetime.now(sydney_tz)
 
-    # 2. Precision Wait Logic
-    if now < (booking_opens_at - timedelta(minutes=10)):
-        print(f"Too early. Opens at {booking_opens_at}. Current time: {now}")
+    # Now the comparison will be accurate
+    if now < (booking_opens_at - timedelta(minutes=15)):
+        print(f"Too early. Opens at {booking_opens_at}. Current Sydney time: {now}")
         return
-
+        
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)
         page = await browser.new_page()

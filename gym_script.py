@@ -33,11 +33,18 @@ async def run_booking():
         # LOGIN
         print("Logging in...")
         await page.goto("https://oneplayground.exerp.site/booking?centers=104")
+        
+        # Instead of wait_for_load_state("networkidle"), wait for a specific element
+        await page.wait_for_selector("input[type='email']", timeout=15000)
+        
         await page.get_by_label("Email").fill(EMAIL)
         await page.get_by_label("Password").fill(PASSWORD)
         await page.get_by_role("button", name="Sign in").click()
-        await page.wait_for_load_state("networkidle")
-
+        
+        # Wait for the URL to change or the 'My Bookings' text to appear 
+        # instead of waiting for the whole network to be idle
+        await page.wait_for_url("**/booking**", timeout=20000)
+        print("Login successful (or redirected).")
         # GO TO DATE
         await page.goto(f"https://oneplayground.exerp.site/booking?centers=104&date={target['date']}")
         

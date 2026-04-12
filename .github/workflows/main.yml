@@ -40,3 +40,12 @@ jobs:
           git add status.json
           git commit -m "Update booking status" || echo "No changes"
           git push
+      - name: Update Target Class
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          echo "{\"date\": \"${{ github.event.inputs.class_date }}\", \"time\": \"${{ github.event.inputs.class_time }}\"}" > pending_booking.json
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add pending_booking.json
+          git commit -m "Arming for ${{ github.event.inputs.class_time }} on ${{ github.event.inputs.class_date }}" || echo "No changes to commit"
+          git push

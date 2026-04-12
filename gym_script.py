@@ -46,10 +46,22 @@ async def run_booking():
         await page.wait_for_url("**/booking**", timeout=20000)
         print("Login successful (or redirected).")
         # GO TO DATE
-        # GO TO DATE
-        print(f"Navigating to {target['date']}...")
-        await page.goto(f"https://oneplayground.exerp.site/booking?centers=104&date={target['date']}")
+        target_date = target['date']
+        print(f"Navigating to {target_date}...")
+        await page.goto(f"https://oneplayground.exerp.site/booking?centers=104&date={target_date}")
         
+        # 1. Wait for the main booking container instead of a specific class
+        try:
+            await page.wait_for_selector(".booking-classes-container", timeout=20000)
+            print("Booking container found.")
+        except:
+            print("Container not found, checking if page is just empty...")
+
+        # 2. Add a tiny sleep to let the JS render the list
+        await asyncio.sleep(3)
+
+        # 3. Debug: Take a screenshot if it fails (GitHub saves this in 'Actions' artifacts)
+        # await page.screenshot(path="debug_screen.png")
         # Wait for the specific class list container to load, not the whole network
         await page.wait_for_selector(".booking-class-item", timeout=15000)
         

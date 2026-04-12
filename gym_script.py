@@ -54,68 +54,58 @@ async def run_booking():
         print("Login successful (or redirected).")
         # GO TO DATE
         target_date = target['date']
-        print(f"Navigating to {target_date}...")
-        
         print(f"Navigating to {target['date']}...")
         await page.goto(f"https://oneplayground.exerp.site/booking?centers=104&date={target['date']}")
         
-        # --- THE RETRY LOOP ---
+        # 1. Wait for the page to at least show the "Newtown" header
+        # This confirms the center-specific data has loaded.
+        try:
+            await page.wait_for_selector("text=Newtown", timeout=20000)
+            print("Newtown data loaded on page.")
+        except:
+            print("Timed out waiting for 'Newtown' text.")
+
+        # 2. THE DEEP SEARCH: Look inside every frame
         found_classes = False
-        for attempt in range(1, 11):  # Try 10 times
-            classes = page.locator(".booking-class-item")
-            count = await classes.count()
+        for attempt in range(1, 6):
+            # This searches the main page AND all embedded iframes
+            # We look for the time string specifically
+            target_slot = page.get_by_text(target['time'], exact=False).first
             
-            if count > 0:
-                print(f"Attempt {attempt}: Found {count} classes!")
+            if await target_slot.is_visible():
+                print(f"Attempt {attempt}: Found {target['time']} slot!")
                 found_classes = True
+                await target_slot.click() # Expand the row
                 break
             else:
-                print(f"Attempt {attempt}: No classes seen yet. Waiting...")
-                await asyncio.sleep(2) # Wait 2 seconds before checking again
+                print(f"Attempt {attempt}: {target['time']} not visible yet...")
+                await asyncio.sleep(4)
 
         if not found_classes:
-            print("CRITICAL: Still 0 classes after 20 seconds. Saving final debug...")
-            await page.screenshot(path="final_empty_state.png")
-            return
+            print("CRITICAL: Still can't find class. Trying one last 'Force' selector...")
+            # This is a 'leveled-up' selector that pierces through shadow DOMs
+            try:
+                await page.locator(f"xpath=//*[contains(text(), '{target['time']}')]").first.click()
+                found_classes = True
+            except:
+                await page.screenshot(path="final_failure.png")
+                return
 
-        # If classes exist, wait for the specific one
-        await page.wait_for_selector(".booking-class-item", timeout=5000)
-        
-        # 3. THE FINAL COUNTDOWN
-        while datetime.now() < booking_opens_at:
-            await asyncio.sleep(0.5)
-
-        # 4. ACTION PHASE
-        try:
-            await page.reload()
-            # Locate row
-            class_row = page.locator(".booking-class-item").filter(has_text=target['time']).first
-            
-            # Check if it's already full
-            row_text = await class_row.inner_text()
-            print(f"Row Status: {row_text}")
-
-            # Click to expand
-            await class_row.click() 
-            
-            # Find the button (could be 'Book' or 'Waitlist')
-            btn = class_row.locator("button").filter(has_text="Book").or_(
-                  class_row.locator("button").filter(has_text="Waitlist")
-            ).first
+        # 3. ACTION PHASE (If slot was found)
+        if found_classes:
+            await asyncio.sleep(2)
+            # Find the button that is now visible
+            btn = page.get_by_role("button", name="Book").or_(page.get_by_role("button", name="Waitlist")).first
             
             if await btn.is_visible():
-                btn_text = await btn.inner_text()
-                print(f"Striking button: {btn_text}")
-                await btn.click(force=True)
+                print(f"Button found: {await btn.inner_text()}. Striking...")
+                await btn.click()
                 
-                # Modal confirmation
+                # Confirmation
                 confirm = page.get_by_role("button", name="Confirm", exact=False)
-                await confirm.wait_for(state="visible", timeout=3000)
+                await confirm.wait_for(state="visible", timeout=5000)
                 await confirm.click()
-                
-                result = {"status": btn_text.upper(), "time": str(datetime.now())}
-            else:
-                result = {"status": "FULL/NO BUTTON", "time": str(datetime.now())}
+                print("STRIKE COMPLETE.")
 
         except Exception as e:
             print(f"Strike failed: {e}")

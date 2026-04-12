@@ -34,9 +34,9 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
-      - name: Install Playwright
+      - name: Install Dependencies
         run: |
-          pip install playwright
+          pip install playwright pytz
           playwright install chromium
       - name: Run Booker
         env:

@@ -56,27 +56,27 @@ async def run_booking():
         target_date = target['date']
         print(f"Navigating to {target_date}...")
         
-        # Try navigating directly
-        url = f"https://oneplayground.exerp.site/booking?centers=104&date={target_date}"
-        await page.goto(url)
+        print(f"Navigating to {target['date']}...")
+        await page.goto(f"https://oneplayground.exerp.site/booking?centers=104&date={target['date']}")
         
-        # Wait for the main page to actually settle
-        await asyncio.sleep(5) 
-
-        # Check for classes - if 0, try a 'Hard Reload'
-        classes = page.locator(".booking-class-item")
-        count = await classes.count()
-        
-        if count == 0:
-            print("Zero classes found. Trying a page reload...")
-            await page.reload()
-            await asyncio.sleep(5)
+        # --- THE RETRY LOOP ---
+        found_classes = False
+        for attempt in range(1, 11):  # Try 10 times
+            classes = page.locator(".booking-class-item")
             count = await classes.count()
-            await page.screenshot(path="no_classes_debug.png", full_page=True)
-            print("Saved debug screenshot.")
-            return
+            
+            if count > 0:
+                print(f"Attempt {attempt}: Found {count} classes!")
+                found_classes = True
+                break
+            else:
+                print(f"Attempt {attempt}: No classes seen yet. Waiting...")
+                await asyncio.sleep(2) # Wait 2 seconds before checking again
 
-        print(f"Found {count} classes on this date.")
+        if not found_classes:
+            print("CRITICAL: Still 0 classes after 20 seconds. Saving final debug...")
+            await page.screenshot(path="final_empty_state.png")
+            return
 
         # If classes exist, wait for the specific one
         await page.wait_for_selector(".booking-class-item", timeout=5000)

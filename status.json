@@ -1,1 +1,1 @@
-{"status": "ERROR", "time": "2026-04-11 21:58:13.483028", "error": "Locator.inner_text: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\".booking-class-item\").filter(has_text=\"3:30 PM\").first\n"}
+{"status": "SUCCESS", "time": "2026-04-12 11:02:17.004789", "target": {"date": "2026-04-15", "time": "9:00 AM"}}

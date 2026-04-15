@@ -1,1 +1,1 @@
-{"status": "SUCCESS", "time": "2026-04-12 21:40:52.315683", "selected_target": {"date": "2026-04-16", "time": "6:00 AM"}, "selected_open_time": "2026-04-13 06:00:00+10:00"}
+{"status": "FAILED", "time": "2026-04-15 03:43:08.520138", "selected_target": {"date": "2026-04-18", "time": "12:30 PM"}, "selected_open_time": "2026-04-15 12:30:00+10:00", "error": "Book/Waitlist button was not visible"}

@@ -4,462 +4,354 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ClassSniper</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;800&display=swap" rel="stylesheet">
 <style>
+  /* Design system: "Modernist" (Archivo, zero radius, blocky cards) with a
+     MoMA VanGogh-palette override — deep navy ink, mid-blue accent — built
+     in Claude Design and merged in here on top of the real app logic. */
   :root {
-    --bg: #0b0c0f;
-    --surface: #16181d;
-    --surface-2: #1e2128;
-    --border: #262a32;
-    --text: #f2f3f5;
-    --text-dim: #9a9ea8;
-    --text-faint: #63676f;
-    --accent: #5b8cff;
-    --accent-dim: rgba(91, 140, 255, 0.14);
-    --success: #34d399;
-    --success-dim: rgba(52, 211, 153, 0.14);
-    --warning: #f7b733;
-    --warning-dim: rgba(247, 183, 51, 0.14);
-    --danger: #ff5a65;
-    --danger-dim: rgba(255, 90, 101, 0.14);
-    --radius: 14px;
-    --radius-sm: 10px;
+    --color-bg: #f3f2f2;
+    --color-surface: #eae9e9;
+    --color-text: #0C1F4b;
+    --color-accent: #246893;
+    --color-divider: #223047;
+
+    --color-neutral-100: #f8f4f4;
+    --color-neutral-200: #eae7e7;
+    --color-neutral-300: #d7d3d3;
+    --color-neutral-500: #9b9797;
+    --color-neutral-600: #7d7979;
+    --color-neutral-700: #605d5d;
+    --color-neutral-800: #444141;
+    --color-neutral-900: #2d2b2b;
+
+    --color-accent-100: #dce9f0;
+    --color-accent-200: #b9d3e1;
+    --color-accent-600: #1c5473;
+    --color-accent-700: #163274;
+    --color-accent-800: #12285d;
+    --color-accent-900: #0C1F4b;
+
+    --font-heading: "Archivo", system-ui, sans-serif;
+    --font-heading-weight: 800;
+    --font-body: "Archivo", system-ui, sans-serif;
+
+    --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px;
+    --space-6: 24px; --space-8: 32px;
+
+    --radius-sm: 0px; --radius-md: 0px; --radius-lg: 0px;
+
+    --shadow-sm: 0 1px 2px color-mix(in srgb, #2d2b2b 14%, transparent);
+    --shadow-md: 0 3px 10px color-mix(in srgb, #2d2b2b 16%, transparent);
+
+    /* Semantic (status) colors — from the same MoMA VanGogh palette. */
+    --status-success: #58a787;
+    --status-warning: #c3a016;
+    --status-warning-fg: #0C1F4b;
+    --status-danger: #163274;
+    --status-neutral: #8ebacd;
   }
 
   * { box-sizing: border-box; }
 
   body {
     margin: 0;
-    background: var(--bg);
-    color: var(--text);
-    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+    background: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-body);
+    font-size: 15px;
+    line-height: 1.55;
     -webkit-font-smoothing: antialiased;
   }
 
-  .wrap {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 32px 20px 80px;
+  a { color: var(--color-accent); text-underline-offset: 3px; }
+  a:hover { color: var(--color-accent-600); }
+  :focus { outline: none; }
+  :focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; }
+
+  .hr { height: 2px; border: 0; margin: var(--space-4) 0; background: var(--color-divider); }
+
+  /* — nav — */
+  .nav {
+    display: flex; align-items: center; gap: var(--space-4);
+    padding: var(--space-3) var(--space-4);
+    border-bottom: 2px solid var(--color-divider);
+  }
+  .nav-brand {
+    font-family: var(--font-heading); font-weight: var(--font-heading-weight);
+    font-size: 18px; margin-right: auto;
   }
 
-  header.page {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 28px;
+  .wrap { max-width: 1200px; margin: 0 auto; padding: var(--space-8) var(--space-6); }
+
+  /* — hero — */
+  .hero {
+    display: grid; grid-template-columns: 1fr auto; gap: var(--space-8);
+    align-items: end; padding-bottom: var(--space-6);
+  }
+  .hero-kicker {
+    font-size: 13px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--color-neutral-700); margin-bottom: var(--space-2);
+  }
+  .hero h1 {
+    font-family: var(--font-heading); font-weight: var(--font-heading-weight);
+    font-size: 56px; line-height: 0.98; margin: 0; letter-spacing: -0.02em;
+  }
+  .hero-stat {
+    border-left: 2px solid var(--color-divider); padding-left: var(--space-6);
+    min-width: 140px;
+  }
+  .hero-stat .num {
+    font-family: var(--font-heading); font-size: 44px; font-weight: 800;
+    color: var(--color-accent); line-height: 1;
+  }
+  .hero-stat .caption { font-size: 12px; color: var(--color-neutral-700); margin-top: 4px; line-height: 1.4; }
+
+  @media (max-width: 720px) {
+    .hero { grid-template-columns: 1fr; }
+    .hero h1 { font-size: 34px; }
+    .hero-stat { border-left: none; border-top: 2px solid var(--color-divider); padding-left: 0; padding-top: var(--space-4); margin-top: var(--space-4); }
   }
 
-  header.page svg { flex-shrink: 0; color: var(--accent); }
-
-  header.page h1 {
-    font-size: 20px;
-    font-weight: 700;
-    letter-spacing: -0.01em;
-    margin: 0;
-  }
-
-  header.page p {
-    margin: 2px 0 0;
-    font-size: 13px;
-    color: var(--text-dim);
-  }
-
-  /* Responsive layout: single column on mobile, sidebar + main on desktop */
+  /* — layout: sidebar + main, single column under 900px — */
   .layout {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-areas: "status" "picker" "pending" "connect";
-    gap: 24px;
+    grid-template-areas: "sidebar-status" "picker" "sidebar-pending" "sidebar-connect";
+    gap: var(--space-6);
   }
-  .area-status { grid-area: status; }
+  .area-status { grid-area: sidebar-status; }
   .area-picker { grid-area: picker; min-width: 0; }
-  .area-pending { grid-area: pending; }
-  .area-connect { grid-area: connect; }
+  .area-pending { grid-area: sidebar-pending; }
+  .area-connect { grid-area: sidebar-connect; }
 
   @media (min-width: 900px) {
     .layout {
       grid-template-columns: 300px 1fr;
       grid-template-areas:
-        "status  picker"
-        "pending picker"
-        "connect picker";
+        "sidebar-status  picker"
+        "sidebar-pending picker"
+        "sidebar-connect picker";
       align-items: start;
-      gap: 28px;
+      gap: var(--space-8);
     }
   }
 
-  .section-label {
-    font-size: 12px;
-    font-weight: 600;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--text-faint);
-    margin: 0 2px 10px;
-  }
-
+  /* — cards — */
   .card {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    padding: 18px;
+    display: flex; flex-direction: column; gap: var(--space-2);
+    padding: var(--space-4); background: var(--color-surface);
   }
+  .card + .card { margin-top: var(--space-4); }
+  .card-kicker { font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-accent); }
+  .card-meta { font-size: 11px; color: color-mix(in srgb, var(--color-text) 50%, transparent); }
+  .elev-sm { box-shadow: var(--shadow-sm); }
 
-  .card + .card { margin-top: 10px; }
+  .status-row { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-top: 4px; }
+  .status-left { display: flex; align-items: center; gap: 8px; }
+  .status-dot { width: 8px; height: 8px; flex-shrink: 0; }
+  .status-title { font-family: var(--font-heading); font-weight: var(--font-heading-weight); font-size: 17px; line-height: 1.2; }
+  .status-detail { font-size: 14px; line-height: 1.6; }
+  .status-detail strong { font-weight: 700; }
 
-  .row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 12px;
-  }
-
-  .muted { color: var(--text-dim); }
-  .faint { color: var(--text-faint); }
-  .small { font-size: 13px; }
-
-  /* Status badge */
-  .badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    padding: 4px 10px;
-    border-radius: 999px;
-    font-size: 12px;
-    font-weight: 600;
-    letter-spacing: 0.02em;
-  }
-  .badge .dot { width: 6px; height: 6px; border-radius: 50%; }
-  .badge.success { background: var(--success-dim); color: var(--success); }
-  .badge.success .dot { background: var(--success); }
-  .badge.danger { background: var(--danger-dim); color: var(--danger); }
-  .badge.danger .dot { background: var(--danger); }
-  .badge.warning { background: var(--warning-dim); color: var(--warning); }
-  .badge.warning .dot { background: var(--warning); }
-  .badge.neutral { background: var(--surface-2); color: var(--text-dim); }
-  .badge.neutral .dot { background: var(--text-faint); }
-
-  .status-detail {
-    margin-top: 12px;
-    padding-top: 12px;
-    border-top: 1px solid var(--border);
-    font-size: 13px;
-    color: var(--text-dim);
-    line-height: 1.6;
-  }
-  .status-detail strong { color: var(--text); font-weight: 600; }
-
-  /* Form elements */
-  label {
-    display: block;
-    font-size: 12px;
-    font-weight: 600;
-    color: var(--text-dim);
-    margin-bottom: 6px;
-  }
-
-  .field { margin-bottom: 14px; }
+  /* — forms — */
+  .field > label { display: block; font-size: 12px; margin-bottom: 5px; color: color-mix(in srgb, var(--color-text) 70%, transparent); }
+  .field { margin-bottom: var(--space-3); }
   .field:last-of-type { margin-bottom: 0; }
 
-  input, select {
-    width: 100%;
-    background: var(--surface-2);
-    border: 1px solid var(--border);
-    color: var(--text);
-    font-size: 14px;
-    padding: 10px 12px;
-    border-radius: var(--radius-sm);
-    font-family: inherit;
-    transition: border-color 0.15s;
+  .input, .cs-select {
+    width: 100%; min-height: 36px; padding: 10px 12px; font: inherit; font-size: 14px;
+    color: var(--color-text); caret-color: var(--color-accent);
+    background: var(--color-bg); border: 2px solid var(--color-divider); border-radius: 0;
   }
+  .input::placeholder { color: var(--color-neutral-600); }
+  .input:hover, .cs-select:hover { border-color: var(--color-accent-600); }
+  .input:focus-visible, .cs-select:focus-visible { border-color: var(--color-accent); outline-offset: 0; }
+  .cs-select { cursor: pointer; }
+  input[type="date"] { color-scheme: light; }
 
-  input::placeholder { color: var(--text-faint); }
+  .hint { font-size: 12px; color: var(--color-neutral-700); margin-top: var(--space-2); line-height: 1.6; }
 
-  input:focus, select:focus {
-    outline: none;
-    border-color: var(--accent);
+  /* — buttons — */
+  .btn {
+    display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+    cursor: pointer; text-decoration: none;
+    font-family: var(--font-heading); font-weight: var(--font-heading-weight);
+    font-size: 14px; line-height: 1.2; color: var(--color-text);
+    background: transparent; border: 2px solid transparent;
+    padding: var(--space-2) calc(var(--space-3) * 1.2);
+    border-radius: 0; transition: background 0.12s, border-color 0.12s, opacity 0.12s;
   }
+  .btn:disabled { opacity: 0.45; cursor: not-allowed; }
+  .btn-primary { background: var(--color-accent); color: #fff; }
+  .btn-primary:hover:not(:disabled) { background: var(--color-accent-600); }
+  .btn-secondary { border-color: var(--color-divider); }
+  .btn-secondary:hover:not(:disabled) { background: color-mix(in srgb, var(--color-text) 7%, transparent); }
+  .btn-ghost { color: var(--color-accent); padding-inline: var(--space-1); }
+  .btn-ghost:hover:not(:disabled) { background: color-mix(in srgb, var(--color-accent) 10%, transparent); }
+  .btn-icon { width: 36px; height: 36px; padding: 0; border-color: transparent; }
+  .btn-icon:hover:not(:disabled) { background: color-mix(in srgb, var(--status-danger) 10%, transparent); }
+  .btn-block { width: 100%; }
+  .btn-sm { padding: 7px 12px; font-size: 12px; }
 
-  input[type="date"] { color-scheme: dark; }
-  select { color-scheme: dark; cursor: pointer; }
+  /* — tags — */
+  .tag { display: inline-flex; align-items: center; font-size: 11px; letter-spacing: 0.02em; padding: 3px 10px; border-radius: 0; }
+  .tag-outline { border: 1px solid var(--color-accent); color: var(--color-accent); }
+  .tag-neutral { background: var(--color-neutral-100); color: var(--color-neutral-800); }
 
-  .hint {
-    font-size: 12px;
-    color: var(--text-faint);
-    margin-top: 6px;
-  }
-
-  button {
-    font-family: inherit;
-    font-size: 14px;
-    font-weight: 600;
-    border-radius: var(--radius-sm);
-    border: none;
-    padding: 11px 18px;
-    cursor: pointer;
-    transition: transform 0.08s, opacity 0.15s, background 0.15s, border-color 0.15s;
-  }
-  button:active { transform: scale(0.97); }
-  button:disabled { opacity: 0.5; cursor: default; transform: none; }
-
-  .btn-primary {
-    background: var(--accent);
-    color: #0b0c0f;
-    width: 100%;
-  }
-  .btn-primary:hover:not(:disabled) { opacity: 0.9; }
-
-  .btn-ghost {
-    background: transparent;
-    color: var(--text-dim);
-    border: 1px solid var(--border);
-  }
-  .btn-ghost:hover:not(:disabled) { border-color: var(--accent); color: var(--text); }
-
-  .btn-text {
-    background: none;
-    color: var(--accent);
-    padding: 4px 0;
-    font-size: 13px;
-  }
-
-  .btn-icon {
-    background: transparent;
-    color: var(--text-faint);
-    padding: 6px;
-    border-radius: 8px;
-    line-height: 0;
-  }
-  .btn-icon:hover:not(:disabled) { background: var(--danger-dim); color: var(--danger); }
-
-  .btn-sm { padding: 7px 14px; font-size: 12px; }
-
-  /* Connection state */
-  .connect-status {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .connect-status .who {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-size: 14px;
-  }
-  .connect-status .who .dot {
-    width: 8px; height: 8px; border-radius: 50%;
-    background: var(--success);
-    box-shadow: 0 0 0 3px var(--success-dim);
-  }
-
-  /* Pending booking rows */
-  .booking-row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 0;
-    border-bottom: 1px solid var(--border);
-    gap: 10px;
-  }
+  /* — pending bookings — */
+  .booking-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: var(--space-3) 0; border-bottom: 2px solid var(--color-divider); }
   .booking-row:last-child { border-bottom: none; }
-  .booking-row .info { font-size: 14px; min-width: 0; }
-  .booking-row .info .time { font-weight: 600; }
-  .booking-row .info .name { color: var(--text-dim); font-size: 13px; margin-top: 1px; }
-  .booking-row .info .date { color: var(--text-faint); font-size: 12px; margin-top: 1px; }
+  .booking-row .info { min-width: 0; font-size: 14px; }
+  .booking-row .info .time { font-weight: 700; }
+  .booking-row .info .name { color: var(--color-neutral-700); font-size: 13px; margin-top: 2px; }
+  .booking-row .info .date { color: var(--color-neutral-500); font-size: 12px; margin-top: 2px; }
 
-  /* Picker: filters + day strip + class grid */
+  /* — connect card — */
+  .connect-status { display: flex; align-items: center; justify-content: space-between; margin-top: var(--space-2); }
+  .connect-status .who { font-size: 14px; }
+
+  /* — picker: filters + day strip + class grid — */
   .filter-row {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 10px;
-    margin-bottom: 16px;
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: var(--space-3); margin-bottom: var(--space-6);
   }
 
-  .day-strip {
-    display: flex;
-    gap: 8px;
-    overflow-x: auto;
-    padding-bottom: 6px;
-    margin-bottom: 16px;
-    scrollbar-width: thin;
-  }
+  .day-strip { display: flex; gap: var(--space-3); margin-bottom: var(--space-6); overflow-x: auto; flex-wrap: wrap; }
   .day-pill {
-    flex-shrink: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 4px;
-    padding: 8px 16px;
-    border-radius: 12px;
-    border: 1px solid var(--border);
-    background: var(--surface-2);
-    cursor: pointer;
-    font-size: 11px;
-    color: var(--text-dim);
-    transition: border-color 0.15s, background 0.15s;
-    user-select: none;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    gap: 2px; padding: 10px 24px; border: 2px solid var(--color-divider);
+    background: var(--color-bg); cursor: pointer; user-select: none; color: var(--color-text);
+    flex-shrink: 0; transition: background 0.12s, color 0.12s;
   }
-  .day-pill:hover { border-color: var(--text-faint); }
-  .day-pill .num { font-size: 15px; font-weight: 700; color: var(--text); }
-  .day-pill.active { background: var(--accent); border-color: var(--accent); }
-  .day-pill.active, .day-pill.active .num { color: #0b0c0f; }
+  .day-pill .weekday { font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; }
+  .day-pill .num { font-size: 17px; font-weight: 700; }
+  .day-pill.active { background: var(--color-accent); color: #fff; border-color: var(--color-accent); }
 
   .class-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 10px;
-    align-content: start;
-    max-height: 62vh;
-    overflow-y: auto;
-    padding-right: 4px;
-    scrollbar-width: thin;
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: var(--space-4); max-height: 64vh; overflow-y: auto; padding: 2px;
   }
-  .class-card {
-    background: var(--surface-2);
-    border: 1px solid var(--border);
-    border-radius: var(--radius-sm);
-    padding: 14px;
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-  }
-  .class-card .top {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 8px;
-  }
-  .class-card .time { font-size: 15px; font-weight: 700; }
-  .class-card .loc {
-    font-size: 10px;
-    color: var(--text-faint);
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    margin-top: 2px;
-  }
-  .class-card .name { font-size: 14px; font-weight: 600; }
-  .class-card .meta { font-size: 12px; color: var(--text-dim); }
-  .class-card .bottom { margin-top: 6px; }
+  .class-card { display: flex; flex-direction: column; gap: 6px; }
+  .class-card .top { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; }
+  .class-card .time { font-size: 17px; font-weight: 700; }
+  .class-card .loc { font-size: 11px; color: var(--color-neutral-600); text-transform: uppercase; letter-spacing: 0.05em; margin-top: 2px; }
+  .class-card .name { font-size: 15px; font-weight: 700; }
+  .class-card .meta { font-size: 13px; color: var(--color-neutral-700); }
 
-  .spots { font-size: 11px; color: var(--success); white-space: nowrap; font-weight: 600; }
-  .spots.low { color: var(--warning); }
-  .spots.full { color: var(--text-faint); }
-
-  .empty-state {
-    text-align: center;
-    padding: 24px 0;
-    color: var(--text-faint);
-    font-size: 13px;
-    grid-column: 1 / -1;
-  }
+  .empty-state { grid-column: 1 / -1; text-align: center; padding: var(--space-8) 0; color: var(--color-neutral-600); font-size: 14px; }
 
   .skeleton {
     height: 14px;
-    border-radius: 4px;
-    background: linear-gradient(90deg, var(--surface-2) 25%, var(--border) 37%, var(--surface-2) 63%);
-    background-size: 400% 100%;
-    animation: shimmer 1.4s ease infinite;
+    background: linear-gradient(90deg, var(--color-surface) 25%, var(--color-divider) 37%, var(--color-surface) 63%);
+    background-size: 400% 100%; animation: shimmer 1.4s ease infinite;
   }
-  @keyframes shimmer {
-    0% { background-position: 100% 50%; }
-    100% { background-position: 0 50%; }
-  }
+  @keyframes shimmer { 0% { background-position: 100% 50%; } 100% { background-position: 0 50%; } }
 
-  /* Toasts */
+  /* — footer — */
+  .footer {
+    display: flex; justify-content: space-between; flex-wrap: wrap; gap: var(--space-3);
+    font-size: 12px; color: var(--color-neutral-600);
+  }
+  .footer .links { display: flex; gap: var(--space-6); }
+
+  /* — toasts — */
   #toasts {
-    position: fixed;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    z-index: 100;
-    width: calc(100% - 36px);
-    max-width: 420px;
+    position: fixed; bottom: var(--space-4); left: var(--space-4);
+    display: flex; flex-direction: column; gap: 8px; z-index: 100;
+    width: calc(100% - 40px); max-width: 400px;
   }
   .toast {
-    background: var(--surface-2);
-    border: 1px solid var(--border);
-    border-left: 3px solid var(--accent);
-    border-radius: var(--radius-sm);
-    padding: 12px 14px;
-    font-size: 13px;
-    box-shadow: 0 8px 24px rgba(0,0,0,0.35);
+    background: var(--color-bg); border: 2px solid var(--color-divider); border-left: 4px solid var(--color-accent);
+    padding: 12px 14px; font-size: 13px; box-shadow: var(--shadow-md);
     animation: toast-in 0.2s ease-out;
   }
-  .toast.error { border-left-color: var(--danger); }
-  .toast.success { border-left-color: var(--success); }
-  @keyframes toast-in {
-    from { opacity: 0; transform: translateY(8px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-
-  a { color: var(--accent); }
+  .toast.error { border-left-color: var(--status-danger); }
+  .toast.success { border-left-color: var(--status-success); }
+  @keyframes toast-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
 </style>
 </head>
 <body>
 
+<div class="nav">
+  <div class="nav-brand">ClassSniper</div>
+  <span class="tag tag-outline" id="navConnected" style="display:none;">Connected</span>
+  <span class="tag tag-neutral" id="navNotConnected">Not connected</span>
+</div>
+
 <div class="wrap">
-  <header class="page">
-    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M4 8V16M2 10V14M20 8V16M22 10V14M7 12H17M7 8.5V15.5C7 16.0523 7.44772 16.5 8 16.5C8.55228 16.5 9 16.0523 9 15.5V8.5C9 7.94772 8.55228 7.5 8 7.5C7.44772 7.5 7 7.94772 7 8.5ZM15 8.5V15.5C15 16.0523 15.4477 16.5 16 16.5C16.5523 16.5 17 16.0523 17 15.5V8.5C17 7.94772 16.5523 7.5 16 7.5C15.4477 7.5 15 7.94772 15 8.5Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-    </svg>
+  <div class="hero">
     <div>
-      <h1>ClassSniper</h1>
-      <p>Books the instant your window opens</p>
+      <div class="hero-kicker">One Playground booking bot</div>
+      <h1>Books the instant<br>your window <span style="color:var(--color-accent)">opens</span>.</h1>
     </div>
-  </header>
+    <div class="hero-stat">
+      <div class="num">72H</div>
+      <div class="caption">before class start,<br>the window opens</div>
+    </div>
+  </div>
+
+  <div class="hr"></div>
 
   <div class="layout">
     <div class="area-status">
-      <div class="section-label">Status</div>
       <div class="card" id="statusCard">
-        <div class="row">
-          <div class="skeleton" style="width:90px"></div>
-          <div class="skeleton" style="width:60px"></div>
-        </div>
+        <div class="card-kicker">Status</div>
+        <div class="skeleton" style="width:90px;margin-top:6px;"></div>
       </div>
     </div>
 
     <div class="area-picker">
-      <div class="section-label">Arm a Booking</div>
-      <div class="card" id="pickerCard">
+      <div class="card-kicker" style="margin-bottom:var(--space-3)">Arm a booking</div>
+      <div id="pickerCard">
         <div class="skeleton" style="width:100%;height:40px"></div>
       </div>
 
-      <div class="card" id="manualCard" style="margin-top:10px;">
-        <button class="btn-text" onclick="toggleManual()" id="manualToggle">Can't find it? Enter manually</button>
-        <div id="manualForm" style="display:none; margin-top:14px;">
-          <div class="field">
-            <label for="dateInput">Class date</label>
-            <input type="date" id="dateInput">
-          </div>
-          <div class="field">
-            <label for="timeInput">Class time</label>
-            <input type="text" id="timeInput" placeholder="e.g. 6:00 AM">
-          </div>
-          <div class="field">
-            <label for="locationInput">Location</label>
-            <input type="text" id="locationInput" placeholder="Newtown" value="Newtown">
-          </div>
-          <button class="btn-ghost" style="width:100%" onclick="armManual()" id="armBtn">Arm Booking</button>
-          <div class="hint">
-            No specific class picked, so if two classes share this exact time and location the
-            bot may strike the wrong one. Blocked if &lt;30h away.
-          </div>
+      <div class="hr" style="margin:var(--space-6) 0"></div>
+
+      <button class="btn btn-ghost" onclick="toggleManual()" id="manualToggle">Can't find it? Enter manually</button>
+      <div id="manualForm" style="display:none; margin-top:var(--space-4); max-width:420px;">
+        <div class="field">
+          <label for="dateInput">Class date</label>
+          <input class="input" type="date" id="dateInput">
+        </div>
+        <div class="field">
+          <label for="timeInput">Class time</label>
+          <input class="input" type="text" id="timeInput" placeholder="e.g. 6:00 AM">
+        </div>
+        <div class="field">
+          <label for="locationInput">Location</label>
+          <input class="input" type="text" id="locationInput" placeholder="Newtown" value="Newtown">
+        </div>
+        <button class="btn btn-secondary btn-block" onclick="armManual()" id="armBtn">Arm booking</button>
+        <div class="hint">
+          No specific class picked, so if two classes share this exact time and location the
+          bot may strike the wrong one. Blocked if under 30h away.
         </div>
       </div>
     </div>
 
     <div class="area-pending">
-      <div class="section-label">Pending Bookings</div>
       <div class="card" id="pendingCard">
-        <div class="skeleton" style="width:100%;height:40px"></div>
+        <div class="card-kicker">Pending bookings</div>
+        <div class="skeleton" style="width:100%;height:40px;margin-top:6px;"></div>
       </div>
     </div>
 
     <div class="area-connect">
-      <div class="section-label">GitHub Connection</div>
       <div class="card" id="connectCard"></div>
+    </div>
+  </div>
+
+  <div class="hr" style="margin:var(--space-8) 0 var(--space-5)"></div>
+  <div class="footer">
+    <div>ClassSniper &mdash; MIT licensed</div>
+    <div class="links">
+      <a href="https://github.com/SidharthJoly/ClassSniper" target="_blank" rel="noopener">GitHub repo</a>
+      <a href="https://github.com/SidharthJoly/ClassSniper/blob/main/LICENSE" target="_blank" rel="noopener">License</a>
+      <a href="https://oneplayground.com.au" target="_blank" rel="noopener">One Playground</a>
     </div>
   </div>
 </div>
@@ -576,21 +468,23 @@
   }
 
   // ---------- status ----------
+  // Colors drawn from the MoMA VanGogh palette (BlakeRMills/MoMAColors) — one
+  // consistent set used for every status/availability signal on the page.
   const STATUS_META = {
-    SUCCESS: { label: 'Booked', cls: 'success' },
-    ERROR: { label: 'Error', cls: 'danger' },
-    FAILED: { label: 'Failed', cls: 'danger' },
-    NOT_FOUND: { label: 'Not found', cls: 'danger' },
-    BLOCKED_TOO_CLOSE: { label: 'Blocked (too close)', cls: 'warning' },
-    PENDING: { label: 'Striking…', cls: 'warning' },
-    NONE: { label: 'Idle', cls: 'neutral' },
+    SUCCESS: { label: 'Booked', color: 'var(--status-success)' },
+    ERROR: { label: 'Error', color: 'var(--status-danger)' },
+    FAILED: { label: 'Failed', color: 'var(--status-danger)' },
+    NOT_FOUND: { label: 'Not found', color: 'var(--status-danger)' },
+    BLOCKED_TOO_CLOSE: { label: 'Blocked (too close)', color: 'var(--status-warning)' },
+    PENDING: { label: 'Striking…', color: 'var(--status-warning)' },
+    NONE: { label: 'Idle', color: 'var(--status-neutral)' },
   };
 
   async function loadStatus() {
     const card = document.getElementById('statusCard');
     try {
       const data = await fetchPublicJson('status.json');
-      const meta = STATUS_META[data.status] || { label: data.status || 'Unknown', cls: 'neutral' };
+      const meta = STATUS_META[data.status] || { label: data.status || 'Unknown', color: 'var(--status-neutral)' };
       let detail = '';
       const target = data.selected_target || data.target;
       if (target) {
@@ -600,15 +494,22 @@
         detail += `<div style="margin-top:4px;">${data.error}</div>`;
       }
       card.innerHTML = `
-        <div class="row">
-          <span class="badge ${meta.cls}"><span class="dot"></span>${meta.label}</span>
-          <span class="small faint">${relativeTime(data.time)}</span>
+        <div class="card-kicker">Status</div>
+        <div class="status-row">
+          <div class="status-left">
+            <span class="status-dot" style="background:${meta.color}"></span>
+            <div class="status-title">${meta.label}</div>
+          </div>
+          <span class="card-meta">${relativeTime(data.time)}</span>
         </div>
-        ${detail ? `<div class="status-detail">${detail}</div>` : ''}
+        ${detail ? `<div class="hr" style="margin:var(--space-3) 0"></div><div class="status-detail">${detail}</div>` : ''}
       `;
     } catch (error) {
       console.error(error);
-      card.innerHTML = `<div class="row"><span class="badge neutral"><span class="dot"></span>Unavailable</span></div>`;
+      card.innerHTML = `
+        <div class="card-kicker">Status</div>
+        <div class="status-row"><div class="status-left"><span class="status-dot" style="background:var(--status-neutral)"></span><div class="status-title">Unavailable</div></div></div>
+      `;
     }
   }
 
@@ -618,25 +519,24 @@
     try {
       const payload = await fetchPublicJson('pending_booking.json');
       const bookings = Array.isArray(payload) ? payload : [payload];
-      if (bookings.length === 0) {
-        container.innerHTML = `<div class="empty-state">Nothing queued. Arm a booking above.</div>`;
-        return;
-      }
-      container.innerHTML = bookings.map((item, i) => `
-        <div class="booking-row">
-          <div class="info">
-            <div class="time">${item.time}${item.location ? ` &middot; ${item.location}` : ''}</div>
-            ${item.name ? `<div class="name">${item.name}</div>` : ''}
-            <div class="date">${item.date}</div>
+      const rows = bookings.length === 0
+        ? `<div class="card-meta" style="padding:var(--space-2) 0 0;">Nothing queued. Arm a booking to the right.</div>`
+        : bookings.map((item, i) => `
+          <div class="booking-row">
+            <div class="info">
+              <div class="time">${item.time}${item.location ? ` &middot; ${item.location}` : ''}</div>
+              ${item.name ? `<div class="name">${item.name}</div>` : ''}
+              <div class="date">${item.date}</div>
+            </div>
+            <button class="btn btn-icon" title="Remove" aria-label="Remove" onclick="removeBooking(${i})">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M6 6L18 18M6 18L18 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </button>
           </div>
-          <button class="btn-icon" title="Remove" onclick="removeBooking(${i})">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M6 6L18 18M6 18L18 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-          </button>
-        </div>
-      `).join('');
+        `).join('');
+      container.innerHTML = `<div class="card-kicker">Pending bookings</div>${rows}`;
     } catch (error) {
       console.error(error);
-      container.innerHTML = `<div class="empty-state">Unable to load pending bookings.</div>`;
+      container.innerHTML = `<div class="card-kicker">Pending bookings</div><div class="card-meta" style="padding:var(--space-2) 0 0;">Unable to load pending bookings.</div>`;
     }
   }
 
@@ -671,7 +571,7 @@
       const classes = await fetchPublicJson('class_list.json');
       classListCache = Array.isArray(classes) ? classes : [];
       if (classListCache.length === 0) {
-        card.innerHTML = `<div class="empty-state">No armable classes right now (list refreshes every 15 min). Try manual entry below.</div>`;
+        card.innerHTML = `<div class="empty-state">No armable classes right now (list refreshes every 5 min). Try manual entry below.</div>`;
         return;
       }
       buildPickerShell();
@@ -693,16 +593,16 @@
 
     card.innerHTML = `
       <div class="filter-row">
-        <select id="locationFilter" onchange="renderClassGrid()">
-          <option value="">All Locations</option>
+        <select class="cs-select" id="locationFilter" onchange="renderClassGrid()">
+          <option value="">All locations</option>
           ${locations.map(opt).join('')}
         </select>
-        <select id="typeFilter" onchange="renderClassGrid()">
-          <option value="">All Class Types</option>
+        <select class="cs-select" id="typeFilter" onchange="renderClassGrid()">
+          <option value="">All class types</option>
           ${types.map(opt).join('')}
         </select>
-        <select id="instructorFilter" onchange="renderClassGrid()">
-          <option value="">All Instructors</option>
+        <select class="cs-select" id="instructorFilter" onchange="renderClassGrid()">
+          <option value="">All instructors</option>
           ${instructors.map(opt).join('')}
         </select>
       </div>
@@ -719,7 +619,7 @@
       const dt = new Date(y, m - 1, day);
       const wd = dt.toLocaleDateString('en-AU', { weekday: 'short' });
       return `<div class="day-pill ${d === selectedDate ? 'active' : ''}" onclick="selectDay('${d}')">
-        <span>${wd}</span><span class="num">${day}</span>
+        <span class="weekday">${wd}</span><span class="num">${day}</span>
       </div>`;
     }).join('');
   }
@@ -741,6 +641,12 @@
     );
   }
 
+  function spotsTag(c) {
+    if (c.remaining_spots <= 0) return { label: 'Full', bg: 'var(--color-neutral-200)', fg: 'var(--color-neutral-700)' };
+    if (c.remaining_spots <= 3) return { label: `${c.remaining_spots} left`, bg: 'var(--status-warning)', fg: 'var(--status-warning-fg)' };
+    return { label: `${c.remaining_spots} left`, bg: 'var(--status-success)', fg: '#fff' };
+  }
+
   function renderClassGrid() {
     const grid = document.getElementById('classGrid');
     const classes = getFilteredClasses().filter(c => c.date === selectedDate);
@@ -750,22 +656,19 @@
     }
     grid.innerHTML = classes.map(c => {
       const full = c.remaining_spots <= 0;
-      const low = !full && c.remaining_spots <= 3;
-      const spotsLabel = full ? 'Full' : `${c.remaining_spots} left`;
+      const sp = spotsTag(c);
       return `
-        <div class="class-card">
+        <div class="card elev-sm class-card">
           <div class="top">
             <div>
               <div class="time">${c.time}</div>
               <div class="loc">${c.location}</div>
             </div>
-            <span class="spots ${full ? 'full' : low ? 'low' : ''}">${spotsLabel}</span>
+            <span class="tag" style="background:${sp.bg};color:${sp.fg};white-space:nowrap;">${sp.label}</span>
           </div>
           <div class="name">${c.name}</div>
           <div class="meta">${[c.instructor, c.class_type].filter(Boolean).join(' · ')}</div>
-          <div class="bottom">
-            <button class="btn-ghost btn-sm" style="width:100%" ${full ? 'disabled' : ''} onclick="armClass('${c.booking_id}')">Arm</button>
-          </div>
+          <button class="btn ${full ? 'btn-ghost' : 'btn-secondary'} btn-block" style="margin-top:4px;" ${full ? 'disabled' : ''} onclick="armClass('${c.booking_id}')">Arm</button>
         </div>
       `;
     }).join('');
@@ -804,7 +707,9 @@
   // ---------- manual fallback (no booking_id — same-time classes may be ambiguous) ----------
   function toggleManual() {
     const form = document.getElementById('manualForm');
-    form.style.display = form.style.display === 'none' ? 'block' : 'none';
+    const open = form.style.display !== 'none';
+    form.style.display = open ? 'none' : 'block';
+    document.getElementById('manualToggle').textContent = open ? "Can't find it? Enter manually" : 'Hide manual entry';
   }
 
   async function armManual() {
@@ -856,25 +761,30 @@
   function renderConnectCard() {
     const card = document.getElementById('connectCard');
     const token = getToken();
+
+    document.getElementById('navConnected').style.display = token ? 'inline-flex' : 'none';
+    document.getElementById('navNotConnected').style.display = token ? 'none' : 'inline-flex';
+
     if (token) {
       card.innerHTML = `
+        <div class="card-kicker">GitHub connection</div>
         <div class="connect-status">
-          <div class="who"><span class="dot"></span> Connected to <strong>${OWNER}/${REPO}</strong></div>
-          <button class="btn-text" onclick="disconnect()">Change</button>
+          <div class="who">Connected to<br><strong>${OWNER}/${REPO}</strong></div>
+          <button class="btn btn-ghost btn-sm" onclick="disconnect()">Change</button>
         </div>
       `;
     } else {
       card.innerHTML = `
-        <div class="field">
+        <div class="card-kicker">GitHub connection</div>
+        <div class="field" style="margin-top:var(--space-2);">
           <label for="tokenInput">GitHub token</label>
-          <input type="password" id="tokenInput" placeholder="github_pat_...">
+          <input class="input" type="password" id="tokenInput" placeholder="github_pat_...">
         </div>
-        <button class="btn-ghost" style="width:100%" onclick="saveToken()">Connect</button>
+        <button class="btn btn-primary btn-block" onclick="saveToken()">Connect</button>
         <div class="hint">
-          Only needed to arm or remove bookings — viewing status doesn't require it.
-          Create a <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">fine-grained token</a>
-          scoped to just the <strong>${REPO}</strong> repo with <strong>Contents: read &amp; write</strong>.
-          Stored only in this browser.
+          Only needed to arm or remove bookings. Create a
+          <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">fine-grained token</a>
+          scoped to just this repo with <strong>Contents: read &amp; write</strong>. Stored only in this browser.
         </div>
       `;
     }

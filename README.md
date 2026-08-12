@@ -2,7 +2,7 @@
 
 Automated gym class booking that strikes the instant a class's booking window opens.
 
-**Live dashboard:** https://sidharthjoly.github.io/gym-bot/ *(will move to `/ClassSniper/` once the repo rename below is complete)*
+**Live dashboard:** https://sidharthjoly.github.io/ClassSniper/
 
 ## The problem
 

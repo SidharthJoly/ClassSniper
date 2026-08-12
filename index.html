@@ -1,269 +1,610 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sidharth's Gym Booker</title>
-    <style>
-        body { font-family: -apple-system, sans-serif; background: #000; color: #fff; padding: 20px; text-align: center; }
-        .status-box { background: #1c1c1e; padding: 15px; border-radius: 12px; margin-bottom: 20px; border: 1px solid #333; text-align: left; }
-        .btn { background: #0A84FF; color: white; border: none; padding: 12px 24px; border-radius: 8px; font-weight: bold; width: 100%; margin-top: 10px; cursor: pointer; }
-        input, select { background: #1c1c1e; color: #fff; border: 1px solid #333; padding: 10px; border-radius: 8px; width: calc(100% - 22px); margin-bottom: 10px; }
-        table { width: 100%; border-collapse: collapse; margin-top: 10px; }
-        th, td { padding: 10px; border-bottom: 1px solid #333; text-align: left; }
-        th { color: #0AF; }
-        .small { font-size: 0.9rem; color: #aaa; }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gym Striker</title>
+<style>
+  :root {
+    --bg: #0b0c0f;
+    --surface: #16181d;
+    --surface-2: #1e2128;
+    --border: #262a32;
+    --text: #f2f3f5;
+    --text-dim: #9a9ea8;
+    --text-faint: #63676f;
+    --accent: #5b8cff;
+    --accent-dim: rgba(91, 140, 255, 0.14);
+    --success: #34d399;
+    --success-dim: rgba(52, 211, 153, 0.14);
+    --warning: #f7b733;
+    --warning-dim: rgba(247, 183, 51, 0.14);
+    --danger: #ff5a65;
+    --danger-dim: rgba(255, 90, 101, 0.14);
+    --radius: 14px;
+    --radius-sm: 10px;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: 440px;
+    margin: 0 auto;
+    padding: 32px 18px 80px;
+  }
+
+  header.page {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 28px;
+  }
+
+  header.page svg { flex-shrink: 0; color: var(--accent); }
+
+  header.page h1 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    margin: 0;
+  }
+
+  header.page p {
+    margin: 2px 0 0;
+    font-size: 13px;
+    color: var(--text-dim);
+  }
+
+  .section-label {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text-faint);
+    margin: 28px 2px 10px;
+  }
+
+  .section-label:first-of-type { margin-top: 0; }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 18px;
+  }
+
+  .card + .card { margin-top: 10px; }
+
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+
+  .muted { color: var(--text-dim); }
+  .faint { color: var(--text-faint); }
+  .small { font-size: 13px; }
+
+  /* Status badge */
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+  }
+  .badge .dot { width: 6px; height: 6px; border-radius: 50%; }
+  .badge.success { background: var(--success-dim); color: var(--success); }
+  .badge.success .dot { background: var(--success); }
+  .badge.danger { background: var(--danger-dim); color: var(--danger); }
+  .badge.danger .dot { background: var(--danger); }
+  .badge.warning { background: var(--warning-dim); color: var(--warning); }
+  .badge.warning .dot { background: var(--warning); }
+  .badge.neutral { background: var(--surface-2); color: var(--text-dim); }
+  .badge.neutral .dot { background: var(--text-faint); }
+
+  .status-detail {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid var(--border);
+    font-size: 13px;
+    color: var(--text-dim);
+    line-height: 1.6;
+  }
+  .status-detail strong { color: var(--text); font-weight: 600; }
+
+  /* Form elements */
+  label {
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text-dim);
+    margin-bottom: 6px;
+  }
+
+  .field { margin-bottom: 14px; }
+  .field:last-of-type { margin-bottom: 0; }
+
+  input {
+    width: 100%;
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-size: 15px;
+    padding: 11px 12px;
+    border-radius: var(--radius-sm);
+    font-family: inherit;
+    transition: border-color 0.15s;
+  }
+
+  input::placeholder { color: var(--text-faint); }
+
+  input:focus {
+    outline: none;
+    border-color: var(--accent);
+  }
+
+  input[type="date"] { color-scheme: dark; }
+
+  .hint {
+    font-size: 12px;
+    color: var(--text-faint);
+    margin-top: 6px;
+  }
+
+  button {
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: var(--radius-sm);
+    border: none;
+    padding: 11px 18px;
+    cursor: pointer;
+    transition: transform 0.08s, opacity 0.15s, background 0.15s;
+  }
+  button:active { transform: scale(0.97); }
+  button:disabled { opacity: 0.5; cursor: default; transform: none; }
+
+  .btn-primary {
+    background: var(--accent);
+    color: #0b0c0f;
+    width: 100%;
+  }
+  .btn-primary:hover:not(:disabled) { opacity: 0.9; }
+
+  .btn-ghost {
+    background: transparent;
+    color: var(--text-dim);
+    border: 1px solid var(--border);
+  }
+  .btn-ghost:hover:not(:disabled) { border-color: var(--text-faint); color: var(--text); }
+
+  .btn-text {
+    background: none;
+    color: var(--accent);
+    padding: 4px 0;
+    font-size: 13px;
+  }
+
+  .btn-icon {
+    background: transparent;
+    color: var(--text-faint);
+    padding: 6px;
+    border-radius: 8px;
+    line-height: 0;
+  }
+  .btn-icon:hover:not(:disabled) { background: var(--danger-dim); color: var(--danger); }
+
+  /* Connection state */
+  .connect-status {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .connect-status .who {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+  }
+  .connect-status .who .dot {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: var(--success);
+    box-shadow: 0 0 0 3px var(--success-dim);
+  }
+
+  /* Pending booking rows */
+  .booking-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .booking-row:last-child { border-bottom: none; }
+  .booking-row .info { font-size: 14px; }
+  .booking-row .info .time { font-weight: 600; }
+  .booking-row .info .date { color: var(--text-dim); font-size: 13px; margin-top: 1px; }
+
+  .empty-state {
+    text-align: center;
+    padding: 20px 0;
+    color: var(--text-faint);
+    font-size: 13px;
+  }
+
+  .skeleton {
+    height: 14px;
+    border-radius: 4px;
+    background: linear-gradient(90deg, var(--surface-2) 25%, var(--border) 37%, var(--surface-2) 63%);
+    background-size: 400% 100%;
+    animation: shimmer 1.4s ease infinite;
+  }
+  @keyframes shimmer {
+    0% { background-position: 100% 50%; }
+    100% { background-position: 0 50%; }
+  }
+
+  /* Toasts */
+  #toasts {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    z-index: 100;
+    width: calc(100% - 36px);
+    max-width: 420px;
+  }
+  .toast {
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+    border-radius: var(--radius-sm);
+    padding: 12px 14px;
+    font-size: 13px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.35);
+    animation: toast-in 0.2s ease-out;
+  }
+  .toast.error { border-left-color: var(--danger); }
+  .toast.success { border-left-color: var(--success); }
+  @keyframes toast-in {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  a { color: var(--accent); }
+</style>
 </head>
 <body>
-    <h1>Gym Striker</h1>
 
-    <div class="status-box">
-        <h3>Current Status</h3>
-        <p id="status-val">Loading...</p>
+<div class="wrap">
+  <header class="page">
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M4 8V16M2 10V14M20 8V16M22 10V14M7 12H17M7 8.5V15.5C7 16.0523 7.44772 16.5 8 16.5C8.55228 16.5 9 16.0523 9 15.5V8.5C9 7.94772 8.55228 7.5 8 7.5C7.44772 7.5 7 7.94772 7 8.5ZM15 8.5V15.5C15 16.0523 15.4477 16.5 16 16.5C16.5523 16.5 17 16.0523 17 15.5V8.5C17 7.94772 16.5523 7.5 16 7.5C15.4477 7.5 15 7.94772 15 8.5Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <div>
+      <h1>Gym Striker</h1>
+      <p>Books the instant your window opens</p>
     </div>
+  </header>
 
-    <div class="status-box">
-        <h3>GitHub Settings</h3>
-        <input type="text" id="userInput" placeholder="GitHub username">
-        <input type="text" id="repoInput" placeholder="Repository name" value="gym-bot">
-        <input type="password" id="tokenInput" placeholder="GitHub token (store locally)">
-        <button class="btn" onclick="saveSettings()">Save settings</button>
-        <p class="small">The token is stored in browser local storage and used to update pending bookings.</p>
+  <div class="section-label">Status</div>
+  <div class="card" id="statusCard">
+    <div class="row">
+      <div class="skeleton" style="width:90px"></div>
+      <div class="skeleton" style="width:60px"></div>
     </div>
+  </div>
 
-    <div class="status-box">
-        <h3>Scraped Classes</h3>
-        <button class="btn" onclick="loadClassList()">Refresh class list</button>
-        <div id="classList">Loading scraped class list…</div>
-        <p class="small">The class list is sourced from <code>class_list.json</code> in the repo. Select a class below to add it to pending bookings.</p>
+  <div class="section-label">Arm a Booking</div>
+  <div class="card">
+    <div class="field">
+      <label for="dateInput">Class date</label>
+      <input type="date" id="dateInput">
     </div>
-
-    <div class="status-box">
-        <h3>Pending Bookings</h3>
-        <button class="btn" onclick="loadPendingBookings()">Refresh pending bookings</button>
-        <div id="pendingList">Loading pending bookings…</div>
+    <div class="field">
+      <label for="timeInput">Class time</label>
+      <input type="text" id="timeInput" placeholder="e.g. 6:00 AM">
     </div>
+    <button class="btn-primary" onclick="armBooking()" id="armBtn">Arm Booking</button>
+    <div class="hint">Blocked if the class starts &lt;30h away — cancelling inside 24h incurs a fee.</div>
+  </div>
 
-    <div class="status-box">
-        <h3>Arm a Booking Manually</h3>
-        <input type="date" id="dateInput">
-        <input type="text" id="timeInput" placeholder="3:30 PM">
-        <button class="btn" onclick="armBooking()">Add pending booking</button>
-    </div>
+  <div class="section-label">Pending Bookings</div>
+  <div class="card" id="pendingCard">
+    <div class="skeleton" style="width:100%;height:40px"></div>
+  </div>
 
-    <script>
-        const DEFAULT_REPO = 'gym-bot';
-        const BRANCH = 'main';
+  <div class="section-label">GitHub Connection</div>
+  <div class="card" id="connectCard"></div>
+</div>
 
-        function getSettings() {
-            const user = localStorage.getItem('github_user') || '';
-            const repo = localStorage.getItem('github_repo') || DEFAULT_REPO;
-            const token = localStorage.getItem('github_token') || '';
-            document.getElementById('userInput').value = user;
-            document.getElementById('repoInput').value = repo;
-            document.getElementById('tokenInput').value = token;
-            return { user, repo, token };
-        }
+<div id="toasts"></div>
 
-        function saveSettings() {
-            const user = document.getElementById('userInput').value.trim();
-            const repo = document.getElementById('repoInput').value.trim();
-            const token = document.getElementById('tokenInput').value.trim();
-            if (!user || !repo) return alert('Enter GitHub user and repo.');
-            localStorage.setItem('github_user', user);
-            localStorage.setItem('github_repo', repo);
-            localStorage.setItem('github_token', token);
-            alert('Settings saved locally.');
-        }
+<script>
+  const OWNER = 'SidharthJoly';
+  const REPO = 'gym-bot';
+  const BRANCH = 'main';
+  const RAW_BASE = `https://raw.githubusercontent.com/${OWNER}/${REPO}/${BRANCH}`;
+  const MIN_LEAD_HOURS = 30; // Cancelling within 24h of a class incurs a fee; keep a safety buffer above that.
 
-        function getHeaders() {
-            const token = document.getElementById('tokenInput').value.trim() || localStorage.getItem('github_token') || '';
-            const headers = { 'Accept': 'application/vnd.github.v3+json' };
-            if (token) headers.Authorization = `token ${token}`;
-            return headers;
-        }
+  // ---------- toast ----------
+  function toast(message, type = 'info') {
+    const el = document.createElement('div');
+    el.className = `toast ${type}`;
+    el.textContent = message;
+    document.getElementById('toasts').appendChild(el);
+    setTimeout(() => {
+      el.style.transition = 'opacity 0.25s';
+      el.style.opacity = '0';
+      setTimeout(() => el.remove(), 250);
+    }, 3800);
+  }
 
-        function decodeContent(content) {
-            return decodeURIComponent(escape(atob(content.replace(/\n/g, ''))));
-        }
+  // ---------- token storage ----------
+  function getToken() {
+    return localStorage.getItem('gh_token') || '';
+  }
 
-        function encodeContent(text) {
-            return btoa(unescape(encodeURIComponent(text)));
-        }
+  function setToken(token) {
+    if (token) localStorage.setItem('gh_token', token);
+    else localStorage.removeItem('gh_token');
+  }
 
-        async function githubGetFile(path) {
-            const { user, repo } = getSettings();
-            const response = await fetch(`https://api.github.com/repos/${user}/${repo}/contents/${path}?ref=${BRANCH}`, {
-                headers: getHeaders(),
-            });
-            if (!response.ok) {
-                throw new Error(`Fetch failed: ${response.status} ${response.statusText}`);
-            }
-            return response.json();
-        }
+  // ---------- GitHub API (writes only need the token) ----------
+  function authHeaders() {
+    const token = getToken();
+    const headers = { 'Accept': 'application/vnd.github.v3+json' };
+    if (token) headers.Authorization = `token ${token}`;
+    return headers;
+  }
 
-        async function githubPutFile(path, message, content, sha) {
-            const { user, repo } = getSettings();
-            const response = await fetch(`https://api.github.com/repos/${user}/${repo}/contents/${path}`, {
-                method: 'PUT',
-                headers: getHeaders(),
-                body: JSON.stringify({ message, content, sha, branch: BRANCH }),
-            });
-            if (!response.ok) {
-                const body = await response.text();
-                throw new Error(`Commit failed: ${response.status} ${response.statusText}\n${body}`);
-            }
-            return response.json();
-        }
+  function decodeContent(content) {
+    return decodeURIComponent(escape(atob(content.replace(/\n/g, ''))));
+  }
+  function encodeContent(text) {
+    return btoa(unescape(encodeURIComponent(text)));
+  }
 
-        async function fetchRawJson(path) {
-            const file = await githubGetFile(path);
-            return JSON.parse(decodeContent(file.content));
-        }
+  async function fetchPublicJson(path) {
+    const res = await fetch(`${RAW_BASE}/${path}?_=${Date.now()}`);
+    if (!res.ok) throw new Error(`Fetch failed: ${res.status}`);
+    return res.json();
+  }
 
-        async function loadStatus() {
-            const { user } = getSettings();
-            const statusEl = document.getElementById('status-val');
-            if (!user) {
-                statusEl.innerText = 'Enter GitHub username, repo, and token to load status.';
-                return;
-            }
-            try {
-                const data = await fetchRawJson('status.json');
-                statusEl.innerText = `${data.status} at ${data.time}`;
-            } catch (error) {
-                statusEl.innerText = 'Unable to load status.';
-                console.error(error);
-            }
-        }
+  async function githubGetFile(path) {
+    const res = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contents/${path}?ref=${BRANCH}`, {
+      headers: authHeaders(),
+    });
+    if (!res.ok) throw new Error(`GitHub read failed: ${res.status}`);
+    return res.json();
+  }
 
-        async function loadClassList() {
-            const { user, repo } = getSettings();
-            const container = document.getElementById('classList');
-            if (!user || !repo) {
-                container.innerHTML = '<p>Enter GitHub username and repo, then save settings.</p>';
-                return;
-            }
-            container.innerHTML = 'Loading scraped class list…';
-            try {
-                const classes = await fetchRawJson('class_list.json');
-                if (!Array.isArray(classes) || classes.length === 0) {
-                    container.innerHTML = '<p>No scraped classes found in class_list.json.</p>';
-                    return;
-                }
-                const rows = classes.map((item, index) => {
-                    const desc = item.description || `${item.date} ${item.time}`;
-                    return `<tr>
-                        <td>${item.date}</td>
-                        <td>${item.time}</td>
-                        <td>${desc}</td>
-                        <td><button class="btn" onclick="addClassBooking(${index})">Select</button></td>
-                    </tr>`;
-                }).join('');
-                container.innerHTML = `<table><thead><tr><th>Date</th><th>Time</th><th>Description</th><th>Action</th></tr></thead><tbody>${rows}</tbody></table>`;
-            } catch (error) {
-                container.innerHTML = '<p>Unable to load class list.</p>';
-                console.error(error);
-            }
-        }
+  async function githubPutFile(path, message, content, sha) {
+    const res = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contents/${path}`, {
+      method: 'PUT',
+      headers: authHeaders(),
+      body: JSON.stringify({ message, content, sha, branch: BRANCH }),
+    });
+    if (!res.ok) {
+      const body = await res.text();
+      throw new Error(`GitHub write failed: ${res.status} ${body}`);
+    }
+    return res.json();
+  }
 
-        async function loadPendingBookings() {
-            const { user, repo } = getSettings();
-            const container = document.getElementById('pendingList');
-            if (!user || !repo) {
-                container.innerHTML = '<p>Enter GitHub username and repo, then save settings.</p>';
-                return;
-            }
-            container.innerHTML = 'Loading pending bookings…';
-            try {
-                const file = await githubGetFile('pending_booking.json');
-                const payload = JSON.parse(decodeContent(file.content));
-                const bookings = Array.isArray(payload) ? payload : [payload];
-                if (bookings.length === 0) {
-                    container.innerHTML = '<p>No pending bookings.</p>';
-                    return;
-                }
-                const rows = bookings.map((item, index) => `<tr>
-                    <td>${item.date}</td>
-                    <td>${item.time}</td>
-                    <td>${item.description || ''}</td>
-                </tr>`).join('');
-                container.innerHTML = `<table><thead><tr><th>Date</th><th>Time</th><th>Description</th></tr></thead><tbody>${rows}</tbody></table>`;
-            } catch (error) {
-                container.innerHTML = '<p>Unable to load pending bookings.</p>';
-                console.error(error);
-            }
-        }
+  // ---------- date helpers ----------
+  function parseClassDateTime(date, time) {
+    const match = time.trim().match(/^(\d{1,2}):(\d{2})\s*([AaPp][Mm])$/);
+    if (!match) return null;
+    let [, hh, mm, ap] = match;
+    hh = parseInt(hh, 10);
+    mm = parseInt(mm, 10);
+    ap = ap.toUpperCase();
+    if (ap === 'PM' && hh !== 12) hh += 12;
+    if (ap === 'AM' && hh === 12) hh = 0;
+    const [y, mo, d] = date.split('-').map(Number);
+    return new Date(y, mo - 1, d, hh, mm);
+  }
 
-        async function armBooking() {
-            const date = document.getElementById('dateInput').value;
-            const time = document.getElementById('timeInput').value.trim();
-            if (!date || !time) return alert('Fill both date and time.');
-            await addBooking({ date, time });
-        }
+  function relativeTime(iso) {
+    if (!iso) return '';
+    const then = new Date(iso.replace(' ', 'T'));
+    if (isNaN(then)) return iso;
+    const diffMin = Math.round((Date.now() - then.getTime()) / 60000);
+    if (diffMin < 1) return 'just now';
+    if (diffMin < 60) return `${diffMin}m ago`;
+    const diffHr = Math.round(diffMin / 60);
+    if (diffHr < 24) return `${diffHr}h ago`;
+    return `${Math.round(diffHr / 24)}d ago`;
+  }
 
-        async function addClassBooking(index) {
-            try {
-                const classes = await fetchRawJson('class_list.json');
-                const item = classes[index];
-                if (!item) return alert('Class not found.');
-                await addBooking({ date: item.date, time: item.time, description: item.description });
-            } catch (error) {
-                console.error(error);
-                alert('Unable to add selected class.');
-            }
-        }
+  // ---------- status ----------
+  const STATUS_META = {
+    SUCCESS: { label: 'Booked', cls: 'success' },
+    ERROR: { label: 'Error', cls: 'danger' },
+    FAILED: { label: 'Failed', cls: 'danger' },
+    NOT_FOUND: { label: 'Not found', cls: 'danger' },
+    BLOCKED_TOO_CLOSE: { label: 'Blocked (too close)', cls: 'warning' },
+    PENDING: { label: 'Striking…', cls: 'warning' },
+    NONE: { label: 'Idle', cls: 'neutral' },
+  };
 
-        const MIN_LEAD_HOURS = 30; // Cancelling within 24h of a class incurs a charge; keep a safety buffer above that.
+  async function loadStatus() {
+    const card = document.getElementById('statusCard');
+    try {
+      const data = await fetchPublicJson('status.json');
+      const meta = STATUS_META[data.status] || { label: data.status || 'Unknown', cls: 'neutral' };
+      let detail = '';
+      const target = data.selected_target || data.target;
+      if (target) {
+        detail += `<div><strong>${target.time}</strong> on <strong>${target.date}</strong></div>`;
+      }
+      if (data.error) {
+        detail += `<div style="margin-top:4px;">${data.error}</div>`;
+      }
+      card.innerHTML = `
+        <div class="row">
+          <span class="badge ${meta.cls}"><span class="dot"></span>${meta.label}</span>
+          <span class="small faint">${relativeTime(data.time)}</span>
+        </div>
+        ${detail ? `<div class="status-detail">${detail}</div>` : ''}
+      `;
+    } catch (error) {
+      console.error(error);
+      card.innerHTML = `<div class="row"><span class="badge neutral"><span class="dot"></span>Unavailable</span></div>`;
+    }
+  }
 
-        function parseClassDateTime(date, time) {
-            const match = time.trim().match(/^(\d{1,2}):(\d{2})\s*([AaPp][Mm])$/);
-            if (!match) return null;
-            let [, hh, mm, ap] = match;
-            hh = parseInt(hh, 10);
-            mm = parseInt(mm, 10);
-            ap = ap.toUpperCase();
-            if (ap === 'PM' && hh !== 12) hh += 12;
-            if (ap === 'AM' && hh === 12) hh = 0;
-            const [y, mo, d] = date.split('-').map(Number);
-            return new Date(y, mo - 1, d, hh, mm);
-        }
+  // ---------- pending bookings ----------
+  async function loadPendingBookings() {
+    const container = document.getElementById('pendingCard');
+    try {
+      const payload = await fetchPublicJson('pending_booking.json');
+      const bookings = Array.isArray(payload) ? payload : [payload];
+      if (bookings.length === 0) {
+        container.innerHTML = `<div class="empty-state">Nothing queued. Arm a booking above.</div>`;
+        return;
+      }
+      container.innerHTML = bookings.map((item, i) => `
+        <div class="booking-row">
+          <div class="info">
+            <div class="time">${item.time}</div>
+            <div class="date">${item.date}</div>
+          </div>
+          <button class="btn-icon" title="Remove" onclick="removeBooking(${i})">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M6 6L18 18M6 18L18 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </button>
+        </div>
+      `).join('');
+    } catch (error) {
+      console.error(error);
+      container.innerHTML = `<div class="empty-state">Unable to load pending bookings.</div>`;
+    }
+  }
 
-        async function addBooking(newBooking) {
-            // Approximate client-side check (uses browser local time); the bot itself
-            // enforces this authoritatively in Sydney time before ever striking.
-            const classDt = parseClassDateTime(newBooking.date, newBooking.time);
-            if (classDt) {
-                const hoursUntil = (classDt - new Date()) / 3600000;
-                if (hoursUntil < MIN_LEAD_HOURS) {
-                    return alert(`This class is roughly ${Math.max(0, Math.round(hoursUntil))}h away. Bookings under ${MIN_LEAD_HOURS}h out are blocked to avoid a late-cancellation fee.`);
-                }
-            }
-            try {
-                const file = await githubGetFile('pending_booking.json');
-                let payload = JSON.parse(decodeContent(file.content));
-                if (!Array.isArray(payload)) {
-                    payload = [payload];
-                }
-                const duplicate = payload.some(item => item.date === newBooking.date && item.time === newBooking.time);
-                if (duplicate) return alert('This booking is already pending.');
-                payload.push(newBooking);
-                const content = encodeContent(JSON.stringify(payload, null, 2));
-                await githubPutFile('pending_booking.json', `Add pending booking ${newBooking.date} ${newBooking.time}`, content, file.sha);
-                alert('Pending booking added.');
-                loadPendingBookings();
-                loadStatus();
-            } catch (error) {
-                console.error(error);
-                alert('Failed to update pending bookings. Check your token and repository settings.');
-            }
-        }
+  async function removeBooking(index) {
+    if (!getToken()) { toast('Connect your GitHub token first.', 'error'); return; }
+    try {
+      const file = await githubGetFile('pending_booking.json');
+      let payload = JSON.parse(decodeContent(file.content));
+      if (!Array.isArray(payload)) payload = [payload];
+      const removed = payload.splice(index, 1)[0];
+      const content = encodeContent(JSON.stringify(payload, null, 2));
+      await githubPutFile('pending_booking.json', `Remove pending booking ${removed?.date} ${removed?.time}`, content, file.sha);
+      toast('Booking removed.', 'success');
+      loadPendingBookings();
+    } catch (error) {
+      console.error(error);
+      toast('Failed to remove booking.', 'error');
+    }
+  }
 
-        getSettings();
-        loadStatus();
-        loadClassList();
-        loadPendingBookings();
-    </script>
+  // ---------- arm booking ----------
+  async function armBooking() {
+    const date = document.getElementById('dateInput').value;
+    const time = document.getElementById('timeInput').value.trim();
+    if (!date || !time) { toast('Fill in both date and time.', 'error'); return; }
+    if (!/^\d{1,2}:\d{2}\s*[AaPp][Mm]$/.test(time)) {
+      toast('Time format should look like "6:00 AM".', 'error');
+      return;
+    }
+
+    const classDt = parseClassDateTime(date, time);
+    if (classDt) {
+      const hoursUntil = (classDt - new Date()) / 3600000;
+      if (hoursUntil < MIN_LEAD_HOURS) {
+        toast(`That class is ~${Math.max(0, Math.round(hoursUntil))}h away. Bookings under ${MIN_LEAD_HOURS}h out are blocked to avoid a late-cancellation fee.`, 'error');
+        return;
+      }
+    }
+
+    if (!getToken()) { toast('Connect your GitHub token first.', 'error'); return; }
+
+    const btn = document.getElementById('armBtn');
+    btn.disabled = true;
+    try {
+      const file = await githubGetFile('pending_booking.json');
+      let payload = JSON.parse(decodeContent(file.content));
+      if (!Array.isArray(payload)) payload = [payload];
+      if (payload.some(b => b.date === date && b.time === time)) {
+        toast('That booking is already queued.', 'error');
+        return;
+      }
+      payload.push({ date, time });
+      const content = encodeContent(JSON.stringify(payload, null, 2));
+      await githubPutFile('pending_booking.json', `Arm booking for ${time} on ${date}`, content, file.sha);
+      toast('Booking armed.', 'success');
+      document.getElementById('timeInput').value = '';
+      loadPendingBookings();
+    } catch (error) {
+      console.error(error);
+      toast('Failed to arm booking. Check your token.', 'error');
+    } finally {
+      btn.disabled = false;
+    }
+  }
+
+  // ---------- connection card ----------
+  function renderConnectCard() {
+    const card = document.getElementById('connectCard');
+    const token = getToken();
+    if (token) {
+      card.innerHTML = `
+        <div class="connect-status">
+          <div class="who"><span class="dot"></span> Connected to <strong>${OWNER}/${REPO}</strong></div>
+          <button class="btn-text" onclick="disconnect()">Change</button>
+        </div>
+      `;
+    } else {
+      card.innerHTML = `
+        <div class="field">
+          <label for="tokenInput">GitHub token</label>
+          <input type="password" id="tokenInput" placeholder="github_pat_...">
+        </div>
+        <button class="btn-ghost" style="width:100%" onclick="saveToken()">Connect</button>
+        <div class="hint">
+          Only needed to arm or remove bookings — viewing status doesn't require it.
+          Create a <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">fine-grained token</a>
+          scoped to just the <strong>${REPO}</strong> repo with <strong>Contents: read &amp; write</strong>.
+          Stored only in this browser.
+        </div>
+      `;
+    }
+  }
+
+  function saveToken() {
+    const token = document.getElementById('tokenInput').value.trim();
+    if (!token) { toast('Paste a token first.', 'error'); return; }
+    setToken(token);
+    renderConnectCard();
+    toast('Connected.', 'success');
+  }
+
+  function disconnect() {
+    setToken('');
+    renderConnectCard();
+  }
+
+  // ---------- init ----------
+  renderConnectCard();
+  loadStatus();
+  loadPendingBookings();
+</script>
 </body>
 </html>

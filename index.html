@@ -353,7 +353,7 @@
       el.style.transition = 'opacity 0.25s';
       el.style.opacity = '0';
       setTimeout(() => el.remove(), 250);
-    }, 3800);
+    }, type === 'error' ? 7000 : 3800);
   }
 
   // ---------- token storage ----------
@@ -391,8 +391,19 @@
     const res = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contents/${path}?ref=${BRANCH}`, {
       headers: authHeaders(),
     });
-    if (!res.ok) throw new Error(`GitHub read failed: ${res.status}`);
+    if (!res.ok) {
+      const body = await res.text();
+      throw new Error(`GitHub read failed: ${res.status} ${extractGithubMessage(body)}`);
+    }
     return res.json();
+  }
+
+  function extractGithubMessage(bodyText) {
+    try {
+      return JSON.parse(bodyText).message || bodyText;
+    } catch {
+      return bodyText;
+    }
   }
 
   async function githubPutFile(path, message, content, sha) {
@@ -403,7 +414,7 @@
     });
     if (!res.ok) {
       const body = await res.text();
-      throw new Error(`GitHub write failed: ${res.status} ${body}`);
+      throw new Error(`GitHub write failed: ${res.status} ${extractGithubMessage(body)}`);
     }
     return res.json();
   }
@@ -511,7 +522,7 @@
       loadPendingBookings();
     } catch (error) {
       console.error(error);
-      toast('Failed to remove booking.', 'error');
+      toast(`Failed to remove booking — ${error.message}`, 'error');
     }
   }
 
@@ -554,7 +565,7 @@
       loadPendingBookings();
     } catch (error) {
       console.error(error);
-      toast('Failed to arm booking. Check your token.', 'error');
+      toast(`Failed to arm booking — ${error.message}`, 'error');
     } finally {
       btn.disabled = false;
     }

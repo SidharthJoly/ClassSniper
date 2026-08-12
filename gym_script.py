@@ -28,6 +28,12 @@ async def run_booking():
     # Define Sydney Timezone
     sydney_tz = pytz.timezone('Australia/Sydney')
 
+    # Cancelling inside 24h of a class incurs a charge. Never strike a class that
+    # starts less than this many hours from now, so it can always be safely cancelled.
+    MIN_LEAD_HOURS = 30
+
+    now = datetime.now(sydney_tz)
+
     bookings = []
     for target in targets:
         target_dt = sydney_tz.localize(datetime.strptime(f"{target['date']} {target['time']}", "%Y-%m-%d %I:%M %p"))
@@ -37,13 +43,33 @@ async def run_booking():
             "opens_at": target_dt - timedelta(hours=72),
         })
 
-    bookings.sort(key=lambda entry: entry["opens_at"])
-    selected = bookings[0]
+    if not bookings:
+        print("No pending bookings queued. Nothing to do.")
+        return
+
+    eligible = [b for b in bookings if (b["target_dt"] - now) >= timedelta(hours=MIN_LEAD_HOURS)]
+    for b in bookings:
+        if b not in eligible:
+            print(
+                f"Skipping {b['target']}: class starts in {b['target_dt'] - now}, "
+                f"under the {MIN_LEAD_HOURS}h cancellation-safety margin."
+            )
+
+    if not eligible:
+        result = {
+            "status": "BLOCKED_TOO_CLOSE",
+            "time": str(datetime.now()),
+            "error": f"All pending bookings start within {MIN_LEAD_HOURS}h; skipped to avoid a cancellation-fee risk.",
+        }
+        with open('status.json', 'w') as f:
+            json.dump(result, f)
+        return
+
+    eligible.sort(key=lambda entry: entry["opens_at"])
+    selected = eligible[0]
     target = selected["target"]
     booking_opens_at = selected["opens_at"]
 
-    # Get CURRENT time in Sydney
-    now = datetime.now(sydney_tz)
     window = timedelta(minutes=15)
 
     if now < booking_opens_at - window:
@@ -155,19 +181,33 @@ async def run_booking():
                     })
     except Exception as e:
         print(f"Strike failed: {e}")
-        if 'page' in locals():
-            await page.screenshot(path="final_failure.png")
         result.update({
             "status": "ERROR",
             "time": str(datetime.now()),
             "error": str(e),
         })
+        if 'page' in locals():
+            try:
+                await page.screenshot(path="final_failure.png")
+            except Exception:
+                pass
     finally:
+        if result.get("status") == "SUCCESS":
+            try:
+                targets.remove(target)
+            except ValueError:
+                pass
+            with open('pending_booking.json', 'w') as f:
+                json.dump(targets, f, indent=2)
+
         with open('status.json', 'w') as f:
             json.dump(result, f)
 
         if 'browser' in locals():
-            await browser.close()
+            try:
+                await browser.close()
+            except Exception:
+                pass
 
 if __name__ == "__main__":
     asyncio.run(run_booking())

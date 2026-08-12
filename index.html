@@ -215,7 +215,31 @@
             }
         }
 
+        const MIN_LEAD_HOURS = 30; // Cancelling within 24h of a class incurs a charge; keep a safety buffer above that.
+
+        function parseClassDateTime(date, time) {
+            const match = time.trim().match(/^(\d{1,2}):(\d{2})\s*([AaPp][Mm])$/);
+            if (!match) return null;
+            let [, hh, mm, ap] = match;
+            hh = parseInt(hh, 10);
+            mm = parseInt(mm, 10);
+            ap = ap.toUpperCase();
+            if (ap === 'PM' && hh !== 12) hh += 12;
+            if (ap === 'AM' && hh === 12) hh = 0;
+            const [y, mo, d] = date.split('-').map(Number);
+            return new Date(y, mo - 1, d, hh, mm);
+        }
+
         async function addBooking(newBooking) {
+            // Approximate client-side check (uses browser local time); the bot itself
+            // enforces this authoritatively in Sydney time before ever striking.
+            const classDt = parseClassDateTime(newBooking.date, newBooking.time);
+            if (classDt) {
+                const hoursUntil = (classDt - new Date()) / 3600000;
+                if (hoursUntil < MIN_LEAD_HOURS) {
+                    return alert(`This class is roughly ${Math.max(0, Math.round(hoursUntil))}h away. Bookings under ${MIN_LEAD_HOURS}h out are blocked to avoid a late-cancellation fee.`);
+                }
+            }
             try {
                 const file = await githubGetFile('pending_booking.json');
                 let payload = JSON.parse(decodeContent(file.content));

@@ -1,7 +1,12 @@
 name: Gym Logic Engine
 on:
   schedule:
-    - cron: '*/15 * * * *' 
+    # 5 minutes is GitHub's shortest supported interval — schedule triggers are
+    # "best effort" and can still lag under load, so this only shrinks the worst
+    # case gap, it doesn't guarantee precise timing. The script itself sleeps to
+    # the exact strike moment once a run does start (see gym_script.py), so this
+    # setting mainly matters for how late a run can start in the first place.
+    - cron: '*/5 * * * *'
   workflow_dispatch:
     inputs:
       class_date:

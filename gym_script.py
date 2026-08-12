@@ -30,7 +30,18 @@ CENTER_IDS = {
     "Haymarket": 105, "Merrylands": 106, "North Sydney": 107, "Zetland": 108,
 }
 
-async def try_fast_strike(target):
+def warm_connection(session):
+    """Best-effort: establish the TCP/TLS connection to the API host ahead of time so
+    the DNS lookup + handshake (routinely 100-300ms+) doesn't sit on the critical path
+    of the actual strike. A failure here just forfeits the warm-up benefit — never fatal.
+    """
+    try:
+        session.get(f"{API_BASE}/centers", timeout=5)
+    except Exception:
+        pass
+
+
+async def try_fast_strike(target, session):
     """Attempt the whole strike as two raw HTTP calls instead of driving a browser.
 
     Returns (status, detail, raw_response):
@@ -45,6 +56,10 @@ async def try_fast_strike(target):
     Deliberately makes at most 3 requests (login + session-refresh in parallel, then
     book) and never retries — the login endpoint rate-limits at 5 requests, and a
     Playwright fallback needs some of that budget left for its own login attempt.
+
+    `session` should already be warmed up (see warm_connection) — reusing its
+    connection pool means the login/refresh/book calls skip repeating the TCP/TLS
+    handshake against the same host.
     """
     booking_id = target.get("booking_id")
     location = target.get("location", DEFAULT_LOCATION)
@@ -53,13 +68,13 @@ async def try_fast_strike(target):
         return None, None, None
 
     def _login():
-        return requests.post(AUTH_URL, json={
+        return session.post(AUTH_URL, json={
             "email": EMAIL, "password": PASSWORD, "include_participations": False,
         }, timeout=10)
 
     def _refresh_session():
         to_date = (datetime.strptime(target["date"], "%Y-%m-%d") + timedelta(days=1)).strftime("%Y-%m-%d")
-        return requests.post(SESSIONS_URL, json={
+        return session.post(SESSIONS_URL, json={
             "center_id": center_id, "from_date": target["date"], "to_date": to_date,
         }, timeout=10)
 
@@ -88,7 +103,7 @@ async def try_fast_strike(target):
         return "FULL", "Fast-path: class is full", None
 
     def _book():
-        return requests.post(BOOK_URL, json={
+        return session.post(BOOK_URL, json={
             "pk": match["pk"], "sk": match["sk"], "person_key": person_key,
             "send_confirmation_message": True,
         }, timeout=10)
@@ -358,18 +373,24 @@ async def run_booking():
         )
         return
 
-    if now < booking_opens_at:
-        wait_seconds = (booking_opens_at - now).total_seconds() + 2
-        print(
-            f"Booking opens at {booking_opens_at}. Waiting {int(wait_seconds)} seconds to strike at {booking_opens_at + timedelta(seconds=2)}."
-        )
+    strike_at = booking_opens_at + timedelta(seconds=2)
+    warm_up_lead = timedelta(seconds=5)
+    session = requests.Session()
+
+    warm_up_at = strike_at - warm_up_lead
+    if now < warm_up_at:
+        wait_seconds = (warm_up_at - now).total_seconds()
+        print(f"Booking opens at {booking_opens_at}. Waiting {wait_seconds:.1f}s, then warming up the connection before striking at {strike_at}.")
         await asyncio.sleep(wait_seconds)
-        now = datetime.now(sydney_tz)
-    elif now < booking_opens_at + timedelta(seconds=2):
-        sleep_seconds = (booking_opens_at + timedelta(seconds=2) - now).total_seconds()
-        print(f"Booking is opening now. Sleeping {int(sleep_seconds)} seconds to hit the target window.")
+
+    print("Warming up connection to the booking API...")
+    await asyncio.to_thread(warm_connection, session)
+
+    now = datetime.now(sydney_tz)
+    if now < strike_at:
+        sleep_seconds = (strike_at - now).total_seconds()
+        print(f"Sleeping {sleep_seconds:.2f}s more to hit the exact opening moment...")
         await asyncio.sleep(sleep_seconds)
-        now = datetime.now(sydney_tz)
 
     result = {
         "status": "PENDING",
@@ -382,7 +403,7 @@ async def run_booking():
 
     try:
         print("Trying the fast API path first (no browser)...")
-        fast_status, fast_detail, fast_raw = await try_fast_strike(target)
+        fast_status, fast_detail, fast_raw = await try_fast_strike(target, session)
 
         if fast_status == "SUCCESS":
             print("Fast path booked it.")

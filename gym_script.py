@@ -5,6 +5,7 @@ import asyncio
 from datetime import datetime, timedelta
 from playwright.async_api import async_playwright
 import pytz
+import requests
 
 # --- CONFIG FROM SECRETS ---
 EMAIL = os.getenv("GYM_EMAIL")
@@ -12,6 +13,95 @@ PASSWORD = os.getenv("GYM_PASSWORD")
 
 TIMETABLE_URL = "https://oneplayground.com.au/classes/timetable/"
 DEFAULT_LOCATION = "Newtown"
+
+# --- Fast API path ---
+# Found by reading the site's own JS bundle: the whole booking flow is two
+# unauthenticated-transport HTTP calls (person_key acts as the credential, sent
+# in the body, not a header/cookie). No browser needed at all if this works.
+API_BASE = "https://cms.oneplayground.com.au/api/timetable"
+AUTH_URL = f"{API_BASE}/person-auth"
+SESSIONS_URL = f"{API_BASE}/get-sessions-by-center-and-date"
+BOOK_URL = f"{API_BASE}/create-participation-and-send-message"
+
+# From /api/timetable/centers — hardcoded here to avoid a lookup call at strike
+# time; these are effectively static (physical gym locations).
+CENTER_IDS = {
+    "Surry Hills": 101, "Bunker": 102, "Marrickville": 103, "Newtown": 104,
+    "Haymarket": 105, "Merrylands": 106, "North Sydney": 107, "Zetland": 108,
+}
+
+async def try_fast_strike(target):
+    """Attempt the whole strike as two raw HTTP calls instead of driving a browser.
+
+    Returns (status, detail, raw_response):
+      status is None            -> not attempted (no booking_id/unknown location); caller
+                                    should fall back to the Playwright flow silently.
+      status is "SUCCESS"       -> booked. Unverified against a real account — no test
+                                    credentials available — so callers should still treat
+                                    the first few real successes as needing a sanity check.
+      status is "FULL"          -> definitively full, no point falling back to Playwright.
+      status is "NOT_FOUND"/"ERROR" -> inconclusive; caller should fall back to Playwright.
+
+    Deliberately makes at most 3 requests (login + session-refresh in parallel, then
+    book) and never retries — the login endpoint rate-limits at 5 requests, and a
+    Playwright fallback needs some of that budget left for its own login attempt.
+    """
+    booking_id = target.get("booking_id")
+    location = target.get("location", DEFAULT_LOCATION)
+    center_id = CENTER_IDS.get(location)
+    if not booking_id or not center_id:
+        return None, None, None
+
+    def _login():
+        return requests.post(AUTH_URL, json={
+            "email": EMAIL, "password": PASSWORD, "include_participations": False,
+        }, timeout=10)
+
+    def _refresh_session():
+        to_date = (datetime.strptime(target["date"], "%Y-%m-%d") + timedelta(days=1)).strftime("%Y-%m-%d")
+        return requests.post(SESSIONS_URL, json={
+            "center_id": center_id, "from_date": target["date"], "to_date": to_date,
+        }, timeout=10)
+
+    try:
+        login_resp, session_resp = await asyncio.gather(
+            asyncio.to_thread(_login), asyncio.to_thread(_refresh_session),
+        )
+    except Exception as e:
+        return "ERROR", f"Fast-path network error: {e}", None
+
+    if login_resp.status_code != 200:
+        return "ERROR", f"Fast-path login failed: {login_resp.status_code} {login_resp.text[:200]}", None
+    person_key = (login_resp.json().get("data") or {}).get("personKey")
+    if not person_key:
+        return "ERROR", "Fast-path login returned no personKey", None
+
+    if session_resp.status_code != 200:
+        return "ERROR", f"Fast-path session refresh failed: {session_resp.status_code}", None
+    sessions = session_resp.json().get("sessions", [])
+    match = next((s for s in sessions if s.get("booking_id") == booking_id), None)
+    if not match:
+        return "NOT_FOUND", "Fast-path: booking_id no longer present in session list", None
+    if match.get("booking_state") != "ACTIVE":
+        return "NOT_FOUND", f"Fast-path: session state is {match.get('booking_state')}", None
+    if (match.get("remaining_spots") or 0) <= 0:
+        return "FULL", "Fast-path: class is full", None
+
+    def _book():
+        return requests.post(BOOK_URL, json={
+            "pk": match["pk"], "sk": match["sk"], "person_key": person_key,
+            "send_confirmation_message": True,
+        }, timeout=10)
+
+    try:
+        book_resp = await asyncio.to_thread(_book)
+    except Exception as e:
+        return "ERROR", f"Fast-path booking request failed: {e}", None
+
+    if book_resp.status_code == 200:
+        return "SUCCESS", None, book_resp.json()
+    return "ERROR", f"Fast-path booking failed: {book_resp.status_code} {book_resp.text[:300]}", None
+
 
 # Matches both "6:00 AM" (pending_booking.json) and the site's own compact
 # "6AM" / "6.30AM" class-list format, so the two can be compared directly.
@@ -291,20 +381,38 @@ async def run_booking():
     location_name = target.get("location", DEFAULT_LOCATION)
 
     try:
-        async with async_playwright() as p:
-            browser = await p.chromium.launch(headless=True)
-            page = await browser.new_page(viewport={"width": 1280, "height": 900})
-            try:
-                await _run_strike(page, target, location_name, result)
-            except Exception:
-                # Screenshot here, while the Playwright driver is still alive — taking
-                # it from the outer except (after `async with` has torn down) silently
-                # fails, which is exactly the bug that hid earlier production failures.
+        print("Trying the fast API path first (no browser)...")
+        fast_status, fast_detail, fast_raw = await try_fast_strike(target)
+
+        if fast_status == "SUCCESS":
+            print("Fast path booked it.")
+            result.update({
+                "status": "SUCCESS",
+                "time": str(datetime.now()),
+                "note": "Booked via the fast API path (no browser) — this path is unverified "
+                        "against a real account, so treat an early SUCCESS here as needing a "
+                        "sanity check against what actually happened.",
+            })
+        elif fast_status == "FULL":
+            print(f"Fast path: {fast_detail}")
+            result.update({"status": "FAILED", "time": str(datetime.now()), "error": fast_detail})
+        else:
+            if fast_status is not None:
+                print(f"Fast path inconclusive ({fast_status}: {fast_detail}). Falling back to the browser flow...")
+            async with async_playwright() as p:
+                browser = await p.chromium.launch(headless=True)
+                page = await browser.new_page(viewport={"width": 1280, "height": 900})
                 try:
-                    await page.screenshot(path="final_failure.png")
+                    await _run_strike(page, target, location_name, result)
                 except Exception:
-                    pass
-                raise
+                    # Screenshot here, while the Playwright driver is still alive — taking
+                    # it from the outer except (after `async with` has torn down) silently
+                    # fails, which is exactly the bug that hid earlier production failures.
+                    try:
+                        await page.screenshot(path="final_failure.png")
+                    except Exception:
+                        pass
+                    raise
     except Exception as e:
         print(f"Strike failed: {e}")
         result.update({

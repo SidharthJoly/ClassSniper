@@ -81,5 +81,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: debug-screenshots
-          path: final_failure.png
+          path: |
+            gym-bot/final_failure.png
+            gym-bot/booking_result.png
           if-no-files-found: ignore

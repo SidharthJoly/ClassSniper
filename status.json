@@ -1,1 +1,1 @@
-{"status": "SUCCESS", "time": "2026-04-17 14:16:35.777701", "selected_target": {"date": "2026-04-18", "time": "2:30 PM"}, "selected_open_time": "2026-04-15 14:30:00+10:00"}
+{"status": "SUCCESS", "time": "2026-08-12 12:53:13.544744", "selected_target": {"date": "2026-08-14", "time": "5:00 PM"}, "selected_open_time": "2026-08-11 17:00:00+10:00", "note": "Clicked Book and completed the sign-in/confirm flow \u2014 verify against booking_result.png artifact until this path is confirmed reliable."}

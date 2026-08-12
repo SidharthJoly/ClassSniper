@@ -1,37 +1,106 @@
-# gym-bot
+# ClassSniper
 
-Automates gym class booking. Classes open for booking 72 hours ahead; this repo
-queues a target class in `pending_booking.json` and a scheduled GitHub Actions
-workflow (`gym_script.py`, every 15 minutes) strikes the instant that window opens.
+Automated gym class booking that strikes the instant a class's booking window opens.
 
-Live web UI: https://sidharthjoly.github.io/gym-bot/
+**Live dashboard:** https://sidharthjoly.github.io/gym-bot/ *(will move to `/ClassSniper/` once the repo rename below is complete)*
 
-## Safety rule
+## The problem
 
-Cancelling inside 24 hours of a class incurs a charge, so the bot refuses to
-strike (or let you arm) any class starting less than **30 hours** from now.
-This is enforced both in the web UI and, authoritatively, in `gym_script.py`
-itself (`BLOCKED_TOO_CLOSE` status).
+The gym chain this targets ([One Playground](https://oneplayground.com.au)) opens
+bookings for each class exactly 72 hours before it starts. Popular time slots and
+instructors can fill within moments of that window opening — remembering to be at
+your laptop at the exact right second, for potentially several classes across
+several locations, isn't realistic. This automates it.
 
-## Web UI
+## What it does
 
-Open `index.html` (or the GitHub Pages link above):
+- A GitHub Actions workflow runs every 5 minutes, checking whether any queued
+  booking's 72-hour window has opened yet.
+- When it has, the bot books the class — via a fast direct API call when possible,
+  falling back to full browser automation if anything about that path is
+  inconclusive.
+- A companion scraper pulls the live class schedule across every studio location
+  on the same schedule, so the web dashboard shows actual upcoming classes (name,
+  instructor, spots remaining) to arm — not a blind date/time field.
+- A hard safety rule blocks arming *or* striking anything starting less than
+  **30 hours** away, since cancelling inside 24 hours incurs a fee. The tool
+  won't let itself create a charge it didn't need to.
 
-- **Status** and **Pending Bookings** are public reads — no GitHub token needed.
-- Arming or removing a booking needs a GitHub token, since that writes to the repo.
-  Create a [fine-grained personal access token](https://github.com/settings/personal-access-tokens/new)
-  scoped to just this repo with **Contents: read & write**, paste it into
-  "GitHub Connection" once — it's stored only in that browser's `localStorage`.
+## Architecture
 
-## How the bot decides what to strike
+```
+┌─────────────────────────┐
+│   Web dashboard          │  reads status.json / pending_booking.json /
+│   (GitHub Pages)         │  class_list.json directly — public, no auth needed
+└─────────────┬────────────┘
+              │ writes (arm / remove) via the GitHub Contents API,
+              │ using a fine-grained PAT scoped to just this repo
+              ▼
+┌─────────────────────────┐
+│   This repo               │  source of truth: pending_booking.json,
+│   (GitHub Actions, /5m)  │  status.json, class_list.json
+└─────────────┬────────────┘
+              │
+     ┌────────┴────────┐
+     ▼                 ▼
+ bot/scraper.py    bot/striker.py
+ pulls the live    checks pending_booking.json; once a window opens:
+ schedule for       1. fast path — two raw HTTP calls (login, book),
+ every location         no browser
+ → class_list.json  2. falls back to full Playwright browser automation
+                         if the fast path is inconclusive
+```
 
-`pending_booking.json` holds an array of `{date, time}` targets. Each run picks
-whichever eligible target's 72-hour booking window opens soonest, waits for it
-if needed, then attempts the strike. On success, that target is automatically
-removed from the queue.
+## Key engineering details
 
-## Manually arming via GitHub Actions
+- **Class disambiguation.** Multiple distinct classes routinely share the exact
+  same time slot at the same location (e.g. 5:00 PM Newtown might be *Athletica*,
+  *Mat Pilates*, and *Reformer: Strong* simultaneously). Matching by date + time
+  alone is genuinely ambiguous — an early version of this bot got this wrong in
+  practice. Every class now carries a unique `booking_id` sourced from the venue's
+  own session API and matched exactly, not guessed.
+- **The fast path.** Found by reading the venue's own JS bundle rather than just
+  watching network traffic: the entire "click Book → sign in → confirm" flow the
+  UI walks through turned out to be two HTTP calls under the hood. Used directly
+  — the same public API the site's own frontend calls — with the full
+  browser-automation flow kept as a tested, reliable fallback if anything about
+  the fast path doesn't pan out.
+- **Timing.** The strike moment is computed precisely (72h before class start).
+  The process sleeps until just before it, warms up its HTTP connection ~5
+  seconds ahead of time so the DNS/TLS handshake isn't sitting on the critical
+  path, then fires.
+- **Crash-safe cleanup.** Screenshots and result state are captured from inside
+  the still-alive Playwright context, not after it's already torn down — an easy
+  mistake that silently swallowed real failures in an earlier version, so
+  `status.json` never actually recorded what had gone wrong.
+- **Respecting the platform.** The fast path makes at most 3 requests per attempt
+  and never retries — the login endpoint rate-limits at 5 requests, and a
+  fallback attempt needs some of that budget left for its own login.
 
-The workflow also accepts a manual `workflow_dispatch` trigger with
-`class_date` / `class_time` inputs (Actions tab → "Run workflow"), which
-appends to the pending queue the same way the web UI does.
+## Stack
+
+Python · [Playwright](https://playwright.dev) · GitHub Actions · vanilla HTML/CSS/JS
+(no framework, no build step) on GitHub Pages.
+
+## Setup (to adapt this for your own use)
+
+1. Fork the repo.
+2. Add repo secrets: `GYM_EMAIL`, `GYM_PASSWORD`.
+3. Enable GitHub Pages: Settings → Pages → Source: **GitHub Actions**.
+4. Enable Actions if the fork disabled them by default.
+5. Open the Pages URL, create a [fine-grained GitHub token](https://github.com/settings/personal-access-tokens/new)
+   scoped to just this repo with **Contents: read & write**, paste it into the
+   dashboard's "GitHub Connection" card (stored only in that browser's
+   `localStorage`) — needed to arm/remove bookings, not to view status.
+
+## Safety & scope
+
+This automates a single personal account's own booking actions, against a
+service the operator is an actual paying member of, using the same public
+interfaces the service's own website already uses. It doesn't attempt to bypass
+authentication, access other members' data, or exceed the platform's documented
+rate limits.
+
+## License
+
+MIT — see [LICENSE](LICENSE).

@@ -66,16 +66,16 @@ jobs:
           python-version: '3.11'
       - name: Install Dependencies
         run: |
-          pip install playwright pytz requests
+          pip install -r requirements.txt
           playwright install chromium
       - name: Scrape Class List
         continue-on-error: true # don't let a scraper hiccup block the actual booking check
-        run: python scrape_classes.py
+        run: python bot/scraper.py
       - name: Run Booker
         env:
           GYM_EMAIL: ${{ secrets.GYM_EMAIL }}
           GYM_PASSWORD: ${{ secrets.GYM_PASSWORD }}
-        run: python gym_script.py
+        run: python bot/striker.py
       - name: Commit Status
         if: always()
         run: |
@@ -90,6 +90,6 @@ jobs:
         with:
           name: debug-screenshots
           path: |
-            gym-bot/final_failure.png
-            gym-bot/booking_result.png
+            final_failure.png
+            booking_result.png
           if-no-files-found: ignore

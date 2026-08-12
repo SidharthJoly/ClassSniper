@@ -137,7 +137,7 @@
   .field { margin-bottom: 14px; }
   .field:last-of-type { margin-bottom: 0; }
 
-  input {
+  input, select {
     width: 100%;
     background: var(--surface-2);
     border: 1px solid var(--border);
@@ -151,12 +151,13 @@
 
   input::placeholder { color: var(--text-faint); }
 
-  input:focus {
+  input:focus, select:focus {
     outline: none;
     border-color: var(--accent);
   }
 
   input[type="date"] { color-scheme: dark; }
+  select { color-scheme: dark; margin-bottom: 14px; }
 
   .hint {
     font-size: 12px;
@@ -236,7 +237,34 @@
   .booking-row:last-child { border-bottom: none; }
   .booking-row .info { font-size: 14px; }
   .booking-row .info .time { font-weight: 600; }
-  .booking-row .info .date { color: var(--text-dim); font-size: 13px; margin-top: 1px; }
+  .booking-row .info .name { color: var(--text-dim); font-size: 13px; margin-top: 1px; }
+  .booking-row .info .date { color: var(--text-faint); font-size: 12px; margin-top: 1px; }
+
+  /* Class picker rows */
+  .pick-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .pick-row:last-child { border-bottom: none; }
+  .pick-row .info { font-size: 14px; min-width: 0; }
+  .pick-row .info .time { font-weight: 600; }
+  .pick-row .info .name { color: var(--text); font-size: 13px; margin-top: 2px; }
+  .pick-row .info .meta { color: var(--text-faint); font-size: 12px; margin-top: 1px; }
+  .pick-row .action {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 6px;
+    flex-shrink: 0;
+  }
+  .spots { font-size: 11px; color: var(--success); white-space: nowrap; }
+  .spots.low { color: var(--warning); }
+  .spots.full { color: var(--text-faint); }
+  .btn-sm { padding: 6px 14px; font-size: 12px; }
 
   .empty-state {
     text-align: center;
@@ -312,17 +340,27 @@
   </div>
 
   <div class="section-label">Arm a Booking</div>
-  <div class="card">
-    <div class="field">
-      <label for="dateInput">Class date</label>
-      <input type="date" id="dateInput">
+  <div class="card" id="pickerCard">
+    <div class="skeleton" style="width:100%;height:40px"></div>
+  </div>
+
+  <div class="card" id="manualCard" style="margin-top:10px;">
+    <button class="btn-text" onclick="toggleManual()" id="manualToggle">Can't find it? Enter manually</button>
+    <div id="manualForm" style="display:none; margin-top:14px;">
+      <div class="field">
+        <label for="dateInput">Class date</label>
+        <input type="date" id="dateInput">
+      </div>
+      <div class="field">
+        <label for="timeInput">Class time</label>
+        <input type="text" id="timeInput" placeholder="e.g. 6:00 AM">
+      </div>
+      <button class="btn-ghost" style="width:100%" onclick="armManual()" id="armBtn">Arm Booking</button>
+      <div class="hint">
+        No specific class picked, so if two classes share this exact time and location the
+        bot may strike the wrong one. Blocked if &lt;30h away.
+      </div>
     </div>
-    <div class="field">
-      <label for="timeInput">Class time</label>
-      <input type="text" id="timeInput" placeholder="e.g. 6:00 AM">
-    </div>
-    <button class="btn-primary" onclick="armBooking()" id="armBtn">Arm Booking</button>
-    <div class="hint">Blocked if the class starts &lt;30h away — cancelling inside 24h incurs a fee.</div>
   </div>
 
   <div class="section-label">Pending Bookings</div>
@@ -496,6 +534,7 @@
         <div class="booking-row">
           <div class="info">
             <div class="time">${item.time}</div>
+            ${item.name ? `<div class="name">${item.name}</div>` : ''}
             <div class="date">${item.date}</div>
           </div>
           <button class="btn-icon" title="Remove" onclick="removeBooking(${i})">
@@ -526,8 +565,101 @@
     }
   }
 
-  // ---------- arm booking ----------
-  async function armBooking() {
+  // ---------- class picker (fed by class_list.json, scraped server-side) ----------
+  let classListCache = [];
+
+  function formatDateLabel(dateStr) {
+    const [y, m, d] = dateStr.split('-').map(Number);
+    const dt = new Date(y, m - 1, d);
+    return dt.toLocaleDateString('en-AU', { weekday: 'short', day: 'numeric', month: 'short' });
+  }
+
+  async function loadClassPicker() {
+    const card = document.getElementById('pickerCard');
+    try {
+      const classes = await fetchPublicJson('class_list.json');
+      classListCache = Array.isArray(classes) ? classes : [];
+      if (classListCache.length === 0) {
+        card.innerHTML = `<div class="empty-state">No armable classes right now (list refreshes every 15 min). Try manual entry below.</div>`;
+        return;
+      }
+      const dates = [...new Set(classListCache.map(c => c.date))];
+      renderPicker(dates[0]);
+    } catch (error) {
+      console.error(error);
+      card.innerHTML = `<div class="empty-state">Unable to load class list. Try manual entry below.</div>`;
+    }
+  }
+
+  function renderPicker(selectedDate) {
+    const card = document.getElementById('pickerCard');
+    const dates = [...new Set(classListCache.map(c => c.date))];
+    const options = dates.map(d =>
+      `<option value="${d}" ${d === selectedDate ? 'selected' : ''}>${formatDateLabel(d)}</option>`
+    ).join('');
+    const classesForDate = classListCache.filter(c => c.date === selectedDate);
+
+    const rows = classesForDate.map(c => {
+      const full = c.remaining_spots <= 0;
+      const low = !full && c.remaining_spots <= 3;
+      const spotsLabel = full ? 'Full' : `${c.remaining_spots} left`;
+      return `
+        <div class="pick-row">
+          <div class="info">
+            <div class="time">${c.time}</div>
+            <div class="name">${c.name}</div>
+            <div class="meta">${c.instructor || ''}</div>
+          </div>
+          <div class="action">
+            <span class="spots ${full ? 'full' : low ? 'low' : ''}">${spotsLabel}</span>
+            <button class="btn-ghost btn-sm" ${full ? 'disabled' : ''} onclick="armClass('${c.booking_id}')">Arm</button>
+          </div>
+        </div>
+      `;
+    }).join('');
+
+    card.innerHTML = `
+      <select id="dateSelect" onchange="renderPicker(this.value)">${options}</select>
+      <div>${rows || '<div class="empty-state">No classes that day.</div>'}</div>
+    `;
+  }
+
+  async function armClass(bookingId) {
+    const cls = classListCache.find(c => c.booking_id === bookingId);
+    if (!cls) return;
+    if (!getToken()) { toast('Connect your GitHub token first.', 'error'); return; }
+    try {
+      const file = await githubGetFile('pending_booking.json');
+      let payload = JSON.parse(decodeContent(file.content));
+      if (!Array.isArray(payload)) payload = [payload];
+      if (payload.some(b => b.booking_id === bookingId)) {
+        toast('That class is already queued.', 'error');
+        return;
+      }
+      payload.push({
+        booking_id: cls.booking_id,
+        date: cls.date,
+        time: cls.time,
+        name: cls.name,
+        instructor: cls.instructor,
+      });
+      const content = encodeContent(JSON.stringify(payload, null, 2));
+      await githubPutFile('pending_booking.json', `Arm ${cls.name} at ${cls.time} on ${cls.date}`, content, file.sha);
+      toast(`Armed: ${cls.name} at ${cls.time}.`, 'success');
+      loadPendingBookings();
+    } catch (error) {
+      console.error(error);
+      toast(`Failed to arm booking — ${error.message}`, 'error');
+    }
+  }
+
+  // ---------- manual fallback (no booking_id — same-time classes may be ambiguous) ----------
+  function toggleManual() {
+    const form = document.getElementById('manualForm');
+    form.style.display = form.style.display === 'none' ? 'block' : 'none';
+  }
+
+  async function armManual() {
     const date = document.getElementById('dateInput').value;
     const time = document.getElementById('timeInput').value.trim();
     if (!date || !time) { toast('Fill in both date and time.', 'error'); return; }
@@ -616,6 +748,7 @@
   renderConnectCard();
   loadStatus();
   loadPendingBookings();
+  loadClassPicker();
 </script>
 </body>
 </html>

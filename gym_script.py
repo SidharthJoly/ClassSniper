@@ -78,9 +78,37 @@ async def ensure_logged_in(page):
         await email_input.wait_for(state="hidden", timeout=15000)
 
 
-async def find_and_click_book(page, time_text):
-    """Returns (status, detail) where status is one of CLICKED / FULL / NOT_FOUND."""
-    target_parsed = parse_class_time(time_text)
+async def _click_row_book_button(row):
+    # The site renders both a desktop and mobile layout for each row (only one
+    # actually visible at a time), each with its own book-btn — scope to the
+    # visible one to avoid a strict-mode "resolved to 2 elements" error.
+    book_btn = row.locator('[data-testid="book-btn"]:visible')
+    if await book_btn.count() == 0:
+        return "NOT_FOUND", "Matched the class row but found no visible book button."
+    if not await book_btn.is_enabled():
+        btn_text = (await book_btn.inner_text()).strip()
+        return "FULL", f"Class is full ({btn_text})."
+    await book_btn.click()
+    return "CLICKED", None
+
+
+async def find_and_click_book(page, target):
+    """Returns (status, detail) where status is one of CLICKED / FULL / NOT_FOUND.
+
+    Same-time slots at the same location routinely have multiple distinct classes
+    (e.g. "Reformer: Sculpt" and "Athletica" both at 6:00 AM), so time alone can't
+    tell them apart. Prefer the exact booking_id from class_list.json when present;
+    fall back to time-matching for manually-typed entries that don't have one.
+    """
+    booking_id = target.get("booking_id")
+    if booking_id:
+        row = page.locator(f'[data-booking-id="{booking_id}"] [data-testid="class-row"]')
+        if await row.count() > 0:
+            return await _click_row_book_button(row)
+        # booking_id not on the page (e.g. stale class_list.json) — fall through
+        # to time-matching rather than failing outright.
+
+    target_parsed = parse_class_time(target["time"])
     rows = page.locator('[data-testid="class-row"]')
     count = await rows.count()
     for i in range(count):
@@ -91,18 +119,8 @@ async def find_and_click_book(page, time_text):
         row_parsed = parse_class_time((await time_el.inner_text()).strip())
         if row_parsed != target_parsed:
             continue
-        # The site renders both a desktop and mobile layout for each row (only one
-        # actually visible at a time), each with its own book-btn — scope to the
-        # visible one to avoid a strict-mode "resolved to 2 elements" error.
-        book_btn = row.locator('[data-testid="book-btn"]:visible')
-        if await book_btn.count() == 0:
-            return "NOT_FOUND", "Matched the class row but found no visible book button."
-        if not await book_btn.is_enabled():
-            btn_text = (await book_btn.inner_text()).strip()
-            return "FULL", f"Class is full ({btn_text})."
-        await book_btn.click()
-        return "CLICKED", None
-    return "NOT_FOUND", f"No class row found for time {time_text}."
+        return await _click_row_book_button(row)
+    return "NOT_FOUND", f"No class row found for time {target['time']}."
 
 
 async def _run_strike(page, target, location_name, result):
@@ -137,7 +155,7 @@ async def _run_strike(page, target, location_name, result):
     book_status = None
     book_detail = None
     for attempt in range(1, 6):
-        book_status, book_detail = await find_and_click_book(page, target['time'])
+        book_status, book_detail = await find_and_click_book(page, target)
         if book_status == "CLICKED":
             print(f"Attempt {attempt}: found {target['time']} and clicked Book.")
             break

@@ -1,7 +1,1972 @@
 [
   {
-    "date": "2026-04-16",
+    "booking_id": "104book40566",
+    "date": "2026-08-14",
+    "time": "3:00 PM",
+    "name": "Reformer: Signature",
+    "instructor": "Montana Cominos",
+    "location": "Newtown",
+    "remaining_spots": 3,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book40722",
+    "date": "2026-08-14",
+    "time": "4:00 PM",
+    "name": "Reformer: Signature",
+    "instructor": "Montana Cominos",
+    "location": "Newtown",
+    "remaining_spots": 0,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book39728",
+    "date": "2026-08-14",
+    "time": "4:00 PM",
+    "name": "Power Pilates",
+    "instructor": "Mia Callander",
+    "location": "Newtown",
+    "remaining_spots": 15,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book40092",
+    "date": "2026-08-14",
+    "time": "5:00 PM",
+    "name": "Athletica",
+    "instructor": "Jay Haydock",
+    "location": "Newtown",
+    "remaining_spots": 29,
+    "capacity": 32
+  },
+  {
+    "booking_id": "104book40148",
+    "date": "2026-08-14",
+    "time": "5:00 PM",
+    "name": "Mat Pilates",
+    "instructor": "Mia Callander",
+    "location": "Newtown",
+    "remaining_spots": 0,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book40618",
+    "date": "2026-08-14",
+    "time": "5:00 PM",
+    "name": "Reformer: Strong",
+    "instructor": "Montana Cominos",
+    "location": "Newtown",
+    "remaining_spots": 4,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book39986",
+    "date": "2026-08-14",
+    "time": "6:00 PM",
+    "name": "Athletica",
+    "instructor": "Jay Haydock",
+    "location": "Newtown",
+    "remaining_spots": 29,
+    "capacity": 32
+  },
+  {
+    "booking_id": "104book42003",
+    "date": "2026-08-15",
+    "time": "7:00 AM",
+    "name": "Athletica",
+    "instructor": "Chris Jumman",
+    "location": "Newtown",
+    "remaining_spots": 29,
+    "capacity": 32
+  },
+  {
+    "booking_id": "104book42476",
+    "date": "2026-08-15",
+    "time": "8:00 AM",
+    "name": "Reformer: Signature",
+    "instructor": "Mia Callander",
+    "location": "Newtown",
+    "remaining_spots": 0,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book41950",
+    "date": "2026-08-15",
+    "time": "8:00 AM",
+    "name": "Hour of Power",
+    "instructor": "Chris Jumman",
+    "location": "Newtown",
+    "remaining_spots": 0,
+    "capacity": 28
+  },
+  {
+    "booking_id": "104book53041",
+    "date": "2026-08-15",
+    "time": "8:30 AM",
+    "name": "Power Pilates",
+    "instructor": "Bronte Carrington",
+    "location": "Newtown",
+    "remaining_spots": 1,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book42268",
+    "date": "2026-08-15",
+    "time": "9:00 AM",
+    "name": "Reformer: Signature",
+    "instructor": "Mia Callander",
+    "location": "Newtown",
+    "remaining_spots": 0,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book41792",
+    "date": "2026-08-15",
+    "time": "9:15 AM",
+    "name": "Badass",
+    "instructor": "Chris Jumman",
+    "location": "Newtown",
+    "remaining_spots": 6,
+    "capacity": 28
+  },
+  {
+    "booking_id": "104book42164",
+    "date": "2026-08-15",
+    "time": "9:30 AM",
+    "name": "BodyBurn",
+    "instructor": "Bronte Carrington",
+    "location": "Newtown",
+    "remaining_spots": 0,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book42528",
+    "date": "2026-08-15",
+    "time": "10:00 AM",
+    "name": "Reformer: Strong",
+    "instructor": "Mia Callander",
+    "location": "Newtown",
+    "remaining_spots": 0,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book41687",
+    "date": "2026-08-15",
+    "time": "10:15 AM",
+    "name": "Gunshow",
+    "instructor": "Nathan Newman",
+    "location": "Newtown",
+    "remaining_spots": 9,
+    "capacity": 28
+  },
+  {
+    "booking_id": "104book42372",
+    "date": "2026-08-15",
+    "time": "10:30 AM",
+    "name": "Ritual",
+    "instructor": "Katie Jay",
+    "location": "Newtown",
+    "remaining_spots": 6,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book42320",
+    "date": "2026-08-15",
+    "time": "11:00 AM",
+    "name": "Reformer: Jump Board (Lower Body)",
+    "instructor": "Mia Callander",
+    "location": "Newtown",
+    "remaining_spots": 0,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book41845",
+    "date": "2026-08-15",
+    "time": "11:15 AM",
+    "name": "Calisthenics",
+    "instructor": "Nathan Newman",
+    "location": "Newtown",
+    "remaining_spots": 15,
+    "capacity": 28
+  },
+  {
+    "booking_id": "104book42059",
+    "date": "2026-08-15",
+    "time": "11:45 AM",
+    "name": "Yoga: Restore & Sound",
+    "instructor": "Katie Jay",
+    "location": "Newtown",
+    "remaining_spots": 16,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book42216",
+    "date": "2026-08-15",
+    "time": "12:00 PM",
+    "name": "Reformer: Signature",
+    "instructor": "Joe Jackson",
+    "location": "Newtown",
+    "remaining_spots": 0,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book25568",
+    "date": "2026-08-15",
+    "time": "12:15 PM",
+    "name": "Mobility",
+    "instructor": "Nathan Newman",
+    "location": "Newtown",
+    "remaining_spots": 13,
+    "capacity": 24
+  },
+  {
+    "booking_id": "104book41901",
+    "date": "2026-08-15",
+    "time": "1:00 PM",
+    "name": "Yoga: Flowstate",
+    "instructor": "Ivan Iglesias Garcia",
+    "location": "Newtown",
+    "remaining_spots": 16,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book42424",
+    "date": "2026-08-15",
+    "time": "1:00 PM",
+    "name": "Reformer: Strong",
+    "instructor": "Joe Jackson",
+    "location": "Newtown",
+    "remaining_spots": 11,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book41638",
+    "date": "2026-08-15",
+    "time": "2:00 PM",
+    "name": "Reformer: Signature",
+    "instructor": "Joe Jackson",
+    "location": "Newtown",
+    "remaining_spots": 2,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book44890",
+    "date": "2026-08-15",
+    "time": "2:15 PM",
+    "name": "Yoga: Restore & Sound",
+    "instructor": "Ivan Iglesias Garcia",
+    "location": "Newtown",
+    "remaining_spots": 19,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book36986",
+    "date": "2026-08-15",
+    "time": "3:00 PM",
+    "name": "Reformer: Jump Board (Lower Body)",
+    "instructor": "Joe Jackson",
+    "location": "Newtown",
+    "remaining_spots": 13,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book43472",
+    "date": "2026-08-16",
+    "time": "8:00 AM",
+    "name": "BodySculpt",
+    "instructor": "Eva Baonza",
+    "location": "Newtown",
+    "remaining_spots": 23,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book43629",
+    "date": "2026-08-16",
+    "time": "8:30 AM",
+    "name": "Reformer: Signature",
+    "instructor": "Mia Callander",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book43681",
+    "date": "2026-08-16",
+    "time": "9:00 AM",
+    "name": "Mat Pilates",
+    "instructor": "Eva Baonza",
+    "location": "Newtown",
+    "remaining_spots": 23,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book43577",
+    "date": "2026-08-16",
+    "time": "9:30 AM",
+    "name": "Reformer: Athletic",
+    "instructor": "Mia Callander",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book43420",
+    "date": "2026-08-16",
+    "time": "10:30 AM",
+    "name": "Reformer: Athletic",
+    "instructor": "Mia Callander",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book43525",
+    "date": "2026-08-16",
+    "time": "11:30 AM",
+    "name": "Reformer: Origins",
+    "instructor": "Mia Callander",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book43733",
+    "date": "2026-08-16",
+    "time": "12:30 PM",
+    "name": "Reformer: Signature",
+    "instructor": "Mia Callander",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book43837",
+    "date": "2026-08-16",
+    "time": "1:15 PM",
+    "name": "Yoga: Flowstate",
+    "instructor": "Ivan Iglesias Garcia",
+    "location": "Newtown",
+    "remaining_spots": 23,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book43993",
+    "date": "2026-08-16",
+    "time": "2:30 PM",
+    "name": "Yoga: Flowstate",
+    "instructor": "Ivan Iglesias Garcia",
+    "location": "Newtown",
+    "remaining_spots": 23,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book34855",
+    "date": "2026-08-17",
     "time": "6:00 AM",
-    "description": "Morning Yoga — Newtown"
+    "name": "Reformer: Signature",
+    "instructor": "Lily Cole",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book31632",
+    "date": "2026-08-17",
+    "time": "6:00 AM",
+    "name": "One Run Newtown",
+    "instructor": "Luke Sikora",
+    "location": "Newtown",
+    "remaining_spots": 50,
+    "capacity": 50
+  },
+  {
+    "booking_id": "104book33485",
+    "date": "2026-08-17",
+    "time": "6:00 AM",
+    "name": "Athletica",
+    "instructor": "Enif Alvarez",
+    "location": "Newtown",
+    "remaining_spots": 32,
+    "capacity": 32
+  },
+  {
+    "booking_id": "104book33910",
+    "date": "2026-08-17",
+    "time": "6:30 AM",
+    "name": "Mat Pilates",
+    "instructor": "Sienna Egan",
+    "location": "Newtown",
+    "remaining_spots": 23,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book33644",
+    "date": "2026-08-17",
+    "time": "7:00 AM",
+    "name": "Athletica",
+    "instructor": "Enif Alvarez",
+    "location": "Newtown",
+    "remaining_spots": 32,
+    "capacity": 32
+  },
+  {
+    "booking_id": "104book34592",
+    "date": "2026-08-17",
+    "time": "7:00 AM",
+    "name": "Reformer: Signature",
+    "instructor": "Lily Cole",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book34540",
+    "date": "2026-08-17",
+    "time": "7:30 AM",
+    "name": "Bodysculpt",
+    "instructor": "Sienna Egan",
+    "location": "Newtown",
+    "remaining_spots": 23,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book34384",
+    "date": "2026-08-17",
+    "time": "8:00 AM",
+    "name": "Reformer: Signature",
+    "instructor": "Lily Cole",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book33538",
+    "date": "2026-08-17",
+    "time": "8:00 AM",
+    "name": "Athletica",
+    "instructor": "Enif Alvarez",
+    "location": "Newtown",
+    "remaining_spots": 32,
+    "capacity": 32
+  },
+  {
+    "booking_id": "104book34697",
+    "date": "2026-08-17",
+    "time": "8:30 AM",
+    "name": "Mat Pilates",
+    "instructor": "Sienna Egan",
+    "location": "Newtown",
+    "remaining_spots": 23,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book50491",
+    "date": "2026-08-17",
+    "time": "9:00 AM",
+    "name": "Reformer: Sculpt",
+    "instructor": "Kayla Stanton",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book33698",
+    "date": "2026-08-17",
+    "time": "9:30 AM",
+    "name": "Barre Signature",
+    "instructor": "Kristen Marconi",
+    "location": "Newtown",
+    "remaining_spots": 23,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book45882",
+    "date": "2026-08-17",
+    "time": "10:00 AM",
+    "name": "Reformer: Signature",
+    "instructor": "Kayla Stanton",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book34801",
+    "date": "2026-08-17",
+    "time": "10:30 AM",
+    "name": "Mat Pilates",
+    "instructor": "Kristen Marconi",
+    "location": "Newtown",
+    "remaining_spots": 23,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book34748",
+    "date": "2026-08-17",
+    "time": "11:00 AM",
+    "name": "Reformer: Signature",
+    "instructor": "Kayla Stanton",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book45576",
+    "date": "2026-08-17",
+    "time": "12:00 PM",
+    "name": "Reformer: Strong",
+    "instructor": "Kayla Stanton",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book33750",
+    "date": "2026-08-17",
+    "time": "12:15 PM",
+    "name": "Strong",
+    "instructor": "Enif Alvarez",
+    "location": "Newtown",
+    "remaining_spots": 28,
+    "capacity": 28
+  },
+  {
+    "booking_id": "104book45739",
+    "date": "2026-08-17",
+    "time": "1:00 PM",
+    "name": "Reformer: Signature",
+    "instructor": "Kayla Stanton",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book32713",
+    "date": "2026-08-17",
+    "time": "2:00 PM",
+    "name": "Reformer: Signature",
+    "instructor": "Sophia Rambaldini",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book32764",
+    "date": "2026-08-17",
+    "time": "3:00 PM",
+    "name": "Reformer: Signature",
+    "instructor": "Sophia Rambaldini",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book34174",
+    "date": "2026-08-17",
+    "time": "4:00 PM",
+    "name": "Reformer: Jump Board (Lower Body)",
+    "instructor": "Robynne Henry",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book34122",
+    "date": "2026-08-17",
+    "time": "5:00 PM",
+    "name": "Reformer: Jump Board (Lower Body)",
+    "instructor": "Robynne Henry",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book33803",
+    "date": "2026-08-17",
+    "time": "5:15 PM",
+    "name": "Strong",
+    "instructor": "Jose Da Rocha",
+    "location": "Newtown",
+    "remaining_spots": 28,
+    "capacity": 28
+  },
+  {
+    "booking_id": "104book33858",
+    "date": "2026-08-17",
+    "time": "5:30 PM",
+    "name": "Fiesta",
+    "instructor": "Maria Camila Silva Lopez",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book34070",
+    "date": "2026-08-17",
+    "time": "6:00 PM",
+    "name": "Reformer: Signature",
+    "instructor": "Robynne Henry",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book33591",
+    "date": "2026-08-17",
+    "time": "6:15 PM",
+    "name": "Strong",
+    "instructor": "Jose Da Rocha",
+    "location": "Newtown",
+    "remaining_spots": 28,
+    "capacity": 28
+  },
+  {
+    "booking_id": "104book34330",
+    "date": "2026-08-17",
+    "time": "6:30 PM",
+    "name": "Yoga: Empower",
+    "instructor": "Jessy Franks",
+    "location": "Newtown",
+    "remaining_spots": 23,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book34226",
+    "date": "2026-08-17",
+    "time": "7:00 PM",
+    "name": "Reformer: Origins",
+    "instructor": "Robynne Henry",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book33433",
+    "date": "2026-08-17",
+    "time": "7:15 PM",
+    "name": "Gunshow",
+    "instructor": "Jose Da Rocha",
+    "location": "Newtown",
+    "remaining_spots": 28,
+    "capacity": 28
+  },
+  {
+    "booking_id": "104book34277",
+    "date": "2026-08-17",
+    "time": "7:30 PM",
+    "name": "Yoga: Flowstate",
+    "instructor": "Jessy Franks",
+    "location": "Newtown",
+    "remaining_spots": 23,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book35013",
+    "date": "2026-08-18",
+    "time": "6:00 AM",
+    "name": "Strong",
+    "instructor": "Jack Bowen",
+    "location": "Newtown",
+    "remaining_spots": 28,
+    "capacity": 28
+  },
+  {
+    "booking_id": "104book35387",
+    "date": "2026-08-18",
+    "time": "6:00 AM",
+    "name": "Reformer: Strong",
+    "instructor": "Sienna Lopez",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book35334",
+    "date": "2026-08-18",
+    "time": "6:30 AM",
+    "name": "Yoga: Flowstate",
+    "instructor": "Sunil Tailor",
+    "location": "Newtown",
+    "remaining_spots": 23,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book35490",
+    "date": "2026-08-18",
+    "time": "7:00 AM",
+    "name": "Strong",
+    "instructor": "Jack Bowen",
+    "location": "Newtown",
+    "remaining_spots": 28,
+    "capacity": 28
+  },
+  {
+    "booking_id": "104book35773",
+    "date": "2026-08-18",
+    "time": "7:00 AM",
+    "name": "Reformer: Signature",
+    "instructor": "Sienna Lopez",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book35440",
+    "date": "2026-08-18",
+    "time": "7:30 AM",
+    "name": "Yoga: Origins",
+    "instructor": "Sunil Tailor",
+    "location": "Newtown",
+    "remaining_spots": 23,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book36038",
+    "date": "2026-08-18",
+    "time": "8:00 AM",
+    "name": "Reformer: Signature",
+    "instructor": "Sienna Lopez",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book44778",
+    "date": "2026-08-18",
+    "time": "9:00 AM",
+    "name": "Barre Signature",
+    "instructor": "Michael Roache",
+    "location": "Newtown",
+    "remaining_spots": 23,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book35932",
+    "date": "2026-08-18",
+    "time": "9:00 AM",
+    "name": "Reformer: Strong",
+    "instructor": "Sienna Lopez",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book36091",
+    "date": "2026-08-18",
+    "time": "10:00 AM",
+    "name": "Reformer: Signature",
+    "instructor": "Neave Welch",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book35175",
+    "date": "2026-08-18",
+    "time": "10:00 AM",
+    "name": "Yoga: Flowstate",
+    "instructor": "Michael Roache",
+    "location": "Newtown",
+    "remaining_spots": 23,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book35720",
+    "date": "2026-08-18",
+    "time": "11:00 AM",
+    "name": "Reformer: Signature",
+    "instructor": "Neave Welch",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book34961",
+    "date": "2026-08-18",
+    "time": "12:00 PM",
+    "name": "Reformer: Signature",
+    "instructor": "Neave Welch",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book35066",
+    "date": "2026-08-18",
+    "time": "12:30 PM",
+    "name": "Badass",
+    "instructor": "Jack Bowen",
+    "location": "Newtown",
+    "remaining_spots": 28,
+    "capacity": 28
+  },
+  {
+    "booking_id": "104book35985",
+    "date": "2026-08-18",
+    "time": "1:00 PM",
+    "name": "Reformer: Athletic",
+    "instructor": "Neave Welch",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book35879",
+    "date": "2026-08-18",
+    "time": "2:00 PM",
+    "name": "Reformer: Jump Board (Lower Body)",
+    "instructor": "Neave Welch",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book35667",
+    "date": "2026-08-18",
+    "time": "3:00 PM",
+    "name": "Reformer: Signature",
+    "instructor": "Neave Welch",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book35614",
+    "date": "2026-08-18",
+    "time": "4:00 PM",
+    "name": "Reformer: Signature",
+    "instructor": "Bethany Rumore",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book33963",
+    "date": "2026-08-18",
+    "time": "5:00 PM",
+    "name": "Mat Pilates",
+    "instructor": "Joe Jackson",
+    "location": "Newtown",
+    "remaining_spots": 23,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book50647",
+    "date": "2026-08-18",
+    "time": "5:00 PM",
+    "name": "Reformer: Sculpt",
+    "instructor": "Bethany Rumore",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book35543",
+    "date": "2026-08-18",
+    "time": "5:15 PM",
+    "name": "Badass",
+    "instructor": "Chris Jumman",
+    "location": "Newtown",
+    "remaining_spots": 28,
+    "capacity": 28
+  },
+  {
+    "booking_id": "104book50752",
+    "date": "2026-08-18",
+    "time": "6:00 PM",
+    "name": "Reformer: Sculpt",
+    "instructor": "Bethany Rumore",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book35228",
+    "date": "2026-08-18",
+    "time": "6:00 PM",
+    "name": "BodySculpt",
+    "instructor": "Joe Jackson",
+    "location": "Newtown",
+    "remaining_spots": 23,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book35119",
+    "date": "2026-08-18",
+    "time": "6:15 PM",
+    "name": "Badass",
+    "instructor": "Chris Jumman",
+    "location": "Newtown",
+    "remaining_spots": 28,
+    "capacity": 28
+  },
+  {
+    "booking_id": "104book36201",
+    "date": "2026-08-18",
+    "time": "7:00 PM",
+    "name": "Reformer: Signature",
+    "instructor": "Bethany Rumore",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book35278",
+    "date": "2026-08-18",
+    "time": "7:15 PM",
+    "name": "Badass",
+    "instructor": "Chris Jumman",
+    "location": "Newtown",
+    "remaining_spots": 28,
+    "capacity": 28
+  },
+  {
+    "booking_id": "104book36918",
+    "date": "2026-08-19",
+    "time": "6:00 AM",
+    "name": "Strong",
+    "instructor": "Enif Alvarez",
+    "location": "Newtown",
+    "remaining_spots": 28,
+    "capacity": 28
+  },
+  {
+    "booking_id": "104book37841",
+    "date": "2026-08-19",
+    "time": "6:00 AM",
+    "name": "Reformer: Signature",
+    "instructor": "Sophia Rambaldini",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book36448",
+    "date": "2026-08-19",
+    "time": "6:30 AM",
+    "name": "BodySculpt",
+    "instructor": "Kristen Marconi",
+    "location": "Newtown",
+    "remaining_spots": 23,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book36759",
+    "date": "2026-08-19",
+    "time": "7:00 AM",
+    "name": "Badass",
+    "instructor": "Enif Alvarez",
+    "location": "Newtown",
+    "remaining_spots": 28,
+    "capacity": 28
+  },
+  {
+    "booking_id": "104book37685",
+    "date": "2026-08-19",
+    "time": "7:00 AM",
+    "name": "Reformer: Origins",
+    "instructor": "Sophia Rambaldini",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book36196",
+    "date": "2026-08-19",
+    "time": "7:30 AM",
+    "name": "Mat Pilates",
+    "instructor": "Kristen Marconi",
+    "location": "Newtown",
+    "remaining_spots": 23,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book50596",
+    "date": "2026-08-19",
+    "time": "8:00 AM",
+    "name": "Reformer: Sculpt",
+    "instructor": "Sophia Rambaldini",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book36497",
+    "date": "2026-08-19",
+    "time": "8:00 AM",
+    "name": "Gunshow",
+    "instructor": "Enif Alvarez",
+    "location": "Newtown",
+    "remaining_spots": 28,
+    "capacity": 28
+  },
+  {
+    "booking_id": "104book37529",
+    "date": "2026-08-19",
+    "time": "9:00 AM",
+    "name": "Reformer: Signature",
+    "instructor": "Sophia Rambaldini",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book37477",
+    "date": "2026-08-19",
+    "time": "10:00 AM",
+    "name": "Reformer: Signature",
+    "instructor": "Sienna Egan",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book37893",
+    "date": "2026-08-19",
+    "time": "11:00 AM",
+    "name": "Reformer: Signature",
+    "instructor": "Sienna Egan",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book37789",
+    "date": "2026-08-19",
+    "time": "12:00 PM",
+    "name": "Reformer: Signature",
+    "instructor": "Sienna Egan",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book36812",
+    "date": "2026-08-19",
+    "time": "12:30 PM",
+    "name": "Athletica",
+    "instructor": "Jose Da Rocha",
+    "location": "Newtown",
+    "remaining_spots": 32,
+    "capacity": 32
+  },
+  {
+    "booking_id": "104book37581",
+    "date": "2026-08-19",
+    "time": "1:00 PM",
+    "name": "Reformer: Signature",
+    "instructor": "Sienna Egan",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book37737",
+    "date": "2026-08-19",
+    "time": "2:00 PM",
+    "name": "Reformer: Signature",
+    "instructor": "Alison Bruton",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book37997",
+    "date": "2026-08-19",
+    "time": "3:00 PM",
+    "name": "Reformer: Signature",
+    "instructor": "Alison Bruton",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book38205",
+    "date": "2026-08-19",
+    "time": "4:00 PM",
+    "name": "Reformer: Strong",
+    "instructor": "Robynne Henry",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book36144",
+    "date": "2026-08-19",
+    "time": "5:00 PM",
+    "name": "Mat Pilates",
+    "instructor": "Lily Cole",
+    "location": "Newtown",
+    "remaining_spots": 23,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book38101",
+    "date": "2026-08-19",
+    "time": "5:00 PM",
+    "name": "Reformer: Signature",
+    "instructor": "Robynne Henry",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book36550",
+    "date": "2026-08-19",
+    "time": "5:30 PM",
+    "name": "Athletica",
+    "instructor": "Enif Alvarez",
+    "location": "Newtown",
+    "remaining_spots": 32,
+    "capacity": 32
+  },
+  {
+    "booking_id": "104book38153",
+    "date": "2026-08-19",
+    "time": "6:00 PM",
+    "name": "Reformer: Strong",
+    "instructor": "Robynne Henry",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book36606",
+    "date": "2026-08-19",
+    "time": "6:00 PM",
+    "name": "Mat Pilates",
+    "instructor": "Lily Cole",
+    "location": "Newtown",
+    "remaining_spots": 23,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book36865",
+    "date": "2026-08-19",
+    "time": "6:30 PM",
+    "name": "Athletica",
+    "instructor": "Enif Alvarez",
+    "location": "Newtown",
+    "remaining_spots": 32,
+    "capacity": 32
+  },
+  {
+    "booking_id": "104book37633",
+    "date": "2026-08-19",
+    "time": "7:00 PM",
+    "name": "Breathwork: Deep Calm (Evening)",
+    "instructor": "Daniel Augustine",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book38049",
+    "date": "2026-08-19",
+    "time": "7:00 PM",
+    "name": "Reformer: Signature",
+    "instructor": "Robynne Henry",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book51101",
+    "date": "2026-08-20",
+    "time": "6:00 AM",
+    "name": "Reformer: Sculpt",
+    "instructor": "Bethany Rumore",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book38625",
+    "date": "2026-08-20",
+    "time": "6:00 AM",
+    "name": "Athletica",
+    "instructor": "Jack Bowen",
+    "location": "Newtown",
+    "remaining_spots": 32,
+    "capacity": 32
+  },
+  {
+    "booking_id": "104book39625",
+    "date": "2026-08-20",
+    "time": "6:30 AM",
+    "name": "Mat Pilates",
+    "instructor": "Leah Ferguson",
+    "location": "Newtown",
+    "remaining_spots": 23,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book50857",
+    "date": "2026-08-20",
+    "time": "7:00 AM",
+    "name": "Reformer: Sculpt",
+    "instructor": "Bethany Rumore",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book38360",
+    "date": "2026-08-20",
+    "time": "7:00 AM",
+    "name": "Athletica",
+    "instructor": "Jack Bowen",
+    "location": "Newtown",
+    "remaining_spots": 32,
+    "capacity": 32
+  },
+  {
+    "booking_id": "104book38681",
+    "date": "2026-08-20",
+    "time": "7:30 AM",
+    "name": "Mat Pilates",
+    "instructor": "Leah Ferguson",
+    "location": "Newtown",
+    "remaining_spots": 23,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book39469",
+    "date": "2026-08-20",
+    "time": "8:00 AM",
+    "name": "Reformer: Strong",
+    "instructor": "Bethany Rumore",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book39053",
+    "date": "2026-08-20",
+    "time": "9:00 AM",
+    "name": "Reformer: Signature",
+    "instructor": "Bethany Rumore",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book38470",
+    "date": "2026-08-20",
+    "time": "9:30 AM",
+    "name": "Yoga: Flowstate",
+    "instructor": "Tess Williams",
+    "location": "Newtown",
+    "remaining_spots": 23,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book39313",
+    "date": "2026-08-20",
+    "time": "10:00 AM",
+    "name": "Reformer: Signature",
+    "instructor": "Amelia Gartner",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book38522",
+    "date": "2026-08-20",
+    "time": "10:30 AM",
+    "name": "Mat Pilates",
+    "instructor": "Tess Williams",
+    "location": "Newtown",
+    "remaining_spots": 23,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book39105",
+    "date": "2026-08-20",
+    "time": "11:00 AM",
+    "name": "Reformer: Signature",
+    "instructor": "Amelia Gartner",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book39261",
+    "date": "2026-08-20",
+    "time": "12:00 PM",
+    "name": "Reformer: Strong",
+    "instructor": "Amelia Gartner",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book38730",
+    "date": "2026-08-20",
+    "time": "12:30 PM",
+    "name": "Athletica",
+    "instructor": "Jack Bowen",
+    "location": "Newtown",
+    "remaining_spots": 32,
+    "capacity": 32
+  },
+  {
+    "booking_id": "104book39001",
+    "date": "2026-08-20",
+    "time": "1:00 PM",
+    "name": "Reformer: Signature",
+    "instructor": "Amelia Gartner",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book39365",
+    "date": "2026-08-20",
+    "time": "2:00 PM",
+    "name": "Reformer: Signature",
+    "instructor": "Monica Faundez",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book39157",
+    "date": "2026-08-20",
+    "time": "3:00 PM",
+    "name": "Reformer: Strong",
+    "instructor": "Monica Faundez",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book39209",
+    "date": "2026-08-20",
+    "time": "4:00 PM",
+    "name": "Reformer: Signature",
+    "instructor": "Monica Faundez",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book38841",
+    "date": "2026-08-20",
+    "time": "4:30 PM",
+    "name": "Strong",
+    "instructor": "Chris Jumman",
+    "location": "Newtown",
+    "remaining_spots": 28,
+    "capacity": 28
+  },
+  {
+    "booking_id": "104book38259",
+    "date": "2026-08-20",
+    "time": "5:00 PM",
+    "name": "Mat Pilates",
+    "instructor": "Abigail Wells",
+    "location": "Newtown",
+    "remaining_spots": 23,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book39417",
+    "date": "2026-08-20",
+    "time": "5:00 PM",
+    "name": "Reformer: Strong",
+    "instructor": "Monica Faundez",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book38413",
+    "date": "2026-08-20",
+    "time": "5:30 PM",
+    "name": "Strong",
+    "instructor": "Chris Jumman",
+    "location": "Newtown",
+    "remaining_spots": 28,
+    "capacity": 28
+  },
+  {
+    "booking_id": "104book46176",
+    "date": "2026-08-20",
+    "time": "6:00 PM",
+    "name": "Mat Pilates",
+    "instructor": "Abigail Wells",
+    "location": "Newtown",
+    "remaining_spots": 23,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book38897",
+    "date": "2026-08-20",
+    "time": "6:00 PM",
+    "name": "Reformer: Signature",
+    "instructor": "Elizabeth Chun",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book30599",
+    "date": "2026-08-20",
+    "time": "6:30 PM",
+    "name": "Calisthenics",
+    "instructor": "Nathan Newman",
+    "location": "Newtown",
+    "remaining_spots": 28,
+    "capacity": 28
+  },
+  {
+    "booking_id": "104book38949",
+    "date": "2026-08-20",
+    "time": "7:00 PM",
+    "name": "Reformer: Signature",
+    "instructor": "Elizabeth Chun",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book39573",
+    "date": "2026-08-20",
+    "time": "7:00 PM",
+    "name": "Commercial Dance Choreography",
+    "instructor": "Abigail Wells",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book38571",
+    "date": "2026-08-20",
+    "time": "7:30 PM",
+    "name": "Mobility",
+    "instructor": "Nathan Newman",
+    "location": "Newtown",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "104book40775",
+    "date": "2026-08-21",
+    "time": "6:00 AM",
+    "name": "Reformer: Jump Board (Lower Body)",
+    "instructor": "Montana Cominos",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book40040",
+    "date": "2026-08-21",
+    "time": "6:00 AM",
+    "name": "Strong",
+    "instructor": "Jose Da Rocha",
+    "location": "Newtown",
+    "remaining_spots": 28,
+    "capacity": 28
+  },
+  {
+    "booking_id": "104book39781",
+    "date": "2026-08-21",
+    "time": "6:30 AM",
+    "name": "BodyBurn",
+    "instructor": "Eleni Vlahos",
+    "location": "Newtown",
+    "remaining_spots": 23,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book51747",
+    "date": "2026-08-21",
+    "time": "7:00 AM",
+    "name": "Reformer: Strong",
+    "instructor": "Montana Cominos",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book40303",
+    "date": "2026-08-21",
+    "time": "7:00 AM",
+    "name": "Athletica",
+    "instructor": "Jose Da Rocha",
+    "location": "Newtown",
+    "remaining_spots": 32,
+    "capacity": 32
+  },
+  {
+    "booking_id": "104book39885",
+    "date": "2026-08-21",
+    "time": "7:30 AM",
+    "name": "Mat Pilates",
+    "instructor": "Eleni Vlahos",
+    "location": "Newtown",
+    "remaining_spots": 23,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book39934",
+    "date": "2026-08-21",
+    "time": "8:00 AM",
+    "name": "Badass",
+    "instructor": "Jose Da Rocha",
+    "location": "Newtown",
+    "remaining_spots": 28,
+    "capacity": 28
+  },
+  {
+    "booking_id": "104book40411",
+    "date": "2026-08-21",
+    "time": "8:00 AM",
+    "name": "Reformer: Strong",
+    "instructor": "Montana Cominos",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book40463",
+    "date": "2026-08-21",
+    "time": "9:00 AM",
+    "name": "Reformer: Signature",
+    "instructor": "Sienna Egan",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book40931",
+    "date": "2026-08-21",
+    "time": "10:00 AM",
+    "name": "Reformer: Signature",
+    "instructor": "Sienna Egan",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book40827",
+    "date": "2026-08-21",
+    "time": "11:00 AM",
+    "name": "Reformer: Athletic",
+    "instructor": "Sienna Egan",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book39833",
+    "date": "2026-08-21",
+    "time": "11:30 AM",
+    "name": "Yoga: Flowstate",
+    "instructor": "Jessy Franks",
+    "location": "Newtown",
+    "remaining_spots": 23,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book40359",
+    "date": "2026-08-21",
+    "time": "12:00 PM",
+    "name": "Reformer: Signature",
+    "instructor": "Sienna Egan",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book40254",
+    "date": "2026-08-21",
+    "time": "12:30 PM",
+    "name": "Yoga: Empower",
+    "instructor": "Jessy Franks",
+    "location": "Newtown",
+    "remaining_spots": 23,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book40198",
+    "date": "2026-08-21",
+    "time": "12:30 PM",
+    "name": "Strong",
+    "instructor": "Enif Alvarez",
+    "location": "Newtown",
+    "remaining_spots": 28,
+    "capacity": 28
+  },
+  {
+    "booking_id": "104book40879",
+    "date": "2026-08-21",
+    "time": "1:00 PM",
+    "name": "Reformer: Signature",
+    "instructor": "Sienna Egan",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book40567",
+    "date": "2026-08-21",
+    "time": "3:00 PM",
+    "name": "Reformer: Signature",
+    "instructor": "Neave Welch",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book39729",
+    "date": "2026-08-21",
+    "time": "4:00 PM",
+    "name": "Power Pilates",
+    "instructor": "Eva Baonza",
+    "location": "Newtown",
+    "remaining_spots": 23,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book40723",
+    "date": "2026-08-21",
+    "time": "4:00 PM",
+    "name": "Reformer: Signature",
+    "instructor": "Neave Welch",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book40149",
+    "date": "2026-08-21",
+    "time": "5:00 PM",
+    "name": "Mat Pilates",
+    "instructor": "Eva Baonza",
+    "location": "Newtown",
+    "remaining_spots": 23,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book40619",
+    "date": "2026-08-21",
+    "time": "5:00 PM",
+    "name": "Reformer: Strong",
+    "instructor": "Neave Welch",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book40093",
+    "date": "2026-08-21",
+    "time": "5:00 PM",
+    "name": "Athletica",
+    "instructor": "Enif Alvarez",
+    "location": "Newtown",
+    "remaining_spots": 32,
+    "capacity": 32
+  },
+  {
+    "booking_id": "104book39987",
+    "date": "2026-08-21",
+    "time": "6:00 PM",
+    "name": "Athletica",
+    "instructor": "Enif Alvarez",
+    "location": "Newtown",
+    "remaining_spots": 32,
+    "capacity": 32
+  },
+  {
+    "booking_id": "104book42004",
+    "date": "2026-08-22",
+    "time": "7:00 AM",
+    "name": "Athletica",
+    "instructor": "Enif Alvarez",
+    "location": "Newtown",
+    "remaining_spots": 32,
+    "capacity": 32
+  },
+  {
+    "booking_id": "104book42477",
+    "date": "2026-08-22",
+    "time": "8:00 AM",
+    "name": "Reformer: Signature",
+    "instructor": "Jordanna Chapman",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book41951",
+    "date": "2026-08-22",
+    "time": "8:00 AM",
+    "name": "Hour of Power",
+    "instructor": "Enif Alvarez",
+    "location": "Newtown",
+    "remaining_spots": 28,
+    "capacity": 28
+  },
+  {
+    "booking_id": "104book41579",
+    "date": "2026-08-22",
+    "time": "8:30 AM",
+    "name": "Barre Signature",
+    "instructor": "Sarah Goring",
+    "location": "Newtown",
+    "remaining_spots": 23,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book42269",
+    "date": "2026-08-22",
+    "time": "9:00 AM",
+    "name": "Reformer: Signature",
+    "instructor": "Jordanna Chapman",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book41793",
+    "date": "2026-08-22",
+    "time": "9:15 AM",
+    "name": "Badass",
+    "instructor": "Enif Alvarez",
+    "location": "Newtown",
+    "remaining_spots": 28,
+    "capacity": 28
+  },
+  {
+    "booking_id": "104book42165",
+    "date": "2026-08-22",
+    "time": "9:30 AM",
+    "name": "BodyBurn",
+    "instructor": "Sarah Goring",
+    "location": "Newtown",
+    "remaining_spots": 23,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book42529",
+    "date": "2026-08-22",
+    "time": "10:00 AM",
+    "name": "Reformer: Strong",
+    "instructor": "Sophia Rambaldini",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book41688",
+    "date": "2026-08-22",
+    "time": "10:15 AM",
+    "name": "Gunshow",
+    "instructor": "Enif Alvarez",
+    "location": "Newtown",
+    "remaining_spots": 28,
+    "capacity": 28
+  },
+  {
+    "booking_id": "104book42373",
+    "date": "2026-08-22",
+    "time": "10:30 AM",
+    "name": "Ritual",
+    "instructor": "Katie Jay",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book42321",
+    "date": "2026-08-22",
+    "time": "11:00 AM",
+    "name": "Reformer: Jump Board (Lower Body)",
+    "instructor": "Sophia Rambaldini",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book41846",
+    "date": "2026-08-22",
+    "time": "11:15 AM",
+    "name": "Calisthenics",
+    "instructor": "Nathan Newman",
+    "location": "Newtown",
+    "remaining_spots": 28,
+    "capacity": 28
+  },
+  {
+    "booking_id": "104book42060",
+    "date": "2026-08-22",
+    "time": "11:45 AM",
+    "name": "Yoga: Restore & Sound",
+    "instructor": "Katie Jay",
+    "location": "Newtown",
+    "remaining_spots": 23,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book42217",
+    "date": "2026-08-22",
+    "time": "12:00 PM",
+    "name": "Reformer: Signature",
+    "instructor": "Alison Bruton",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book25569",
+    "date": "2026-08-22",
+    "time": "12:15 PM",
+    "name": "Mobility",
+    "instructor": "Nathan Newman",
+    "location": "Newtown",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "104book42425",
+    "date": "2026-08-22",
+    "time": "1:00 PM",
+    "name": "Reformer: Strong",
+    "instructor": "Alison Bruton",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book41902",
+    "date": "2026-08-22",
+    "time": "1:00 PM",
+    "name": "Yoga: Flowstate",
+    "instructor": "Chanel Leaudais",
+    "location": "Newtown",
+    "remaining_spots": 23,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book41639",
+    "date": "2026-08-22",
+    "time": "2:00 PM",
+    "name": "Reformer: Signature",
+    "instructor": "Sophia Rambaldini",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book44891",
+    "date": "2026-08-22",
+    "time": "2:15 PM",
+    "name": "Yoga: Restore & Sound",
+    "instructor": "Bridget Surdich",
+    "location": "Newtown",
+    "remaining_spots": 23,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book36987",
+    "date": "2026-08-22",
+    "time": "3:00 PM",
+    "name": "Reformer: Jump Board (Lower Body)",
+    "instructor": "Sophia Rambaldini",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book43473",
+    "date": "2026-08-23",
+    "time": "8:00 AM",
+    "name": "BodySculpt",
+    "instructor": "Joe Jackson",
+    "location": "Newtown",
+    "remaining_spots": 23,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book43630",
+    "date": "2026-08-23",
+    "time": "8:30 AM",
+    "name": "Reformer: Signature",
+    "instructor": "Mia Callander",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book43682",
+    "date": "2026-08-23",
+    "time": "9:00 AM",
+    "name": "Mat Pilates",
+    "instructor": "Joe Jackson",
+    "location": "Newtown",
+    "remaining_spots": 23,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book43578",
+    "date": "2026-08-23",
+    "time": "9:30 AM",
+    "name": "Reformer: Athletic",
+    "instructor": "Mia Callander",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book43421",
+    "date": "2026-08-23",
+    "time": "10:30 AM",
+    "name": "Reformer: Athletic",
+    "instructor": "Mia Callander",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book43526",
+    "date": "2026-08-23",
+    "time": "11:30 AM",
+    "name": "Reformer: Origins",
+    "instructor": "Mia Callander",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book43734",
+    "date": "2026-08-23",
+    "time": "12:30 PM",
+    "name": "Reformer: Signature",
+    "instructor": "Mia Callander",
+    "location": "Newtown",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
+    "booking_id": "104book43838",
+    "date": "2026-08-23",
+    "time": "1:15 PM",
+    "name": "Yoga: Flowstate",
+    "instructor": "Emma Weissburg",
+    "location": "Newtown",
+    "remaining_spots": 23,
+    "capacity": 23
+  },
+  {
+    "booking_id": "104book43994",
+    "date": "2026-08-23",
+    "time": "2:30 PM",
+    "name": "Yoga: Flowstate",
+    "instructor": "Emma Weissburg",
+    "location": "Newtown",
+    "remaining_spots": 23,
+    "capacity": 23
   }
 ]

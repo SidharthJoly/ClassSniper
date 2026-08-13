@@ -1833,7 +1833,7 @@
     "class_type": "Yoga Series",
     "instructor": "Laila Nawsheen",
     "location": "Surry Hills",
-    "remaining_spots": 19,
+    "remaining_spots": 20,
     "capacity": 34
   },
   {
@@ -2383,7 +2383,7 @@
     "class_type": "Reformer Series",
     "instructor": "Mia Callander",
     "location": "Newtown",
-    "remaining_spots": 13,
+    "remaining_spots": 14,
     "capacity": 20
   },
   {
@@ -2493,7 +2493,7 @@
     "class_type": "Reformer Series",
     "instructor": "Bethany Rumore",
     "location": "Marrickville",
-    "remaining_spots": 14,
+    "remaining_spots": 13,
     "capacity": 15
   },
   {
@@ -2515,7 +2515,7 @@
     "class_type": "Reformer Series",
     "instructor": "Mia Callander",
     "location": "Newtown",
-    "remaining_spots": 9,
+    "remaining_spots": 6,
     "capacity": 20
   },
   {

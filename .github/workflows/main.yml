@@ -71,7 +71,12 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add pending_booking.json
           git commit -m "Arming for ${{ github.event.inputs.class_time }} on ${{ github.event.inputs.class_date }}" || echo "No changes to commit"
-          git push
+          for i in 1 2 3 4 5; do
+            git push && break
+            echo "Push rejected (attempt $i), fetching and rebasing..."
+            git fetch origin main
+            git rebase origin/main || { echo "Rebase failed"; git rebase --abort; exit 1; }
+          done
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
@@ -95,7 +100,12 @@ jobs:
           git config --global user.email "gymbot@users.noreply.github.com"
           git add status.json pending_booking.json class_list.json
           git commit -m "Update booking status and class list" || echo "No changes"
-          git push
+          for i in 1 2 3 4 5; do
+            git push && break
+            echo "Push rejected (attempt $i), fetching and rebasing..."
+            git fetch origin main
+            git rebase origin/main || { echo "Rebase failed"; git rebase --abort; exit 1; }
+          done
       - name: Upload Debug Screenshot
         if: always()
         uses: actions/upload-artifact@v4

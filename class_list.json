@@ -909,7 +909,7 @@
     "class_type": "Yoga Series",
     "instructor": "Megan Leung",
     "location": "Marrickville",
-    "remaining_spots": 3,
+    "remaining_spots": 2,
     "capacity": 36
   },
   {
@@ -1734,7 +1734,7 @@
     "class_type": "S&C Series",
     "instructor": "Paulo Lole",
     "location": "Merrylands",
-    "remaining_spots": 28,
+    "remaining_spots": 27,
     "capacity": 30
   },
   {
@@ -1965,7 +1965,7 @@
     "class_type": "Reformer Series",
     "instructor": "Mia Callander",
     "location": "Newtown",
-    "remaining_spots": 2,
+    "remaining_spots": 1,
     "capacity": 20
   },
   {
@@ -14393,7 +14393,7 @@
     "time": "6:15 AM",
     "name": "Mat Pilates",
     "class_type": "Mat Series",
-    "instructor": "Samantha Smolens",
+    "instructor": "Kristen Marconi",
     "location": "Marrickville",
     "remaining_spots": 36,
     "capacity": 36
@@ -14723,7 +14723,7 @@
     "time": "7:15 AM",
     "name": "Mat Pilates",
     "class_type": "Mat Series",
-    "instructor": "Samantha Smolens",
+    "instructor": "Kristen Marconi",
     "location": "Marrickville",
     "remaining_spots": 36,
     "capacity": 36
@@ -14998,7 +14998,7 @@
     "time": "8:15 AM",
     "name": "Mat Pilates",
     "class_type": "Mat Series",
-    "instructor": "Samantha Smolens",
+    "instructor": "Kristen Marconi",
     "location": "Marrickville",
     "remaining_spots": 36,
     "capacity": 36

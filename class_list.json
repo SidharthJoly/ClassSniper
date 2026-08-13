@@ -1,49 +1,5 @@
 [
   {
-    "booking_id": "107book54985",
-    "date": "2026-08-15",
-    "time": "3:30 PM",
-    "name": "Reformer: Jump Board (Lower Body)",
-    "class_type": "Reformer Series",
-    "instructor": "Sarah Biordi",
-    "location": "North Sydney",
-    "remaining_spots": 0,
-    "capacity": 24
-  },
-  {
-    "booking_id": "101book81918",
-    "date": "2026-08-15",
-    "time": "3:30 PM",
-    "name": "Yoga: Flowstate",
-    "class_type": "Yoga Series",
-    "instructor": "Laila Nawsheen",
-    "location": "Surry Hills",
-    "remaining_spots": 14,
-    "capacity": 34
-  },
-  {
-    "booking_id": "101book72820",
-    "date": "2026-08-15",
-    "time": "3:30 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Carlos Gallo",
-    "location": "Surry Hills",
-    "remaining_spots": 0,
-    "capacity": 18
-  },
-  {
-    "booking_id": "101book72820",
-    "date": "2026-08-15",
-    "time": "3:30 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Carlos Gallo",
-    "location": "Surry Hills",
-    "remaining_spots": 18,
-    "capacity": 18
-  },
-  {
     "booking_id": "107book72086",
     "date": "2026-08-15",
     "time": "4:00 PM",
@@ -3677,9 +3633,9 @@
     "booking_id": "103book50880",
     "date": "2026-08-17",
     "time": "6:30 PM",
-    "name": "Pump\u2019d",
-    "class_type": "Pulse & Build Series",
-    "instructor": "Colleen Antony",
+    "name": "Athletica",
+    "class_type": "S&C Series",
+    "instructor": "Nikki Erdos",
     "location": "Marrickville",
     "remaining_spots": 26,
     "capacity": 26
@@ -3941,9 +3897,9 @@
     "booking_id": "103book50722",
     "date": "2026-08-17",
     "time": "7:30 PM",
-    "name": "Pump\u2019d",
-    "class_type": "Pulse & Build Series",
-    "instructor": "Colleen Antony",
+    "name": "Athletica",
+    "class_type": "S&C Series",
+    "instructor": "Nikki Erdos",
     "location": "Marrickville",
     "remaining_spots": 26,
     "capacity": 26

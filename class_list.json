@@ -1,16 +1,5 @@
 [
   {
-    "booking_id": "106book48152",
-    "date": "2026-08-14",
-    "time": "6:45 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Amber Yan",
-    "location": "Merrylands",
-    "remaining_spots": 8,
-    "capacity": 23
-  },
-  {
     "booking_id": "105book44493",
     "date": "2026-08-14",
     "time": "7:00 PM",
@@ -1316,7 +1305,7 @@
     "class_type": "Mat Series",
     "instructor": "Nathan Newman",
     "location": "Newtown",
-    "remaining_spots": 11,
+    "remaining_spots": 10,
     "capacity": 24
   },
   {
@@ -2141,7 +2130,7 @@
     "class_type": "Spin Series",
     "instructor": "Lily Jones",
     "location": "Haymarket",
-    "remaining_spots": 30,
+    "remaining_spots": 29,
     "capacity": 35
   },
   {

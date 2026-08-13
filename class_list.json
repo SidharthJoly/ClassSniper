@@ -1140,7 +1140,7 @@
     "class_type": "Dance Series",
     "instructor": "Alicia Quinn",
     "location": "Marrickville",
-    "remaining_spots": 2,
+    "remaining_spots": 1,
     "capacity": 20
   },
   {
@@ -2097,7 +2097,7 @@
     "class_type": "Mat Series",
     "instructor": "Nikki Rubbi-Clarke",
     "location": "Haymarket",
-    "remaining_spots": 23,
+    "remaining_spots": 22,
     "capacity": 38
   },
   {
@@ -2482,7 +2482,7 @@
     "class_type": "Reformer Series",
     "instructor": "Mackenzie Sengotta",
     "location": "North Sydney",
-    "remaining_spots": 11,
+    "remaining_spots": 10,
     "capacity": 24
   },
   {

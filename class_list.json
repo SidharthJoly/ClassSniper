@@ -1,16 +1,5 @@
 [
   {
-    "booking_id": "107book80353",
-    "date": "2026-08-14",
-    "time": "5:45 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Matthew Carney",
-    "location": "North Sydney",
-    "remaining_spots": 0,
-    "capacity": 24
-  },
-  {
     "booking_id": "105book44597",
     "date": "2026-08-14",
     "time": "6:00 PM",

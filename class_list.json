@@ -249,7 +249,7 @@
     "class_type": "Reformer Series",
     "instructor": "Areeba Talpur",
     "location": "Merrylands",
-    "remaining_spots": 7,
+    "remaining_spots": 5,
     "capacity": 20
   },
   {
@@ -2240,7 +2240,7 @@
     "class_type": "Mat Series",
     "instructor": "Nikki Rubbi-Clarke",
     "location": "Haymarket",
-    "remaining_spots": 24,
+    "remaining_spots": 23,
     "capacity": 38
   },
   {
@@ -2438,7 +2438,7 @@
     "class_type": "Reformer Series",
     "instructor": "Bethany Rumore",
     "location": "Surry Hills",
-    "remaining_spots": 4,
+    "remaining_spots": 3,
     "capacity": 18
   },
   {

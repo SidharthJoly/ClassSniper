@@ -1998,7 +1998,7 @@
     "class_type": "Yoga Series",
     "instructor": "Shannon Hsu",
     "location": "Surry Hills",
-    "remaining_spots": 1,
+    "remaining_spots": 0,
     "capacity": 34
   },
   {
@@ -2394,7 +2394,7 @@
     "class_type": "Dance Series",
     "instructor": "Alicia Quinn",
     "location": "Surry Hills",
-    "remaining_spots": 22,
+    "remaining_spots": 21,
     "capacity": 25
   },
   {
@@ -2438,7 +2438,7 @@
     "class_type": "Reformer Series",
     "instructor": "Bethany Rumore",
     "location": "Surry Hills",
-    "remaining_spots": 16,
+    "remaining_spots": 15,
     "capacity": 18
   },
   {

@@ -885,7 +885,7 @@
     "time": "10:15 AM",
     "name": "Gunshow",
     "class_type": "S&C Series",
-    "instructor": "Nathan Newman",
+    "instructor": "Chris Jumman",
     "location": "Newtown",
     "remaining_spots": 4,
     "capacity": 28
@@ -1800,7 +1800,7 @@
     "class_type": "Spin Series",
     "instructor": "Alexandra Doddridge",
     "location": "North Sydney",
-    "remaining_spots": 40,
+    "remaining_spots": 39,
     "capacity": 40
   },
   {

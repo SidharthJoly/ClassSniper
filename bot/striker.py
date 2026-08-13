@@ -11,6 +11,48 @@ import requests
 EMAIL = os.getenv("GYM_EMAIL")
 PASSWORD = os.getenv("GYM_PASSWORD")
 
+
+def redact(text):
+    """Scrub the real credentials out of a string before it can reach status.json —
+    a file that gets committed to a *public* repo. GitHub's automatic secret masking
+    only covers CI log output, not file contents that get written and pushed, so this
+    is the only thing standing between a leaky exception message and a permanent,
+    public git-history record of the real email/password."""
+    if not text:
+        return text
+    text = str(text)
+    if EMAIL:
+        text = text.replace(EMAIL, "[REDACTED]")
+    if PASSWORD:
+        text = text.replace(PASSWORD, "[REDACTED]")
+    return text
+
+
+def redact_value(value):
+    if isinstance(value, str):
+        return redact(value)
+    if isinstance(value, dict):
+        return {k: redact_value(v) for k, v in value.items()}
+    if isinstance(value, list):
+        return [redact_value(v) for v in value]
+    return value
+
+
+async def mask_sensitive_fields(page):
+    """Best-effort: blank out any visible email/password field before a screenshot.
+    Password fields already render masked in-browser, but email doesn't — a debug
+    screenshot of a stuck login modal would otherwise show the real address in the
+    clear, and workflow artifacts on a public repo are downloadable by anyone signed
+    into GitHub, not just people with write access to this repo."""
+    try:
+        await page.evaluate("""
+            document.querySelectorAll('input[type="email"], input[type="password"]').forEach(el => {
+                if (el.value) el.value = '\\u2022'.repeat(8);
+            });
+        """)
+    except Exception:
+        pass
+
 TIMETABLE_URL = "https://oneplayground.com.au/classes/timetable/"
 DEFAULT_LOCATION = "Newtown"
 
@@ -180,7 +222,15 @@ async def ensure_logged_in(page):
         await email_input.fill(EMAIL)
         await page.locator('input[type="password"]').fill(PASSWORD)
         await page.click('[data-testid="login-submit"]')
-        await email_input.wait_for(state="hidden", timeout=15000)
+        try:
+            await email_input.wait_for(state="hidden", timeout=15000)
+        except Exception:
+            # Playwright's own timeout error embeds the resolved element's live DOM,
+            # including this input's value attribute — i.e. the real email address in
+            # the clear. Never let that raw message propagate to status.json.
+            raise RuntimeError(
+                "Login did not complete within 15s (wrong credentials, or the site's login flow changed)."
+            )
 
 
 async def _click_row_book_button(row):
@@ -239,6 +289,7 @@ async def _run_strike(page, target, location_name, result):
     print(f"Selecting {target['date']}...")
     target_date_obj = datetime.strptime(target['date'], "%Y-%m-%d")
     if not await select_day(page, target_date_obj):
+        await mask_sensitive_fields(page)
         await page.screenshot(path="final_failure.png")
         result.update({
             "status": "NOT_FOUND",
@@ -276,6 +327,7 @@ async def _run_strike(page, target, location_name, result):
             "error": book_detail,
         })
     elif book_status != "CLICKED":
+        await mask_sensitive_fields(page)
         await page.screenshot(path="final_failure.png")
         result.update({
             "status": "NOT_FOUND",
@@ -296,6 +348,7 @@ async def _run_strike(page, target, location_name, result):
         # The post-login/confirm UI hasn't been verified end-to-end against a real
         # account yet, so capture a screenshot every time and flag it for review
         # rather than assuming the booking definitely went through.
+        await mask_sensitive_fields(page)
         await page.screenshot(path="booking_result.png")
         result.update({
             "status": "SUCCESS",
@@ -430,6 +483,7 @@ async def run_booking():
                     # it from the outer except (after `async with` has torn down) silently
                     # fails, which is exactly the bug that hid earlier production failures.
                     try:
+                        await mask_sensitive_fields(page)
                         await page.screenshot(path="final_failure.png")
                     except Exception:
                         pass
@@ -451,7 +505,7 @@ async def run_booking():
                 json.dump(targets, f, indent=2)
 
         with open('status.json', 'w') as f:
-            json.dump(result, f)
+            json.dump(redact_value(result), f)
 
         if 'browser' in locals():
             try:

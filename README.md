@@ -30,20 +30,20 @@ several locations, isn't realistic. This automates it.
 ## Architecture
 
 ```
-┌──────────────────┐
+┌────────────────────┐
 │  External cron     │  hits workflow_dispatch every 60s — see "Why not
 │  (cron-job.org)    │  GitHub's own scheduler?" below
 └─────────┬──────────┘
           ▼
-┌─────────────────────────┐
+┌──────────────────────────┐
 │   Web dashboard          │  reads status.json / pending_booking.json /
 │   (GitHub Pages)         │  class_list.json directly — public, no auth needed
 └─────────────┬────────────┘
               │ writes (arm / remove) via the GitHub Contents API,
               │ using a fine-grained PAT scoped to just this repo
               ▼
-┌─────────────────────────┐
-│   This repo               │  source of truth: pending_booking.json,
+┌──────────────────────────┐
+│   This repo              │  source of truth: pending_booking.json,
 │   (GitHub Actions)       │  status.json, class_list.json
 └─────────────┬────────────┘
               │

@@ -1129,7 +1129,7 @@
     "class_type": "Reformer Series",
     "instructor": "Janet Lapprathana",
     "location": "Haymarket",
-    "remaining_spots": 0,
+    "remaining_spots": 1,
     "capacity": 24
   },
   {
@@ -2284,7 +2284,7 @@
     "class_type": "Yoga Series",
     "instructor": "Yigit Keskin",
     "location": "Marrickville",
-    "remaining_spots": 28,
+    "remaining_spots": 29,
     "capacity": 36
   },
   {

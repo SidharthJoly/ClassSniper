@@ -326,7 +326,7 @@
     "class_type": "S&C Series",
     "instructor": "Zoe Downing",
     "location": "Surry Hills",
-    "remaining_spots": 1,
+    "remaining_spots": 0,
     "capacity": 26
   },
   {
@@ -1140,7 +1140,7 @@
     "class_type": "Dance Series",
     "instructor": "Alicia Quinn",
     "location": "Marrickville",
-    "remaining_spots": 1,
+    "remaining_spots": 0,
     "capacity": 20
   },
   {

@@ -10,13 +10,13 @@ on:
   workflow_dispatch:
     inputs:
       class_date:
-        description: 'Date (YYYY-MM-DD)'
-        required: true
-        default: '2026-04-12'
+        description: 'Date (YYYY-MM-DD) — leave blank to just run the check (used by the external wake-up trigger)'
+        required: false
+        default: ''
       class_time:
-        description: 'Time (e.g., 3:30 PM)'
-        required: true
-        default: '3:30 PM'
+        description: 'Time (e.g., 3:30 PM) — leave blank to just run the check'
+        required: false
+        default: ''
 
 permissions:
   contents: write
@@ -33,10 +33,14 @@ jobs:
           CLASS_TIME: ${{ github.event.inputs.class_time }}
         run: |
           python3 - <<'EOF'
-          import json, os
+          import json, os, sys
 
-          date = os.environ["CLASS_DATE"]
-          time = os.environ["CLASS_TIME"]
+          date = os.environ.get("CLASS_DATE", "").strip()
+          time = os.environ.get("CLASS_TIME", "").strip()
+
+          if not date or not time:
+              print("No date/time provided — this is just a wake-up call, nothing to arm.")
+              sys.exit(0)
 
           try:
               with open("pending_booking.json") as f:

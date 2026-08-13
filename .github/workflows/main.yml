@@ -21,6 +21,14 @@ on:
 permissions:
   contents: write
 
+# The external trigger fires every 60s, but a run (scrape + booker) can take longer
+# than that. Without this, overlapping runs raced on `git push` — one would get
+# rejected as non-fast-forward since the remote had moved since its checkout.
+# Queue instead of running in parallel: never drop a tick, never race a push.
+concurrency:
+  group: gym-logic-engine
+  cancel-in-progress: false
+
 jobs:
   check_and_book:
     runs-on: ubuntu-latest

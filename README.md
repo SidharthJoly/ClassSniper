@@ -14,13 +14,14 @@ several locations, isn't realistic. This automates it.
 
 ## What it does
 
-- A GitHub Actions workflow runs every 5 minutes, checking whether any queued
-  booking's 72-hour window has opened yet.
+- An external cron service hits this repo's `workflow_dispatch` endpoint every
+  60 seconds, which checks whether any queued booking's 72-hour window has
+  opened yet. (Why not just GitHub's own `schedule:` trigger? See below.)
 - When it has, the bot books the class — via a fast direct API call when possible,
   falling back to full browser automation if anything about that path is
   inconclusive.
 - A companion scraper pulls the live class schedule across every studio location
-  on the same schedule, so the web dashboard shows actual upcoming classes (name,
+  on the same cadence, so the web dashboard shows actual upcoming classes (name,
   instructor, spots remaining) to arm — not a blind date/time field.
 - A hard safety rule blocks arming *or* striking anything starting less than
   **30 hours** away, since cancelling inside 24 hours incurs a fee. The tool
@@ -29,6 +30,11 @@ several locations, isn't realistic. This automates it.
 ## Architecture
 
 ```
+┌──────────────────┐
+│  External cron     │  hits workflow_dispatch every 60s — see "Why not
+│  (cron-job.org)    │  GitHub's own scheduler?" below
+└─────────┬──────────┘
+          ▼
 ┌─────────────────────────┐
 │   Web dashboard          │  reads status.json / pending_booking.json /
 │   (GitHub Pages)         │  class_list.json directly — public, no auth needed
@@ -38,7 +44,7 @@ several locations, isn't realistic. This automates it.
               ▼
 ┌─────────────────────────┐
 │   This repo               │  source of truth: pending_booking.json,
-│   (GitHub Actions, /5m)  │  status.json, class_list.json
+│   (GitHub Actions)       │  status.json, class_list.json
 └─────────────┬────────────┘
               │
      ┌────────┴────────┐
@@ -69,10 +75,27 @@ several locations, isn't realistic. This automates it.
   The process sleeps until just before it, warms up its HTTP connection ~5
   seconds ahead of time so the DNS/TLS handshake isn't sitting on the critical
   path, then fires.
+- **Why not GitHub's own scheduler?** `schedule:` triggers on GitHub Actions are
+  documented as best-effort and get deprioritized under load — observed in
+  production as runs landing ~55-75 minutes apart despite a `*/5` cron, which is
+  useless for "strike the instant it opens." An external cron service hitting
+  `workflow_dispatch` every 60 seconds instead fixed that, but surfaced a second
+  problem: overlapping runs racing each other on `git push`. Fixed with a
+  `concurrency` group (queue instead of running in parallel) plus a fetch-rebase
+  retry loop around every push, so a collision retries instead of just failing.
 - **Crash-safe cleanup.** Screenshots and result state are captured from inside
   the still-alive Playwright context, not after it's already torn down — an easy
   mistake that silently swallowed real failures in an earlier version, so
   `status.json` never actually recorded what had gone wrong.
+- **Credentials never reach the public repo.** `status.json` is committed to a
+  *public* repo, and Playwright's own timeout errors embed the DOM element they
+  were waiting on — including the live `value` of the email input, i.e. the real
+  login email in plaintext. Found in an audit, confirmed by reproducing the leak,
+  fixed at the source (the login-timeout handler raises a clean message instead)
+  plus two defense-in-depth layers: debug screenshots mask any visible
+  email/password field before capture (they're public Actions artifacts too),
+  and a final redaction pass scrubs exact credential matches from anything
+  written to `status.json` regardless of source.
 - **Respecting the platform.** The fast path makes at most 3 requests per attempt
   and never retries — the login endpoint rate-limits at 5 requests, and a
   fallback attempt needs some of that budget left for its own login.
@@ -92,6 +115,14 @@ Python · [Playwright](https://playwright.dev) · GitHub Actions · vanilla HTML
    scoped to just this repo with **Contents: read & write**, paste it into the
    dashboard's "GitHub Connection" card (stored only in that browser's
    `localStorage`) — needed to arm/remove bookings, not to view status.
+6. **Set up the external trigger** — don't skip this. The repo's own `schedule:`
+   cron is kept as a free backup, but on its own it's not reliable enough to
+   actually strike on time (see above). Create a second
+   [fine-grained token](https://github.com/settings/personal-access-tokens/new)
+   scoped to this repo with **Actions: read & write** only, then use a free
+   service like [cron-job.org](https://cron-job.org) to `POST` every 60s to
+   `https://api.github.com/repos/<you>/<repo>/actions/workflows/main.yml/dispatches`
+   with header `Authorization: Bearer <token>` and body `{"ref":"main"}`.
 
 ## Safety & scope
 

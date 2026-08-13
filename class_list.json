@@ -1382,7 +1382,7 @@
     "class_type": "Reformer Series",
     "instructor": "Joe Jackson",
     "location": "Newtown",
-    "remaining_spots": 7,
+    "remaining_spots": 6,
     "capacity": 20
   },
   {
@@ -1712,7 +1712,7 @@
     "class_type": "Pulse & Build Series",
     "instructor": "Kayla Job",
     "location": "Haymarket",
-    "remaining_spots": 22,
+    "remaining_spots": 21,
     "capacity": 32
   },
   {
@@ -2229,7 +2229,7 @@
     "class_type": "Mat Series",
     "instructor": "Mackenzie Sengotta",
     "location": "Surry Hills",
-    "remaining_spots": 3,
+    "remaining_spots": 2,
     "capacity": 34
   },
   {

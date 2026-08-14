@@ -1,16 +1,5 @@
 [
   {
-    "booking_id": "107book55404",
-    "date": "2026-08-15",
-    "time": "5:00 PM",
-    "name": "Yoga: Restore & Sound",
-    "class_type": "Yoga Series",
-    "instructor": "Sunil Tailor",
-    "location": "North Sydney",
-    "remaining_spots": 19,
-    "capacity": 30
-  },
-  {
     "booking_id": "106book65466",
     "date": "2026-08-16",
     "time": "7:00 AM",
@@ -1679,7 +1668,7 @@
     "class_type": "Reformer Series",
     "instructor": "Lily Cole",
     "location": "Newtown",
-    "remaining_spots": 10,
+    "remaining_spots": 11,
     "capacity": 20
   },
   {
@@ -2284,7 +2273,7 @@
     "class_type": "Reformer Series",
     "instructor": "Kayla Stanton",
     "location": "Newtown",
-    "remaining_spots": 20,
+    "remaining_spots": 19,
     "capacity": 20
   },
   {
@@ -2306,7 +2295,7 @@
     "class_type": "Mat Series",
     "instructor": "Jessie Dyer",
     "location": "Surry Hills",
-    "remaining_spots": 34,
+    "remaining_spots": 32,
     "capacity": 34
   },
   {

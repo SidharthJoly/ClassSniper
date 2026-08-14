@@ -1,16 +1,5 @@
 [
   {
-    "booking_id": "101book73607",
-    "date": "2026-08-16",
-    "time": "12:15 PM",
-    "name": "Infrared Pilates",
-    "class_type": "Mat Series",
-    "instructor": "Mackenzie Sengotta",
-    "location": "Surry Hills",
-    "remaining_spots": 0,
-    "capacity": 34
-  },
-  {
     "booking_id": "103book65869",
     "date": "2026-08-16",
     "time": "12:30 PM",
@@ -3494,7 +3483,7 @@
     "class_type": "Reformer Series",
     "instructor": "Lily Cole",
     "location": "Marrickville",
-    "remaining_spots": 15,
+    "remaining_spots": 13,
     "capacity": 15
   },
   {
@@ -3527,7 +3516,7 @@
     "class_type": "Pulse & Build Series",
     "instructor": "Alyssa Liem",
     "location": "North Sydney",
-    "remaining_spots": 29,
+    "remaining_spots": 21,
     "capacity": 30
   },
   {

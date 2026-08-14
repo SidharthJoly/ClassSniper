@@ -1,27 +1,5 @@
 [
   {
-    "booking_id": "107book55930",
-    "date": "2026-08-16",
-    "time": "11:15 AM",
-    "name": "Breathwork: Dynamic Release (Morning)",
-    "class_type": "Harmony Series",
-    "instructor": "Lauren Wainer",
-    "location": "North Sydney",
-    "remaining_spots": 0,
-    "capacity": 30
-  },
-  {
-    "booking_id": "101book73764",
-    "date": "2026-08-16",
-    "time": "11:15 AM",
-    "name": "Mat Pilates",
-    "class_type": "Mat Series",
-    "instructor": "Mackenzie Sengotta",
-    "location": "Surry Hills",
-    "remaining_spots": 0,
-    "capacity": 34
-  },
-  {
     "booking_id": "105book46876",
     "date": "2026-08-16",
     "time": "11:30 AM",
@@ -2581,7 +2559,7 @@
     "class_type": "Mat Series",
     "instructor": "Kat Morrison",
     "location": "Merrylands",
-    "remaining_spots": 32,
+    "remaining_spots": 31,
     "capacity": 34
   },
   {

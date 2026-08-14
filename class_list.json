@@ -1,16 +1,5 @@
 [
   {
-    "booking_id": "106book65466",
-    "date": "2026-08-16",
-    "time": "7:00 AM",
-    "name": "Legacy",
-    "class_type": "Fight Series",
-    "instructor": "Paulo Lole",
-    "location": "Merrylands",
-    "remaining_spots": 13,
-    "capacity": 31
-  },
-  {
     "booking_id": "105book46615",
     "date": "2026-08-16",
     "time": "8:00 AM",
@@ -84,7 +73,7 @@
     "class_type": "Reformer Series",
     "instructor": "Sophia Rambaldini",
     "location": "Merrylands",
-    "remaining_spots": 2,
+    "remaining_spots": 1,
     "capacity": 21
   },
   {

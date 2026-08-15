@@ -601,7 +601,7 @@
     "class_type": "Mat Series",
     "instructor": "Leah Ferguson",
     "location": "Haymarket",
-    "remaining_spots": 25,
+    "remaining_spots": 26,
     "capacity": 38
   },
   {
@@ -689,7 +689,7 @@
     "class_type": "Reformer Series",
     "instructor": "Sophia Rambaldini",
     "location": "Surry Hills",
-    "remaining_spots": 2,
+    "remaining_spots": 1,
     "capacity": 20
   },
   {
@@ -986,7 +986,7 @@
     "class_type": "Reformer Series",
     "instructor": "Janet Lapprathana",
     "location": "Surry Hills",
-    "remaining_spots": 7,
+    "remaining_spots": 8,
     "capacity": 20
   },
   {
@@ -2735,7 +2735,7 @@
     "class_type": "Harmony Series",
     "instructor": "Chris Sulfa",
     "location": "Surry Hills",
-    "remaining_spots": 14,
+    "remaining_spots": 13,
     "capacity": 34
   },
   {
@@ -3010,7 +3010,7 @@
     "class_type": "Harmony Series",
     "instructor": "Lihini Rose",
     "location": "Surry Hills",
-    "remaining_spots": 11,
+    "remaining_spots": 10,
     "capacity": 34
   },
   {
@@ -5265,7 +5265,7 @@
     "class_type": "Spin Series",
     "instructor": "Hayley van Stom",
     "location": "North Sydney",
-    "remaining_spots": 33,
+    "remaining_spots": 32,
     "capacity": 40
   },
   {
@@ -5804,7 +5804,7 @@
     "class_type": "Reformer Series",
     "instructor": "Eleni Vlahos",
     "location": "Surry Hills",
-    "remaining_spots": 14,
+    "remaining_spots": 13,
     "capacity": 20
   },
   {
@@ -13117,7 +13117,7 @@
     "time": "12:00 PM",
     "name": "Upper Build",
     "class_type": "Pulse & Build Series",
-    "instructor": "Matt Bull",
+    "instructor": "Marcus Parkin",
     "location": "Haymarket",
     "remaining_spots": 32,
     "capacity": 32
@@ -14289,6 +14289,17 @@
     "capacity": 20
   },
   {
+    "booking_id": "106book49273",
+    "date": "2026-08-22",
+    "time": "7:00 AM",
+    "name": "Unity",
+    "class_type": "S&C Series",
+    "instructor": "Charbel Tasipale",
+    "location": "Merrylands",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
     "booking_id": "106book63415",
     "date": "2026-08-22",
     "time": "7:00 AM",
@@ -14487,6 +14498,17 @@
     "capacity": 8
   },
   {
+    "booking_id": "106book49482",
+    "date": "2026-08-22",
+    "time": "8:00 AM",
+    "name": "Unity",
+    "class_type": "S&C Series",
+    "instructor": "Charbel Tasipale",
+    "location": "Merrylands",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
     "booking_id": "106book49120",
     "date": "2026-08-22",
     "time": "8:00 AM",
@@ -14591,7 +14613,7 @@
     "time": "8:00 AM",
     "name": "Athletica",
     "class_type": "S&C Series",
-    "instructor": "Jay Haydock",
+    "instructor": "Zoe Downing",
     "location": "Surry Hills",
     "remaining_spots": 26,
     "capacity": 26
@@ -14877,7 +14899,7 @@
     "time": "9:00 AM",
     "name": "Athletica",
     "class_type": "S&C Series",
-    "instructor": "Jay Haydock",
+    "instructor": "Zoe Downing",
     "location": "Surry Hills",
     "remaining_spots": 26,
     "capacity": 26
@@ -14958,17 +14980,6 @@
     "location": "Merrylands",
     "remaining_spots": 22,
     "capacity": 22
-  },
-  {
-    "booking_id": "106book49639",
-    "date": "2026-08-22",
-    "time": "9:30 AM",
-    "name": "Unity",
-    "class_type": "S&C Series",
-    "instructor": "Charbel Tasipale",
-    "location": "Merrylands",
-    "remaining_spots": 30,
-    "capacity": 30
   },
   {
     "booking_id": "106book65362",
@@ -15174,7 +15185,7 @@
     "time": "10:00 AM",
     "name": "Hour of Power",
     "class_type": "S&C Series",
-    "instructor": "Jay Haydock",
+    "instructor": "Zoe Downing",
     "location": "Surry Hills",
     "remaining_spots": 26,
     "capacity": 26

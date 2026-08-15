@@ -8,7 +8,7 @@ Automated gym class booking that strikes the instant a class's booking window op
 
 The gym chain this targets ([One Playground](https://oneplayground.com.au)) opens
 bookings for each class exactly 72 hours before it starts. Popular time slots and
-instructors can fill within moments of that window opening — remembering to be at
+instructors can fill within moments of that window opening; remembering to be at
 your laptop at the exact right second, for potentially several classes across
 several locations, isn't realistic. This automates it.
 

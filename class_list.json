@@ -1,49 +1,5 @@
 [
   {
-    "booking_id": "103book50934",
-    "date": "2026-08-17",
-    "time": "9:30 AM",
-    "name": "Badass",
-    "class_type": "S&C Series",
-    "instructor": "Alek Leyland",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 26
-  },
-  {
-    "booking_id": "103book49250",
-    "date": "2026-08-17",
-    "time": "9:30 AM",
-    "name": "Yoga: Flowstate",
-    "class_type": "Yoga Series",
-    "instructor": "Sunil Tailor",
-    "location": "Marrickville",
-    "remaining_spots": 33,
-    "capacity": 36
-  },
-  {
-    "booking_id": "104book33698",
-    "date": "2026-08-17",
-    "time": "9:30 AM",
-    "name": "Barre Signature",
-    "class_type": "Barre Series",
-    "instructor": "Kristen Marconi",
-    "location": "Newtown",
-    "remaining_spots": 20,
-    "capacity": 23
-  },
-  {
-    "booking_id": "101book60936",
-    "date": "2026-08-17",
-    "time": "9:30 AM",
-    "name": "Infrared Pilates",
-    "class_type": "Mat Series",
-    "instructor": "Chloe Greenwood",
-    "location": "Surry Hills",
-    "remaining_spots": 0,
-    "capacity": 34
-  },
-  {
     "booking_id": "105book37104",
     "date": "2026-08-17",
     "time": "9:45 AM",
@@ -1206,7 +1162,7 @@
     "class_type": "S&C Series",
     "instructor": "Asia Harris",
     "location": "North Sydney",
-    "remaining_spots": 11,
+    "remaining_spots": 10,
     "capacity": 24
   },
   {

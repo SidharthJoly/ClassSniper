@@ -1,27 +1,5 @@
 [
   {
-    "booking_id": "103book49562",
-    "date": "2026-08-17",
-    "time": "10:45 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Bethany Rumore",
-    "location": "Marrickville",
-    "remaining_spots": 0,
-    "capacity": 15
-  },
-  {
-    "booking_id": "106book38045",
-    "date": "2026-08-17",
-    "time": "10:45 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Hanna Sadek",
-    "location": "Merrylands",
-    "remaining_spots": 19,
-    "capacity": 21
-  },
-  {
     "booking_id": "103book40572",
     "date": "2026-08-17",
     "time": "11:00 AM",

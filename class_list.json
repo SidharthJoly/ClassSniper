@@ -1,27 +1,5 @@
 [
   {
-    "booking_id": "106book37889",
-    "date": "2026-08-17",
-    "time": "9:15 AM",
-    "name": "Reformer: Strong",
-    "class_type": "Reformer Series",
-    "instructor": "Sarah Wood",
-    "location": "Merrylands",
-    "remaining_spots": 21,
-    "capacity": 22
-  },
-  {
-    "booking_id": "106book38939",
-    "date": "2026-08-17",
-    "time": "9:15 AM",
-    "name": "Lower Force",
-    "class_type": "S&C Series",
-    "instructor": "Jonathan Krisnadi",
-    "location": "Merrylands",
-    "remaining_spots": 30,
-    "capacity": 30
-  },
-  {
     "booking_id": "103book50934",
     "date": "2026-08-17",
     "time": "9:30 AM",

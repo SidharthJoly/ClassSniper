@@ -469,7 +469,7 @@
     "class_type": "Yoga Series",
     "instructor": "Sunil Tailor",
     "location": "Surry Hills",
-    "remaining_spots": 5,
+    "remaining_spots": 4,
     "capacity": 34
   },
   {
@@ -909,7 +909,7 @@
     "class_type": "Reformer Series",
     "instructor": "Robynne Henry",
     "location": "Newtown",
-    "remaining_spots": 1,
+    "remaining_spots": 0,
     "capacity": 20
   },
   {
@@ -1074,7 +1074,7 @@
     "class_type": "Reformer Series",
     "instructor": "Carlos Gallo",
     "location": "North Sydney",
-    "remaining_spots": 1,
+    "remaining_spots": 0,
     "capacity": 24
   },
   {
@@ -3978,7 +3978,7 @@
     "class_type": "Reformer Series",
     "instructor": "Maggie Dixon-Best",
     "location": "Surry Hills",
-    "remaining_spots": 10,
+    "remaining_spots": 9,
     "capacity": 20
   },
   {
@@ -4924,7 +4924,7 @@
     "class_type": "Reformer Series",
     "instructor": "Sophia Rambaldini",
     "location": "Newtown",
-    "remaining_spots": 18,
+    "remaining_spots": 17,
     "capacity": 20
   },
   {

@@ -1,16 +1,5 @@
 [
   {
-    "booking_id": "106book37579",
-    "date": "2026-08-17",
-    "time": "5:00 AM",
-    "name": "Total Build",
-    "class_type": "Pulse & Build Series",
-    "instructor": "Caroline Der Garabedian",
-    "location": "Merrylands",
-    "remaining_spots": 27,
-    "capacity": 33
-  },
-  {
     "booking_id": "103book63283",
     "date": "2026-08-17",
     "time": "5:15 AM",
@@ -3901,7 +3890,7 @@
     "class_type": "Mat Series",
     "instructor": "Eleni Vlahos",
     "location": "Surry Hills",
-    "remaining_spots": 22,
+    "remaining_spots": 21,
     "capacity": 34
   },
   {
@@ -5221,7 +5210,7 @@
     "class_type": "Spin Series",
     "instructor": "Andrew Lloyd",
     "location": "Marrickville",
-    "remaining_spots": 11,
+    "remaining_spots": 10,
     "capacity": 20
   },
   {

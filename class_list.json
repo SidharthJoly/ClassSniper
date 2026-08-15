@@ -2933,7 +2933,7 @@
     "class_type": "Spin Series",
     "instructor": "Evie Bird",
     "location": "Marrickville",
-    "remaining_spots": 10,
+    "remaining_spots": 8,
     "capacity": 20
   },
   {
@@ -2977,7 +2977,7 @@
     "class_type": "Yoga Series",
     "instructor": "Jessy Franks",
     "location": "Newtown",
-    "remaining_spots": 14,
+    "remaining_spots": 13,
     "capacity": 23
   },
   {

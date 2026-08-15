@@ -458,7 +458,7 @@
     "class_type": "Yoga Series",
     "instructor": "Sunil Tailor",
     "location": "Surry Hills",
-    "remaining_spots": 4,
+    "remaining_spots": 3,
     "capacity": 34
   },
   {
@@ -4451,7 +4451,7 @@
     "class_type": "Spin Series",
     "instructor": "Emily Romania",
     "location": "Haymarket",
-    "remaining_spots": 29,
+    "remaining_spots": 30,
     "capacity": 35
   },
   {
@@ -4517,7 +4517,7 @@
     "class_type": "S&C Series",
     "instructor": "Marcus Parkin",
     "location": "Haymarket",
-    "remaining_spots": 29,
+    "remaining_spots": 28,
     "capacity": 30
   },
   {
@@ -4583,7 +4583,7 @@
     "class_type": "Spin Series",
     "instructor": "Mark Brinker",
     "location": "North Sydney",
-    "remaining_spots": 35,
+    "remaining_spots": 34,
     "capacity": 40
   },
   {
@@ -4671,7 +4671,7 @@
     "class_type": "S&C Series",
     "instructor": "Alek Leyland",
     "location": "Marrickville",
-    "remaining_spots": 24,
+    "remaining_spots": 23,
     "capacity": 26
   },
   {
@@ -4913,7 +4913,7 @@
     "class_type": "Reformer Series",
     "instructor": "Sophia Rambaldini",
     "location": "Newtown",
-    "remaining_spots": 17,
+    "remaining_spots": 16,
     "capacity": 20
   },
   {

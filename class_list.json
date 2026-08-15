@@ -1921,7 +1921,7 @@
     "class_type": "Reformer Series",
     "instructor": "Bethany Rumore",
     "location": "Marrickville",
-    "remaining_spots": 1,
+    "remaining_spots": 0,
     "capacity": 15
   },
   {
@@ -3945,7 +3945,7 @@
     "class_type": "Reformer Series",
     "instructor": "Lily Cole",
     "location": "Marrickville",
-    "remaining_spots": 2,
+    "remaining_spots": 1,
     "capacity": 15
   },
   {
@@ -5133,7 +5133,7 @@
     "class_type": "S&C Series",
     "instructor": "Jennia Klimenkova",
     "location": "North Sydney",
-    "remaining_spots": 15,
+    "remaining_spots": 14,
     "capacity": 24
   },
   {

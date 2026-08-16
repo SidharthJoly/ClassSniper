@@ -1,16 +1,5 @@
 [
   {
-    "booking_id": "106book39310",
-    "date": "2026-08-18",
-    "time": "5:15 AM",
-    "name": "Athletica",
-    "class_type": "S&C Series",
-    "instructor": "Paulo Lole",
-    "location": "Merrylands",
-    "remaining_spots": 24,
-    "capacity": 30
-  },
-  {
     "booking_id": "103book49929",
     "date": "2026-08-18",
     "time": "5:30 AM",
@@ -3296,7 +3285,7 @@
     "class_type": "Yoga Series",
     "instructor": "Anton Anton",
     "location": "Marrickville",
-    "remaining_spots": 30,
+    "remaining_spots": 29,
     "capacity": 36
   },
   {

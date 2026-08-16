@@ -766,7 +766,7 @@
     "class_type": "S&C Series",
     "instructor": "Billy Thornhill",
     "location": "North Sydney",
-    "remaining_spots": 12,
+    "remaining_spots": 11,
     "capacity": 24
   },
   {
@@ -1085,7 +1085,7 @@
     "class_type": "Reformer Series",
     "instructor": "Estella Jones",
     "location": "Haymarket",
-    "remaining_spots": 5,
+    "remaining_spots": 4,
     "capacity": 24
   },
   {
@@ -2944,7 +2944,7 @@
     "class_type": "Pulse & Build Series",
     "instructor": "Mitra Alizadeh",
     "location": "Merrylands",
-    "remaining_spots": 16,
+    "remaining_spots": 15,
     "capacity": 33
   },
   {
@@ -3175,7 +3175,7 @@
     "class_type": "Spin Series",
     "instructor": "Mark Brinker",
     "location": "North Sydney",
-    "remaining_spots": 18,
+    "remaining_spots": 17,
     "capacity": 40
   },
   {
@@ -4385,7 +4385,7 @@
     "class_type": "S&C Series",
     "instructor": "Patrick Fox",
     "location": "North Sydney",
-    "remaining_spots": 19,
+    "remaining_spots": 18,
     "capacity": 24
   },
   {
@@ -4715,7 +4715,7 @@
     "class_type": "Reformer Series",
     "instructor": "Neave Welch",
     "location": "Surry Hills",
-    "remaining_spots": 18,
+    "remaining_spots": 17,
     "capacity": 20
   },
   {
@@ -4869,7 +4869,7 @@
     "class_type": "Reformer Series",
     "instructor": "Monica Faundez",
     "location": "Marrickville",
-    "remaining_spots": 10,
+    "remaining_spots": 9,
     "capacity": 15
   },
   {
@@ -5188,7 +5188,7 @@
     "class_type": "Spin Series",
     "instructor": "Mark Brinker",
     "location": "North Sydney",
-    "remaining_spots": 38,
+    "remaining_spots": 37,
     "capacity": 40
   },
   {
@@ -5199,7 +5199,7 @@
     "class_type": "Reformer Series",
     "instructor": "Sophia Rambaldini",
     "location": "North Sydney",
-    "remaining_spots": 8,
+    "remaining_spots": 5,
     "capacity": 24
   },
   {
@@ -5221,7 +5221,7 @@
     "class_type": "Reformer Series",
     "instructor": "Neave Welch",
     "location": "Surry Hills",
-    "remaining_spots": 9,
+    "remaining_spots": 8,
     "capacity": 20
   },
   {

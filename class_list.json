@@ -1008,7 +1008,7 @@
     "class_type": "Mat Series",
     "instructor": "Tan Hutton",
     "location": "North Sydney",
-    "remaining_spots": 25,
+    "remaining_spots": 24,
     "capacity": 30
   },
   {
@@ -1921,7 +1921,7 @@
     "class_type": "Reformer Series",
     "instructor": "Karen Kwang",
     "location": "North Sydney",
-    "remaining_spots": 7,
+    "remaining_spots": 6,
     "capacity": 24
   },
   {
@@ -3175,7 +3175,7 @@
     "class_type": "Spin Series",
     "instructor": "Mark Brinker",
     "location": "North Sydney",
-    "remaining_spots": 15,
+    "remaining_spots": 14,
     "capacity": 40
   },
   {
@@ -4858,7 +4858,7 @@
     "class_type": "S&C Series",
     "instructor": "Jose Da Rocha",
     "location": "Surry Hills",
-    "remaining_spots": 24,
+    "remaining_spots": 23,
     "capacity": 26
   },
   {
@@ -5122,7 +5122,7 @@
     "class_type": "S&C Series",
     "instructor": "Jose Da Rocha",
     "location": "Surry Hills",
-    "remaining_spots": 7,
+    "remaining_spots": 6,
     "capacity": 26
   },
   {
@@ -5595,7 +5595,7 @@
     "class_type": "Pulse & Build Series",
     "instructor": "Mitra Alizadeh",
     "location": "Merrylands",
-    "remaining_spots": 29,
+    "remaining_spots": 28,
     "capacity": 33
   },
   {

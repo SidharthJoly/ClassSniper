@@ -1,16 +1,5 @@
 [
   {
-    "booking_id": "106book39361",
-    "date": "2026-08-18",
-    "time": "7:45 AM",
-    "name": "Yoga: Flowstate",
-    "class_type": "Yoga Series",
-    "instructor": "Daniel Konieczny",
-    "location": "Merrylands",
-    "remaining_spots": 32,
-    "capacity": 34
-  },
-  {
     "booking_id": "105book38240",
     "date": "2026-08-18",
     "time": "8:00 AM",

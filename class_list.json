@@ -150,7 +150,7 @@
     "class_type": "Reformer Series",
     "instructor": "Mandy Moussa",
     "location": "Merrylands",
-    "remaining_spots": 12,
+    "remaining_spots": 11,
     "capacity": 22
   },
   {
@@ -2075,7 +2075,7 @@
     "class_type": "Yoga Series",
     "instructor": "Joey Curcio",
     "location": "Surry Hills",
-    "remaining_spots": 21,
+    "remaining_spots": 20,
     "capacity": 34
   },
   {
@@ -3417,7 +3417,7 @@
     "class_type": "S&C Series",
     "instructor": "Enif Alvarez",
     "location": "Newtown",
-    "remaining_spots": 3,
+    "remaining_spots": 2,
     "capacity": 28
   },
   {
@@ -4121,7 +4121,7 @@
     "class_type": "Creche",
     "instructor": "Chloe Burns",
     "location": "Merrylands",
-    "remaining_spots": 6,
+    "remaining_spots": 5,
     "capacity": 8
   },
   {

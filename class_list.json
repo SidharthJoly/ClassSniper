@@ -1,137 +1,5 @@
 [
   {
-    "booking_id": "105book38452",
-    "date": "2026-08-18",
-    "time": "12:00 PM",
-    "name": "Pulse",
-    "class_type": "Pulse & Build Series",
-    "instructor": "Marcus Parkin",
-    "location": "Haymarket",
-    "remaining_spots": 24,
-    "capacity": 32
-  },
-  {
-    "booking_id": "103book40372",
-    "date": "2026-08-18",
-    "time": "12:00 PM",
-    "name": "Creche (18 months - 12 years)",
-    "class_type": "Creche",
-    "instructor": "Shova Rana",
-    "location": "Marrickville",
-    "remaining_spots": 8,
-    "capacity": 8
-  },
-  {
-    "booking_id": "103book54407",
-    "date": "2026-08-18",
-    "time": "12:00 PM",
-    "name": "Athletica",
-    "class_type": "S&C Series",
-    "instructor": "Nikki Erdos",
-    "location": "Marrickville",
-    "remaining_spots": 23,
-    "capacity": 26
-  },
-  {
-    "booking_id": "103book41100",
-    "date": "2026-08-18",
-    "time": "12:00 PM",
-    "name": "Creche (6 weeks to 18 months)",
-    "class_type": "Creche",
-    "instructor": "Athena Nikolopoulos",
-    "location": "Marrickville",
-    "remaining_spots": 1,
-    "capacity": 4
-  },
-  {
-    "booking_id": "106book23663",
-    "date": "2026-08-18",
-    "time": "12:00 PM",
-    "name": "Creche (18 months - 12 years)",
-    "class_type": "Creche",
-    "instructor": "Chloe Burns",
-    "location": "Merrylands",
-    "remaining_spots": 8,
-    "capacity": 8
-  },
-  {
-    "booking_id": "106book24158",
-    "date": "2026-08-18",
-    "time": "12:00 PM",
-    "name": "Creche (6 weeks to 18 months)",
-    "class_type": "Creche",
-    "instructor": "Georgia Dame",
-    "location": "Merrylands",
-    "remaining_spots": 4,
-    "capacity": 4
-  },
-  {
-    "booking_id": "106book39678",
-    "date": "2026-08-18",
-    "time": "12:00 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Hanna Sadek",
-    "location": "Merrylands",
-    "remaining_spots": 15,
-    "capacity": 22
-  },
-  {
-    "booking_id": "104book34961",
-    "date": "2026-08-18",
-    "time": "12:00 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Neave Welch",
-    "location": "Newtown",
-    "remaining_spots": 9,
-    "capacity": 20
-  },
-  {
-    "booking_id": "107book62160",
-    "date": "2026-08-18",
-    "time": "12:00 PM",
-    "name": "Infrared Pilates",
-    "class_type": "Mat Series",
-    "instructor": "Tan Hutton",
-    "location": "North Sydney",
-    "remaining_spots": 17,
-    "capacity": 30
-  },
-  {
-    "booking_id": "107book49219",
-    "date": "2026-08-18",
-    "time": "12:00 PM",
-    "name": "Athletica",
-    "class_type": "S&C Series",
-    "instructor": "Molly Williams",
-    "location": "North Sydney",
-    "remaining_spots": 17,
-    "capacity": 24
-  },
-  {
-    "booking_id": "101book64072",
-    "date": "2026-08-18",
-    "time": "12:00 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Mia Hamilton",
-    "location": "Surry Hills",
-    "remaining_spots": 15,
-    "capacity": 18
-  },
-  {
-    "booking_id": "101book63011",
-    "date": "2026-08-18",
-    "time": "12:00 PM",
-    "name": "Strong",
-    "class_type": "S&C Series",
-    "instructor": "Jennia Klimenkova",
-    "location": "Surry Hills",
-    "remaining_spots": 23,
-    "capacity": 26
-  },
-  {
     "booking_id": "101book61511",
     "date": "2026-08-18",
     "time": "12:10 PM",
@@ -4418,7 +4286,7 @@
     "class_type": "Pulse & Build Series",
     "instructor": "Colleen Antony",
     "location": "Marrickville",
-    "remaining_spots": 26,
+    "remaining_spots": 25,
     "capacity": 26
   },
   {
@@ -4440,7 +4308,7 @@
     "class_type": "Reformer Series",
     "instructor": "Bethany Rumore",
     "location": "Newtown",
-    "remaining_spots": 20,
+    "remaining_spots": 10,
     "capacity": 20
   },
   {
@@ -4473,7 +4341,7 @@
     "class_type": "S&C Series",
     "instructor": "Jennia Klimenkova",
     "location": "North Sydney",
-    "remaining_spots": 21,
+    "remaining_spots": 18,
     "capacity": 24
   },
   {

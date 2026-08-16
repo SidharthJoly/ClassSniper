@@ -480,7 +480,7 @@
     "class_type": "Reformer Series",
     "instructor": "Nikki Rubbi-Clarke",
     "location": "North Sydney",
-    "remaining_spots": 0,
+    "remaining_spots": 1,
     "capacity": 24
   },
   {
@@ -1613,7 +1613,7 @@
     "class_type": "Reformer Series",
     "instructor": "Abigail Rose",
     "location": "Surry Hills",
-    "remaining_spots": 4,
+    "remaining_spots": 3,
     "capacity": 20
   },
   {
@@ -1974,7 +1974,7 @@
     "time": "4:30 PM",
     "name": "Infrared Yoga",
     "class_type": "Yoga Series",
-    "instructor": "Joey Curcio",
+    "instructor": "Anton Anton",
     "location": "Surry Hills",
     "remaining_spots": 20,
     "capacity": 34
@@ -2141,7 +2141,7 @@
     "class_type": "Reformer Series",
     "instructor": "Montana Cominos",
     "location": "Marrickville",
-    "remaining_spots": 1,
+    "remaining_spots": 0,
     "capacity": 15
   },
   {
@@ -2271,7 +2271,7 @@
     "time": "5:30 PM",
     "name": "Ritual",
     "class_type": "Mat Series",
-    "instructor": "Joey Curcio",
+    "instructor": "Anton Anton",
     "location": "Surry Hills",
     "remaining_spots": 0,
     "capacity": 34
@@ -2636,7 +2636,7 @@
     "class_type": "Pulse & Build Series",
     "instructor": "Kayla Job",
     "location": "Merrylands",
-    "remaining_spots": 21,
+    "remaining_spots": 20,
     "capacity": 33
   },
   {
@@ -2988,7 +2988,7 @@
     "class_type": "Mat Series",
     "instructor": "Kristy Hocking",
     "location": "North Sydney",
-    "remaining_spots": 21,
+    "remaining_spots": 20,
     "capacity": 30
   },
   {

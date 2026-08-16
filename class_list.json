@@ -1,49 +1,5 @@
 [
   {
-    "booking_id": "105book32282",
-    "date": "2026-08-17",
-    "time": "4:30 PM",
-    "name": "Upper Force",
-    "class_type": "S&C Series",
-    "instructor": "Joey Bowling",
-    "location": "Haymarket",
-    "remaining_spots": 25,
-    "capacity": 30
-  },
-  {
-    "booking_id": "105book34750",
-    "date": "2026-08-17",
-    "time": "4:30 PM",
-    "name": "Mat Pilates",
-    "class_type": "Mat Series",
-    "instructor": "Sinead Chabowski",
-    "location": "Haymarket",
-    "remaining_spots": 4,
-    "capacity": 38
-  },
-  {
-    "booking_id": "101book58196",
-    "date": "2026-08-17",
-    "time": "4:30 PM",
-    "name": "Yoga: Flowstate",
-    "class_type": "Yoga Series",
-    "instructor": "Sunil Tailor",
-    "location": "Surry Hills",
-    "remaining_spots": 17,
-    "capacity": 34
-  },
-  {
-    "booking_id": "101book59541",
-    "date": "2026-08-17",
-    "time": "4:30 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Karen Kwang",
-    "location": "Surry Hills",
-    "remaining_spots": 8,
-    "capacity": 18
-  },
-  {
     "booking_id": "105book36896",
     "date": "2026-08-17",
     "time": "4:45 PM",
@@ -667,7 +623,7 @@
     "class_type": "Spin Series",
     "instructor": "Jonathon Balzanelli",
     "location": "North Sydney",
-    "remaining_spots": 1,
+    "remaining_spots": 0,
     "capacity": 40
   },
   {
@@ -1294,7 +1250,7 @@
     "class_type": "Spin Series",
     "instructor": "Frances Lee",
     "location": "North Sydney",
-    "remaining_spots": 27,
+    "remaining_spots": 26,
     "capacity": 40
   },
   {
@@ -2042,7 +1998,7 @@
     "class_type": "Mat Series",
     "instructor": "Julieanne Nicolas",
     "location": "Surry Hills",
-    "remaining_spots": 9,
+    "remaining_spots": 8,
     "capacity": 34
   },
   {
@@ -3802,7 +3758,7 @@
     "class_type": "Spin Series",
     "instructor": "Evie Bird",
     "location": "Marrickville",
-    "remaining_spots": 17,
+    "remaining_spots": 16,
     "capacity": 20
   },
   {

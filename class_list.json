@@ -502,7 +502,7 @@
     "class_type": "Yoga Series",
     "instructor": "Katie Jay",
     "location": "North Sydney",
-    "remaining_spots": 4,
+    "remaining_spots": 3,
     "capacity": 30
   },
   {
@@ -2152,7 +2152,7 @@
     "class_type": "Fight Series",
     "instructor": "Bridget Surdich",
     "location": "Merrylands",
-    "remaining_spots": 29,
+    "remaining_spots": 27,
     "capacity": 31
   },
   {
@@ -3527,7 +3527,7 @@
     "class_type": "Reformer Series",
     "instructor": "Elaina Lentini",
     "location": "Surry Hills",
-    "remaining_spots": 1,
+    "remaining_spots": 0,
     "capacity": 18
   },
   {
@@ -4033,7 +4033,7 @@
     "class_type": "Reformer Series",
     "instructor": "Sienna Egan",
     "location": "Newtown",
-    "remaining_spots": 4,
+    "remaining_spots": 3,
     "capacity": 20
   },
   {

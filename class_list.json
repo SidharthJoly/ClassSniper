@@ -1523,7 +1523,7 @@
     "time": "12:00 PM",
     "name": "Athletica",
     "class_type": "S&C Series",
-    "instructor": "Billy Thornhill",
+    "instructor": "Molly Williams",
     "location": "North Sydney",
     "remaining_spots": 20,
     "capacity": 24
@@ -2097,7 +2097,7 @@
     "class_type": "Mat Series",
     "instructor": "Kristy Hocking",
     "location": "North Sydney",
-    "remaining_spots": 18,
+    "remaining_spots": 17,
     "capacity": 30
   },
   {
@@ -4704,7 +4704,7 @@
     "class_type": "Reformer Series",
     "instructor": "Carlos Gallo",
     "location": "North Sydney",
-    "remaining_spots": 24,
+    "remaining_spots": 23,
     "capacity": 24
   },
   {

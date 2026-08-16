@@ -722,7 +722,7 @@
     "class_type": "S&C Series",
     "instructor": "Elizabeth Topfer",
     "location": "Marrickville",
-    "remaining_spots": 23,
+    "remaining_spots": 22,
     "capacity": 26
   },
   {
@@ -1756,7 +1756,7 @@
     "class_type": "Reformer Series",
     "instructor": "Lauren Buck",
     "location": "Marrickville",
-    "remaining_spots": 1,
+    "remaining_spots": 0,
     "capacity": 15
   },
   {
@@ -2240,7 +2240,7 @@
     "class_type": "Reformer Series",
     "instructor": "Areeba Talpur",
     "location": "Merrylands",
-    "remaining_spots": 6,
+    "remaining_spots": 5,
     "capacity": 21
   },
   {
@@ -2702,7 +2702,7 @@
     "class_type": "Yoga Series",
     "instructor": "Nick Gross",
     "location": "Marrickville",
-    "remaining_spots": 10,
+    "remaining_spots": 9,
     "capacity": 36
   },
   {
@@ -4935,7 +4935,7 @@
     "class_type": "Pulse & Build Series",
     "instructor": "Elizabeth Topfer",
     "location": "Haymarket",
-    "remaining_spots": 3,
+    "remaining_spots": 2,
     "capacity": 32
   },
   {

@@ -3549,7 +3549,7 @@
     "class_type": "Pulse & Build Series",
     "instructor": "Taniesha Walker",
     "location": "North Sydney",
-    "remaining_spots": 21,
+    "remaining_spots": 20,
     "capacity": 30
   },
   {
@@ -4605,7 +4605,7 @@
     "class_type": "Reformer Series",
     "instructor": "Carlos Gallo",
     "location": "North Sydney",
-    "remaining_spots": 21,
+    "remaining_spots": 20,
     "capacity": 24
   },
   {
@@ -5045,7 +5045,7 @@
     "class_type": "Mat Series",
     "instructor": "Elaina Lentini",
     "location": "Surry Hills",
-    "remaining_spots": 16,
+    "remaining_spots": 15,
     "capacity": 36
   },
   {
@@ -5298,7 +5298,7 @@
     "class_type": "Pulse & Build Series",
     "instructor": "Mitra Alizadeh",
     "location": "Merrylands",
-    "remaining_spots": 26,
+    "remaining_spots": 25,
     "capacity": 33
   },
   {
@@ -5507,7 +5507,7 @@
     "class_type": "Spin Series",
     "instructor": "Mark Brinker",
     "location": "North Sydney",
-    "remaining_spots": 30,
+    "remaining_spots": 29,
     "capacity": 40
   },
   {
@@ -7166,7 +7166,7 @@
     "time": "12:00 PM",
     "name": "Total Build",
     "class_type": "Pulse & Build Series",
-    "instructor": "Joey Bowling",
+    "instructor": "Marcus Parkin",
     "location": "Haymarket",
     "remaining_spots": 32,
     "capacity": 32
@@ -7496,7 +7496,7 @@
     "time": "2:00 PM",
     "name": "Reformer: Signature",
     "class_type": "Reformer Series",
-    "instructor": "Monica Faundez",
+    "instructor": "Simon Corfield",
     "location": "Newtown",
     "remaining_spots": 20,
     "capacity": 20
@@ -7551,7 +7551,7 @@
     "time": "3:00 PM",
     "name": "Reformer: Strong",
     "class_type": "Reformer Series",
-    "instructor": "Monica Faundez",
+    "instructor": "Simon Corfield",
     "location": "Newtown",
     "remaining_spots": 20,
     "capacity": 20
@@ -7639,7 +7639,7 @@
     "time": "4:00 PM",
     "name": "Reformer: Signature",
     "class_type": "Reformer Series",
-    "instructor": "Monica Faundez",
+    "instructor": "Simon Corfield",
     "location": "Newtown",
     "remaining_spots": 20,
     "capacity": 20
@@ -7870,7 +7870,7 @@
     "time": "5:00 PM",
     "name": "Reformer: Strong",
     "class_type": "Reformer Series",
-    "instructor": "Monica Faundez",
+    "instructor": "Simon Corfield",
     "location": "Newtown",
     "remaining_spots": 20,
     "capacity": 20
@@ -16032,7 +16032,7 @@
     "time": "5:00 PM",
     "name": "Reformer: Strong",
     "class_type": "Reformer Series",
-    "instructor": "Monica Faundez",
+    "instructor": "Amelia Gartner",
     "location": "Marrickville",
     "remaining_spots": 15,
     "capacity": 15
@@ -16329,7 +16329,7 @@
     "time": "6:00 PM",
     "name": "Reformer: Signature",
     "class_type": "Reformer Series",
-    "instructor": "Monica Faundez",
+    "instructor": "Amelia Gartner",
     "location": "Marrickville",
     "remaining_spots": 15,
     "capacity": 15
@@ -16626,7 +16626,7 @@
     "time": "6:45 PM",
     "name": "Reformer: Strong",
     "class_type": "Reformer Series",
-    "instructor": "Monica Faundez",
+    "instructor": "Amelia Gartner",
     "location": "Marrickville",
     "remaining_spots": 15,
     "capacity": 15
@@ -16802,7 +16802,7 @@
     "time": "7:30 PM",
     "name": "Reformer: Signature",
     "class_type": "Reformer Series",
-    "instructor": "Monica Faundez",
+    "instructor": "Amelia Gartner",
     "location": "Marrickville",
     "remaining_spots": 15,
     "capacity": 15
@@ -21774,7 +21774,7 @@
     "time": "4:30 PM",
     "name": "Reformer: Origins",
     "class_type": "Reformer Series",
-    "instructor": "Monica Faundez",
+    "instructor": "Bethany Rumore",
     "location": "Marrickville",
     "remaining_spots": 15,
     "capacity": 15
@@ -21983,7 +21983,7 @@
     "time": "5:15 PM",
     "name": "Reformer: Strong",
     "class_type": "Reformer Series",
-    "instructor": "Monica Faundez",
+    "instructor": "Bethany Rumore",
     "location": "Marrickville",
     "remaining_spots": 15,
     "capacity": 15
@@ -22159,7 +22159,7 @@
     "time": "6:00 PM",
     "name": "Reformer: Strong",
     "class_type": "Reformer Series",
-    "instructor": "Monica Faundez",
+    "instructor": "Bethany Rumore",
     "location": "Marrickville",
     "remaining_spots": 15,
     "capacity": 15
@@ -22423,7 +22423,7 @@
     "time": "6:45 PM",
     "name": "Reformer: Signature",
     "class_type": "Reformer Series",
-    "instructor": "Monica Faundez",
+    "instructor": "Bethany Rumore",
     "location": "Marrickville",
     "remaining_spots": 15,
     "capacity": 15
@@ -22588,7 +22588,7 @@
     "time": "7:30 PM",
     "name": "Reformer: Signature",
     "class_type": "Reformer Series",
-    "instructor": "Monica Faundez",
+    "instructor": "Bethany Rumore",
     "location": "Marrickville",
     "remaining_spots": 15,
     "capacity": 15

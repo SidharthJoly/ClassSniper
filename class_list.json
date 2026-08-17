@@ -1,27 +1,5 @@
 [
   {
-    "booking_id": "103book55094",
-    "date": "2026-08-19",
-    "time": "5:30 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Joe Jackson",
-    "location": "Marrickville",
-    "remaining_spots": 0,
-    "capacity": 15
-  },
-  {
-    "booking_id": "107book63843",
-    "date": "2026-08-19",
-    "time": "5:30 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Lily Cole",
-    "location": "North Sydney",
-    "remaining_spots": 0,
-    "capacity": 24
-  },
-  {
     "booking_id": "106book43242",
     "date": "2026-08-19",
     "time": "5:45 AM",
@@ -711,7 +689,7 @@
     "class_type": "Pulse & Build Series",
     "instructor": "Taniesha Walker",
     "location": "North Sydney",
-    "remaining_spots": 2,
+    "remaining_spots": 1,
     "capacity": 30
   },
   {

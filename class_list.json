@@ -4440,7 +4440,7 @@
     "class_type": "Yoga Series",
     "instructor": "Luka Cubrilo",
     "location": "North Sydney",
-    "remaining_spots": 28,
+    "remaining_spots": 27,
     "capacity": 30
   },
   {
@@ -4880,7 +4880,7 @@
     "class_type": "Reformer Series",
     "instructor": "Amelia Gartner",
     "location": "Marrickville",
-    "remaining_spots": 15,
+    "remaining_spots": 11,
     "capacity": 15
   },
   {
@@ -5459,9 +5459,9 @@
     "booking_id": "101book69624",
     "date": "2026-08-20",
     "time": "6:15 PM",
-    "name": "Athletica",
-    "class_type": "S&C Series",
-    "instructor": "Joey Bowling",
+    "name": "Fighting Fit",
+    "class_type": "Fight Series",
+    "instructor": "Kristen Marconi",
     "location": "Surry Hills",
     "remaining_spots": 26,
     "capacity": 26
@@ -5747,7 +5747,7 @@
     "time": "7:30 PM",
     "name": "Mobility",
     "class_type": "Mat Series",
-    "instructor": "Nathan Newman",
+    "instructor": "Zoe Downing",
     "location": "Newtown",
     "remaining_spots": 24,
     "capacity": 24

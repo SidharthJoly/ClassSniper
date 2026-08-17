@@ -1,16 +1,5 @@
 [
   {
-    "booking_id": "106book43092",
-    "date": "2026-08-19",
-    "time": "12:45 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Maria Sahyoun",
-    "location": "Merrylands",
-    "remaining_spots": 21,
-    "capacity": 21
-  },
-  {
     "booking_id": "105book49843",
     "date": "2026-08-19",
     "time": "1:00 PM",
@@ -3054,7 +3043,7 @@
     "class_type": "Reformer Series",
     "instructor": "Simon Corfield",
     "location": "Newtown",
-    "remaining_spots": 17,
+    "remaining_spots": 18,
     "capacity": 20
   },
   {
@@ -4165,7 +4154,7 @@
     "class_type": "S&C Series",
     "instructor": "Charbel Tasipale",
     "location": "Merrylands",
-    "remaining_spots": 30,
+    "remaining_spots": 29,
     "capacity": 30
   },
   {

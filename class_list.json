@@ -414,7 +414,7 @@
     "class_type": "Yoga Series",
     "instructor": "Kristy Hocking",
     "location": "North Sydney",
-    "remaining_spots": 20,
+    "remaining_spots": 21,
     "capacity": 30
   },
   {
@@ -590,7 +590,7 @@
     "class_type": "Reformer Series",
     "instructor": "Lily Cole",
     "location": "North Sydney",
-    "remaining_spots": 4,
+    "remaining_spots": 5,
     "capacity": 24
   },
   {

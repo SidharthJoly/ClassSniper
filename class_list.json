@@ -733,7 +733,7 @@
     "class_type": "Reformer Series",
     "instructor": "Bethany Rumore",
     "location": "Haymarket",
-    "remaining_spots": 4,
+    "remaining_spots": 3,
     "capacity": 24
   },
   {
@@ -1580,7 +1580,7 @@
     "class_type": "Barre Series",
     "instructor": "Michael Roache",
     "location": "Surry Hills",
-    "remaining_spots": 1,
+    "remaining_spots": 0,
     "capacity": 23
   },
   {
@@ -1855,7 +1855,7 @@
     "class_type": "Reformer Series",
     "instructor": "Abigail Rose",
     "location": "Haymarket",
-    "remaining_spots": 17,
+    "remaining_spots": 18,
     "capacity": 24
   },
   {
@@ -2240,7 +2240,7 @@
     "class_type": "Spin Series",
     "instructor": "David Mitchell",
     "location": "Haymarket",
-    "remaining_spots": 29,
+    "remaining_spots": 28,
     "capacity": 35
   },
   {
@@ -4704,7 +4704,7 @@
     "class_type": "Reformer Series",
     "instructor": "Jovana Subotic",
     "location": "Marrickville",
-    "remaining_spots": 15,
+    "remaining_spots": 14,
     "capacity": 15
   },
   {

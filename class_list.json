@@ -1,16 +1,5 @@
 [
   {
-    "booking_id": "105book41502",
-    "date": "2026-08-19",
-    "time": "8:45 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Bethany Rumore",
-    "location": "Haymarket",
-    "remaining_spots": 0,
-    "capacity": 24
-  },
-  {
     "booking_id": "103book55458",
     "date": "2026-08-19",
     "time": "9:00 AM",

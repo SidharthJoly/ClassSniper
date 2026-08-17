@@ -1,16 +1,5 @@
 [
   {
-    "booking_id": "106book61645",
-    "date": "2026-08-19",
-    "time": "11:15 AM",
-    "name": "Reformer: Sculpt",
-    "class_type": "Reformer Series",
-    "instructor": "Maria Sahyoun",
-    "location": "Merrylands",
-    "remaining_spots": 0,
-    "capacity": 21
-  },
-  {
     "booking_id": "105book41398",
     "date": "2026-08-19",
     "time": "11:30 AM",
@@ -2306,7 +2295,7 @@
     "class_type": "Pulse & Build Series",
     "instructor": "Joey Bowling",
     "location": "North Sydney",
-    "remaining_spots": 14,
+    "remaining_spots": 13,
     "capacity": 30
   },
   {

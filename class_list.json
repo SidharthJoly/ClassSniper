@@ -29,7 +29,7 @@
     "class_type": "Yoga Series",
     "instructor": "Luka Cubrilo",
     "location": "Marrickville",
-    "remaining_spots": 23,
+    "remaining_spots": 24,
     "capacity": 36
   },
   {
@@ -2911,7 +2911,7 @@
     "class_type": "Reformer Series",
     "instructor": "Neave Welch",
     "location": "Surry Hills",
-    "remaining_spots": 8,
+    "remaining_spots": 7,
     "capacity": 20
   },
   {
@@ -4858,7 +4858,7 @@
     "class_type": "Creche",
     "instructor": "Chloe Burns",
     "location": "Merrylands",
-    "remaining_spots": 7,
+    "remaining_spots": 6,
     "capacity": 8
   },
   {

@@ -62,7 +62,7 @@
     "class_type": "Pulse & Build Series",
     "instructor": "Chris Jumman",
     "location": "Haymarket",
-    "remaining_spots": 1,
+    "remaining_spots": 0,
     "capacity": 32
   },
   {
@@ -5155,7 +5155,7 @@
     "class_type": "Reformer Series",
     "instructor": "Abigail Rose",
     "location": "Haymarket",
-    "remaining_spots": 5,
+    "remaining_spots": 4,
     "capacity": 24
   },
   {
@@ -5287,7 +5287,7 @@
     "class_type": "Pulse & Build Series",
     "instructor": "Stephanie Conlin",
     "location": "Haymarket",
-    "remaining_spots": 2,
+    "remaining_spots": 1,
     "capacity": 32
   },
   {
@@ -5397,7 +5397,7 @@
     "class_type": "Reformer Series",
     "instructor": "Mandy Moussa",
     "location": "Merrylands",
-    "remaining_spots": 18,
+    "remaining_spots": 17,
     "capacity": 20
   },
   {

@@ -3162,7 +3162,7 @@
     "time": "6:30 AM",
     "name": "Reformer: Strong",
     "class_type": "Reformer Series",
-    "instructor": "Zennah Chaudri",
+    "instructor": "Simon Corfield",
     "location": "Haymarket",
     "remaining_spots": 7,
     "capacity": 24
@@ -3371,7 +3371,7 @@
     "time": "7:15 AM",
     "name": "Reformer: Signature",
     "class_type": "Reformer Series",
-    "instructor": "Zennah Chaudri",
+    "instructor": "Simon Corfield",
     "location": "Haymarket",
     "remaining_spots": 0,
     "capacity": 24
@@ -3668,7 +3668,7 @@
     "time": "8:15 AM",
     "name": "Reformer: Signature",
     "class_type": "Reformer Series",
-    "instructor": "Zennah Chaudri",
+    "instructor": "Simon Corfield",
     "location": "Haymarket",
     "remaining_spots": 10,
     "capacity": 24
@@ -3692,7 +3692,7 @@
     "class_type": "Reformer Series",
     "instructor": "Hanna Sadek",
     "location": "Merrylands",
-    "remaining_spots": 19,
+    "remaining_spots": 18,
     "capacity": 22
   },
   {
@@ -3767,7 +3767,7 @@
     "time": "9:00 AM",
     "name": "Reformer: Strong",
     "class_type": "Reformer Series",
-    "instructor": "Zennah Chaudri",
+    "instructor": "Simon Corfield",
     "location": "Haymarket",
     "remaining_spots": 16,
     "capacity": 24
@@ -3943,7 +3943,7 @@
     "time": "9:45 AM",
     "name": "Reformer: Signature",
     "class_type": "Reformer Series",
-    "instructor": "Zennah Chaudri",
+    "instructor": "Simon Corfield",
     "location": "Haymarket",
     "remaining_spots": 15,
     "capacity": 24
@@ -4143,7 +4143,7 @@
     "class_type": "Reformer Series",
     "instructor": "Alison Bruton",
     "location": "Surry Hills",
-    "remaining_spots": 15,
+    "remaining_spots": 14,
     "capacity": 20
   },
   {
@@ -5166,7 +5166,7 @@
     "class_type": "Spin Series",
     "instructor": "Bobbie Mount",
     "location": "Marrickville",
-    "remaining_spots": 14,
+    "remaining_spots": 13,
     "capacity": 20
   },
   {

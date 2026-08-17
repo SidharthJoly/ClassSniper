@@ -733,7 +733,7 @@
     "class_type": "Reformer Series",
     "instructor": "Bethany Rumore",
     "location": "Haymarket",
-    "remaining_spots": 1,
+    "remaining_spots": 0,
     "capacity": 24
   },
   {
@@ -1899,7 +1899,7 @@
     "class_type": "Reformer Series",
     "instructor": "Kat Morrison",
     "location": "Marrickville",
-    "remaining_spots": 3,
+    "remaining_spots": 2,
     "capacity": 15
   },
   {
@@ -2944,7 +2944,7 @@
     "class_type": "Reformer Series",
     "instructor": "Ellie Chan",
     "location": "North Sydney",
-    "remaining_spots": 7,
+    "remaining_spots": 5,
     "capacity": 24
   },
   {
@@ -4429,7 +4429,7 @@
     "class_type": "Reformer Series",
     "instructor": "Amelia Gartner",
     "location": "Newtown",
-    "remaining_spots": 20,
+    "remaining_spots": 19,
     "capacity": 20
   },
   {
@@ -4858,7 +4858,7 @@
     "class_type": "Mat Series",
     "instructor": "Kristy Hocking",
     "location": "Surry Hills",
-    "remaining_spots": 33,
+    "remaining_spots": 32,
     "capacity": 34
   },
   {
@@ -5221,7 +5221,7 @@
     "class_type": "Mat Series",
     "instructor": "Emmy Drew",
     "location": "North Sydney",
-    "remaining_spots": 17,
+    "remaining_spots": 15,
     "capacity": 30
   },
   {

@@ -2075,7 +2075,7 @@
     "class_type": "Reformer Series",
     "instructor": "Abigail Rose",
     "location": "Haymarket",
-    "remaining_spots": 9,
+    "remaining_spots": 8,
     "capacity": 24
   },
   {
@@ -2438,7 +2438,7 @@
     "class_type": "Dance Series",
     "instructor": "Abigail Wells",
     "location": "Marrickville",
-    "remaining_spots": 12,
+    "remaining_spots": 13,
     "capacity": 20
   },
   {
@@ -5100,7 +5100,7 @@
     "class_type": "Pulse & Build Series",
     "instructor": "Elizabeth Topfer",
     "location": "North Sydney",
-    "remaining_spots": 13,
+    "remaining_spots": 12,
     "capacity": 30
   },
   {

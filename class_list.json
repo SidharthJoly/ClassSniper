@@ -1,16 +1,5 @@
 [
   {
-    "booking_id": "101book49130",
-    "date": "2026-08-19",
-    "time": "1:10 PM",
-    "name": "Barre Signature",
-    "class_type": "Barre Series",
-    "instructor": "Michael Roache",
-    "location": "Surry Hills",
-    "remaining_spots": 12,
-    "capacity": 23
-  },
-  {
     "booking_id": "105book38989",
     "date": "2026-08-19",
     "time": "1:15 PM",
@@ -4275,7 +4264,7 @@
     "class_type": "S&C Series",
     "instructor": "Zoe Downing",
     "location": "Surry Hills",
-    "remaining_spots": 15,
+    "remaining_spots": 14,
     "capacity": 26
   },
   {
@@ -4517,7 +4506,7 @@
     "class_type": "Reformer Series",
     "instructor": "Shannon Hsu",
     "location": "North Sydney",
-    "remaining_spots": 16,
+    "remaining_spots": 14,
     "capacity": 24
   },
   {

@@ -1,71 +1,5 @@
 [
   {
-    "booking_id": "105book40094",
-    "date": "2026-08-19",
-    "time": "12:15 PM",
-    "name": "Mat Pilates",
-    "class_type": "Mat Series",
-    "instructor": "Bethany Rumore",
-    "location": "Haymarket",
-    "remaining_spots": 34,
-    "capacity": 38
-  },
-  {
-    "booking_id": "105book41086",
-    "date": "2026-08-19",
-    "time": "12:15 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Mackenzie Sengotta",
-    "location": "Haymarket",
-    "remaining_spots": 6,
-    "capacity": 24
-  },
-  {
-    "booking_id": "107book49524",
-    "date": "2026-08-19",
-    "time": "12:15 PM",
-    "name": "Total Build",
-    "class_type": "Pulse & Build Series",
-    "instructor": "Eisha Liyanage",
-    "location": "North Sydney",
-    "remaining_spots": 2,
-    "capacity": 30
-  },
-  {
-    "booking_id": "107book62955",
-    "date": "2026-08-19",
-    "time": "12:15 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Gianna Petracic",
-    "location": "North Sydney",
-    "remaining_spots": 0,
-    "capacity": 24
-  },
-  {
-    "booking_id": "101book65306",
-    "date": "2026-08-19",
-    "time": "12:15 PM",
-    "name": "Fighting Fit",
-    "class_type": "Fight Series",
-    "instructor": "Stephanie Conlin",
-    "location": "Surry Hills",
-    "remaining_spots": 23,
-    "capacity": 26
-  },
-  {
-    "booking_id": "101book66197",
-    "date": "2026-08-19",
-    "time": "12:15 PM",
-    "name": "Reformer: Strong",
-    "class_type": "Reformer Series",
-    "instructor": "Robynne Henry",
-    "location": "Surry Hills",
-    "remaining_spots": 5,
-    "capacity": 20
-  },
-  {
     "booking_id": "103book55302",
     "date": "2026-08-19",
     "time": "12:30 PM",
@@ -1954,7 +1888,7 @@
     "class_type": "Mat Series",
     "instructor": "Mackenzie Sengotta",
     "location": "Surry Hills",
-    "remaining_spots": 0,
+    "remaining_spots": 1,
     "capacity": 23
   },
   {
@@ -4352,7 +4286,7 @@
     "class_type": "S&C Series",
     "instructor": "Billy Thornhill",
     "location": "North Sydney",
-    "remaining_spots": 18,
+    "remaining_spots": 17,
     "capacity": 24
   },
   {

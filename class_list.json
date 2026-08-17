@@ -1,71 +1,5 @@
 [
   {
-    "booking_id": "105book39276",
-    "date": "2026-08-18",
-    "time": "7:15 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Janet Lapprathana",
-    "location": "Haymarket",
-    "remaining_spots": 0,
-    "capacity": 24
-  },
-  {
-    "booking_id": "105book28542",
-    "date": "2026-08-18",
-    "time": "7:15 PM",
-    "name": "Beatbox",
-    "class_type": "Spin Series",
-    "instructor": "Alexandra Doddridge",
-    "location": "Haymarket",
-    "remaining_spots": 28,
-    "capacity": 35
-  },
-  {
-    "booking_id": "103book63597",
-    "date": "2026-08-18",
-    "time": "7:15 PM",
-    "name": "Yoga: Restore & Sound",
-    "class_type": "Yoga Series",
-    "instructor": "Nick Gross",
-    "location": "Marrickville",
-    "remaining_spots": 0,
-    "capacity": 36
-  },
-  {
-    "booking_id": "104book35278",
-    "date": "2026-08-18",
-    "time": "7:15 PM",
-    "name": "Badass",
-    "class_type": "S&C Series",
-    "instructor": "Chris Jumman",
-    "location": "Newtown",
-    "remaining_spots": 15,
-    "capacity": 28
-  },
-  {
-    "booking_id": "107book47155",
-    "date": "2026-08-18",
-    "time": "7:15 PM",
-    "name": "Total Build",
-    "class_type": "Pulse & Build Series",
-    "instructor": "Benjamin Young",
-    "location": "North Sydney",
-    "remaining_spots": 0,
-    "capacity": 30
-  },
-  {
-    "booking_id": "101book61407",
-    "date": "2026-08-18",
-    "time": "7:15 PM",
-    "name": "Athletica",
-    "class_type": "S&C Series",
-    "instructor": "Matthew Gardner",
-    "location": "Surry Hills",
-    "remaining_spots": 22,
-    "capacity": 26
-  },
-  {
     "booking_id": "103book67332",
     "date": "2026-08-18",
     "time": "7:30 PM",
@@ -4605,7 +4539,7 @@
     "class_type": "S&C Series",
     "instructor": "Jose Da Rocha, Molly Williams",
     "location": "North Sydney",
-    "remaining_spots": 15,
+    "remaining_spots": 14,
     "capacity": 24
   },
   {

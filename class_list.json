@@ -1,16 +1,5 @@
 [
   {
-    "booking_id": "107book51170",
-    "date": "2026-08-19",
-    "time": "8:40 AM",
-    "name": "Upper Build",
-    "class_type": "Pulse & Build Series",
-    "instructor": "Taniesha Walker",
-    "location": "North Sydney",
-    "remaining_spots": 14,
-    "capacity": 30
-  },
-  {
     "booking_id": "105book41502",
     "date": "2026-08-19",
     "time": "8:45 AM",
@@ -931,7 +920,7 @@
     "class_type": "Reformer Series",
     "instructor": "Kat Morrison",
     "location": "Marrickville",
-    "remaining_spots": 3,
+    "remaining_spots": 2,
     "capacity": 15
   },
   {
@@ -3351,7 +3340,7 @@
     "class_type": "Mat Series",
     "instructor": "Phoebe Thomson",
     "location": "Marrickville",
-    "remaining_spots": 29,
+    "remaining_spots": 30,
     "capacity": 36
   },
   {

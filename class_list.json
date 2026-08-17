@@ -1,16 +1,5 @@
 [
   {
-    "booking_id": "101book65984",
-    "date": "2026-08-19",
-    "time": "5:50 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Maggie Dixon-Best",
-    "location": "Surry Hills",
-    "remaining_spots": 0,
-    "capacity": 20
-  },
-  {
     "booking_id": "105book40039",
     "date": "2026-08-19",
     "time": "6:00 AM",
@@ -1074,7 +1063,7 @@
     "class_type": "Reformer Series",
     "instructor": "Bethany Rumore",
     "location": "Haymarket",
-    "remaining_spots": 18,
+    "remaining_spots": 17,
     "capacity": 24
   },
   {
@@ -5023,7 +5012,7 @@
     "class_type": "Spin Series",
     "instructor": "Jonathon Balzanelli",
     "location": "Haymarket",
-    "remaining_spots": 3,
+    "remaining_spots": 2,
     "capacity": 35
   },
   {
@@ -5232,7 +5221,7 @@
     "class_type": "Dance Series",
     "instructor": "Peta Sternaras",
     "location": "Haymarket",
-    "remaining_spots": 28,
+    "remaining_spots": 26,
     "capacity": 38
   },
   {

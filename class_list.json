@@ -33,17 +33,6 @@
     "capacity": 40
   },
   {
-    "booking_id": "107book65409",
-    "date": "2026-08-20",
-    "time": "5:30 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Ellie Chan",
-    "location": "North Sydney",
-    "remaining_spots": 24,
-    "capacity": 24
-  },
-  {
     "booking_id": "106book54080",
     "date": "2026-08-20",
     "time": "5:45 AM",
@@ -196,17 +185,6 @@
     "location": "Merrylands",
     "remaining_spots": 25,
     "capacity": 30
-  },
-  {
-    "booking_id": "107book65458",
-    "date": "2026-08-20",
-    "time": "6:15 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Ellie Chan",
-    "location": "North Sydney",
-    "remaining_spots": 24,
-    "capacity": 24
   },
   {
     "booking_id": "107book65672",
@@ -449,17 +427,6 @@
     "location": "North Sydney",
     "remaining_spots": 0,
     "capacity": 30
-  },
-  {
-    "booking_id": "107book65142",
-    "date": "2026-08-20",
-    "time": "7:00 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Ellie Chan",
-    "location": "North Sydney",
-    "remaining_spots": 24,
-    "capacity": 24
   },
   {
     "booking_id": "105book42578",
@@ -1910,7 +1877,7 @@
     "class_type": "Reformer Series",
     "instructor": "Simon Corfield",
     "location": "Newtown",
-    "remaining_spots": 7,
+    "remaining_spots": 6,
     "capacity": 20
   },
   {
@@ -1934,17 +1901,6 @@
     "location": "Surry Hills",
     "remaining_spots": 7,
     "capacity": 20
-  },
-  {
-    "booking_id": "105book41971",
-    "date": "2026-08-20",
-    "time": "4:10 PM",
-    "name": "BodySculpt",
-    "class_type": "Mat Series",
-    "instructor": "Ahlex Leyva",
-    "location": "Haymarket",
-    "remaining_spots": 38,
-    "capacity": 38
   },
   {
     "booking_id": "101book67651",
@@ -2055,17 +2011,6 @@
     "location": "Surry Hills",
     "remaining_spots": 1,
     "capacity": 20
-  },
-  {
-    "booking_id": "105book40562",
-    "date": "2026-08-20",
-    "time": "5:00 PM",
-    "name": "BodyBurn",
-    "class_type": "Mat Series",
-    "instructor": "Ahlex Leyva",
-    "location": "Haymarket",
-    "remaining_spots": 38,
-    "capacity": 38
   },
   {
     "booking_id": "105book43189",
@@ -4550,7 +4495,7 @@
     "class_type": "Pulse & Build Series",
     "instructor": "Kayla Job",
     "location": "North Sydney",
-    "remaining_spots": 24,
+    "remaining_spots": 23,
     "capacity": 30
   },
   {
@@ -4884,17 +4829,6 @@
     "capacity": 24
   },
   {
-    "booking_id": "104book39729",
-    "date": "2026-08-21",
-    "time": "4:00 PM",
-    "name": "Power Pilates",
-    "class_type": "Mat Series",
-    "instructor": "Eva Baonza",
-    "location": "Newtown",
-    "remaining_spots": 23,
-    "capacity": 23
-  },
-  {
     "booking_id": "104book40723",
     "date": "2026-08-21",
     "time": "4:00 PM",
@@ -5025,17 +4959,6 @@
     "location": "Merrylands",
     "remaining_spots": 33,
     "capacity": 33
-  },
-  {
-    "booking_id": "104book40149",
-    "date": "2026-08-21",
-    "time": "5:00 PM",
-    "name": "Mat Pilates",
-    "class_type": "Mat Series",
-    "instructor": "Eva Baonza",
-    "location": "Newtown",
-    "remaining_spots": 23,
-    "capacity": 23
   },
   {
     "booking_id": "104book40619",

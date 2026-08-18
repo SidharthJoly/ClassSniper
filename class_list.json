@@ -1,16 +1,5 @@
 [
   {
-    "booking_id": "106book54080",
-    "date": "2026-08-20",
-    "time": "5:45 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Melissa Passe-De Silva",
-    "location": "Merrylands",
-    "remaining_spots": 13,
-    "capacity": 21
-  },
-  {
     "booking_id": "101book68254",
     "date": "2026-08-20",
     "time": "5:50 AM",
@@ -4891,7 +4880,7 @@
     "class_type": "Reformer Series",
     "instructor": "Simon Corfield",
     "location": "Haymarket",
-    "remaining_spots": 8,
+    "remaining_spots": 7,
     "capacity": 24
   },
   {

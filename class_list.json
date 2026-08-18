@@ -1,71 +1,5 @@
 [
   {
-    "booking_id": "105book40458",
-    "date": "2026-08-20",
-    "time": "12:15 PM",
-    "name": "Mat Pilates",
-    "class_type": "Mat Series",
-    "instructor": "Carlos Gallo",
-    "location": "Haymarket",
-    "remaining_spots": 32,
-    "capacity": 38
-  },
-  {
-    "booking_id": "105book41710",
-    "date": "2026-08-20",
-    "time": "12:15 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Kayla Stanton",
-    "location": "Haymarket",
-    "remaining_spots": 8,
-    "capacity": 24
-  },
-  {
-    "booking_id": "107book65880",
-    "date": "2026-08-20",
-    "time": "12:15 PM",
-    "name": "Upper Build",
-    "class_type": "Pulse & Build Series",
-    "instructor": "Sophia Collins",
-    "location": "North Sydney",
-    "remaining_spots": 17,
-    "capacity": 30
-  },
-  {
-    "booking_id": "107book65512",
-    "date": "2026-08-20",
-    "time": "12:15 PM",
-    "name": "Reformer: Strong",
-    "class_type": "Reformer Series",
-    "instructor": "Michael Roache",
-    "location": "North Sydney",
-    "remaining_spots": 2,
-    "capacity": 24
-  },
-  {
-    "booking_id": "101book69571",
-    "date": "2026-08-20",
-    "time": "12:15 PM",
-    "name": "Athletica",
-    "class_type": "S&C Series",
-    "instructor": "Stephanie Conlin",
-    "location": "Surry Hills",
-    "remaining_spots": 21,
-    "capacity": 26
-  },
-  {
-    "booking_id": "101book68779",
-    "date": "2026-08-20",
-    "time": "12:15 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Alison Bruton",
-    "location": "Surry Hills",
-    "remaining_spots": 5,
-    "capacity": 20
-  },
-  {
     "booking_id": "103book57898",
     "date": "2026-08-20",
     "time": "12:30 PM",
@@ -2988,7 +2922,7 @@
     "class_type": "Reformer Series",
     "instructor": "Neave Welch",
     "location": "Surry Hills",
-    "remaining_spots": 8,
+    "remaining_spots": 7,
     "capacity": 18
   },
   {

@@ -139,7 +139,7 @@
     "class_type": "Yoga Series",
     "instructor": "Hayley van Stom",
     "location": "North Sydney",
-    "remaining_spots": 4,
+    "remaining_spots": 3,
     "capacity": 30
   },
   {
@@ -4220,7 +4220,7 @@
     "class_type": "Yoga Series",
     "instructor": "Luka Cubrilo",
     "location": "Surry Hills",
-    "remaining_spots": 22,
+    "remaining_spots": 21,
     "capacity": 34
   },
   {
@@ -4682,7 +4682,7 @@
     "class_type": "S&C Series",
     "instructor": "Angela Aho",
     "location": "Surry Hills",
-    "remaining_spots": 22,
+    "remaining_spots": 21,
     "capacity": 26
   },
   {
@@ -4924,7 +4924,7 @@
     "class_type": "Reformer Series",
     "instructor": "Simon Corfield",
     "location": "Haymarket",
-    "remaining_spots": 17,
+    "remaining_spots": 16,
     "capacity": 24
   },
   {
@@ -5177,7 +5177,7 @@
     "class_type": "Pulse & Build Series",
     "instructor": "Colleen Antony",
     "location": "Haymarket",
-    "remaining_spots": 17,
+    "remaining_spots": 15,
     "capacity": 32
   },
   {

@@ -546,7 +546,7 @@
     "class_type": "S&C Series",
     "instructor": "Jennifer Irvine",
     "location": "Haymarket",
-    "remaining_spots": 25,
+    "remaining_spots": 24,
     "capacity": 30
   },
   {
@@ -1074,7 +1074,7 @@
     "class_type": "Reformer Series",
     "instructor": "Gianna Petracic",
     "location": "North Sydney",
-    "remaining_spots": 13,
+    "remaining_spots": 12,
     "capacity": 24
   },
   {
@@ -1756,7 +1756,7 @@
     "class_type": "Spin Series",
     "instructor": "Eisha Liyanage",
     "location": "North Sydney",
-    "remaining_spots": 37,
+    "remaining_spots": 36,
     "capacity": 40
   },
   {
@@ -3604,7 +3604,7 @@
     "class_type": "Yoga Series",
     "instructor": "Megan Leung",
     "location": "Marrickville",
-    "remaining_spots": 12,
+    "remaining_spots": 11,
     "capacity": 36
   },
   {

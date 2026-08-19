@@ -1,16 +1,5 @@
 [
   {
-    "booking_id": "107book79399",
-    "date": "2026-08-21",
-    "time": "2:15 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Matthew Carney",
-    "location": "North Sydney",
-    "remaining_spots": 21,
-    "capacity": 24
-  },
-  {
     "booking_id": "103book59488",
     "date": "2026-08-21",
     "time": "2:30 PM",
@@ -128,7 +117,7 @@
     "class_type": "Reformer Series",
     "instructor": "Matthew Carney",
     "location": "North Sydney",
-    "remaining_spots": 6,
+    "remaining_spots": 5,
     "capacity": 24
   },
   {
@@ -1063,7 +1052,7 @@
     "class_type": "S&C Series",
     "instructor": "Zoe Downing",
     "location": "Surry Hills",
-    "remaining_spots": 1,
+    "remaining_spots": 0,
     "capacity": 26
   },
   {

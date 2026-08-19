@@ -1,16 +1,5 @@
 [
   {
-    "booking_id": "106book46752",
-    "date": "2026-08-21",
-    "time": "7:45 AM",
-    "name": "Yoga: Origins",
-    "class_type": "Yoga Series",
-    "instructor": "Jen Tran",
-    "location": "Merrylands",
-    "remaining_spots": 29,
-    "capacity": 34
-  },
-  {
     "booking_id": "105book45328",
     "date": "2026-08-21",
     "time": "8:00 AM",

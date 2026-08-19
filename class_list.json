@@ -1,38 +1,5 @@
 [
   {
-    "booking_id": "106book46143",
-    "date": "2026-08-21",
-    "time": "6:45 AM",
-    "name": "Total Force",
-    "class_type": "S&C Series",
-    "instructor": "Charbel Tasipale",
-    "location": "Merrylands",
-    "remaining_spots": 25,
-    "capacity": 30
-  },
-  {
-    "booking_id": "106book47584",
-    "date": "2026-08-21",
-    "time": "6:45 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Joanne Afiatini",
-    "location": "Merrylands",
-    "remaining_spots": 12,
-    "capacity": 21
-  },
-  {
-    "booking_id": "101book71431",
-    "date": "2026-08-21",
-    "time": "6:45 AM",
-    "name": "Reformer: Strong",
-    "class_type": "Reformer Series",
-    "instructor": "Mackenzie Sengotta",
-    "location": "Surry Hills",
-    "remaining_spots": 0,
-    "capacity": 18
-  },
-  {
     "booking_id": "105book45273",
     "date": "2026-08-21",
     "time": "7:00 AM",
@@ -2834,7 +2801,7 @@
     "class_type": "Pulse & Build Series",
     "instructor": "Elizabeth Topfer",
     "location": "Merrylands",
-    "remaining_spots": 14,
+    "remaining_spots": 13,
     "capacity": 33
   },
   {

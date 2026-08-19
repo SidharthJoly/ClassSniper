@@ -3626,7 +3626,7 @@
     "class_type": "Mat Series",
     "instructor": "Phoebe Thomson",
     "location": "Haymarket",
-    "remaining_spots": 21,
+    "remaining_spots": 20,
     "capacity": 38
   },
   {
@@ -3813,7 +3813,7 @@
     "class_type": "Dance Series",
     "instructor": "Estefania Bravo",
     "location": "Marrickville",
-    "remaining_spots": 11,
+    "remaining_spots": 10,
     "capacity": 20
   },
   {
@@ -4022,7 +4022,7 @@
     "class_type": "Pulse & Build Series",
     "instructor": "Benjamin Young",
     "location": "North Sydney",
-    "remaining_spots": 24,
+    "remaining_spots": 23,
     "capacity": 30
   },
   {

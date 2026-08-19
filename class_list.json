@@ -1,38 +1,5 @@
 [
   {
-    "booking_id": "107book53454",
-    "date": "2026-08-21",
-    "time": "1:15 PM",
-    "name": "Total Build",
-    "class_type": "Pulse & Build Series",
-    "instructor": "Kayla Job",
-    "location": "North Sydney",
-    "remaining_spots": 6,
-    "capacity": 30
-  },
-  {
-    "booking_id": "107book67610",
-    "date": "2026-08-21",
-    "time": "1:15 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Nikki Rubbi-Clarke",
-    "location": "North Sydney",
-    "remaining_spots": 20,
-    "capacity": 24
-  },
-  {
-    "booking_id": "101book69730",
-    "date": "2026-08-21",
-    "time": "1:15 PM",
-    "name": "Badass",
-    "class_type": "S&C Series",
-    "instructor": "Angela Aho",
-    "location": "Surry Hills",
-    "remaining_spots": 11,
-    "capacity": 26
-  },
-  {
     "booking_id": "103book59748",
     "date": "2026-08-21",
     "time": "1:30 PM",
@@ -557,7 +524,7 @@
     "class_type": "Reformer Series",
     "instructor": "Amber Yan",
     "location": "Merrylands",
-    "remaining_spots": 19,
+    "remaining_spots": 18,
     "capacity": 23
   },
   {
@@ -2328,7 +2295,7 @@
     "class_type": "Yoga Series",
     "instructor": "Bridget Surdich",
     "location": "Newtown",
-    "remaining_spots": 17,
+    "remaining_spots": 16,
     "capacity": 23
   },
   {

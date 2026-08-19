@@ -359,7 +359,7 @@
     "class_type": "Reformer Series",
     "instructor": "Joanne Afiatini",
     "location": "Merrylands",
-    "remaining_spots": 13,
+    "remaining_spots": 12,
     "capacity": 21
   },
   {
@@ -436,7 +436,7 @@
     "class_type": "S&C Series",
     "instructor": "Jose Da Rocha",
     "location": "Newtown",
-    "remaining_spots": 0,
+    "remaining_spots": 1,
     "capacity": 32
   },
   {
@@ -700,7 +700,7 @@
     "class_type": "S&C Series",
     "instructor": "Jose Da Rocha",
     "location": "Newtown",
-    "remaining_spots": 1,
+    "remaining_spots": 0,
     "capacity": 28
   },
   {
@@ -1206,7 +1206,7 @@
     "class_type": "Spin Series",
     "instructor": "Hayley van Stom",
     "location": "Haymarket",
-    "remaining_spots": 29,
+    "remaining_spots": 30,
     "capacity": 35
   },
   {
@@ -4867,7 +4867,7 @@
     "time": "11:15 AM",
     "name": "Mat Pilates",
     "class_type": "Mat Series",
-    "instructor": "Eva Baonza",
+    "instructor": "Joe Jackson",
     "location": "Surry Hills",
     "remaining_spots": 34,
     "capacity": 34
@@ -4966,7 +4966,7 @@
     "time": "12:15 PM",
     "name": "Infrared Pilates",
     "class_type": "Mat Series",
-    "instructor": "Eva Baonza",
+    "instructor": "Joe Jackson",
     "location": "Surry Hills",
     "remaining_spots": 34,
     "capacity": 34
@@ -10824,6 +10824,17 @@
     "capacity": 26
   },
   {
+    "booking_id": "101book63119",
+    "date": "2026-08-25",
+    "time": "6:15 PM",
+    "name": "Reformer: Origins",
+    "class_type": "Reformer Series",
+    "instructor": "Eleni Vlahos",
+    "location": "Surry Hills",
+    "remaining_spots": 20,
+    "capacity": 20
+  },
+  {
     "booking_id": "105book39065",
     "date": "2026-08-25",
     "time": "6:30 PM",
@@ -11031,6 +11042,17 @@
     "location": "North Sydney",
     "remaining_spots": 24,
     "capacity": 24
+  },
+  {
+    "booking_id": "101book63225",
+    "date": "2026-08-25",
+    "time": "7:00 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Eleni Vlahos",
+    "location": "Surry Hills",
+    "remaining_spots": 20,
+    "capacity": 20
   },
   {
     "booking_id": "105book28543",
@@ -11286,17 +11308,6 @@
     "capacity": 32
   },
   {
-    "booking_id": "103book65052",
-    "date": "2026-08-26",
-    "time": "6:00 AM",
-    "name": "Mat Pilates",
-    "class_type": "Mat Series",
-    "instructor": "Monica Faundez",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
-  },
-  {
     "booking_id": "103book64463",
     "date": "2026-08-26",
     "time": "6:00 AM",
@@ -11306,6 +11317,17 @@
     "location": "Marrickville",
     "remaining_spots": 20,
     "capacity": 20
+  },
+  {
+    "booking_id": "103book76452",
+    "date": "2026-08-26",
+    "time": "6:00 AM",
+    "name": "Ritual",
+    "class_type": "Mat Series",
+    "instructor": "Anton Anton",
+    "location": "Marrickville",
+    "remaining_spots": 36,
+    "capacity": 36
   },
   {
     "booking_id": "103book55768",
@@ -11489,7 +11511,7 @@
     "time": "6:15 AM",
     "name": "Athletica",
     "class_type": "S&C Series",
-    "instructor": "Joey Bowling",
+    "instructor": "Jorge Garcia Rodriguez",
     "location": "Surry Hills",
     "remaining_spots": 26,
     "capacity": 26
@@ -11649,17 +11671,6 @@
     "capacity": 32
   },
   {
-    "booking_id": "103book52377",
-    "date": "2026-08-26",
-    "time": "7:00 AM",
-    "name": "Yoga: Flowstate",
-    "class_type": "Yoga Series",
-    "instructor": "Monica Faundez",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
-  },
-  {
     "booking_id": "103book55978",
     "date": "2026-08-26",
     "time": "7:00 AM",
@@ -11669,6 +11680,17 @@
     "location": "Marrickville",
     "remaining_spots": 26,
     "capacity": 26
+  },
+  {
+    "booking_id": "103book76380",
+    "date": "2026-08-26",
+    "time": "7:00 AM",
+    "name": "Yoga: Flowstate",
+    "class_type": "Yoga Series",
+    "instructor": "Anton Anton",
+    "location": "Marrickville",
+    "remaining_spots": 36,
+    "capacity": 36
   },
   {
     "booking_id": "103book55251",
@@ -20080,7 +20102,7 @@
     "time": "7:30 AM",
     "name": "Hour of Power",
     "class_type": "S&C Series",
-    "instructor": "Chris Jumman",
+    "instructor": "Jorge Garcia Rodriguez",
     "location": "Haymarket",
     "remaining_spots": 35,
     "capacity": 35
@@ -20476,7 +20498,7 @@
     "time": "8:45 AM",
     "name": "Hour of Power",
     "class_type": "S&C Series",
-    "instructor": "Chris Jumman",
+    "instructor": "Jorge Garcia Rodriguez",
     "location": "Haymarket",
     "remaining_spots": 35,
     "capacity": 35

@@ -1,27 +1,5 @@
 [
   {
-    "booking_id": "103book58315",
-    "date": "2026-08-21",
-    "time": "4:15 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Jovana Subotic",
-    "location": "Marrickville",
-    "remaining_spots": 0,
-    "capacity": 15
-  },
-  {
-    "booking_id": "101book70395",
-    "date": "2026-08-21",
-    "time": "4:15 PM",
-    "name": "Yoga: Flowstate",
-    "class_type": "Yoga Series",
-    "instructor": "Luka Cubrilo",
-    "location": "Surry Hills",
-    "remaining_spots": 10,
-    "capacity": 34
-  },
-  {
     "booking_id": "103book60272",
     "date": "2026-08-21",
     "time": "4:30 PM",
@@ -513,7 +491,7 @@
     "class_type": "Pulse & Build Series",
     "instructor": "Colleen Antony",
     "location": "Haymarket",
-    "remaining_spots": 3,
+    "remaining_spots": 4,
     "capacity": 32
   },
   {
@@ -1085,7 +1063,7 @@
     "class_type": "S&C Series",
     "instructor": "Inge Schmidt",
     "location": "Marrickville",
-    "remaining_spots": 4,
+    "remaining_spots": 3,
     "capacity": 26
   },
   {
@@ -1569,7 +1547,7 @@
     "class_type": "Yoga Series",
     "instructor": "Megan Leung",
     "location": "Marrickville",
-    "remaining_spots": 5,
+    "remaining_spots": 4,
     "capacity": 36
   },
   {
@@ -2614,7 +2592,7 @@
     "class_type": "Yoga Series",
     "instructor": "Jessy Franks",
     "location": "North Sydney",
-    "remaining_spots": 30,
+    "remaining_spots": 28,
     "capacity": 30
   },
   {

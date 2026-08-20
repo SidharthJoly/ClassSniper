@@ -1,60 +1,5 @@
 [
   {
-    "booking_id": "105book45223",
-    "date": "2026-08-21",
-    "time": "5:00 PM",
-    "name": "Pulse",
-    "class_type": "Pulse & Build Series",
-    "instructor": "Marcus Parkin",
-    "location": "Haymarket",
-    "remaining_spots": 0,
-    "capacity": 32
-  },
-  {
-    "booking_id": "106book47220",
-    "date": "2026-08-21",
-    "time": "5:00 PM",
-    "name": "Total Build",
-    "class_type": "Pulse & Build Series",
-    "instructor": "Mary Mikhail",
-    "location": "Merrylands",
-    "remaining_spots": 28,
-    "capacity": 33
-  },
-  {
-    "booking_id": "104book40619",
-    "date": "2026-08-21",
-    "time": "5:00 PM",
-    "name": "Reformer: Strong",
-    "class_type": "Reformer Series",
-    "instructor": "Neave Welch",
-    "location": "Newtown",
-    "remaining_spots": 0,
-    "capacity": 20
-  },
-  {
-    "booking_id": "104book40093",
-    "date": "2026-08-21",
-    "time": "5:00 PM",
-    "name": "Athletica",
-    "class_type": "S&C Series",
-    "instructor": "Enif Alvarez",
-    "location": "Newtown",
-    "remaining_spots": 30,
-    "capacity": 32
-  },
-  {
-    "booking_id": "107book80249",
-    "date": "2026-08-21",
-    "time": "5:00 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Matthew Carney",
-    "location": "North Sydney",
-    "remaining_spots": 0,
-    "capacity": 24
-  },
-  {
     "booking_id": "105book29650",
     "date": "2026-08-21",
     "time": "5:15 PM",
@@ -568,7 +513,7 @@
     "class_type": "Mat Series",
     "instructor": "Bethany Rumore",
     "location": "Marrickville",
-    "remaining_spots": 4,
+    "remaining_spots": 3,
     "capacity": 36
   },
   {
@@ -2724,7 +2669,7 @@
     "class_type": "Reformer Series",
     "instructor": "Janet Lapprathana",
     "location": "Surry Hills",
-    "remaining_spots": 18,
+    "remaining_spots": 17,
     "capacity": 18
   },
   {

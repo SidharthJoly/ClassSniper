@@ -1,38 +1,5 @@
 [
   {
-    "booking_id": "107book54986",
-    "date": "2026-08-22",
-    "time": "3:30 PM",
-    "name": "Reformer: Jump Board (Lower Body)",
-    "class_type": "Reformer Series",
-    "instructor": "Sarah Biordi",
-    "location": "North Sydney",
-    "remaining_spots": 0,
-    "capacity": 24
-  },
-  {
-    "booking_id": "101book81919",
-    "date": "2026-08-22",
-    "time": "3:30 PM",
-    "name": "Yoga: Flowstate",
-    "class_type": "Yoga Series",
-    "instructor": "Laila Nawsheen",
-    "location": "Surry Hills",
-    "remaining_spots": 15,
-    "capacity": 34
-  },
-  {
-    "booking_id": "101book72821",
-    "date": "2026-08-22",
-    "time": "3:30 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Carlos Gallo",
-    "location": "Surry Hills",
-    "remaining_spots": 0,
-    "capacity": 18
-  },
-  {
     "booking_id": "107book72087",
     "date": "2026-08-22",
     "time": "4:00 PM",

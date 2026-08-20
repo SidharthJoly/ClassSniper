@@ -1,16 +1,5 @@
 [
   {
-    "booking_id": "101book71799",
-    "date": "2026-08-21",
-    "time": "7:15 PM",
-    "name": "Breathwork: Deep Calm (Evening)",
-    "class_type": "Harmony Series",
-    "instructor": "Sobia Salim",
-    "location": "Surry Hills",
-    "remaining_spots": 22,
-    "capacity": 36
-  },
-  {
     "booking_id": "105book45797",
     "date": "2026-08-22",
     "time": "7:00 AM",
@@ -1833,7 +1822,7 @@
     "class_type": "Reformer Series",
     "instructor": "Vivien Nguyen",
     "location": "Merrylands",
-    "remaining_spots": 3,
+    "remaining_spots": 2,
     "capacity": 21
   },
   {

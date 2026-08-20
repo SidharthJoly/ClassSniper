@@ -1941,7 +1941,7 @@
     "time": "9:00 AM",
     "name": "Reformer: Signature",
     "class_type": "Reformer Series",
-    "instructor": "Janet Lapprathana",
+    "instructor": "Elizabeth Chun",
     "location": "Surry Hills",
     "remaining_spots": 0,
     "capacity": 18
@@ -2106,7 +2106,7 @@
     "time": "10:00 AM",
     "name": "Reformer: Signature",
     "class_type": "Reformer Series",
-    "instructor": "Janet Lapprathana",
+    "instructor": "Elizabeth Chun",
     "location": "Surry Hills",
     "remaining_spots": 0,
     "capacity": 18
@@ -2260,7 +2260,7 @@
     "time": "11:00 AM",
     "name": "Reformer: Strong",
     "class_type": "Reformer Series",
-    "instructor": "Janet Lapprathana",
+    "instructor": "Elizabeth Chun",
     "location": "Surry Hills",
     "remaining_spots": 0,
     "capacity": 18
@@ -2295,7 +2295,7 @@
     "class_type": "Mat Series",
     "instructor": "Joe Jackson",
     "location": "Surry Hills",
-    "remaining_spots": 17,
+    "remaining_spots": 16,
     "capacity": 34
   },
   {
@@ -2370,7 +2370,7 @@
     "time": "12:00 PM",
     "name": "Reformer: Signature",
     "class_type": "Reformer Series",
-    "instructor": "Janet Lapprathana",
+    "instructor": "Elizabeth Chun",
     "location": "Surry Hills",
     "remaining_spots": 4,
     "capacity": 18
@@ -2548,7 +2548,7 @@
     "class_type": "Reformer Series",
     "instructor": "Jaclyn Bogdanovic",
     "location": "Surry Hills",
-    "remaining_spots": 11,
+    "remaining_spots": 10,
     "capacity": 18
   },
   {
@@ -2592,7 +2592,7 @@
     "class_type": "Reformer Series",
     "instructor": "Sinead Chabowski",
     "location": "Haymarket",
-    "remaining_spots": 23,
+    "remaining_spots": 21,
     "capacity": 24
   },
   {
@@ -2614,7 +2614,7 @@
     "class_type": "Yoga Series",
     "instructor": "Aram Faizi",
     "location": "Surry Hills",
-    "remaining_spots": 34,
+    "remaining_spots": 30,
     "capacity": 34
   },
   {
@@ -12459,7 +12459,7 @@
     "class_type": "S&C Series",
     "instructor": "Jay Haydock",
     "location": "North Sydney",
-    "remaining_spots": 21,
+    "remaining_spots": 19,
     "capacity": 24
   },
   {

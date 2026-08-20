@@ -1217,7 +1217,7 @@
     "class_type": "S&C Series",
     "instructor": "Nathan Newman",
     "location": "Newtown",
-    "remaining_spots": 4,
+    "remaining_spots": 3,
     "capacity": 28
   },
   {
@@ -2031,7 +2031,7 @@
     "class_type": "Spin Series",
     "instructor": "Alexandra Doddridge",
     "location": "North Sydney",
-    "remaining_spots": 36,
+    "remaining_spots": 35,
     "capacity": 40
   },
   {
@@ -12404,7 +12404,7 @@
     "class_type": "S&C Series",
     "instructor": "Nikki Erdos",
     "location": "Marrickville",
-    "remaining_spots": 26,
+    "remaining_spots": 21,
     "capacity": 26
   },
   {

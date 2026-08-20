@@ -678,7 +678,7 @@
     "class_type": "S&C Series",
     "instructor": "Molly Williams",
     "location": "Surry Hills",
-    "remaining_spots": 21,
+    "remaining_spots": 20,
     "capacity": 26
   },
   {
@@ -931,7 +931,7 @@
     "class_type": "Yoga Series",
     "instructor": "Sunil Tailor",
     "location": "Newtown",
-    "remaining_spots": 21,
+    "remaining_spots": 20,
     "capacity": 23
   },
   {
@@ -1800,7 +1800,7 @@
     "class_type": "Spin Series",
     "instructor": "Alexandra Doddridge",
     "location": "North Sydney",
-    "remaining_spots": 40,
+    "remaining_spots": 39,
     "capacity": 40
   },
   {

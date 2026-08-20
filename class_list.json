@@ -480,7 +480,7 @@
     "class_type": "Spin Series",
     "instructor": "Benjamin Young",
     "location": "North Sydney",
-    "remaining_spots": 0,
+    "remaining_spots": 1,
     "capacity": 40
   },
   {
@@ -2031,7 +2031,7 @@
     "class_type": "Spin Series",
     "instructor": "Alexandra Doddridge",
     "location": "North Sydney",
-    "remaining_spots": 29,
+    "remaining_spots": 28,
     "capacity": 40
   },
   {
@@ -2086,7 +2086,7 @@
     "class_type": "S&C Series",
     "instructor": "Enif Alvarez",
     "location": "North Sydney",
-    "remaining_spots": 2,
+    "remaining_spots": 1,
     "capacity": 24
   },
   {
@@ -5406,7 +5406,7 @@
     "time": "6:30 PM",
     "name": "Breathwork: Deep Calm (Evening)",
     "class_type": "Harmony Series",
-    "instructor": "Chris Sulfa",
+    "instructor": "Marie de Bella",
     "location": "Surry Hills",
     "remaining_spots": 34,
     "capacity": 34
@@ -9817,7 +9817,7 @@
     "time": "10:00 AM",
     "name": "Upper Build",
     "class_type": "Pulse & Build Series",
-    "instructor": "Chris Jumman",
+    "instructor": "Maeve O'Keeffe",
     "location": "Haymarket",
     "remaining_spots": 32,
     "capacity": 32
@@ -11682,17 +11682,6 @@
     "capacity": 15
   },
   {
-    "booking_id": "107book65410",
-    "date": "2026-08-27",
-    "time": "5:30 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Ellie Chan",
-    "location": "North Sydney",
-    "remaining_spots": 24,
-    "capacity": 24
-  },
-  {
     "booking_id": "107book63421",
     "date": "2026-08-27",
     "time": "5:30 AM",
@@ -11900,17 +11889,6 @@
     "location": "North Sydney",
     "remaining_spots": 30,
     "capacity": 30
-  },
-  {
-    "booking_id": "107book65459",
-    "date": "2026-08-27",
-    "time": "6:15 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Ellie Chan",
-    "location": "North Sydney",
-    "remaining_spots": 24,
-    "capacity": 24
   },
   {
     "booking_id": "101book69466",
@@ -12153,17 +12131,6 @@
     "location": "Newtown",
     "remaining_spots": 32,
     "capacity": 32
-  },
-  {
-    "booking_id": "107book65143",
-    "date": "2026-08-27",
-    "time": "7:00 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Ellie Chan",
-    "location": "North Sydney",
-    "remaining_spots": 24,
-    "capacity": 24
   },
   {
     "booking_id": "107book64878",
@@ -14817,17 +14784,6 @@
     "capacity": 20
   },
   {
-    "booking_id": "103book74411",
-    "date": "2026-08-28",
-    "time": "6:15 AM",
-    "name": "Mat Pilates",
-    "class_type": "Mat Series",
-    "instructor": "Samantha Smolens",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
-  },
-  {
     "booking_id": "107book51593",
     "date": "2026-08-28",
     "time": "6:15 AM",
@@ -15158,17 +15114,6 @@
     "capacity": 24
   },
   {
-    "booking_id": "103book74512",
-    "date": "2026-08-28",
-    "time": "7:15 AM",
-    "name": "Mat Pilates",
-    "class_type": "Mat Series",
-    "instructor": "Samantha Smolens",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
-  },
-  {
     "booking_id": "103book58969",
     "date": "2026-08-28",
     "time": "7:15 AM",
@@ -15464,17 +15409,6 @@
     "location": "Haymarket",
     "remaining_spots": 35,
     "capacity": 35
-  },
-  {
-    "booking_id": "103book74613",
-    "date": "2026-08-28",
-    "time": "8:15 AM",
-    "name": "Mat Pilates",
-    "class_type": "Mat Series",
-    "instructor": "Samantha Smolens",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
   },
   {
     "booking_id": "106book72123",
@@ -20036,7 +19970,7 @@
     "time": "3:00 PM",
     "name": "Reformer: Signature",
     "class_type": "Reformer Series",
-    "instructor": "Bethany Rumore",
+    "instructor": "Elizabeth Chun",
     "location": "Surry Hills",
     "remaining_spots": 18,
     "capacity": 18
@@ -20047,7 +19981,7 @@
     "time": "3:00 PM",
     "name": "Reformer: Signature",
     "class_type": "Reformer Series",
-    "instructor": "Bethany Rumore",
+    "instructor": "Elizabeth Chun",
     "location": "Surry Hills",
     "remaining_spots": 0,
     "capacity": 18
@@ -20102,7 +20036,7 @@
     "time": "4:00 PM",
     "name": "Reformer: Signature",
     "class_type": "Reformer Series",
-    "instructor": "Bethany Rumore",
+    "instructor": "Elizabeth Chun",
     "location": "Surry Hills",
     "remaining_spots": 18,
     "capacity": 18
@@ -20124,7 +20058,7 @@
     "time": "4:00 PM",
     "name": "Reformer: Signature",
     "class_type": "Reformer Series",
-    "instructor": "Bethany Rumore",
+    "instructor": "Elizabeth Chun",
     "location": "Surry Hills",
     "remaining_spots": 0,
     "capacity": 18
@@ -20168,7 +20102,7 @@
     "time": "5:00 PM",
     "name": "Reformer: Signature",
     "class_type": "Reformer Series",
-    "instructor": "Bethany Rumore",
+    "instructor": "Elizabeth Chun",
     "location": "Surry Hills",
     "remaining_spots": 0,
     "capacity": 18
@@ -20179,7 +20113,7 @@
     "time": "5:00 PM",
     "name": "Reformer: Signature",
     "class_type": "Reformer Series",
-    "instructor": "Bethany Rumore",
+    "instructor": "Elizabeth Chun",
     "location": "Surry Hills",
     "remaining_spots": 18,
     "capacity": 18

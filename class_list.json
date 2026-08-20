@@ -1195,7 +1195,7 @@
     "class_type": "Reformer Series",
     "instructor": "Simon Corfield",
     "location": "Surry Hills",
-    "remaining_spots": 0,
+    "remaining_spots": 1,
     "capacity": 18
   },
   {
@@ -2240,7 +2240,7 @@
     "class_type": "Yoga Series",
     "instructor": "Daniel Konieczny",
     "location": "Merrylands",
-    "remaining_spots": 30,
+    "remaining_spots": 31,
     "capacity": 34
   },
   {
@@ -2284,7 +2284,7 @@
     "class_type": "Yoga Series",
     "instructor": "Jessy Franks",
     "location": "North Sydney",
-    "remaining_spots": 18,
+    "remaining_spots": 19,
     "capacity": 30
   },
   {
@@ -2482,7 +2482,7 @@
     "class_type": "Reformer Series",
     "instructor": "Jaclyn Bogdanovic",
     "location": "Haymarket",
-    "remaining_spots": 11,
+    "remaining_spots": 10,
     "capacity": 24
   },
   {
@@ -2680,7 +2680,7 @@
     "class_type": "Reformer Series",
     "instructor": "Jaclyn Bogdanovic",
     "location": "Surry Hills",
-    "remaining_spots": 3,
+    "remaining_spots": 2,
     "capacity": 18
   },
   {

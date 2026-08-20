@@ -480,7 +480,7 @@
     "class_type": "Spin Series",
     "instructor": "Benjamin Young",
     "location": "North Sydney",
-    "remaining_spots": 1,
+    "remaining_spots": 0,
     "capacity": 40
   },
   {
@@ -2306,7 +2306,7 @@
     "class_type": "Reformer Series",
     "instructor": "Ivan Barrios",
     "location": "Haymarket",
-    "remaining_spots": 2,
+    "remaining_spots": 1,
     "capacity": 24
   },
   {
@@ -7265,7 +7265,7 @@
     "time": "12:00 PM",
     "name": "Strong",
     "class_type": "S&C Series",
-    "instructor": "Zoe Downing",
+    "instructor": "Jennia Klimenkova",
     "location": "Surry Hills",
     "remaining_spots": 26,
     "capacity": 26
@@ -7408,7 +7408,7 @@
     "time": "1:00 PM",
     "name": "Athletica",
     "class_type": "S&C Series",
-    "instructor": "Zoe Downing",
+    "instructor": "Molly Williams",
     "location": "Surry Hills",
     "remaining_spots": 26,
     "capacity": 26
@@ -14844,7 +14844,7 @@
     "time": "6:30 AM",
     "name": "Reformer: Signature",
     "class_type": "Reformer Series",
-    "instructor": "Abigail Rose",
+    "instructor": "Samantha Smolens",
     "location": "Haymarket",
     "remaining_spots": 24,
     "capacity": 24
@@ -15108,7 +15108,7 @@
     "time": "7:15 AM",
     "name": "Reformer: Strong",
     "class_type": "Reformer Series",
-    "instructor": "Abigail Rose",
+    "instructor": "Samantha Smolens",
     "location": "Haymarket",
     "remaining_spots": 24,
     "capacity": 24
@@ -15394,7 +15394,7 @@
     "time": "8:15 AM",
     "name": "Reformer: Signature",
     "class_type": "Reformer Series",
-    "instructor": "Abigail Rose",
+    "instructor": "Samantha Smolens",
     "location": "Haymarket",
     "remaining_spots": 24,
     "capacity": 24
@@ -15537,7 +15537,7 @@
     "time": "9:00 AM",
     "name": "Reformer: Signature",
     "class_type": "Reformer Series",
-    "instructor": "Abigail Rose",
+    "instructor": "Samantha Smolens",
     "location": "Haymarket",
     "remaining_spots": 24,
     "capacity": 24
@@ -17473,7 +17473,7 @@
     "time": "7:30 AM",
     "name": "Reformer: Signature",
     "class_type": "Reformer Series",
-    "instructor": "Samantha Smolens",
+    "instructor": "Elizabeth Chun",
     "location": "Haymarket",
     "remaining_spots": 24,
     "capacity": 24
@@ -17770,7 +17770,7 @@
     "time": "8:30 AM",
     "name": "Reformer: Signature",
     "class_type": "Reformer Series",
-    "instructor": "Samantha Smolens",
+    "instructor": "Elizabeth Chun",
     "location": "Haymarket",
     "remaining_spots": 24,
     "capacity": 24

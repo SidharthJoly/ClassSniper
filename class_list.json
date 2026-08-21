@@ -1,16 +1,5 @@
 [
   {
-    "booking_id": "106book30759",
-    "date": "2026-08-23",
-    "time": "8:10 AM",
-    "name": "Total Force",
-    "class_type": "S&C Series",
-    "instructor": "Paulo Lole",
-    "location": "Merrylands",
-    "remaining_spots": 21,
-    "capacity": 30
-  },
-  {
     "booking_id": "105book46773",
     "date": "2026-08-23",
     "time": "8:30 AM",
@@ -3648,7 +3637,7 @@
     "class_type": "Reformer Series",
     "instructor": "Amelia Gartner",
     "location": "Marrickville",
-    "remaining_spots": 8,
+    "remaining_spots": 7,
     "capacity": 15
   },
   {

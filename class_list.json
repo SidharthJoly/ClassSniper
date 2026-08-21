@@ -77,17 +77,6 @@
     "capacity": 24
   },
   {
-    "booking_id": "103book65253",
-    "date": "2026-08-23",
-    "time": "8:30 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Bethany Rumore",
-    "location": "Marrickville",
-    "remaining_spots": 0,
-    "capacity": 15
-  },
-  {
     "booking_id": "106book50319",
     "date": "2026-08-23",
     "time": "8:30 AM",
@@ -163,17 +152,6 @@
     "location": "Haymarket",
     "remaining_spots": 0,
     "capacity": 32
-  },
-  {
-    "booking_id": "103book69510",
-    "date": "2026-08-23",
-    "time": "9:00 AM",
-    "name": "Mat Pilates",
-    "class_type": "Mat Series",
-    "instructor": "Leah Ferguson",
-    "location": "Marrickville",
-    "remaining_spots": 0,
-    "capacity": 36
   },
   {
     "booking_id": "104book43682",
@@ -264,17 +242,6 @@
     "capacity": 24
   },
   {
-    "booking_id": "103book65357",
-    "date": "2026-08-23",
-    "time": "9:30 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Bethany Rumore",
-    "location": "Marrickville",
-    "remaining_spots": 0,
-    "capacity": 15
-  },
-  {
     "booking_id": "106book61855",
     "date": "2026-08-23",
     "time": "9:30 AM",
@@ -328,17 +295,6 @@
     "location": "Surry Hills",
     "remaining_spots": 0,
     "capacity": 34
-  },
-  {
-    "booking_id": "103book69407",
-    "date": "2026-08-23",
-    "time": "10:00 AM",
-    "name": "Mat Pilates",
-    "class_type": "Mat Series",
-    "instructor": "Leah Ferguson",
-    "location": "Marrickville",
-    "remaining_spots": 0,
-    "capacity": 36
   },
   {
     "booking_id": "107book73146",
@@ -451,17 +407,6 @@
     "capacity": 24
   },
   {
-    "booking_id": "103book65766",
-    "date": "2026-08-23",
-    "time": "10:30 AM",
-    "name": "Reformer: Athletic",
-    "class_type": "Reformer Series",
-    "instructor": "Bethany Rumore",
-    "location": "Marrickville",
-    "remaining_spots": 0,
-    "capacity": 15
-  },
-  {
     "booking_id": "106book48607",
     "date": "2026-08-23",
     "time": "10:30 AM",
@@ -493,17 +438,6 @@
     "location": "Surry Hills",
     "remaining_spots": 19,
     "capacity": 26
-  },
-  {
-    "booking_id": "103book64949",
-    "date": "2026-08-23",
-    "time": "11:00 AM",
-    "name": "Mat Pilates",
-    "class_type": "Mat Series",
-    "instructor": "Leah Ferguson",
-    "location": "Marrickville",
-    "remaining_spots": 0,
-    "capacity": 36
   },
   {
     "booking_id": "106book48659",
@@ -594,17 +528,6 @@
     "capacity": 38
   },
   {
-    "booking_id": "103book66072",
-    "date": "2026-08-23",
-    "time": "11:30 AM",
-    "name": "Reformer: Athletic",
-    "class_type": "Reformer Series",
-    "instructor": "Bethany Rumore",
-    "location": "Marrickville",
-    "remaining_spots": 0,
-    "capacity": 15
-  },
-  {
     "booking_id": "106book48763",
     "date": "2026-08-23",
     "time": "11:30 AM",
@@ -625,17 +548,6 @@
     "location": "Newtown",
     "remaining_spots": 0,
     "capacity": 20
-  },
-  {
-    "booking_id": "103book68662",
-    "date": "2026-08-23",
-    "time": "12:00 PM",
-    "name": "Yoga: Flowstate",
-    "class_type": "Yoga Series",
-    "instructor": "Yigit Keskin",
-    "location": "Marrickville",
-    "remaining_spots": 25,
-    "capacity": 36
   },
   {
     "booking_id": "101book73663",
@@ -682,17 +594,6 @@
     "capacity": 24
   },
   {
-    "booking_id": "103book65870",
-    "date": "2026-08-23",
-    "time": "12:30 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Bethany Rumore",
-    "location": "Marrickville",
-    "remaining_spots": 0,
-    "capacity": 15
-  },
-  {
     "booking_id": "106book55585",
     "date": "2026-08-23",
     "time": "12:30 PM",
@@ -724,17 +625,6 @@
     "location": "Surry Hills",
     "remaining_spots": 18,
     "capacity": 23
-  },
-  {
-    "booking_id": "103book68715",
-    "date": "2026-08-23",
-    "time": "1:00 PM",
-    "name": "Yoga: Flowstate",
-    "class_type": "Yoga Series",
-    "instructor": "Yigit Keskin",
-    "location": "Marrickville",
-    "remaining_spots": 32,
-    "capacity": 36
   },
   {
     "booking_id": "104book43838",
@@ -979,28 +869,6 @@
     "capacity": 33
   },
   {
-    "booking_id": "103book63284",
-    "date": "2026-08-24",
-    "time": "5:15 AM",
-    "name": "Squad",
-    "class_type": "Spin Series",
-    "instructor": "Colleen Antony",
-    "location": "Marrickville",
-    "remaining_spots": 16,
-    "capacity": 20
-  },
-  {
-    "booking_id": "103book49147",
-    "date": "2026-08-24",
-    "time": "5:30 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Lauren Buck",
-    "location": "Marrickville",
-    "remaining_spots": 2,
-    "capacity": 15
-  },
-  {
     "booking_id": "107book59009",
     "date": "2026-08-24",
     "time": "5:30 AM",
@@ -1065,39 +933,6 @@
     "location": "Haymarket",
     "remaining_spots": 18,
     "capacity": 32
-  },
-  {
-    "booking_id": "103book49043",
-    "date": "2026-08-24",
-    "time": "6:00 AM",
-    "name": "Yoga: Flowstate",
-    "class_type": "Yoga Series",
-    "instructor": "Katie Jay",
-    "location": "Marrickville",
-    "remaining_spots": 34,
-    "capacity": 36
-  },
-  {
-    "booking_id": "103book63389",
-    "date": "2026-08-24",
-    "time": "6:00 AM",
-    "name": "Squad",
-    "class_type": "Spin Series",
-    "instructor": "Colleen Antony",
-    "location": "Marrickville",
-    "remaining_spots": 16,
-    "capacity": 20
-  },
-  {
-    "booking_id": "103book50828",
-    "date": "2026-08-24",
-    "time": "6:00 AM",
-    "name": "Strong",
-    "class_type": "S&C Series",
-    "instructor": "Jose Da Rocha",
-    "location": "Marrickville",
-    "remaining_spots": 0,
-    "capacity": 26
   },
   {
     "booking_id": "106book37682",
@@ -1186,28 +1021,6 @@
     "location": "North Sydney",
     "remaining_spots": 0,
     "capacity": 24
-  },
-  {
-    "booking_id": "103book49095",
-    "date": "2026-08-24",
-    "time": "6:15 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Monica Faundez",
-    "location": "Marrickville",
-    "remaining_spots": 0,
-    "capacity": 15
-  },
-  {
-    "booking_id": "103book48783",
-    "date": "2026-08-24",
-    "time": "6:15 AM",
-    "name": "BodySculpt",
-    "class_type": "Mat Series",
-    "instructor": "Eleni Vlahos",
-    "location": "Marrickville",
-    "remaining_spots": 6,
-    "capacity": 20
   },
   {
     "booking_id": "107book59168",
@@ -1397,39 +1210,6 @@
     "capacity": 32
   },
   {
-    "booking_id": "103book50670",
-    "date": "2026-08-24",
-    "time": "7:00 AM",
-    "name": "Athletica",
-    "class_type": "S&C Series",
-    "instructor": "Jose Da Rocha",
-    "location": "Marrickville",
-    "remaining_spots": 18,
-    "capacity": 26
-  },
-  {
-    "booking_id": "103book48939",
-    "date": "2026-08-24",
-    "time": "7:00 AM",
-    "name": "Reformer: Strong",
-    "class_type": "Reformer Series",
-    "instructor": "Monica Faundez",
-    "location": "Marrickville",
-    "remaining_spots": 8,
-    "capacity": 15
-  },
-  {
-    "booking_id": "103book49199",
-    "date": "2026-08-24",
-    "time": "7:00 AM",
-    "name": "Beatbox",
-    "class_type": "Spin Series",
-    "instructor": "Colleen Antony",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
-  },
-  {
     "booking_id": "106book53391",
     "date": "2026-08-24",
     "time": "7:00 AM",
@@ -1527,17 +1307,6 @@
     "location": "Haymarket",
     "remaining_spots": 32,
     "capacity": 35
-  },
-  {
-    "booking_id": "103book48887",
-    "date": "2026-08-24",
-    "time": "7:15 AM",
-    "name": "Power Pilates",
-    "class_type": "Mat Series",
-    "instructor": "Eleni Vlahos",
-    "location": "Marrickville",
-    "remaining_spots": 12,
-    "capacity": 20
   },
   {
     "booking_id": "106book67204",
@@ -1683,17 +1452,6 @@
     "capacity": 32
   },
   {
-    "booking_id": "103book50512",
-    "date": "2026-08-24",
-    "time": "8:00 AM",
-    "name": "Badass",
-    "class_type": "S&C Series",
-    "instructor": "Jose Da Rocha",
-    "location": "Marrickville",
-    "remaining_spots": 18,
-    "capacity": 26
-  },
-  {
     "booking_id": "106book67309",
     "date": "2026-08-24",
     "time": "8:00 AM",
@@ -1758,17 +1516,6 @@
     "location": "North Sydney",
     "remaining_spots": 23,
     "capacity": 24
-  },
-  {
-    "booking_id": "103book48835",
-    "date": "2026-08-24",
-    "time": "8:10 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Eleni Vlahos",
-    "location": "Marrickville",
-    "remaining_spots": 2,
-    "capacity": 15
   },
   {
     "booking_id": "105book37209",
@@ -1870,39 +1617,6 @@
     "capacity": 24
   },
   {
-    "booking_id": "103book40249",
-    "date": "2026-08-24",
-    "time": "9:00 AM",
-    "name": "Creche (18 months - 12 years)",
-    "class_type": "Creche",
-    "instructor": "Shova Rana",
-    "location": "Marrickville",
-    "remaining_spots": 8,
-    "capacity": 8
-  },
-  {
-    "booking_id": "103book40703",
-    "date": "2026-08-24",
-    "time": "9:00 AM",
-    "name": "Creche (6 weeks to 18 months)",
-    "class_type": "Creche",
-    "instructor": "Athena Nikolopoulos",
-    "location": "Marrickville",
-    "remaining_spots": 4,
-    "capacity": 4
-  },
-  {
-    "booking_id": "103book48731",
-    "date": "2026-08-24",
-    "time": "9:00 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Eleni Vlahos",
-    "location": "Marrickville",
-    "remaining_spots": 4,
-    "capacity": 15
-  },
-  {
     "booking_id": "106book62824",
     "date": "2026-08-24",
     "time": "9:00 AM",
@@ -1980,28 +1694,6 @@
     "capacity": 30
   },
   {
-    "booking_id": "103book50935",
-    "date": "2026-08-24",
-    "time": "9:30 AM",
-    "name": "Badass",
-    "class_type": "S&C Series",
-    "instructor": "Zoe Downing",
-    "location": "Marrickville",
-    "remaining_spots": 23,
-    "capacity": 26
-  },
-  {
-    "booking_id": "103book49251",
-    "date": "2026-08-24",
-    "time": "9:30 AM",
-    "name": "Yoga: Flowstate",
-    "class_type": "Yoga Series",
-    "instructor": "Tim Fiorentino",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
-  },
-  {
     "booking_id": "104book33699",
     "date": "2026-08-24",
     "time": "9:30 AM",
@@ -2064,41 +1756,8 @@
     "class_type": "Pulse & Build Series",
     "instructor": "Marcus Parkin",
     "location": "Haymarket",
-    "remaining_spots": 29,
+    "remaining_spots": 28,
     "capacity": 32
-  },
-  {
-    "booking_id": "103book39323",
-    "date": "2026-08-24",
-    "time": "10:00 AM",
-    "name": "Creche (18 months - 12 years)",
-    "class_type": "Creche",
-    "instructor": "Shova Rana",
-    "location": "Marrickville",
-    "remaining_spots": 7,
-    "capacity": 8
-  },
-  {
-    "booking_id": "103book73020",
-    "date": "2026-08-24",
-    "time": "10:00 AM",
-    "name": "Reformer: Sculpt",
-    "class_type": "Reformer Series",
-    "instructor": "Bethany Rumore",
-    "location": "Marrickville",
-    "remaining_spots": 11,
-    "capacity": 15
-  },
-  {
-    "booking_id": "103book40830",
-    "date": "2026-08-24",
-    "time": "10:00 AM",
-    "name": "Creche (6 weeks to 18 months)",
-    "class_type": "Creche",
-    "instructor": "Athena Nikolopoulos",
-    "location": "Marrickville",
-    "remaining_spots": 3,
-    "capacity": 4
   },
   {
     "booking_id": "106book51867",
@@ -2244,17 +1903,6 @@
     "capacity": 20
   },
   {
-    "booking_id": "103book49563",
-    "date": "2026-08-24",
-    "time": "10:45 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Bethany Rumore",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "106book38046",
     "date": "2026-08-24",
     "time": "10:45 AM",
@@ -2264,39 +1912,6 @@
     "location": "Merrylands",
     "remaining_spots": 21,
     "capacity": 21
-  },
-  {
-    "booking_id": "103book40577",
-    "date": "2026-08-24",
-    "time": "11:00 AM",
-    "name": "Creche (6 weeks to 18 months)",
-    "class_type": "Creche",
-    "instructor": "Athena Nikolopoulos",
-    "location": "Marrickville",
-    "remaining_spots": 4,
-    "capacity": 4
-  },
-  {
-    "booking_id": "103book40450",
-    "date": "2026-08-24",
-    "time": "11:00 AM",
-    "name": "Creche (18 months - 12 years)",
-    "class_type": "Creche",
-    "instructor": "Shova Rana",
-    "location": "Marrickville",
-    "remaining_spots": 8,
-    "capacity": 8
-  },
-  {
-    "booking_id": "103book49719",
-    "date": "2026-08-24",
-    "time": "11:00 AM",
-    "name": "Yoga: Origins",
-    "class_type": "Yoga Series",
-    "instructor": "Tim Fiorentino",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
   },
   {
     "booking_id": "106book24035",
@@ -2387,17 +2002,6 @@
     "capacity": 24
   },
   {
-    "booking_id": "103book72714",
-    "date": "2026-08-24",
-    "time": "11:30 AM",
-    "name": "Reformer: Sculpt",
-    "class_type": "Reformer Series",
-    "instructor": "Bethany Rumore",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "107book58956",
     "date": "2026-08-24",
     "time": "11:30 AM",
@@ -2429,28 +2033,6 @@
     "location": "Haymarket",
     "remaining_spots": 31,
     "capacity": 32
-  },
-  {
-    "booking_id": "103book40376",
-    "date": "2026-08-24",
-    "time": "12:00 PM",
-    "name": "Creche (18 months - 12 years)",
-    "class_type": "Creche",
-    "instructor": "Shova Rana",
-    "location": "Marrickville",
-    "remaining_spots": 8,
-    "capacity": 8
-  },
-  {
-    "booking_id": "103book41104",
-    "date": "2026-08-24",
-    "time": "12:00 PM",
-    "name": "Creche (6 weeks to 18 months)",
-    "class_type": "Creche",
-    "instructor": "Athena Nikolopoulos",
-    "location": "Marrickville",
-    "remaining_spots": 4,
-    "capacity": 4
   },
   {
     "booking_id": "106book24162",
@@ -2651,17 +2233,6 @@
     "capacity": 30
   },
   {
-    "booking_id": "103book49667",
-    "date": "2026-08-24",
-    "time": "12:30 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Bethany Rumore",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "105book36634",
     "date": "2026-08-24",
     "time": "1:00 PM",
@@ -2759,17 +2330,6 @@
     "location": "Surry Hills",
     "remaining_spots": 26,
     "capacity": 26
-  },
-  {
-    "booking_id": "103book49303",
-    "date": "2026-08-24",
-    "time": "1:30 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Bethany Rumore",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
   },
   {
     "booking_id": "105book36845",
@@ -2882,17 +2442,6 @@
     "capacity": 20
   },
   {
-    "booking_id": "103book49407",
-    "date": "2026-08-24",
-    "time": "3:30 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Bethany Rumore",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "106book38363",
     "date": "2026-08-24",
     "time": "3:30 PM",
@@ -2924,28 +2473,6 @@
     "location": "Haymarket",
     "remaining_spots": 32,
     "capacity": 32
-  },
-  {
-    "booking_id": "103book49615",
-    "date": "2026-08-24",
-    "time": "4:00 PM",
-    "name": "Barre Signature",
-    "class_type": "Barre Series",
-    "instructor": "Michael Roache",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
-  },
-  {
-    "booking_id": "103book49771",
-    "date": "2026-08-24",
-    "time": "4:00 PM",
-    "name": "Mat Pilates",
-    "class_type": "Mat Series",
-    "instructor": "Kristen Marconi",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
   },
   {
     "booking_id": "104book34175",
@@ -2990,17 +2517,6 @@
     "location": "Surry Hills",
     "remaining_spots": 20,
     "capacity": 20
-  },
-  {
-    "booking_id": "103book49459",
-    "date": "2026-08-24",
-    "time": "4:15 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Bethany Rumore",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
   },
   {
     "booking_id": "105book34751",
@@ -3078,39 +2594,6 @@
     "location": "Haymarket",
     "remaining_spots": 32,
     "capacity": 32
-  },
-  {
-    "booking_id": "103book50202",
-    "date": "2026-08-24",
-    "time": "5:00 PM",
-    "name": "Power Pilates",
-    "class_type": "Mat Series",
-    "instructor": "Bethany Rumore",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
-  },
-  {
-    "booking_id": "103book50150",
-    "date": "2026-08-24",
-    "time": "5:00 PM",
-    "name": "Yoga: Flowstate",
-    "class_type": "Yoga Series",
-    "instructor": "Michael Roache",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
-  },
-  {
-    "booking_id": "103book50410",
-    "date": "2026-08-24",
-    "time": "5:00 PM",
-    "name": "Reformer: Strong",
-    "class_type": "Reformer Series",
-    "instructor": "Amelia Gartner",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
   },
   {
     "booking_id": "106book37527",
@@ -3289,17 +2772,6 @@
     "capacity": 30
   },
   {
-    "booking_id": "103book47794",
-    "date": "2026-08-24",
-    "time": "5:30 PM",
-    "name": "Beatbox",
-    "class_type": "Spin Series",
-    "instructor": "Colleen Antony",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
-  },
-  {
     "booking_id": "106book38887",
     "date": "2026-08-24",
     "time": "5:30 PM",
@@ -3399,28 +2871,6 @@
     "capacity": 32
   },
   {
-    "booking_id": "103book50254",
-    "date": "2026-08-24",
-    "time": "6:00 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Amelia Gartner",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
-    "booking_id": "103book50462",
-    "date": "2026-08-24",
-    "time": "6:00 PM",
-    "name": "Barre HIIT",
-    "class_type": "Barre Series",
-    "instructor": "Michael Roache",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
-  },
-  {
     "booking_id": "106book66594",
     "date": "2026-08-24",
     "time": "6:00 PM",
@@ -3509,17 +2959,6 @@
     "capacity": 35
   },
   {
-    "booking_id": "103book50046",
-    "date": "2026-08-24",
-    "time": "6:15 PM",
-    "name": "Yoga: Flowstate",
-    "class_type": "Yoga Series",
-    "instructor": "Nick Gross",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
-  },
-  {
     "booking_id": "106book63932",
     "date": "2026-08-24",
     "time": "6:15 PM",
@@ -3595,28 +3034,6 @@
     "location": "Haymarket",
     "remaining_spots": 24,
     "capacity": 24
-  },
-  {
-    "booking_id": "103book50098",
-    "date": "2026-08-24",
-    "time": "6:30 PM",
-    "name": "Squad",
-    "class_type": "Spin Series",
-    "instructor": "Evie Bird",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
-  },
-  {
-    "booking_id": "103book50881",
-    "date": "2026-08-24",
-    "time": "6:30 PM",
-    "name": "Pump\u2019d",
-    "class_type": "Pulse & Build Series",
-    "instructor": "Colleen Antony",
-    "location": "Marrickville",
-    "remaining_spots": 26,
-    "capacity": 26
   },
   {
     "booking_id": "106book38993",
@@ -3696,17 +3113,6 @@
     "capacity": 18
   },
   {
-    "booking_id": "103book67228",
-    "date": "2026-08-24",
-    "time": "6:45 PM",
-    "name": "Reformer: Strong",
-    "class_type": "Reformer Series",
-    "instructor": "Amelia Gartner",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "106book38832",
     "date": "2026-08-24",
     "time": "6:45 PM",
@@ -3738,17 +3144,6 @@
     "location": "Haymarket",
     "remaining_spots": 32,
     "capacity": 32
-  },
-  {
-    "booking_id": "103book50358",
-    "date": "2026-08-24",
-    "time": "7:00 PM",
-    "name": "Barre Signature",
-    "class_type": "Barre Series",
-    "instructor": "Michael Roache",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
   },
   {
     "booking_id": "106book37945",
@@ -3872,50 +3267,6 @@
     "capacity": 26
   },
   {
-    "booking_id": "103book50778",
-    "date": "2026-08-24",
-    "time": "7:30 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Amelia Gartner",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
-    "booking_id": "103book50565",
-    "date": "2026-08-24",
-    "time": "7:30 PM",
-    "name": "Yoga: Restore & Sound",
-    "class_type": "Yoga Series",
-    "instructor": "Nick Gross",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
-  },
-  {
-    "booking_id": "103book50620",
-    "date": "2026-08-24",
-    "time": "7:30 PM",
-    "name": "Squad",
-    "class_type": "Spin Series",
-    "instructor": "Evie Bird",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
-  },
-  {
-    "booking_id": "103book50723",
-    "date": "2026-08-24",
-    "time": "7:30 PM",
-    "name": "Pump\u2019d",
-    "class_type": "Pulse & Build Series",
-    "instructor": "Colleen Antony",
-    "location": "Marrickville",
-    "remaining_spots": 26,
-    "capacity": 26
-  },
-  {
     "booking_id": "106book38519",
     "date": "2026-08-24",
     "time": "7:30 PM",
@@ -3982,17 +3333,6 @@
     "capacity": 30
   },
   {
-    "booking_id": "103book49930",
-    "date": "2026-08-25",
-    "time": "5:30 AM",
-    "name": "Reformer: Strong",
-    "class_type": "Reformer Series",
-    "instructor": "Lily Cole",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "107book61949",
     "date": "2026-08-25",
     "time": "5:30 AM",
@@ -4057,28 +3397,6 @@
     "location": "Haymarket",
     "remaining_spots": 32,
     "capacity": 32
-  },
-  {
-    "booking_id": "103book52539",
-    "date": "2026-08-25",
-    "time": "6:00 AM",
-    "name": "Limitless",
-    "class_type": "Pulse & Build Series",
-    "instructor": "Elizabeth Topfer",
-    "location": "Marrickville",
-    "remaining_spots": 26,
-    "capacity": 26
-  },
-  {
-    "booking_id": "103book63139",
-    "date": "2026-08-25",
-    "time": "6:00 AM",
-    "name": "Beatbox",
-    "class_type": "Spin Series",
-    "instructor": "Tasharni Jamieson",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
   },
   {
     "booking_id": "106book67679",
@@ -4167,39 +3485,6 @@
     "location": "Haymarket",
     "remaining_spots": 0,
     "capacity": 35
-  },
-  {
-    "booking_id": "103book51690",
-    "date": "2026-08-25",
-    "time": "6:15 AM",
-    "name": "BodySculpt",
-    "class_type": "Mat Series",
-    "instructor": "Kristen Marconi",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
-  },
-  {
-    "booking_id": "103book53934",
-    "date": "2026-08-25",
-    "time": "6:15 AM",
-    "name": "Yoga: Flowstate",
-    "class_type": "Yoga Series",
-    "instructor": "Tim Fiorentino",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
-  },
-  {
-    "booking_id": "103book52436",
-    "date": "2026-08-25",
-    "time": "6:15 AM",
-    "name": "Reformer: Strong",
-    "class_type": "Reformer Series",
-    "instructor": "Lily Cole",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
   },
   {
     "booking_id": "106book39099",
@@ -4389,39 +3674,6 @@
     "capacity": 35
   },
   {
-    "booking_id": "103book52592",
-    "date": "2026-08-25",
-    "time": "7:00 AM",
-    "name": "Pump\u2019d",
-    "class_type": "Pulse & Build Series",
-    "instructor": "Elizabeth Topfer",
-    "location": "Marrickville",
-    "remaining_spots": 26,
-    "capacity": 26
-  },
-  {
-    "booking_id": "103book52648",
-    "date": "2026-08-25",
-    "time": "7:00 AM",
-    "name": "Reformer: Athletic",
-    "class_type": "Reformer Series",
-    "instructor": "Lily Cole",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
-    "booking_id": "103book53457",
-    "date": "2026-08-25",
-    "time": "7:00 AM",
-    "name": "Beatbox",
-    "class_type": "Spin Series",
-    "instructor": "Tasharni Jamieson",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
-  },
-  {
     "booking_id": "106book67519",
     "date": "2026-08-25",
     "time": "7:00 AM",
@@ -4521,17 +3773,6 @@
     "capacity": 24
   },
   {
-    "booking_id": "103book51902",
-    "date": "2026-08-25",
-    "time": "7:15 AM",
-    "name": "BodySculpt",
-    "class_type": "Mat Series",
-    "instructor": "Kristen Marconi",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
-  },
-  {
     "booking_id": "106book64149",
     "date": "2026-08-25",
     "time": "7:15 AM",
@@ -4607,17 +3848,6 @@
     "location": "Haymarket",
     "remaining_spots": 38,
     "capacity": 38
-  },
-  {
-    "booking_id": "103book53775",
-    "date": "2026-08-25",
-    "time": "7:30 AM",
-    "name": "Yoga: Origins",
-    "class_type": "Yoga Series",
-    "instructor": "Tim Fiorentino",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
   },
   {
     "booking_id": "106book40156",
@@ -4697,28 +3927,6 @@
     "capacity": 32
   },
   {
-    "booking_id": "103book62806",
-    "date": "2026-08-25",
-    "time": "8:00 AM",
-    "name": "Athletica",
-    "class_type": "S&C Series",
-    "instructor": "Elizabeth Topfer",
-    "location": "Marrickville",
-    "remaining_spots": 26,
-    "capacity": 26
-  },
-  {
-    "booking_id": "103book49983",
-    "date": "2026-08-25",
-    "time": "8:00 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Lily Cole",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "106book68194",
     "date": "2026-08-25",
     "time": "8:00 AM",
@@ -4794,17 +4002,6 @@
     "location": "Haymarket",
     "remaining_spots": 24,
     "capacity": 24
-  },
-  {
-    "booking_id": "103book52061",
-    "date": "2026-08-25",
-    "time": "8:15 AM",
-    "name": "Barre HIIT",
-    "class_type": "Barre Series",
-    "instructor": "Kristen Marconi",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
   },
   {
     "booking_id": "106book51182",
@@ -4917,39 +4114,6 @@
     "capacity": 24
   },
   {
-    "booking_id": "103book40704",
-    "date": "2026-08-25",
-    "time": "9:00 AM",
-    "name": "Creche (6 weeks to 18 months)",
-    "class_type": "Creche",
-    "instructor": "Athena Nikolopoulos",
-    "location": "Marrickville",
-    "remaining_spots": 4,
-    "capacity": 4
-  },
-  {
-    "booking_id": "103book71579",
-    "date": "2026-08-25",
-    "time": "9:00 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Lily Cole",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
-    "booking_id": "103book40250",
-    "date": "2026-08-25",
-    "time": "9:00 AM",
-    "name": "Creche (18 months - 12 years)",
-    "class_type": "Creche",
-    "instructor": "Shova Rana",
-    "location": "Marrickville",
-    "remaining_spots": 8,
-    "capacity": 8
-  },
-  {
     "booking_id": "106book40315",
     "date": "2026-08-25",
     "time": "9:00 AM",
@@ -5060,17 +4224,6 @@
     "capacity": 30
   },
   {
-    "booking_id": "103book54567",
-    "date": "2026-08-25",
-    "time": "9:30 AM",
-    "name": "Athletica",
-    "class_type": "S&C Series",
-    "instructor": "Nikki Erdos",
-    "location": "Marrickville",
-    "remaining_spots": 26,
-    "capacity": 26
-  },
-  {
     "booking_id": "101book64935",
     "date": "2026-08-25",
     "time": "9:30 AM",
@@ -5124,39 +4277,6 @@
     "location": "Haymarket",
     "remaining_spots": 32,
     "capacity": 32
-  },
-  {
-    "booking_id": "103book40831",
-    "date": "2026-08-25",
-    "time": "10:00 AM",
-    "name": "Creche (6 weeks to 18 months)",
-    "class_type": "Creche",
-    "instructor": "Athena Nikolopoulos",
-    "location": "Marrickville",
-    "remaining_spots": 4,
-    "capacity": 4
-  },
-  {
-    "booking_id": "103book53510",
-    "date": "2026-08-25",
-    "time": "10:00 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Ivan Barrios",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
-    "booking_id": "103book39324",
-    "date": "2026-08-25",
-    "time": "10:00 AM",
-    "name": "Creche (18 months - 12 years)",
-    "class_type": "Creche",
-    "instructor": "Shova Rana",
-    "location": "Marrickville",
-    "remaining_spots": 8,
-    "capacity": 8
   },
   {
     "booking_id": "106book68814",
@@ -5236,17 +4356,6 @@
     "capacity": 24
   },
   {
-    "booking_id": "103book49824",
-    "date": "2026-08-25",
-    "time": "10:30 AM",
-    "name": "Mat Pilates",
-    "class_type": "Mat Series",
-    "instructor": "Lily Cole",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
-  },
-  {
     "booking_id": "107book74487",
     "date": "2026-08-25",
     "time": "10:30 AM",
@@ -5267,39 +4376,6 @@
     "location": "Surry Hills",
     "remaining_spots": 20,
     "capacity": 20
-  },
-  {
-    "booking_id": "103book53563",
-    "date": "2026-08-25",
-    "time": "10:45 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Ivan Barrios",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
-    "booking_id": "103book40578",
-    "date": "2026-08-25",
-    "time": "11:00 AM",
-    "name": "Creche (6 weeks to 18 months)",
-    "class_type": "Creche",
-    "instructor": "Athena Nikolopoulos",
-    "location": "Marrickville",
-    "remaining_spots": 4,
-    "capacity": 4
-  },
-  {
-    "booking_id": "103book40451",
-    "date": "2026-08-25",
-    "time": "11:00 AM",
-    "name": "Creche (18 months - 12 years)",
-    "class_type": "Creche",
-    "instructor": "Shova Rana",
-    "location": "Marrickville",
-    "remaining_spots": 8,
-    "capacity": 8
   },
   {
     "booking_id": "106book24036",
@@ -5368,28 +4444,6 @@
     "capacity": 24
   },
   {
-    "booking_id": "103book53881",
-    "date": "2026-08-25",
-    "time": "11:30 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Ivan Barrios",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
-    "booking_id": "103book52701",
-    "date": "2026-08-25",
-    "time": "11:30 AM",
-    "name": "Mat Pilates",
-    "class_type": "Mat Series",
-    "instructor": "Lily Cole",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
-  },
-  {
     "booking_id": "107book61555",
     "date": "2026-08-25",
     "time": "11:30 AM",
@@ -5421,39 +4475,6 @@
     "location": "Haymarket",
     "remaining_spots": 32,
     "capacity": 32
-  },
-  {
-    "booking_id": "103book41105",
-    "date": "2026-08-25",
-    "time": "12:00 PM",
-    "name": "Creche (6 weeks to 18 months)",
-    "class_type": "Creche",
-    "instructor": "Athena Nikolopoulos",
-    "location": "Marrickville",
-    "remaining_spots": 4,
-    "capacity": 4
-  },
-  {
-    "booking_id": "103book40377",
-    "date": "2026-08-25",
-    "time": "12:00 PM",
-    "name": "Creche (18 months - 12 years)",
-    "class_type": "Creche",
-    "instructor": "Shova Rana",
-    "location": "Marrickville",
-    "remaining_spots": 8,
-    "capacity": 8
-  },
-  {
-    "booking_id": "103book54408",
-    "date": "2026-08-25",
-    "time": "12:00 PM",
-    "name": "Athletica",
-    "class_type": "S&C Series",
-    "instructor": "Nikki Erdos",
-    "location": "Marrickville",
-    "remaining_spots": 26,
-    "capacity": 26
   },
   {
     "booking_id": "106book23668",
@@ -5610,17 +4631,6 @@
     "capacity": 20
   },
   {
-    "booking_id": "103book73219",
-    "date": "2026-08-25",
-    "time": "12:30 PM",
-    "name": "Reformer: Sculpt",
-    "class_type": "Reformer Series",
-    "instructor": "Lauren Buck",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "104book35067",
     "date": "2026-08-25",
     "time": "12:30 PM",
@@ -5742,17 +4752,6 @@
     "capacity": 36
   },
   {
-    "booking_id": "103book53669",
-    "date": "2026-08-25",
-    "time": "1:30 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Lauren Buck",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "105book54443",
     "date": "2026-08-25",
     "time": "2:00 PM",
@@ -5795,17 +4794,6 @@
     "location": "North Sydney",
     "remaining_spots": 24,
     "capacity": 24
-  },
-  {
-    "booking_id": "103book53616",
-    "date": "2026-08-25",
-    "time": "2:30 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Lauren Buck",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
   },
   {
     "booking_id": "105book39171",
@@ -5863,17 +4851,6 @@
     "capacity": 20
   },
   {
-    "booking_id": "103book53722",
-    "date": "2026-08-25",
-    "time": "3:30 PM",
-    "name": "Reformer: Athletic",
-    "class_type": "Reformer Series",
-    "instructor": "Lauren Buck",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "105book39330",
     "date": "2026-08-25",
     "time": "4:00 PM",
@@ -5894,17 +4871,6 @@
     "location": "Haymarket",
     "remaining_spots": 32,
     "capacity": 32
-  },
-  {
-    "booking_id": "103book49877",
-    "date": "2026-08-25",
-    "time": "4:00 PM",
-    "name": "Power Pilates",
-    "class_type": "Mat Series",
-    "instructor": "Michael Roache",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
   },
   {
     "booking_id": "104book35615",
@@ -5960,28 +4926,6 @@
     "location": "Surry Hills",
     "remaining_spots": 26,
     "capacity": 26
-  },
-  {
-    "booking_id": "103book54464",
-    "date": "2026-08-25",
-    "time": "4:30 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Montana Cominos",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
-    "booking_id": "103book51952",
-    "date": "2026-08-25",
-    "time": "4:30 PM",
-    "name": "Fighting Fit",
-    "class_type": "Fight Series",
-    "instructor": "Kristen Marconi",
-    "location": "Marrickville",
-    "remaining_spots": 24,
-    "capacity": 24
   },
   {
     "booking_id": "106book67824",
@@ -6048,28 +4992,6 @@
     "location": "Haymarket",
     "remaining_spots": 32,
     "capacity": 32
-  },
-  {
-    "booking_id": "103book52167",
-    "date": "2026-08-25",
-    "time": "5:00 PM",
-    "name": "Barre Signature",
-    "class_type": "Barre Series",
-    "instructor": "Michael Roache",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
-  },
-  {
-    "booking_id": "103book63749",
-    "date": "2026-08-25",
-    "time": "5:00 PM",
-    "name": "Yoga: Flowstate",
-    "class_type": "Yoga Series",
-    "instructor": "Luka Cubrilo",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
   },
   {
     "booking_id": "106book40911",
@@ -6160,17 +5082,6 @@
     "capacity": 35
   },
   {
-    "booking_id": "103book54623",
-    "date": "2026-08-25",
-    "time": "5:15 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Montana Cominos",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "106book64454",
     "date": "2026-08-25",
     "time": "5:15 PM",
@@ -6246,28 +5157,6 @@
     "location": "Haymarket",
     "remaining_spots": 35,
     "capacity": 35
-  },
-  {
-    "booking_id": "103book64208",
-    "date": "2026-08-25",
-    "time": "5:30 PM",
-    "name": "Blackout",
-    "class_type": "Spin Series",
-    "instructor": "Andrew Lloyd",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
-  },
-  {
-    "booking_id": "103book51634",
-    "date": "2026-08-25",
-    "time": "5:30 PM",
-    "name": "Fighting Fit",
-    "class_type": "Fight Series",
-    "instructor": "Kristen Marconi",
-    "location": "Marrickville",
-    "remaining_spots": 24,
-    "capacity": 24
   },
   {
     "booking_id": "106book39417",
@@ -6356,39 +5245,6 @@
     "location": "Haymarket",
     "remaining_spots": 32,
     "capacity": 32
-  },
-  {
-    "booking_id": "103book63904",
-    "date": "2026-08-25",
-    "time": "6:00 PM",
-    "name": "Yoga: Empower",
-    "class_type": "Yoga Series",
-    "instructor": "Luka Cubrilo",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
-  },
-  {
-    "booking_id": "103book51849",
-    "date": "2026-08-25",
-    "time": "6:00 PM",
-    "name": "Barre HIIT",
-    "class_type": "Barre Series",
-    "instructor": "Michael Roache",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
-  },
-  {
-    "booking_id": "103book67496",
-    "date": "2026-08-25",
-    "time": "6:00 PM",
-    "name": "Reformer: Strong",
-    "class_type": "Reformer Series",
-    "instructor": "Montana Cominos",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
   },
   {
     "booking_id": "106book54777",
@@ -6556,17 +5412,6 @@
     "capacity": 35
   },
   {
-    "booking_id": "103book52111",
-    "date": "2026-08-25",
-    "time": "6:30 PM",
-    "name": "Fight Club",
-    "class_type": "Fight Series",
-    "instructor": "Kristen Marconi",
-    "location": "Marrickville",
-    "remaining_spots": 24,
-    "capacity": 24
-  },
-  {
     "booking_id": "106book41032",
     "date": "2026-08-25",
     "time": "6:30 PM",
@@ -6655,17 +5500,6 @@
     "capacity": 34
   },
   {
-    "booking_id": "103book54305",
-    "date": "2026-08-25",
-    "time": "6:45 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Montana Cominos",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "106book68234",
     "date": "2026-08-25",
     "time": "6:45 PM",
@@ -6697,17 +5531,6 @@
     "location": "Haymarket",
     "remaining_spots": 38,
     "capacity": 38
-  },
-  {
-    "booking_id": "103book51743",
-    "date": "2026-08-25",
-    "time": "7:00 PM",
-    "name": "Hip Hop",
-    "class_type": "Dance Series",
-    "instructor": "Shannon Campradt",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
   },
   {
     "booking_id": "106book40806",
@@ -6776,17 +5599,6 @@
     "capacity": 24
   },
   {
-    "booking_id": "103book63598",
-    "date": "2026-08-25",
-    "time": "7:15 PM",
-    "name": "Yoga: Restore & Sound",
-    "class_type": "Yoga Series",
-    "instructor": "Nick Gross",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
-  },
-  {
     "booking_id": "104book35279",
     "date": "2026-08-25",
     "time": "7:15 PM",
@@ -6818,28 +5630,6 @@
     "location": "Surry Hills",
     "remaining_spots": 26,
     "capacity": 26
-  },
-  {
-    "booking_id": "103book67333",
-    "date": "2026-08-25",
-    "time": "7:30 PM",
-    "name": "Reformer: Strong",
-    "class_type": "Reformer Series",
-    "instructor": "Montana Cominos",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
-    "booking_id": "103book52005",
-    "date": "2026-08-25",
-    "time": "7:30 PM",
-    "name": "Fighting Fit",
-    "class_type": "Fight Series",
-    "instructor": "Kristen Marconi",
-    "location": "Marrickville",
-    "remaining_spots": 24,
-    "capacity": 24
   },
   {
     "booking_id": "106book40526",
@@ -6919,28 +5709,6 @@
     "capacity": 25
   },
   {
-    "booking_id": "103book64158",
-    "date": "2026-08-26",
-    "time": "5:15 AM",
-    "name": "Squad",
-    "class_type": "Spin Series",
-    "instructor": "Colleen Antony",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
-  },
-  {
-    "booking_id": "103book55095",
-    "date": "2026-08-26",
-    "time": "5:30 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Samantha Smolens",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "107book63844",
     "date": "2026-08-26",
     "time": "5:30 AM",
@@ -7005,39 +5773,6 @@
     "location": "Haymarket",
     "remaining_spots": 32,
     "capacity": 32
-  },
-  {
-    "booking_id": "103book64463",
-    "date": "2026-08-26",
-    "time": "6:00 AM",
-    "name": "Squad",
-    "class_type": "Spin Series",
-    "instructor": "Colleen Antony",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
-  },
-  {
-    "booking_id": "103book76452",
-    "date": "2026-08-26",
-    "time": "6:00 AM",
-    "name": "Ritual",
-    "class_type": "Mat Series",
-    "instructor": "Anton Anton",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
-  },
-  {
-    "booking_id": "103book55768",
-    "date": "2026-08-26",
-    "time": "6:00 AM",
-    "name": "Athletica",
-    "class_type": "S&C Series",
-    "instructor": "Zoe Downing",
-    "location": "Marrickville",
-    "remaining_spots": 26,
-    "capacity": 26
   },
   {
     "booking_id": "106book41190",
@@ -7148,28 +5883,6 @@
     "location": "Haymarket",
     "remaining_spots": 35,
     "capacity": 35
-  },
-  {
-    "booking_id": "103book55563",
-    "date": "2026-08-26",
-    "time": "6:15 AM",
-    "name": "Reformer: Strong",
-    "class_type": "Reformer Series",
-    "instructor": "Samantha Smolens",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
-    "booking_id": "103book54728",
-    "date": "2026-08-26",
-    "time": "6:15 AM",
-    "name": "Power Pilates",
-    "class_type": "Mat Series",
-    "instructor": "Eva Baonza",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
   },
   {
     "booking_id": "106book64647",
@@ -7370,39 +6083,6 @@
     "capacity": 32
   },
   {
-    "booking_id": "103book55978",
-    "date": "2026-08-26",
-    "time": "7:00 AM",
-    "name": "Athletica",
-    "class_type": "S&C Series",
-    "instructor": "Zoe Downing",
-    "location": "Marrickville",
-    "remaining_spots": 26,
-    "capacity": 26
-  },
-  {
-    "booking_id": "103book76380",
-    "date": "2026-08-26",
-    "time": "7:00 AM",
-    "name": "Yoga: Flowstate",
-    "class_type": "Yoga Series",
-    "instructor": "Anton Anton",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
-  },
-  {
-    "booking_id": "103book55251",
-    "date": "2026-08-26",
-    "time": "7:00 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Samantha Smolens",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "106book41720",
     "date": "2026-08-26",
     "time": "7:00 AM",
@@ -7489,17 +6169,6 @@
     "location": "Haymarket",
     "remaining_spots": 24,
     "capacity": 24
-  },
-  {
-    "booking_id": "103book54991",
-    "date": "2026-08-26",
-    "time": "7:15 AM",
-    "name": "BodySculpt",
-    "class_type": "Mat Series",
-    "instructor": "Eva Baonza",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
   },
   {
     "booking_id": "106book64559",
@@ -7700,28 +6369,6 @@
     "capacity": 32
   },
   {
-    "booking_id": "103book56031",
-    "date": "2026-08-26",
-    "time": "8:00 AM",
-    "name": "Athletica",
-    "class_type": "S&C Series",
-    "instructor": "Zoe Downing",
-    "location": "Marrickville",
-    "remaining_spots": 26,
-    "capacity": 26
-  },
-  {
-    "booking_id": "103book55511",
-    "date": "2026-08-26",
-    "time": "8:00 AM",
-    "name": "Reformer: Strong",
-    "class_type": "Reformer Series",
-    "instructor": "Samantha Smolens",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "106book42209",
     "date": "2026-08-26",
     "time": "8:00 AM",
@@ -7764,17 +6411,6 @@
     "location": "North Sydney",
     "remaining_spots": 24,
     "capacity": 24
-  },
-  {
-    "booking_id": "103book54676",
-    "date": "2026-08-26",
-    "time": "8:15 AM",
-    "name": "Power Pilates",
-    "class_type": "Mat Series",
-    "instructor": "Eva Baonza",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
   },
   {
     "booking_id": "106book42521",
@@ -7909,39 +6545,6 @@
     "capacity": 22
   },
   {
-    "booking_id": "103book55459",
-    "date": "2026-08-26",
-    "time": "9:00 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Amelia Gartner",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
-    "booking_id": "103book40251",
-    "date": "2026-08-26",
-    "time": "9:00 AM",
-    "name": "Creche (18 months - 12 years)",
-    "class_type": "Creche",
-    "instructor": "Shova Rana",
-    "location": "Marrickville",
-    "remaining_spots": 8,
-    "capacity": 8
-  },
-  {
-    "booking_id": "103book40705",
-    "date": "2026-08-26",
-    "time": "9:00 AM",
-    "name": "Creche (6 weeks to 18 months)",
-    "class_type": "Creche",
-    "instructor": "Athena Nikolopoulos",
-    "location": "Marrickville",
-    "remaining_spots": 4,
-    "capacity": 4
-  },
-  {
     "booking_id": "106book23383",
     "date": "2026-08-26",
     "time": "9:00 AM",
@@ -8019,28 +6622,6 @@
     "capacity": 31
   },
   {
-    "booking_id": "103book52273",
-    "date": "2026-08-26",
-    "time": "9:30 AM",
-    "name": "Yoga: Flowstate",
-    "class_type": "Yoga Series",
-    "instructor": "Katie Jay",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
-  },
-  {
-    "booking_id": "103book55821",
-    "date": "2026-08-26",
-    "time": "9:30 AM",
-    "name": "Strong",
-    "class_type": "S&C Series",
-    "instructor": "Jose Da Rocha",
-    "location": "Marrickville",
-    "remaining_spots": 26,
-    "capacity": 26
-  },
-  {
     "booking_id": "101book65360",
     "date": "2026-08-26",
     "time": "9:30 AM",
@@ -8094,39 +6675,6 @@
     "location": "Haymarket",
     "remaining_spots": 32,
     "capacity": 32
-  },
-  {
-    "booking_id": "103book55355",
-    "date": "2026-08-26",
-    "time": "10:00 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Amelia Gartner",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
-    "booking_id": "103book39325",
-    "date": "2026-08-26",
-    "time": "10:00 AM",
-    "name": "Creche (18 months - 12 years)",
-    "class_type": "Creche",
-    "instructor": "Shova Rana",
-    "location": "Marrickville",
-    "remaining_spots": 8,
-    "capacity": 8
-  },
-  {
-    "booking_id": "103book40832",
-    "date": "2026-08-26",
-    "time": "10:00 AM",
-    "name": "Creche (6 weeks to 18 months)",
-    "class_type": "Creche",
-    "instructor": "Athena Nikolopoulos",
-    "location": "Marrickville",
-    "remaining_spots": 4,
-    "capacity": 4
   },
   {
     "booking_id": "106book68919",
@@ -8217,17 +6765,6 @@
     "capacity": 22
   },
   {
-    "booking_id": "103book56478",
-    "date": "2026-08-26",
-    "time": "10:30 AM",
-    "name": "Badass",
-    "class_type": "S&C Series",
-    "instructor": "Jose Da Rocha",
-    "location": "Marrickville",
-    "remaining_spots": 26,
-    "capacity": 26
-  },
-  {
     "booking_id": "107book78936",
     "date": "2026-08-26",
     "time": "10:30 AM",
@@ -8259,50 +6796,6 @@
     "location": "Haymarket",
     "remaining_spots": 24,
     "capacity": 24
-  },
-  {
-    "booking_id": "103book75137",
-    "date": "2026-08-26",
-    "time": "10:45 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Amelia Gartner",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
-    "booking_id": "103book40579",
-    "date": "2026-08-26",
-    "time": "11:00 AM",
-    "name": "Creche (6 weeks to 18 months)",
-    "class_type": "Creche",
-    "instructor": "Athena Nikolopoulos",
-    "location": "Marrickville",
-    "remaining_spots": 4,
-    "capacity": 4
-  },
-  {
-    "booking_id": "103book56688",
-    "date": "2026-08-26",
-    "time": "11:00 AM",
-    "name": "Yoga: Restore & Sound",
-    "class_type": "Yoga Series",
-    "instructor": "Katie Jay",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
-  },
-  {
-    "booking_id": "103book40452",
-    "date": "2026-08-26",
-    "time": "11:00 AM",
-    "name": "Creche (18 months - 12 years)",
-    "class_type": "Creche",
-    "instructor": "Shova Rana",
-    "location": "Marrickville",
-    "remaining_spots": 8,
-    "capacity": 8
   },
   {
     "booking_id": "106book61646",
@@ -8404,17 +6897,6 @@
     "capacity": 24
   },
   {
-    "booking_id": "103book55407",
-    "date": "2026-08-26",
-    "time": "11:30 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Kat Morrison",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "107book62903",
     "date": "2026-08-26",
     "time": "11:30 AM",
@@ -8446,28 +6928,6 @@
     "location": "Haymarket",
     "remaining_spots": 32,
     "capacity": 32
-  },
-  {
-    "booking_id": "103book40378",
-    "date": "2026-08-26",
-    "time": "12:00 PM",
-    "name": "Creche (18 months - 12 years)",
-    "class_type": "Creche",
-    "instructor": "Shova Rana",
-    "location": "Marrickville",
-    "remaining_spots": 8,
-    "capacity": 8
-  },
-  {
-    "booking_id": "103book41106",
-    "date": "2026-08-26",
-    "time": "12:00 PM",
-    "name": "Creche (6 weeks to 18 months)",
-    "class_type": "Creche",
-    "instructor": "Athena Nikolopoulos",
-    "location": "Marrickville",
-    "remaining_spots": 4,
-    "capacity": 4
   },
   {
     "booking_id": "106book42989",
@@ -8635,17 +7095,6 @@
     "capacity": 20
   },
   {
-    "booking_id": "103book55303",
-    "date": "2026-08-26",
-    "time": "12:30 PM",
-    "name": "Reformer: Strong",
-    "class_type": "Reformer Series",
-    "instructor": "Kat Morrison",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "104book36813",
     "date": "2026-08-26",
     "time": "12:30 PM",
@@ -8778,17 +7227,6 @@
     "capacity": 26
   },
   {
-    "booking_id": "103book55199",
-    "date": "2026-08-26",
-    "time": "1:30 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Kat Morrison",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "105book54907",
     "date": "2026-08-26",
     "time": "2:00 PM",
@@ -8831,17 +7269,6 @@
     "location": "North Sydney",
     "remaining_spots": 24,
     "capacity": 24
-  },
-  {
-    "booking_id": "103book55615",
-    "date": "2026-08-26",
-    "time": "2:30 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Kat Morrison",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
   },
   {
     "booking_id": "105book41295",
@@ -8888,17 +7315,6 @@
     "capacity": 20
   },
   {
-    "booking_id": "103book55929",
-    "date": "2026-08-26",
-    "time": "3:30 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Kat Morrison",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "105book40355",
     "date": "2026-08-26",
     "time": "4:00 PM",
@@ -8930,28 +7346,6 @@
     "location": "Haymarket",
     "remaining_spots": 24,
     "capacity": 24
-  },
-  {
-    "booking_id": "103book52221",
-    "date": "2026-08-26",
-    "time": "4:00 PM",
-    "name": "Yoga: Flowstate",
-    "class_type": "Yoga Series",
-    "instructor": "Luka Cubrilo",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
-  },
-  {
-    "booking_id": "103book55043",
-    "date": "2026-08-26",
-    "time": "4:00 PM",
-    "name": "BodySculpt",
-    "class_type": "Mat Series",
-    "instructor": "Ahlex Leyva",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
   },
   {
     "booking_id": "104book38206",
@@ -9020,17 +7414,6 @@
     "capacity": 26
   },
   {
-    "booking_id": "103book56191",
-    "date": "2026-08-26",
-    "time": "4:30 PM",
-    "name": "Reformer: Origins",
-    "class_type": "Reformer Series",
-    "instructor": "Bethany Rumore",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "101book67146",
     "date": "2026-08-26",
     "time": "4:30 PM",
@@ -9095,28 +7478,6 @@
     "location": "Haymarket",
     "remaining_spots": 38,
     "capacity": 38
-  },
-  {
-    "booking_id": "103book55147",
-    "date": "2026-08-26",
-    "time": "5:00 PM",
-    "name": "BodyBurn",
-    "class_type": "Mat Series",
-    "instructor": "Ahlex Leyva",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
-  },
-  {
-    "booking_id": "103book56586",
-    "date": "2026-08-26",
-    "time": "5:00 PM",
-    "name": "Yoga: Flowstate",
-    "class_type": "Yoga Series",
-    "instructor": "Luka Cubrilo",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
   },
   {
     "booking_id": "106book40964",
@@ -9218,17 +7579,6 @@
     "capacity": 35
   },
   {
-    "booking_id": "103book56087",
-    "date": "2026-08-26",
-    "time": "5:15 PM",
-    "name": "Reformer: Strong",
-    "class_type": "Reformer Series",
-    "instructor": "Bethany Rumore",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "106book64969",
     "date": "2026-08-26",
     "time": "5:15 PM",
@@ -9293,17 +7643,6 @@
     "location": "Haymarket",
     "remaining_spots": 24,
     "capacity": 24
-  },
-  {
-    "booking_id": "103book56534",
-    "date": "2026-08-26",
-    "time": "5:30 PM",
-    "name": "Beatbox",
-    "class_type": "Spin Series",
-    "instructor": "Colleen Antony",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
   },
   {
     "booking_id": "106book41453",
@@ -9416,17 +7755,6 @@
     "capacity": 32
   },
   {
-    "booking_id": "103book55719",
-    "date": "2026-08-26",
-    "time": "6:00 PM",
-    "name": "Reformer: Strong",
-    "class_type": "Reformer Series",
-    "instructor": "Bethany Rumore",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "106book53461",
     "date": "2026-08-26",
     "time": "6:00 PM",
@@ -9537,17 +7865,6 @@
     "capacity": 35
   },
   {
-    "booking_id": "103book52325",
-    "date": "2026-08-26",
-    "time": "6:15 PM",
-    "name": "Yoga: Flowstate",
-    "class_type": "Yoga Series",
-    "instructor": "Megan Leung",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
-  },
-  {
     "booking_id": "106book65074",
     "date": "2026-08-26",
     "time": "6:15 PM",
@@ -9625,17 +7942,6 @@
     "capacity": 30
   },
   {
-    "booking_id": "103book54830",
-    "date": "2026-08-26",
-    "time": "6:30 PM",
-    "name": "Limitless",
-    "class_type": "Pulse & Build Series",
-    "instructor": "Colleen Antony",
-    "location": "Marrickville",
-    "remaining_spots": 26,
-    "capacity": 26
-  },
-  {
     "booking_id": "106book69979",
     "date": "2026-08-26",
     "time": "6:30 PM",
@@ -9700,17 +8006,6 @@
     "location": "Surry Hills",
     "remaining_spots": 18,
     "capacity": 18
-  },
-  {
-    "booking_id": "103book55877",
-    "date": "2026-08-26",
-    "time": "6:45 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Bethany Rumore",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
   },
   {
     "booking_id": "106book61646",
@@ -9867,39 +8162,6 @@
     "capacity": 26
   },
   {
-    "booking_id": "103book56638",
-    "date": "2026-08-26",
-    "time": "7:30 PM",
-    "name": "Yoga: Flowstate",
-    "class_type": "Yoga Series",
-    "instructor": "Megan Leung",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
-  },
-  {
-    "booking_id": "103book56139",
-    "date": "2026-08-26",
-    "time": "7:30 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Bethany Rumore",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
-    "booking_id": "103book54777",
-    "date": "2026-08-26",
-    "time": "7:30 PM",
-    "name": "Pump\u2019d",
-    "class_type": "Pulse & Build Series",
-    "instructor": "Colleen Antony",
-    "location": "Marrickville",
-    "remaining_spots": 26,
-    "capacity": 26
-  },
-  {
     "booking_id": "106book69224",
     "date": "2026-08-26",
     "time": "7:30 PM",
@@ -9944,17 +8206,6 @@
     "capacity": 30
   },
   {
-    "booking_id": "103book57529",
-    "date": "2026-08-27",
-    "time": "5:30 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Vanessa Liu",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "107book63421",
     "date": "2026-08-27",
     "time": "5:30 AM",
@@ -9997,39 +8248,6 @@
     "location": "Haymarket",
     "remaining_spots": 32,
     "capacity": 32
-  },
-  {
-    "booking_id": "103book58602",
-    "date": "2026-08-27",
-    "time": "6:00 AM",
-    "name": "Beatbox",
-    "class_type": "Spin Series",
-    "instructor": "Allegra Sadnick",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
-  },
-  {
-    "booking_id": "103book57212",
-    "date": "2026-08-27",
-    "time": "6:00 AM",
-    "name": "Pump\u2019d",
-    "class_type": "Pulse & Build Series",
-    "instructor": "Colleen Antony",
-    "location": "Marrickville",
-    "remaining_spots": 26,
-    "capacity": 26
-  },
-  {
-    "booking_id": "103book58864",
-    "date": "2026-08-27",
-    "time": "6:00 AM",
-    "name": "Yoga: Flowstate",
-    "class_type": "Yoga Series",
-    "instructor": "Jessy Franks",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
   },
   {
     "booking_id": "106book45658",
@@ -10118,28 +8336,6 @@
     "location": "North Sydney",
     "remaining_spots": 24,
     "capacity": 24
-  },
-  {
-    "booking_id": "103book57372",
-    "date": "2026-08-27",
-    "time": "6:15 AM",
-    "name": "Reformer: Athletic",
-    "class_type": "Reformer Series",
-    "instructor": "Vanessa Liu",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
-    "booking_id": "103book56399",
-    "date": "2026-08-27",
-    "time": "6:15 AM",
-    "name": "Power Pilates",
-    "class_type": "Mat Series",
-    "instructor": "Kristen Marconi",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
   },
   {
     "booking_id": "106book44614",
@@ -10329,39 +8525,6 @@
     "capacity": 32
   },
   {
-    "booking_id": "103book57739",
-    "date": "2026-08-27",
-    "time": "7:00 AM",
-    "name": "Reformer: Jump Board (Lower Body)",
-    "class_type": "Reformer Series",
-    "instructor": "Vanessa Liu",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
-    "booking_id": "103book58497",
-    "date": "2026-08-27",
-    "time": "7:00 AM",
-    "name": "Beatbox",
-    "class_type": "Spin Series",
-    "instructor": "Allegra Sadnick",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
-  },
-  {
-    "booking_id": "103book57630",
-    "date": "2026-08-27",
-    "time": "7:00 AM",
-    "name": "Pump\u2019d",
-    "class_type": "Pulse & Build Series",
-    "instructor": "Colleen Antony",
-    "location": "Marrickville",
-    "remaining_spots": 26,
-    "capacity": 26
-  },
-  {
     "booking_id": "106book70284",
     "date": "2026-08-27",
     "time": "7:00 AM",
@@ -10448,28 +8611,6 @@
     "location": "Haymarket",
     "remaining_spots": 24,
     "capacity": 24
-  },
-  {
-    "booking_id": "103book56243",
-    "date": "2026-08-27",
-    "time": "7:15 AM",
-    "name": "BodyBurn",
-    "class_type": "Mat Series",
-    "instructor": "Kristen Marconi",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
-  },
-  {
-    "booking_id": "103book58654",
-    "date": "2026-08-27",
-    "time": "7:15 AM",
-    "name": "Yoga: Origins",
-    "class_type": "Yoga Series",
-    "instructor": "Jessy Franks",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
   },
   {
     "booking_id": "106book70999",
@@ -10637,28 +8778,6 @@
     "capacity": 32
   },
   {
-    "booking_id": "103book71265",
-    "date": "2026-08-27",
-    "time": "8:00 AM",
-    "name": "Athletica",
-    "class_type": "S&C Series",
-    "instructor": "Nikki Erdos",
-    "location": "Marrickville",
-    "remaining_spots": 26,
-    "capacity": 26
-  },
-  {
-    "booking_id": "103book57684",
-    "date": "2026-08-27",
-    "time": "8:00 AM",
-    "name": "Reformer: Jump Board (Lower Body)",
-    "class_type": "Reformer Series",
-    "instructor": "Vanessa Liu",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "106book59410",
     "date": "2026-08-27",
     "time": "8:00 AM",
@@ -10736,17 +8855,6 @@
     "capacity": 35
   },
   {
-    "booking_id": "103book71481",
-    "date": "2026-08-27",
-    "time": "8:15 AM",
-    "name": "BodySculpt",
-    "class_type": "Mat Series",
-    "instructor": "Kristen Marconi",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
-  },
-  {
     "booking_id": "106book62371",
     "date": "2026-08-27",
     "time": "8:15 AM",
@@ -10802,17 +8910,6 @@
     "capacity": 20
   },
   {
-    "booking_id": "103book58759",
-    "date": "2026-08-27",
-    "time": "8:30 AM",
-    "name": "Yoga: Flowstate",
-    "class_type": "Yoga Series",
-    "instructor": "Jessy Franks",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
-  },
-  {
     "booking_id": "101book68572",
     "date": "2026-08-27",
     "time": "8:30 AM",
@@ -10855,39 +8952,6 @@
     "location": "Haymarket",
     "remaining_spots": 24,
     "capacity": 24
-  },
-  {
-    "booking_id": "103book40706",
-    "date": "2026-08-27",
-    "time": "9:00 AM",
-    "name": "Creche (6 weeks to 18 months)",
-    "class_type": "Creche",
-    "instructor": "Athena Nikolopoulos",
-    "location": "Marrickville",
-    "remaining_spots": 4,
-    "capacity": 4
-  },
-  {
-    "booking_id": "103book57320",
-    "date": "2026-08-27",
-    "time": "9:00 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Sienna Egan",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
-    "booking_id": "103book40252",
-    "date": "2026-08-27",
-    "time": "9:00 AM",
-    "name": "Creche (18 months - 12 years)",
-    "class_type": "Creche",
-    "instructor": "Shova Rana",
-    "location": "Marrickville",
-    "remaining_spots": 8,
-    "capacity": 8
   },
   {
     "booking_id": "106book70549",
@@ -10956,17 +9020,6 @@
     "capacity": 20
   },
   {
-    "booking_id": "103book57007",
-    "date": "2026-08-27",
-    "time": "9:15 AM",
-    "name": "Barre Signature",
-    "class_type": "Barre Series",
-    "instructor": "Phoebe Thomson",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
-  },
-  {
     "booking_id": "106book45814",
     "date": "2026-08-27",
     "time": "9:15 AM",
@@ -10987,17 +9040,6 @@
     "location": "Merrylands",
     "remaining_spots": 0,
     "capacity": 30
-  },
-  {
-    "booking_id": "103book57948",
-    "date": "2026-08-27",
-    "time": "9:30 AM",
-    "name": "Gunshow",
-    "class_type": "S&C Series",
-    "instructor": "Zoe Downing",
-    "location": "Marrickville",
-    "remaining_spots": 26,
-    "capacity": 26
   },
   {
     "booking_id": "104book38471",
@@ -11033,17 +9075,6 @@
     "capacity": 24
   },
   {
-    "booking_id": "103book56955",
-    "date": "2026-08-27",
-    "time": "9:45 AM",
-    "name": "Breathwork: Dynamic Release (Morning)",
-    "class_type": "Harmony Series",
-    "instructor": "Lauren Wainer",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
-  },
-  {
     "booking_id": "107book65037",
     "date": "2026-08-27",
     "time": "9:45 AM",
@@ -11075,39 +9106,6 @@
     "location": "Haymarket",
     "remaining_spots": 32,
     "capacity": 32
-  },
-  {
-    "booking_id": "103book57581",
-    "date": "2026-08-27",
-    "time": "10:00 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Sienna Egan",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
-    "booking_id": "103book40833",
-    "date": "2026-08-27",
-    "time": "10:00 AM",
-    "name": "Creche (6 weeks to 18 months)",
-    "class_type": "Creche",
-    "instructor": "Athena Nikolopoulos",
-    "location": "Marrickville",
-    "remaining_spots": 4,
-    "capacity": 4
-  },
-  {
-    "booking_id": "103book39326",
-    "date": "2026-08-27",
-    "time": "10:00 AM",
-    "name": "Creche (18 months - 12 years)",
-    "class_type": "Creche",
-    "instructor": "Shova Rana",
-    "location": "Marrickville",
-    "remaining_spots": 8,
-    "capacity": 8
   },
   {
     "booking_id": "106book70389",
@@ -11176,17 +9174,6 @@
     "capacity": 20
   },
   {
-    "booking_id": "103book75028",
-    "date": "2026-08-27",
-    "time": "10:15 AM",
-    "name": "BodySculpt",
-    "class_type": "Mat Series",
-    "instructor": "Phoebe Thomson",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
-  },
-  {
     "booking_id": "106book43974",
     "date": "2026-08-27",
     "time": "10:15 AM",
@@ -11251,39 +9238,6 @@
     "location": "Surry Hills",
     "remaining_spots": 18,
     "capacity": 18
-  },
-  {
-    "booking_id": "103book57268",
-    "date": "2026-08-27",
-    "time": "10:45 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Sophia Rambaldini",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
-    "booking_id": "103book40580",
-    "date": "2026-08-27",
-    "time": "11:00 AM",
-    "name": "Creche (6 weeks to 18 months)",
-    "class_type": "Creche",
-    "instructor": "Athena Nikolopoulos",
-    "location": "Marrickville",
-    "remaining_spots": 4,
-    "capacity": 4
-  },
-  {
-    "booking_id": "103book40453",
-    "date": "2026-08-27",
-    "time": "11:00 AM",
-    "name": "Creche (18 months - 12 years)",
-    "class_type": "Creche",
-    "instructor": "Shova Rana",
-    "location": "Marrickville",
-    "remaining_spots": 8,
-    "capacity": 8
   },
   {
     "booking_id": "106book23543",
@@ -11374,28 +9328,6 @@
     "capacity": 24
   },
   {
-    "booking_id": "103book57059",
-    "date": "2026-08-27",
-    "time": "11:30 AM",
-    "name": "Mat Pilates",
-    "class_type": "Mat Series",
-    "instructor": "Phoebe Thomson",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
-  },
-  {
-    "booking_id": "103book58212",
-    "date": "2026-08-27",
-    "time": "11:30 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Sophia Rambaldini",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "107book65249",
     "date": "2026-08-27",
     "time": "11:30 AM",
@@ -11438,39 +9370,6 @@
     "location": "Haymarket",
     "remaining_spots": 32,
     "capacity": 32
-  },
-  {
-    "booking_id": "103book57788",
-    "date": "2026-08-27",
-    "time": "12:00 PM",
-    "name": "Strong",
-    "class_type": "S&C Series",
-    "instructor": "Zoe Downing",
-    "location": "Marrickville",
-    "remaining_spots": 26,
-    "capacity": 26
-  },
-  {
-    "booking_id": "103book41107",
-    "date": "2026-08-27",
-    "time": "12:00 PM",
-    "name": "Creche (6 weeks to 18 months)",
-    "class_type": "Creche",
-    "instructor": "Athena Nikolopoulos",
-    "location": "Marrickville",
-    "remaining_spots": 4,
-    "capacity": 4
-  },
-  {
-    "booking_id": "103book40379",
-    "date": "2026-08-27",
-    "time": "12:00 PM",
-    "name": "Creche (18 months - 12 years)",
-    "class_type": "Creche",
-    "instructor": "Shova Rana",
-    "location": "Marrickville",
-    "remaining_spots": 8,
-    "capacity": 8
   },
   {
     "booking_id": "106book24165",
@@ -11638,17 +9537,6 @@
     "capacity": 26
   },
   {
-    "booking_id": "103book57899",
-    "date": "2026-08-27",
-    "time": "12:30 PM",
-    "name": "Reformer: Jump Board (Lower Body)",
-    "class_type": "Reformer Series",
-    "instructor": "Sophia Rambaldini",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "104book38731",
     "date": "2026-08-27",
     "time": "12:30 PM",
@@ -11748,17 +9636,6 @@
     "capacity": 26
   },
   {
-    "booking_id": "103book58160",
-    "date": "2026-08-27",
-    "time": "1:30 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Jovana Subotic",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "105book56120",
     "date": "2026-08-27",
     "time": "2:00 PM",
@@ -11814,17 +9691,6 @@
     "capacity": 24
   },
   {
-    "booking_id": "103book58004",
-    "date": "2026-08-27",
-    "time": "2:30 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Jovana Subotic",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "105book50813",
     "date": "2026-08-27",
     "time": "3:00 PM",
@@ -11869,17 +9735,6 @@
     "capacity": 20
   },
   {
-    "booking_id": "103book56743",
-    "date": "2026-08-27",
-    "time": "3:30 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Jovana Subotic",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "105book42076",
     "date": "2026-08-27",
     "time": "4:00 PM",
@@ -11900,17 +9755,6 @@
     "location": "Haymarket",
     "remaining_spots": 24,
     "capacity": 24
-  },
-  {
-    "booking_id": "103book57111",
-    "date": "2026-08-27",
-    "time": "4:00 PM",
-    "name": "Mat Pilates",
-    "class_type": "Mat Series",
-    "instructor": "Michael Roache",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
   },
   {
     "booking_id": "104book39210",
@@ -11979,17 +9823,6 @@
     "capacity": 26
   },
   {
-    "booking_id": "103book58264",
-    "date": "2026-08-27",
-    "time": "4:30 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Jovana Subotic",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "101book68183",
     "date": "2026-08-27",
     "time": "4:30 PM",
@@ -12056,28 +9889,6 @@
     "capacity": 32
   },
   {
-    "booking_id": "103book56903",
-    "date": "2026-08-27",
-    "time": "5:00 PM",
-    "name": "Power Pilates",
-    "class_type": "Mat Series",
-    "instructor": "Bethany Rumore",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
-  },
-  {
-    "booking_id": "103book56347",
-    "date": "2026-08-27",
-    "time": "5:00 PM",
-    "name": "Mat Pilates",
-    "class_type": "Mat Series",
-    "instructor": "Michael Roache",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
-  },
-  {
     "booking_id": "106book44078",
     "date": "2026-08-27",
     "time": "5:00 PM",
@@ -12120,17 +9931,6 @@
     "location": "Haymarket",
     "remaining_spots": 35,
     "capacity": 35
-  },
-  {
-    "booking_id": "103book67077",
-    "date": "2026-08-27",
-    "time": "5:15 PM",
-    "name": "Reformer: Strong",
-    "class_type": "Reformer Series",
-    "instructor": "Jovana Subotic",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
   },
   {
     "booking_id": "106book70654",
@@ -12197,28 +9997,6 @@
     "location": "Haymarket",
     "remaining_spots": 24,
     "capacity": 24
-  },
-  {
-    "booking_id": "103book64568",
-    "date": "2026-08-27",
-    "time": "5:30 PM",
-    "name": "Squad",
-    "class_type": "Spin Series",
-    "instructor": "Bobbie Mount",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
-  },
-  {
-    "booking_id": "103book58441",
-    "date": "2026-08-27",
-    "time": "5:30 PM",
-    "name": "Strong",
-    "class_type": "S&C Series",
-    "instructor": "Alek Leyland",
-    "location": "Marrickville",
-    "remaining_spots": 26,
-    "capacity": 26
   },
   {
     "booking_id": "106book44879",
@@ -12329,39 +10107,6 @@
     "location": "Haymarket",
     "remaining_spots": 38,
     "capacity": 38
-  },
-  {
-    "booking_id": "103book58547",
-    "date": "2026-08-27",
-    "time": "6:00 PM",
-    "name": "Yoga: Restore & Sound",
-    "class_type": "Yoga Series",
-    "instructor": "Michael Roache",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
-  },
-  {
-    "booking_id": "103book57424",
-    "date": "2026-08-27",
-    "time": "6:00 PM",
-    "name": "BodySculpt",
-    "class_type": "Mat Series",
-    "instructor": "Bethany Rumore",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
-  },
-  {
-    "booking_id": "103book58108",
-    "date": "2026-08-27",
-    "time": "6:00 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Jovana Subotic",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
   },
   {
     "booking_id": "106book44130",
@@ -12518,28 +10263,6 @@
     "capacity": 35
   },
   {
-    "booking_id": "103book58703",
-    "date": "2026-08-27",
-    "time": "6:30 PM",
-    "name": "Strong",
-    "class_type": "S&C Series",
-    "instructor": "Alek Leyland",
-    "location": "Marrickville",
-    "remaining_spots": 26,
-    "capacity": 26
-  },
-  {
-    "booking_id": "103book64673",
-    "date": "2026-08-27",
-    "time": "6:30 PM",
-    "name": "Squad",
-    "class_type": "Spin Series",
-    "instructor": "Bobbie Mount",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
-  },
-  {
     "booking_id": "106book44720",
     "date": "2026-08-27",
     "time": "6:30 PM",
@@ -12604,17 +10327,6 @@
     "location": "Surry Hills",
     "remaining_spots": 18,
     "capacity": 18
-  },
-  {
-    "booking_id": "103book73125",
-    "date": "2026-08-27",
-    "time": "6:45 PM",
-    "name": "Reformer: Sculpt",
-    "class_type": "Reformer Series",
-    "instructor": "Bethany Rumore",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
   },
   {
     "booking_id": "106book52076",
@@ -12771,28 +10483,6 @@
     "capacity": 30
   },
   {
-    "booking_id": "103book57847",
-    "date": "2026-08-27",
-    "time": "7:30 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Bethany Rumore",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
-    "booking_id": "103book58808",
-    "date": "2026-08-27",
-    "time": "7:30 PM",
-    "name": "Athletica",
-    "class_type": "S&C Series",
-    "instructor": "Alek Leyland",
-    "location": "Marrickville",
-    "remaining_spots": 26,
-    "capacity": 26
-  },
-  {
     "booking_id": "106book45398",
     "date": "2026-08-27",
     "time": "7:30 PM",
@@ -12846,17 +10536,6 @@
     "location": "Merrylands",
     "remaining_spots": 33,
     "capacity": 33
-  },
-  {
-    "booking_id": "103book59125",
-    "date": "2026-08-28",
-    "time": "5:30 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Monica Faundez",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
   },
   {
     "booking_id": "107book67770",
@@ -12923,17 +10602,6 @@
     "location": "Haymarket",
     "remaining_spots": 32,
     "capacity": 32
-  },
-  {
-    "booking_id": "103book60322",
-    "date": "2026-08-28",
-    "time": "6:00 AM",
-    "name": "Strong",
-    "class_type": "S&C Series",
-    "instructor": "Elizabeth Topfer",
-    "location": "Marrickville",
-    "remaining_spots": 26,
-    "capacity": 26
   },
   {
     "booking_id": "106book72018",
@@ -13035,28 +10703,6 @@
     "capacity": 30
   },
   {
-    "booking_id": "103book59853",
-    "date": "2026-08-28",
-    "time": "6:15 AM",
-    "name": "Reformer: Strong",
-    "class_type": "Reformer Series",
-    "instructor": "Monica Faundez",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
-    "booking_id": "103book59333",
-    "date": "2026-08-28",
-    "time": "6:15 AM",
-    "name": "Power Pilates",
-    "class_type": "Mat Series",
-    "instructor": "Leah Ferguson",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
-  },
-  {
     "booking_id": "107book51593",
     "date": "2026-08-28",
     "time": "6:15 AM",
@@ -13121,17 +10767,6 @@
     "location": "Haymarket",
     "remaining_spots": 24,
     "capacity": 24
-  },
-  {
-    "booking_id": "103book60588",
-    "date": "2026-08-28",
-    "time": "6:30 AM",
-    "name": "Squad",
-    "class_type": "Spin Series",
-    "instructor": "Evie Bird",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
   },
   {
     "booking_id": "106book47273",
@@ -13266,28 +10901,6 @@
     "capacity": 32
   },
   {
-    "booking_id": "103book60217",
-    "date": "2026-08-28",
-    "time": "7:00 AM",
-    "name": "Strong",
-    "class_type": "S&C Series",
-    "instructor": "Elizabeth Topfer",
-    "location": "Marrickville",
-    "remaining_spots": 26,
-    "capacity": 26
-  },
-  {
-    "booking_id": "103book59801",
-    "date": "2026-08-28",
-    "time": "7:00 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Monica Faundez",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "106book56069",
     "date": "2026-08-28",
     "time": "7:00 AM",
@@ -13385,17 +10998,6 @@
     "location": "Haymarket",
     "remaining_spots": 24,
     "capacity": 24
-  },
-  {
-    "booking_id": "103book58969",
-    "date": "2026-08-28",
-    "time": "7:15 AM",
-    "name": "BodySculpt",
-    "class_type": "Mat Series",
-    "instructor": "Leah Ferguson",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
   },
   {
     "booking_id": "106book73904",
@@ -13561,28 +11163,6 @@
     "location": "Haymarket",
     "remaining_spots": 32,
     "capacity": 32
-  },
-  {
-    "booking_id": "103book59697",
-    "date": "2026-08-28",
-    "time": "8:00 AM",
-    "name": "Reformer: Jump Board (Lower Body)",
-    "class_type": "Reformer Series",
-    "instructor": "Maggie Dixon-Best",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
-    "booking_id": "103book60427",
-    "date": "2026-08-28",
-    "time": "8:00 AM",
-    "name": "Athletica",
-    "class_type": "S&C Series",
-    "instructor": "Elizabeth Topfer",
-    "location": "Marrickville",
-    "remaining_spots": 26,
-    "capacity": 26
   },
   {
     "booking_id": "106book73426",
@@ -13816,50 +11396,6 @@
     "capacity": 24
   },
   {
-    "booking_id": "103book59281",
-    "date": "2026-08-28",
-    "time": "9:00 AM",
-    "name": "Barre HIIT",
-    "class_type": "Barre Series",
-    "instructor": "Michael Roache",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
-  },
-  {
-    "booking_id": "103book40707",
-    "date": "2026-08-28",
-    "time": "9:00 AM",
-    "name": "Creche (6 weeks to 18 months)",
-    "class_type": "Creche",
-    "instructor": "Athena Nikolopoulos",
-    "location": "Marrickville",
-    "remaining_spots": 4,
-    "capacity": 4
-  },
-  {
-    "booking_id": "103book59541",
-    "date": "2026-08-28",
-    "time": "9:00 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Jaclyn Bogdanovic",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
-    "booking_id": "103book40253",
-    "date": "2026-08-28",
-    "time": "9:00 AM",
-    "name": "Creche (18 months - 12 years)",
-    "class_type": "Creche",
-    "instructor": "Shova Rana",
-    "location": "Marrickville",
-    "remaining_spots": 8,
-    "capacity": 8
-  },
-  {
     "booking_id": "106book23258",
     "date": "2026-08-28",
     "time": "9:00 AM",
@@ -13970,28 +11506,6 @@
     "capacity": 22
   },
   {
-    "booking_id": "103book60901",
-    "date": "2026-08-28",
-    "time": "9:30 AM",
-    "name": "Yoga: Flowstate",
-    "class_type": "Yoga Series",
-    "instructor": "Maggie Dixon-Best",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
-  },
-  {
-    "booking_id": "103book60532",
-    "date": "2026-08-28",
-    "time": "9:30 AM",
-    "name": "Athletica",
-    "class_type": "S&C Series",
-    "instructor": "Elizabeth Topfer",
-    "location": "Marrickville",
-    "remaining_spots": 26,
-    "capacity": 26
-  },
-  {
     "booking_id": "101book79210",
     "date": "2026-08-28",
     "time": "9:30 AM",
@@ -14056,50 +11570,6 @@
     "location": "Haymarket",
     "remaining_spots": 32,
     "capacity": 32
-  },
-  {
-    "booking_id": "103book59905",
-    "date": "2026-08-28",
-    "time": "10:00 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Jaclyn Bogdanovic",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
-    "booking_id": "103book40834",
-    "date": "2026-08-28",
-    "time": "10:00 AM",
-    "name": "Creche (6 weeks to 18 months)",
-    "class_type": "Creche",
-    "instructor": "Athena Nikolopoulos",
-    "location": "Marrickville",
-    "remaining_spots": 4,
-    "capacity": 4
-  },
-  {
-    "booking_id": "103book39327",
-    "date": "2026-08-28",
-    "time": "10:00 AM",
-    "name": "Creche (18 months - 12 years)",
-    "class_type": "Creche",
-    "instructor": "Shova Rana",
-    "location": "Marrickville",
-    "remaining_spots": 8,
-    "capacity": 8
-  },
-  {
-    "booking_id": "103book59229",
-    "date": "2026-08-28",
-    "time": "10:00 AM",
-    "name": "Barre Signature",
-    "class_type": "Barre Series",
-    "instructor": "Michael Roache",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
   },
   {
     "booking_id": "106book72838",
@@ -14212,28 +11682,6 @@
     "capacity": 24
   },
   {
-    "booking_id": "103book58913",
-    "date": "2026-08-28",
-    "time": "10:30 AM",
-    "name": "Pump\u2019d",
-    "class_type": "Pulse & Build Series",
-    "instructor": "Elizabeth Topfer",
-    "location": "Marrickville",
-    "remaining_spots": 26,
-    "capacity": 26
-  },
-  {
-    "booking_id": "103book60690",
-    "date": "2026-08-28",
-    "time": "10:30 AM",
-    "name": "Yoga: Restore & Sound",
-    "class_type": "Yoga Series",
-    "instructor": "Maggie Dixon-Best",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
-  },
-  {
     "booking_id": "107book67358",
     "date": "2026-08-28",
     "time": "10:30 AM",
@@ -14267,17 +11715,6 @@
     "capacity": 18
   },
   {
-    "booking_id": "103book59593",
-    "date": "2026-08-28",
-    "time": "10:45 AM",
-    "name": "Reformer: Strong",
-    "class_type": "Reformer Series",
-    "instructor": "Jaclyn Bogdanovic",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "106book48453",
     "date": "2026-08-28",
     "time": "10:45 AM",
@@ -14287,28 +11724,6 @@
     "location": "Merrylands",
     "remaining_spots": 21,
     "capacity": 21
-  },
-  {
-    "booking_id": "103book40454",
-    "date": "2026-08-28",
-    "time": "11:00 AM",
-    "name": "Creche (18 months - 12 years)",
-    "class_type": "Creche",
-    "instructor": "Shova Rana",
-    "location": "Marrickville",
-    "remaining_spots": 8,
-    "capacity": 8
-  },
-  {
-    "booking_id": "103book40581",
-    "date": "2026-08-28",
-    "time": "11:00 AM",
-    "name": "Creche (6 weeks to 18 months)",
-    "class_type": "Creche",
-    "instructor": "Athena Nikolopoulos",
-    "location": "Marrickville",
-    "remaining_spots": 4,
-    "capacity": 4
   },
   {
     "booking_id": "106book48453",
@@ -14421,28 +11836,6 @@
     "capacity": 24
   },
   {
-    "booking_id": "103book59437",
-    "date": "2026-08-28",
-    "time": "11:30 AM",
-    "name": "Reformer: Strong",
-    "class_type": "Reformer Series",
-    "instructor": "Jaclyn Bogdanovic",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
-    "booking_id": "103book60849",
-    "date": "2026-08-28",
-    "time": "11:30 AM",
-    "name": "Yoga: Origins",
-    "class_type": "Yoga Series",
-    "instructor": "Maggie Dixon-Best",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
-  },
-  {
     "booking_id": "106book48557",
     "date": "2026-08-28",
     "time": "11:30 AM",
@@ -14485,28 +11878,6 @@
     "location": "Haymarket",
     "remaining_spots": 31,
     "capacity": 32
-  },
-  {
-    "booking_id": "103book40380",
-    "date": "2026-08-28",
-    "time": "12:00 PM",
-    "name": "Creche (18 months - 12 years)",
-    "class_type": "Creche",
-    "instructor": "Shova Rana",
-    "location": "Marrickville",
-    "remaining_spots": 8,
-    "capacity": 8
-  },
-  {
-    "booking_id": "103book41108",
-    "date": "2026-08-28",
-    "time": "12:00 PM",
-    "name": "Creche (6 weeks to 18 months)",
-    "class_type": "Creche",
-    "instructor": "Athena Nikolopoulos",
-    "location": "Marrickville",
-    "remaining_spots": 4,
-    "capacity": 4
   },
   {
     "booking_id": "106book48557",
@@ -14696,17 +12067,6 @@
     "capacity": 30
   },
   {
-    "booking_id": "103book59957",
-    "date": "2026-08-28",
-    "time": "12:30 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Jaclyn Bogdanovic",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "106book47945",
     "date": "2026-08-28",
     "time": "12:30 PM",
@@ -14872,17 +12232,6 @@
     "capacity": 26
   },
   {
-    "booking_id": "103book59749",
-    "date": "2026-08-28",
-    "time": "1:30 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Jaclyn Bogdanovic",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "106book47841",
     "date": "2026-08-28",
     "time": "1:30 PM",
@@ -14949,17 +12298,6 @@
     "capacity": 24
   },
   {
-    "booking_id": "103book59489",
-    "date": "2026-08-28",
-    "time": "2:30 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Jovana Subotic",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "105book44130",
     "date": "2026-08-28",
     "time": "3:00 PM",
@@ -15013,17 +12351,6 @@
     "location": "Surry Hills",
     "remaining_spots": 18,
     "capacity": 18
-  },
-  {
-    "booking_id": "103book59645",
-    "date": "2026-08-28",
-    "time": "3:30 PM",
-    "name": "Reformer: Athletic",
-    "class_type": "Reformer Series",
-    "instructor": "Jovana Subotic",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
   },
   {
     "booking_id": "105book44287",
@@ -15092,17 +12419,6 @@
     "capacity": 18
   },
   {
-    "booking_id": "103book58316",
-    "date": "2026-08-28",
-    "time": "4:15 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Jovana Subotic",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "101book70396",
     "date": "2026-08-28",
     "time": "4:15 PM",
@@ -15112,17 +12428,6 @@
     "location": "Surry Hills",
     "remaining_spots": 34,
     "capacity": 34
-  },
-  {
-    "booking_id": "103book60273",
-    "date": "2026-08-28",
-    "time": "4:30 PM",
-    "name": "Squad",
-    "class_type": "Spin Series",
-    "instructor": "Elizabeth Topfer",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
   },
   {
     "booking_id": "106book71864",
@@ -15246,17 +12551,6 @@
     "capacity": 24
   },
   {
-    "booking_id": "103book60640",
-    "date": "2026-08-28",
-    "time": "5:15 PM",
-    "name": "Reformer: Athletic",
-    "class_type": "Reformer Series",
-    "instructor": "Jovana Subotic",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "106book71969",
     "date": "2026-08-28",
     "time": "5:15 PM",
@@ -15321,28 +12615,6 @@
     "location": "Haymarket",
     "remaining_spots": 24,
     "capacity": 24
-  },
-  {
-    "booking_id": "103book73888",
-    "date": "2026-08-28",
-    "time": "5:30 PM",
-    "name": "Athletica",
-    "class_type": "S&C Series",
-    "instructor": "Elizabeth Topfer",
-    "location": "Marrickville",
-    "remaining_spots": 26,
-    "capacity": 26
-  },
-  {
-    "booking_id": "103book59021",
-    "date": "2026-08-28",
-    "time": "5:30 PM",
-    "name": "Reggaeton",
-    "class_type": "Dance Series",
-    "instructor": "Maria Camila Silva Lopez",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
   },
   {
     "booking_id": "106book34968",
@@ -15422,17 +12694,6 @@
     "capacity": 32
   },
   {
-    "booking_id": "103book60745",
-    "date": "2026-08-28",
-    "time": "6:00 PM",
-    "name": "Yoga: Flowstate",
-    "class_type": "Yoga Series",
-    "instructor": "Jessy Patterson",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
-  },
-  {
     "booking_id": "106book72474",
     "date": "2026-08-28",
     "time": "6:00 PM",
@@ -15499,17 +12760,6 @@
     "capacity": 18
   },
   {
-    "booking_id": "103book60483",
-    "date": "2026-08-28",
-    "time": "6:15 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Jovana Subotic",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "101book33099",
     "date": "2026-08-28",
     "time": "6:15 PM",
@@ -15530,17 +12780,6 @@
     "location": "Surry Hills",
     "remaining_spots": 34,
     "capacity": 34
-  },
-  {
-    "booking_id": "103book59385",
-    "date": "2026-08-28",
-    "time": "6:30 PM",
-    "name": "Fiesta",
-    "class_type": "Dance Series",
-    "instructor": "Maria Camila Silva Lopez",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
   },
   {
     "booking_id": "106book35268",
@@ -15587,17 +12826,6 @@
     "capacity": 32
   },
   {
-    "booking_id": "103book60797",
-    "date": "2026-08-28",
-    "time": "7:00 PM",
-    "name": "Yoga: Restore & Sound",
-    "class_type": "Yoga Series",
-    "instructor": "Jessy Patterson",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
-  },
-  {
     "booking_id": "101book71800",
     "date": "2026-08-28",
     "time": "7:15 PM",
@@ -15618,39 +12846,6 @@
     "location": "Haymarket",
     "remaining_spots": 32,
     "capacity": 32
-  },
-  {
-    "booking_id": "103book61576",
-    "date": "2026-08-29",
-    "time": "7:00 AM",
-    "name": "Athletica",
-    "class_type": "S&C Series",
-    "instructor": "Inge Schmidt",
-    "location": "Marrickville",
-    "remaining_spots": 26,
-    "capacity": 26
-  },
-  {
-    "booking_id": "103book46299",
-    "date": "2026-08-29",
-    "time": "7:00 AM",
-    "name": "One Run Marrickville",
-    "class_type": "One Run",
-    "instructor": "Joey Dalisay",
-    "location": "Marrickville",
-    "remaining_spots": 50,
-    "capacity": 50
-  },
-  {
-    "booking_id": "103book61946",
-    "date": "2026-08-29",
-    "time": "7:00 AM",
-    "name": "Blackout",
-    "class_type": "Spin Series",
-    "instructor": "Colleen Antony",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
   },
   {
     "booking_id": "106book49274",
@@ -15706,17 +12901,6 @@
     "location": "North Sydney",
     "remaining_spots": 24,
     "capacity": 24
-  },
-  {
-    "booking_id": "103book61266",
-    "date": "2026-08-29",
-    "time": "7:15 AM",
-    "name": "Mat Pilates",
-    "class_type": "Mat Series",
-    "instructor": "Bethany Rumore",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
   },
   {
     "booking_id": "107book53665",
@@ -15816,61 +13000,6 @@
     "location": "Haymarket",
     "remaining_spots": 38,
     "capacity": 38
-  },
-  {
-    "booking_id": "103book61523",
-    "date": "2026-08-29",
-    "time": "8:00 AM",
-    "name": "Athletica",
-    "class_type": "S&C Series",
-    "instructor": "Inge Schmidt",
-    "location": "Marrickville",
-    "remaining_spots": 26,
-    "capacity": 26
-  },
-  {
-    "booking_id": "103book40932",
-    "date": "2026-08-29",
-    "time": "8:00 AM",
-    "name": "Creche (6 weeks to 18 months)",
-    "class_type": "Creche",
-    "instructor": "Mya Arrones",
-    "location": "Marrickville",
-    "remaining_spots": 4,
-    "capacity": 4
-  },
-  {
-    "booking_id": "103book40906",
-    "date": "2026-08-29",
-    "time": "8:00 AM",
-    "name": "Creche (18 months - 12 years)",
-    "class_type": "Creche",
-    "instructor": "Casey Taylor",
-    "location": "Marrickville",
-    "remaining_spots": 8,
-    "capacity": 8
-  },
-  {
-    "booking_id": "103book72463",
-    "date": "2026-08-29",
-    "time": "8:00 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Angie Shen",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
-    "booking_id": "103book61632",
-    "date": "2026-08-29",
-    "time": "8:00 AM",
-    "name": "Blackout",
-    "class_type": "Spin Series",
-    "instructor": "Colleen Antony",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
   },
   {
     "booking_id": "106book49121",
@@ -16016,17 +13145,6 @@
     "capacity": 35
   },
   {
-    "booking_id": "103book61110",
-    "date": "2026-08-29",
-    "time": "8:15 AM",
-    "name": "Mat Pilates",
-    "class_type": "Mat Series",
-    "instructor": "Bethany Rumore",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
-  },
-  {
     "booking_id": "107book53821",
     "date": "2026-08-29",
     "time": "8:15 AM",
@@ -16159,61 +13277,6 @@
     "capacity": 38
   },
   {
-    "booking_id": "103book72217",
-    "date": "2026-08-29",
-    "time": "9:00 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Angie Shen",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
-    "booking_id": "103book60113",
-    "date": "2026-08-29",
-    "time": "9:00 AM",
-    "name": "Beatbox",
-    "class_type": "Spin Series",
-    "instructor": "Colleen Antony",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
-  },
-  {
-    "booking_id": "103book40958",
-    "date": "2026-08-29",
-    "time": "9:00 AM",
-    "name": "Creche (6 weeks to 18 months)",
-    "class_type": "Creche",
-    "instructor": "Mya Arrones",
-    "location": "Marrickville",
-    "remaining_spots": 4,
-    "capacity": 4
-  },
-  {
-    "booking_id": "103book41180",
-    "date": "2026-08-29",
-    "time": "9:00 AM",
-    "name": "Creche (18 months - 12 years)",
-    "class_type": "Creche",
-    "instructor": "Casey Taylor",
-    "location": "Marrickville",
-    "remaining_spots": 8,
-    "capacity": 8
-  },
-  {
-    "booking_id": "103book61681",
-    "date": "2026-08-29",
-    "time": "9:00 AM",
-    "name": "Athletica",
-    "class_type": "S&C Series",
-    "instructor": "Inge Schmidt",
-    "location": "Marrickville",
-    "remaining_spots": 26,
-    "capacity": 26
-  },
-  {
     "booking_id": "106book49173",
     "date": "2026-08-29",
     "time": "9:00 AM",
@@ -16333,17 +13396,6 @@
     "location": "Haymarket",
     "remaining_spots": 35,
     "capacity": 35
-  },
-  {
-    "booking_id": "103book61422",
-    "date": "2026-08-29",
-    "time": "9:15 AM",
-    "name": "Mat Pilates",
-    "class_type": "Mat Series",
-    "instructor": "Bethany Rumore",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
   },
   {
     "booking_id": "104book41794",
@@ -16489,61 +13541,6 @@
     "capacity": 32
   },
   {
-    "booking_id": "103book41258",
-    "date": "2026-08-29",
-    "time": "10:00 AM",
-    "name": "Creche (6 weeks to 18 months)",
-    "class_type": "Creche",
-    "instructor": "Mya Arrones",
-    "location": "Marrickville",
-    "remaining_spots": 4,
-    "capacity": 4
-  },
-  {
-    "booking_id": "103book72562",
-    "date": "2026-08-29",
-    "time": "10:00 AM",
-    "name": "Reformer: Jump Board (Lower Body)",
-    "class_type": "Reformer Series",
-    "instructor": "Angie Shen",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
-    "booking_id": "103book41206",
-    "date": "2026-08-29",
-    "time": "10:00 AM",
-    "name": "Creche (18 months - 12 years)",
-    "class_type": "Creche",
-    "instructor": "Casey Taylor",
-    "location": "Marrickville",
-    "remaining_spots": 8,
-    "capacity": 8
-  },
-  {
-    "booking_id": "103book64779",
-    "date": "2026-08-29",
-    "time": "10:00 AM",
-    "name": "Squad",
-    "class_type": "Spin Series",
-    "instructor": "Colleen Antony",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
-  },
-  {
-    "booking_id": "103book61890",
-    "date": "2026-08-29",
-    "time": "10:00 AM",
-    "name": "Strong",
-    "class_type": "S&C Series",
-    "instructor": "Inge Schmidt",
-    "location": "Marrickville",
-    "remaining_spots": 26,
-    "capacity": 26
-  },
-  {
     "booking_id": "106book49904",
     "date": "2026-08-29",
     "time": "10:00 AM",
@@ -16665,28 +13662,6 @@
     "capacity": 24
   },
   {
-    "booking_id": "103book60953",
-    "date": "2026-08-29",
-    "time": "10:30 AM",
-    "name": "Fiesta",
-    "class_type": "Dance Series",
-    "instructor": "Estefania Bravo",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
-  },
-  {
-    "booking_id": "103book60009",
-    "date": "2026-08-29",
-    "time": "10:30 AM",
-    "name": "Yoga: Flowstate",
-    "class_type": "Yoga Series",
-    "instructor": "Megan Leung",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
-  },
-  {
     "booking_id": "106book49956",
     "date": "2026-08-29",
     "time": "10:30 AM",
@@ -16740,50 +13715,6 @@
     "location": "Haymarket",
     "remaining_spots": 35,
     "capacity": 35
-  },
-  {
-    "booking_id": "103book40984",
-    "date": "2026-08-29",
-    "time": "11:00 AM",
-    "name": "Creche (6 weeks to 18 months)",
-    "class_type": "Creche",
-    "instructor": "Mya Arrones",
-    "location": "Marrickville",
-    "remaining_spots": 4,
-    "capacity": 4
-  },
-  {
-    "booking_id": "103book72316",
-    "date": "2026-08-29",
-    "time": "11:00 AM",
-    "name": "Reformer: Jump Board (Lower Body)",
-    "class_type": "Reformer Series",
-    "instructor": "Angie Shen",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
-    "booking_id": "103book41232",
-    "date": "2026-08-29",
-    "time": "11:00 AM",
-    "name": "Creche (18 months - 12 years)",
-    "class_type": "Creche",
-    "instructor": "Casey Taylor",
-    "location": "Marrickville",
-    "remaining_spots": 8,
-    "capacity": 8
-  },
-  {
-    "booking_id": "103book61004",
-    "date": "2026-08-29",
-    "time": "11:00 AM",
-    "name": "Fighting Fit",
-    "class_type": "Fight Series",
-    "instructor": "Kristen Marconi",
-    "location": "Marrickville",
-    "remaining_spots": 24,
-    "capacity": 24
   },
   {
     "booking_id": "106book56811",
@@ -16918,28 +13849,6 @@
     "capacity": 24
   },
   {
-    "booking_id": "103book72060",
-    "date": "2026-08-29",
-    "time": "11:30 AM",
-    "name": "Burlesque",
-    "class_type": "Dance Series",
-    "instructor": "Alicia Quinn",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
-  },
-  {
-    "booking_id": "103book60061",
-    "date": "2026-08-29",
-    "time": "11:30 AM",
-    "name": "Yoga: Empower",
-    "class_type": "Yoga Series",
-    "instructor": "Megan Leung",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
-  },
-  {
     "booking_id": "106book50008",
     "date": "2026-08-29",
     "time": "11:30 AM",
@@ -17072,17 +13981,6 @@
     "capacity": 24
   },
   {
-    "booking_id": "103book72163",
-    "date": "2026-08-29",
-    "time": "12:30 PM",
-    "name": "YogaBeats",
-    "class_type": "Yoga Series",
-    "instructor": "Alicia Quinn",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
-  },
-  {
     "booking_id": "106book55891",
     "date": "2026-08-29",
     "time": "12:30 PM",
@@ -17103,17 +14001,6 @@
     "location": "Surry Hills",
     "remaining_spots": 18,
     "capacity": 18
-  },
-  {
-    "booking_id": "103book61841",
-    "date": "2026-08-29",
-    "time": "1:00 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Bethany Rumore",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
   },
   {
     "booking_id": "104book42426",
@@ -17204,17 +14091,6 @@
     "capacity": 18
   },
   {
-    "booking_id": "103book61737",
-    "date": "2026-08-29",
-    "time": "2:00 PM",
-    "name": "Reformer: Athletic",
-    "class_type": "Reformer Series",
-    "instructor": "Bethany Rumore",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "104book41640",
     "date": "2026-08-29",
     "time": "2:00 PM",
@@ -17290,17 +14166,6 @@
     "location": "Surry Hills",
     "remaining_spots": 34,
     "capacity": 34
-  },
-  {
-    "booking_id": "103book61474",
-    "date": "2026-08-29",
-    "time": "3:00 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Bethany Rumore",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
   },
   {
     "booking_id": "104book36988",
@@ -17479,17 +14344,6 @@
     "capacity": 24
   },
   {
-    "booking_id": "103book65254",
-    "date": "2026-08-30",
-    "time": "8:30 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Bethany Rumore",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "106book50320",
     "date": "2026-08-30",
     "time": "8:30 AM",
@@ -17576,17 +14430,6 @@
     "location": "Haymarket",
     "remaining_spots": 32,
     "capacity": 32
-  },
-  {
-    "booking_id": "103book69511",
-    "date": "2026-08-30",
-    "time": "9:00 AM",
-    "name": "Mat Pilates",
-    "class_type": "Mat Series",
-    "instructor": "Leah Ferguson",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
   },
   {
     "booking_id": "104book43683",
@@ -17677,17 +14520,6 @@
     "capacity": 24
   },
   {
-    "booking_id": "103book65358",
-    "date": "2026-08-30",
-    "time": "9:30 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Bethany Rumore",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "106book50320",
     "date": "2026-08-30",
     "time": "9:30 AM",
@@ -17752,17 +14584,6 @@
     "location": "Surry Hills",
     "remaining_spots": 34,
     "capacity": 34
-  },
-  {
-    "booking_id": "103book69408",
-    "date": "2026-08-30",
-    "time": "10:00 AM",
-    "name": "Mat Pilates",
-    "class_type": "Mat Series",
-    "instructor": "Leah Ferguson",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
   },
   {
     "booking_id": "107book56039",
@@ -17875,17 +14696,6 @@
     "capacity": 24
   },
   {
-    "booking_id": "103book65767",
-    "date": "2026-08-30",
-    "time": "10:30 AM",
-    "name": "Reformer: Athletic",
-    "class_type": "Reformer Series",
-    "instructor": "Bethany Rumore",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "106book48764",
     "date": "2026-08-30",
     "time": "10:30 AM",
@@ -17928,17 +14738,6 @@
     "location": "Surry Hills",
     "remaining_spots": 26,
     "capacity": 26
-  },
-  {
-    "booking_id": "103book64950",
-    "date": "2026-08-30",
-    "time": "11:00 AM",
-    "name": "Mat Pilates",
-    "class_type": "Mat Series",
-    "instructor": "Leah Ferguson",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
   },
   {
     "booking_id": "106book48660",
@@ -18029,17 +14828,6 @@
     "capacity": 24
   },
   {
-    "booking_id": "103book66073",
-    "date": "2026-08-30",
-    "time": "11:30 AM",
-    "name": "Reformer: Athletic",
-    "class_type": "Reformer Series",
-    "instructor": "Bethany Rumore",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "106book48764",
     "date": "2026-08-30",
     "time": "11:30 AM",
@@ -18060,17 +14848,6 @@
     "location": "Newtown",
     "remaining_spots": 20,
     "capacity": 20
-  },
-  {
-    "booking_id": "103book68663",
-    "date": "2026-08-30",
-    "time": "12:00 PM",
-    "name": "Yoga: Flowstate",
-    "class_type": "Yoga Series",
-    "instructor": "Yigit Keskin",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
   },
   {
     "booking_id": "101book73664",
@@ -18117,17 +14894,6 @@
     "capacity": 24
   },
   {
-    "booking_id": "103book65871",
-    "date": "2026-08-30",
-    "time": "12:30 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Bethany Rumore",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "104book43735",
     "date": "2026-08-30",
     "time": "12:30 PM",
@@ -18148,17 +14914,6 @@
     "location": "Surry Hills",
     "remaining_spots": 23,
     "capacity": 23
-  },
-  {
-    "booking_id": "103book68716",
-    "date": "2026-08-30",
-    "time": "1:00 PM",
-    "name": "Yoga: Flowstate",
-    "class_type": "Yoga Series",
-    "instructor": "Yigit Keskin",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
   },
   {
     "booking_id": "104book43839",
@@ -18414,28 +15169,6 @@
     "capacity": 33
   },
   {
-    "booking_id": "103book63285",
-    "date": "2026-08-31",
-    "time": "5:15 AM",
-    "name": "Squad",
-    "class_type": "Spin Series",
-    "instructor": "Colleen Antony",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
-  },
-  {
-    "booking_id": "103book49148",
-    "date": "2026-08-31",
-    "time": "5:30 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Monica Faundez",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "107book59010",
     "date": "2026-08-31",
     "time": "5:30 AM",
@@ -18500,39 +15233,6 @@
     "location": "Haymarket",
     "remaining_spots": 32,
     "capacity": 32
-  },
-  {
-    "booking_id": "103book49044",
-    "date": "2026-08-31",
-    "time": "6:00 AM",
-    "name": "Yoga: Flowstate",
-    "class_type": "Yoga Series",
-    "instructor": "Katie Jay",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
-  },
-  {
-    "booking_id": "103book63390",
-    "date": "2026-08-31",
-    "time": "6:00 AM",
-    "name": "Squad",
-    "class_type": "Spin Series",
-    "instructor": "Colleen Antony",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
-  },
-  {
-    "booking_id": "103book50829",
-    "date": "2026-08-31",
-    "time": "6:00 AM",
-    "name": "Strong",
-    "class_type": "S&C Series",
-    "instructor": "Jose Da Rocha",
-    "location": "Marrickville",
-    "remaining_spots": 26,
-    "capacity": 26
   },
   {
     "booking_id": "106book37683",
@@ -18632,28 +15332,6 @@
     "location": "North Sydney",
     "remaining_spots": 24,
     "capacity": 24
-  },
-  {
-    "booking_id": "103book49096",
-    "date": "2026-08-31",
-    "time": "6:15 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Monica Faundez",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
-    "booking_id": "103book48784",
-    "date": "2026-08-31",
-    "time": "6:15 AM",
-    "name": "BodySculpt",
-    "class_type": "Mat Series",
-    "instructor": "Eleni Vlahos",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
   },
   {
     "booking_id": "107book59169",
@@ -18843,39 +15521,6 @@
     "capacity": 32
   },
   {
-    "booking_id": "103book49200",
-    "date": "2026-08-31",
-    "time": "7:00 AM",
-    "name": "Beatbox",
-    "class_type": "Spin Series",
-    "instructor": "Colleen Antony",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
-  },
-  {
-    "booking_id": "103book50671",
-    "date": "2026-08-31",
-    "time": "7:00 AM",
-    "name": "Athletica",
-    "class_type": "S&C Series",
-    "instructor": "Jose Da Rocha",
-    "location": "Marrickville",
-    "remaining_spots": 26,
-    "capacity": 26
-  },
-  {
-    "booking_id": "103book48940",
-    "date": "2026-08-31",
-    "time": "7:00 AM",
-    "name": "Reformer: Strong",
-    "class_type": "Reformer Series",
-    "instructor": "Monica Faundez",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "106book53392",
     "date": "2026-08-31",
     "time": "7:00 AM",
@@ -18973,17 +15618,6 @@
     "location": "Haymarket",
     "remaining_spots": 24,
     "capacity": 24
-  },
-  {
-    "booking_id": "103book48888",
-    "date": "2026-08-31",
-    "time": "7:15 AM",
-    "name": "Power Pilates",
-    "class_type": "Mat Series",
-    "instructor": "Eleni Vlahos",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
   },
   {
     "booking_id": "106book67205",
@@ -19129,17 +15763,6 @@
     "capacity": 32
   },
   {
-    "booking_id": "103book50513",
-    "date": "2026-08-31",
-    "time": "8:00 AM",
-    "name": "Badass",
-    "class_type": "S&C Series",
-    "instructor": "Jose Da Rocha",
-    "location": "Marrickville",
-    "remaining_spots": 26,
-    "capacity": 26
-  },
-  {
     "booking_id": "106book67310",
     "date": "2026-08-31",
     "time": "8:00 AM",
@@ -19204,17 +15827,6 @@
     "location": "North Sydney",
     "remaining_spots": 24,
     "capacity": 24
-  },
-  {
-    "booking_id": "103book48836",
-    "date": "2026-08-31",
-    "time": "8:10 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Eleni Vlahos",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
   },
   {
     "booking_id": "105book37210",
@@ -19316,39 +15928,6 @@
     "capacity": 24
   },
   {
-    "booking_id": "103book48732",
-    "date": "2026-08-31",
-    "time": "9:00 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Eleni Vlahos",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
-    "booking_id": "103book40254",
-    "date": "2026-08-31",
-    "time": "9:00 AM",
-    "name": "Creche (18 months - 12 years)",
-    "class_type": "Creche",
-    "instructor": "Shova Rana",
-    "location": "Marrickville",
-    "remaining_spots": 8,
-    "capacity": 8
-  },
-  {
-    "booking_id": "103book40708",
-    "date": "2026-08-31",
-    "time": "9:00 AM",
-    "name": "Creche (6 weeks to 18 months)",
-    "class_type": "Creche",
-    "instructor": "Athena Nikolopoulos",
-    "location": "Marrickville",
-    "remaining_spots": 4,
-    "capacity": 4
-  },
-  {
     "booking_id": "106book62825",
     "date": "2026-08-31",
     "time": "9:00 AM",
@@ -19426,28 +16005,6 @@
     "capacity": 30
   },
   {
-    "booking_id": "103book50936",
-    "date": "2026-08-31",
-    "time": "9:30 AM",
-    "name": "Badass",
-    "class_type": "S&C Series",
-    "instructor": "Jose Da Rocha",
-    "location": "Marrickville",
-    "remaining_spots": 26,
-    "capacity": 26
-  },
-  {
-    "booking_id": "103book49252",
-    "date": "2026-08-31",
-    "time": "9:30 AM",
-    "name": "Yoga: Flowstate",
-    "class_type": "Yoga Series",
-    "instructor": "Tim Fiorentino",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
-  },
-  {
     "booking_id": "104book33700",
     "date": "2026-08-31",
     "time": "9:30 AM",
@@ -19512,39 +16069,6 @@
     "location": "Haymarket",
     "remaining_spots": 32,
     "capacity": 32
-  },
-  {
-    "booking_id": "103book73021",
-    "date": "2026-08-31",
-    "time": "10:00 AM",
-    "name": "Reformer: Sculpt",
-    "class_type": "Reformer Series",
-    "instructor": "Bethany Rumore",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
-    "booking_id": "103book39328",
-    "date": "2026-08-31",
-    "time": "10:00 AM",
-    "name": "Creche (18 months - 12 years)",
-    "class_type": "Creche",
-    "instructor": "Shova Rana",
-    "location": "Marrickville",
-    "remaining_spots": 8,
-    "capacity": 8
-  },
-  {
-    "booking_id": "103book40835",
-    "date": "2026-08-31",
-    "time": "10:00 AM",
-    "name": "Creche (6 weeks to 18 months)",
-    "class_type": "Creche",
-    "instructor": "Athena Nikolopoulos",
-    "location": "Marrickville",
-    "remaining_spots": 4,
-    "capacity": 4
   },
   {
     "booking_id": "106book62825",
@@ -19690,17 +16214,6 @@
     "capacity": 20
   },
   {
-    "booking_id": "103book49564",
-    "date": "2026-08-31",
-    "time": "10:45 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Bethany Rumore",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "106book38047",
     "date": "2026-08-31",
     "time": "10:45 AM",
@@ -19710,39 +16223,6 @@
     "location": "Merrylands",
     "remaining_spots": 21,
     "capacity": 21
-  },
-  {
-    "booking_id": "103book49720",
-    "date": "2026-08-31",
-    "time": "11:00 AM",
-    "name": "Yoga: Origins",
-    "class_type": "Yoga Series",
-    "instructor": "Tim Fiorentino",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
-  },
-  {
-    "booking_id": "103book40455",
-    "date": "2026-08-31",
-    "time": "11:00 AM",
-    "name": "Creche (18 months - 12 years)",
-    "class_type": "Creche",
-    "instructor": "Shova Rana",
-    "location": "Marrickville",
-    "remaining_spots": 8,
-    "capacity": 8
-  },
-  {
-    "booking_id": "103book40582",
-    "date": "2026-08-31",
-    "time": "11:00 AM",
-    "name": "Creche (6 weeks to 18 months)",
-    "class_type": "Creche",
-    "instructor": "Athena Nikolopoulos",
-    "location": "Marrickville",
-    "remaining_spots": 4,
-    "capacity": 4
   },
   {
     "booking_id": "106book23545",
@@ -19833,17 +16313,6 @@
     "capacity": 24
   },
   {
-    "booking_id": "103book72715",
-    "date": "2026-08-31",
-    "time": "11:30 AM",
-    "name": "Reformer: Sculpt",
-    "class_type": "Reformer Series",
-    "instructor": "Bethany Rumore",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "107book58957",
     "date": "2026-08-31",
     "time": "11:30 AM",
@@ -19875,28 +16344,6 @@
     "location": "Haymarket",
     "remaining_spots": 32,
     "capacity": 32
-  },
-  {
-    "booking_id": "103book40381",
-    "date": "2026-08-31",
-    "time": "12:00 PM",
-    "name": "Creche (18 months - 12 years)",
-    "class_type": "Creche",
-    "instructor": "Shova Rana",
-    "location": "Marrickville",
-    "remaining_spots": 8,
-    "capacity": 8
-  },
-  {
-    "booking_id": "103book41109",
-    "date": "2026-08-31",
-    "time": "12:00 PM",
-    "name": "Creche (6 weeks to 18 months)",
-    "class_type": "Creche",
-    "instructor": "Athena Nikolopoulos",
-    "location": "Marrickville",
-    "remaining_spots": 4,
-    "capacity": 4
   },
   {
     "booking_id": "106book23672",
@@ -20097,17 +16544,6 @@
     "capacity": 30
   },
   {
-    "booking_id": "103book49668",
-    "date": "2026-08-31",
-    "time": "12:30 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Bethany Rumore",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "105book36635",
     "date": "2026-08-31",
     "time": "1:00 PM",
@@ -20205,17 +16641,6 @@
     "location": "Surry Hills",
     "remaining_spots": 26,
     "capacity": 26
-  },
-  {
-    "booking_id": "103book49304",
-    "date": "2026-08-31",
-    "time": "1:30 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Bethany Rumore",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
   },
   {
     "booking_id": "105book36846",
@@ -20328,17 +16753,6 @@
     "capacity": 20
   },
   {
-    "booking_id": "103book49408",
-    "date": "2026-08-31",
-    "time": "3:30 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Bethany Rumore",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "106book38364",
     "date": "2026-08-31",
     "time": "3:30 PM",
@@ -20370,28 +16784,6 @@
     "location": "Haymarket",
     "remaining_spots": 32,
     "capacity": 32
-  },
-  {
-    "booking_id": "103book49772",
-    "date": "2026-08-31",
-    "time": "4:00 PM",
-    "name": "Mat Pilates",
-    "class_type": "Mat Series",
-    "instructor": "Monica Faundez",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
-  },
-  {
-    "booking_id": "103book49616",
-    "date": "2026-08-31",
-    "time": "4:00 PM",
-    "name": "Barre Signature",
-    "class_type": "Barre Series",
-    "instructor": "Michael Roache",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
   },
   {
     "booking_id": "104book34176",
@@ -20436,17 +16828,6 @@
     "location": "Surry Hills",
     "remaining_spots": 20,
     "capacity": 20
-  },
-  {
-    "booking_id": "103book49460",
-    "date": "2026-08-31",
-    "time": "4:15 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Bethany Rumore",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
   },
   {
     "booking_id": "105book32284",
@@ -20524,39 +16905,6 @@
     "location": "Haymarket",
     "remaining_spots": 32,
     "capacity": 32
-  },
-  {
-    "booking_id": "103book50203",
-    "date": "2026-08-31",
-    "time": "5:00 PM",
-    "name": "Power Pilates",
-    "class_type": "Mat Series",
-    "instructor": "Bethany Rumore",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
-  },
-  {
-    "booking_id": "103book50151",
-    "date": "2026-08-31",
-    "time": "5:00 PM",
-    "name": "Yoga: Flowstate",
-    "class_type": "Yoga Series",
-    "instructor": "Michael Roache",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
-  },
-  {
-    "booking_id": "103book50411",
-    "date": "2026-08-31",
-    "time": "5:00 PM",
-    "name": "Reformer: Strong",
-    "class_type": "Reformer Series",
-    "instructor": "Monica Faundez",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
   },
   {
     "booking_id": "106book37528",
@@ -20735,17 +17083,6 @@
     "capacity": 38
   },
   {
-    "booking_id": "103book47795",
-    "date": "2026-08-31",
-    "time": "5:30 PM",
-    "name": "Beatbox",
-    "class_type": "Spin Series",
-    "instructor": "Colleen Antony",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
-  },
-  {
     "booking_id": "106book38888",
     "date": "2026-08-31",
     "time": "5:30 PM",
@@ -20845,28 +17182,6 @@
     "capacity": 32
   },
   {
-    "booking_id": "103book50463",
-    "date": "2026-08-31",
-    "time": "6:00 PM",
-    "name": "Barre HIIT",
-    "class_type": "Barre Series",
-    "instructor": "Michael Roache",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
-  },
-  {
-    "booking_id": "103book50255",
-    "date": "2026-08-31",
-    "time": "6:00 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Monica Faundez",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "106book37475",
     "date": "2026-08-31",
     "time": "6:00 PM",
@@ -20955,17 +17270,6 @@
     "capacity": 35
   },
   {
-    "booking_id": "103book50047",
-    "date": "2026-08-31",
-    "time": "6:15 PM",
-    "name": "Yoga: Flowstate",
-    "class_type": "Yoga Series",
-    "instructor": "Nick Gross",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
-  },
-  {
     "booking_id": "106book63933",
     "date": "2026-08-31",
     "time": "6:15 PM",
@@ -21041,28 +17345,6 @@
     "location": "Haymarket",
     "remaining_spots": 24,
     "capacity": 24
-  },
-  {
-    "booking_id": "103book50099",
-    "date": "2026-08-31",
-    "time": "6:30 PM",
-    "name": "Squad",
-    "class_type": "Spin Series",
-    "instructor": "Evie Bird",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
-  },
-  {
-    "booking_id": "103book50882",
-    "date": "2026-08-31",
-    "time": "6:30 PM",
-    "name": "Pump\u2019d",
-    "class_type": "Pulse & Build Series",
-    "instructor": "Colleen Antony",
-    "location": "Marrickville",
-    "remaining_spots": 26,
-    "capacity": 26
   },
   {
     "booking_id": "106book38994",
@@ -21142,17 +17424,6 @@
     "capacity": 34
   },
   {
-    "booking_id": "103book67229",
-    "date": "2026-08-31",
-    "time": "6:45 PM",
-    "name": "Reformer: Strong",
-    "class_type": "Reformer Series",
-    "instructor": "Monica Faundez",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
     "booking_id": "106book38833",
     "date": "2026-08-31",
     "time": "6:45 PM",
@@ -21184,17 +17455,6 @@
     "location": "Haymarket",
     "remaining_spots": 38,
     "capacity": 38
-  },
-  {
-    "booking_id": "103book50359",
-    "date": "2026-08-31",
-    "time": "7:00 PM",
-    "name": "Barre Signature",
-    "class_type": "Barre Series",
-    "instructor": "Michael Roache",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
   },
   {
     "booking_id": "106book37946",
@@ -21316,50 +17576,6 @@
     "location": "Surry Hills",
     "remaining_spots": 26,
     "capacity": 26
-  },
-  {
-    "booking_id": "103book50724",
-    "date": "2026-08-31",
-    "time": "7:30 PM",
-    "name": "Pump\u2019d",
-    "class_type": "Pulse & Build Series",
-    "instructor": "Colleen Antony",
-    "location": "Marrickville",
-    "remaining_spots": 26,
-    "capacity": 26
-  },
-  {
-    "booking_id": "103book50566",
-    "date": "2026-08-31",
-    "time": "7:30 PM",
-    "name": "Yoga: Restore & Sound",
-    "class_type": "Yoga Series",
-    "instructor": "Nick Gross",
-    "location": "Marrickville",
-    "remaining_spots": 36,
-    "capacity": 36
-  },
-  {
-    "booking_id": "103book50779",
-    "date": "2026-08-31",
-    "time": "7:30 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Monica Faundez",
-    "location": "Marrickville",
-    "remaining_spots": 15,
-    "capacity": 15
-  },
-  {
-    "booking_id": "103book50621",
-    "date": "2026-08-31",
-    "time": "7:30 PM",
-    "name": "Squad",
-    "class_type": "Spin Series",
-    "instructor": "Evie Bird",
-    "location": "Marrickville",
-    "remaining_spots": 20,
-    "capacity": 20
   },
   {
     "booking_id": "106book38520",

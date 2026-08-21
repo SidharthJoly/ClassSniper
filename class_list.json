@@ -1,5 +1,27 @@
 [
   {
+    "booking_id": "107book55931",
+    "date": "2026-08-23",
+    "time": "11:15 AM",
+    "name": "Breathwork: Dynamic Release (Morning)",
+    "class_type": "Harmony Series",
+    "instructor": "Lauren Wainer",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book82492",
+    "date": "2026-08-23",
+    "time": "11:15 AM",
+    "name": "Yoga: Flowstate",
+    "class_type": "Yoga Series",
+    "instructor": "Jessy Franks",
+    "location": "North Sydney",
+    "remaining_spots": 0,
+    "capacity": 30
+  },
+  {
     "booking_id": "101book73765",
     "date": "2026-08-23",
     "time": "11:15 AM",
@@ -220,6 +242,17 @@
     "capacity": 23
   },
   {
+    "booking_id": "107book80869",
+    "date": "2026-08-23",
+    "time": "2:30 PM",
+    "name": "Reformer: Sculpt",
+    "class_type": "Reformer Series",
+    "instructor": "Emmy Drew",
+    "location": "North Sydney",
+    "remaining_spots": 0,
+    "capacity": 24
+  },
+  {
     "booking_id": "105book47242",
     "date": "2026-08-23",
     "time": "3:00 PM",
@@ -275,6 +308,17 @@
     "capacity": 34
   },
   {
+    "booking_id": "107book80609",
+    "date": "2026-08-23",
+    "time": "3:30 PM",
+    "name": "Reformer: Sculpt",
+    "class_type": "Reformer Series",
+    "instructor": "Emmy Drew",
+    "location": "North Sydney",
+    "remaining_spots": 0,
+    "capacity": 24
+  },
+  {
     "booking_id": "105book47138",
     "date": "2026-08-23",
     "time": "4:00 PM",
@@ -284,6 +328,17 @@
     "location": "Haymarket",
     "remaining_spots": 0,
     "capacity": 24
+  },
+  {
+    "booking_id": "107book55773",
+    "date": "2026-08-23",
+    "time": "4:00 PM",
+    "name": "Yoga: Flowstate",
+    "class_type": "Yoga Series",
+    "instructor": "Jessy Franks",
+    "location": "North Sydney",
+    "remaining_spots": 0,
+    "capacity": 30
   },
   {
     "booking_id": "101book73975",
@@ -319,6 +374,17 @@
     "capacity": 18
   },
   {
+    "booking_id": "107book55985",
+    "date": "2026-08-23",
+    "time": "4:30 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Emmy Drew",
+    "location": "North Sydney",
+    "remaining_spots": 0,
+    "capacity": 24
+  },
+  {
     "booking_id": "106book48711",
     "date": "2026-08-23",
     "time": "4:45 PM",
@@ -352,6 +418,17 @@
     "capacity": 18
   },
   {
+    "booking_id": "107book55879",
+    "date": "2026-08-23",
+    "time": "5:15 PM",
+    "name": "Yoga: Restore & Sound",
+    "class_type": "Yoga Series",
+    "instructor": "Jessy Franks",
+    "location": "North Sydney",
+    "remaining_spots": 0,
+    "capacity": 30
+  },
+  {
     "booking_id": "106book37580",
     "date": "2026-08-24",
     "time": "5:00 AM",
@@ -383,6 +460,17 @@
     "location": "Marrickville",
     "remaining_spots": 0,
     "capacity": 15
+  },
+  {
+    "booking_id": "107book59009",
+    "date": "2026-08-24",
+    "time": "5:30 AM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Sara Craighead",
+    "location": "North Sydney",
+    "remaining_spots": 12,
+    "capacity": 24
   },
   {
     "booking_id": "106book38574",
@@ -528,6 +616,39 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book70037",
+    "date": "2026-08-24",
+    "time": "6:00 AM",
+    "name": "Power Pilates",
+    "class_type": "Mat Series",
+    "instructor": "Mackenzie Sengotta",
+    "location": "North Sydney",
+    "remaining_spots": 18,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book59592",
+    "date": "2026-08-24",
+    "time": "6:00 AM",
+    "name": "Pulse",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Matt Bull",
+    "location": "North Sydney",
+    "remaining_spots": 17,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book56562",
+    "date": "2026-08-24",
+    "time": "6:00 AM",
+    "name": "Lower Force",
+    "class_type": "S&C Series",
+    "instructor": "Asia Harris",
+    "location": "North Sydney",
+    "remaining_spots": 0,
+    "capacity": 24
+  },
+  {
     "booking_id": "103book49095",
     "date": "2026-08-24",
     "time": "6:15 AM",
@@ -548,6 +669,17 @@
     "location": "Marrickville",
     "remaining_spots": 0,
     "capacity": 20
+  },
+  {
+    "booking_id": "107book59168",
+    "date": "2026-08-24",
+    "time": "6:15 AM",
+    "name": "Reformer: Strong",
+    "class_type": "Reformer Series",
+    "instructor": "Sara Craighead",
+    "location": "North Sydney",
+    "remaining_spots": 0,
+    "capacity": 24
   },
   {
     "booking_id": "101book58810",
@@ -614,6 +746,17 @@
     "location": "Newtown",
     "remaining_spots": 0,
     "capacity": 23
+  },
+  {
+    "booking_id": "107book47738",
+    "date": "2026-08-24",
+    "time": "6:30 AM",
+    "name": "Surge",
+    "class_type": "Spin Series",
+    "instructor": "Alexandra Doddridge",
+    "location": "North Sydney",
+    "remaining_spots": 33,
+    "capacity": 40
   },
   {
     "booking_id": "101book60726",
@@ -691,6 +834,17 @@
     "location": "Surry Hills",
     "remaining_spots": 0,
     "capacity": 20
+  },
+  {
+    "booking_id": "107book59329",
+    "date": "2026-08-24",
+    "time": "6:50 AM",
+    "name": "Total Build",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Matt Bull",
+    "location": "North Sydney",
+    "remaining_spots": 0,
+    "capacity": 30
   },
   {
     "booking_id": "105book37453",
@@ -779,6 +933,39 @@
     "location": "Newtown",
     "remaining_spots": 24,
     "capacity": 32
+  },
+  {
+    "booking_id": "107book56149",
+    "date": "2026-08-24",
+    "time": "7:00 AM",
+    "name": "Lower Force",
+    "class_type": "S&C Series",
+    "instructor": "Asia Harris",
+    "location": "North Sydney",
+    "remaining_spots": 0,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book58850",
+    "date": "2026-08-24",
+    "time": "7:00 AM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Sara Craighead",
+    "location": "North Sydney",
+    "remaining_spots": 0,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book70089",
+    "date": "2026-08-24",
+    "time": "7:00 AM",
+    "name": "Mat Pilates",
+    "class_type": "Mat Series",
+    "instructor": "Mackenzie Sengotta",
+    "location": "North Sydney",
+    "remaining_spots": 0,
+    "capacity": 30
   },
   {
     "booking_id": "105book37157",
@@ -880,6 +1067,17 @@
     "capacity": 23
   },
   {
+    "booking_id": "107book47557",
+    "date": "2026-08-24",
+    "time": "7:30 AM",
+    "name": "Surge",
+    "class_type": "Spin Series",
+    "instructor": "Alexandra Doddridge",
+    "location": "North Sydney",
+    "remaining_spots": 36,
+    "capacity": 40
+  },
+  {
     "booking_id": "101book61094",
     "date": "2026-08-24",
     "time": "7:30 AM",
@@ -922,6 +1120,17 @@
     "location": "Surry Hills",
     "remaining_spots": 0,
     "capacity": 34
+  },
+  {
+    "booking_id": "107book59487",
+    "date": "2026-08-24",
+    "time": "7:40 AM",
+    "name": "Pulse",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Matt Bull",
+    "location": "North Sydney",
+    "remaining_spots": 12,
+    "capacity": 30
   },
   {
     "booking_id": "105book36150",
@@ -977,6 +1186,39 @@
     "location": "Newtown",
     "remaining_spots": 29,
     "capacity": 32
+  },
+  {
+    "booking_id": "107book70141",
+    "date": "2026-08-24",
+    "time": "8:00 AM",
+    "name": "Infrared Pilates",
+    "class_type": "Mat Series",
+    "instructor": "Mackenzie Sengotta",
+    "location": "North Sydney",
+    "remaining_spots": 0,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book58692",
+    "date": "2026-08-24",
+    "time": "8:00 AM",
+    "name": "Reformer: Strong",
+    "class_type": "Reformer Series",
+    "instructor": "Emmy Drew",
+    "location": "North Sydney",
+    "remaining_spots": 8,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book56097",
+    "date": "2026-08-24",
+    "time": "8:00 AM",
+    "name": "Lower Force",
+    "class_type": "S&C Series",
+    "instructor": "Asia Harris",
+    "location": "North Sydney",
+    "remaining_spots": 21,
+    "capacity": 24
   },
   {
     "booking_id": "103book48835",
@@ -1054,6 +1296,17 @@
     "location": "Surry Hills",
     "remaining_spots": 13,
     "capacity": 34
+  },
+  {
+    "booking_id": "107book59433",
+    "date": "2026-08-24",
+    "time": "8:40 AM",
+    "name": "Lower Build",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Matt Bull",
+    "location": "North Sydney",
+    "remaining_spots": 21,
+    "capacity": 30
   },
   {
     "booking_id": "106book67174",
@@ -1155,6 +1408,17 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book59062",
+    "date": "2026-08-24",
+    "time": "9:00 AM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Sara Craighead",
+    "location": "North Sydney",
+    "remaining_spots": 19,
+    "capacity": 24
+  },
+  {
     "booking_id": "101book59881",
     "date": "2026-08-24",
     "time": "9:00 AM",
@@ -1229,6 +1493,17 @@
     "instructor": "Jaclyn Bogdanovic",
     "location": "Haymarket",
     "remaining_spots": 19,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book59115",
+    "date": "2026-08-24",
+    "time": "9:45 AM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Neave Welch",
+    "location": "North Sydney",
+    "remaining_spots": 13,
     "capacity": 24
   },
   {
@@ -1397,6 +1672,28 @@
     "capacity": 23
   },
   {
+    "booking_id": "107book59221",
+    "date": "2026-08-24",
+    "time": "10:30 AM",
+    "name": "Reformer: Origins",
+    "class_type": "Reformer Series",
+    "instructor": "Neave Welch",
+    "location": "North Sydney",
+    "remaining_spots": 20,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book56457",
+    "date": "2026-08-24",
+    "time": "10:30 AM",
+    "name": "Yoga: Flowstate",
+    "class_type": "Yoga Series",
+    "instructor": "Hayley van Stom",
+    "location": "North Sydney",
+    "remaining_spots": 26,
+    "capacity": 30
+  },
+  {
     "booking_id": "101book60040",
     "date": "2026-08-24",
     "time": "10:30 AM",
@@ -1562,6 +1859,17 @@
     "capacity": 15
   },
   {
+    "booking_id": "107book58956",
+    "date": "2026-08-24",
+    "time": "11:30 AM",
+    "name": "Reformer: Strong",
+    "class_type": "Reformer Series",
+    "instructor": "Neave Welch",
+    "location": "North Sydney",
+    "remaining_spots": 19,
+    "capacity": 24
+  },
+  {
     "booking_id": "101book60251",
     "date": "2026-08-24",
     "time": "11:30 AM",
@@ -1661,6 +1969,28 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book56507",
+    "date": "2026-08-24",
+    "time": "12:00 PM",
+    "name": "Lower Force",
+    "class_type": "S&C Series",
+    "instructor": "Jennifer Irvine, Patrick Fox",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book59748",
+    "date": "2026-08-24",
+    "time": "12:00 PM",
+    "name": "Mat Pilates",
+    "class_type": "Mat Series",
+    "instructor": "Lily Cole",
+    "location": "North Sydney",
+    "remaining_spots": 28,
+    "capacity": 30
+  },
+  {
     "booking_id": "101book58147",
     "date": "2026-08-24",
     "time": "12:00 PM",
@@ -1714,6 +2044,39 @@
     "location": "Newtown",
     "remaining_spots": 26,
     "capacity": 28
+  },
+  {
+    "booking_id": "107book59696",
+    "date": "2026-08-24",
+    "time": "12:15 PM",
+    "name": "Total Build",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Kayla Job",
+    "location": "North Sydney",
+    "remaining_spots": 10,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book43599",
+    "date": "2026-08-24",
+    "time": "12:15 PM",
+    "name": "Squad",
+    "class_type": "Spin Series",
+    "instructor": "Hayley van Stom",
+    "location": "North Sydney",
+    "remaining_spots": 38,
+    "capacity": 40
+  },
+  {
+    "booking_id": "107book56374",
+    "date": "2026-08-24",
+    "time": "12:15 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Neave Welch",
+    "location": "North Sydney",
+    "remaining_spots": 4,
+    "capacity": 24
   },
   {
     "booking_id": "101book59073",
@@ -1793,6 +2156,17 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book59379",
+    "date": "2026-08-24",
+    "time": "1:00 PM",
+    "name": "Infrared Pilates",
+    "class_type": "Mat Series",
+    "instructor": "Lily Cole",
+    "location": "North Sydney",
+    "remaining_spots": 25,
+    "capacity": 30
+  },
+  {
     "booking_id": "101book60201",
     "date": "2026-08-24",
     "time": "1:00 PM",
@@ -1813,6 +2187,28 @@
     "location": "Haymarket",
     "remaining_spots": 35,
     "capacity": 38
+  },
+  {
+    "booking_id": "107book57089",
+    "date": "2026-08-24",
+    "time": "1:15 PM",
+    "name": "Reformer: Strong",
+    "class_type": "Reformer Series",
+    "instructor": "Neave Welch",
+    "location": "North Sydney",
+    "remaining_spots": 20,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book59802",
+    "date": "2026-08-24",
+    "time": "1:15 PM",
+    "name": "Pulse",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Kayla Job",
+    "location": "North Sydney",
+    "remaining_spots": 25,
+    "capacity": 30
   },
   {
     "booking_id": "101book58862",
@@ -1881,6 +2277,17 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book57144",
+    "date": "2026-08-24",
+    "time": "2:15 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Carlos Gallo",
+    "location": "North Sydney",
+    "remaining_spots": 22,
+    "capacity": 24
+  },
+  {
     "booking_id": "105book36477",
     "date": "2026-08-24",
     "time": "3:00 PM",
@@ -1912,6 +2319,17 @@
     "location": "Newtown",
     "remaining_spots": 15,
     "capacity": 20
+  },
+  {
+    "booking_id": "107book57194",
+    "date": "2026-08-24",
+    "time": "3:00 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Carlos Gallo",
+    "location": "North Sydney",
+    "remaining_spots": 22,
+    "capacity": 24
   },
   {
     "booking_id": "101book81089",
@@ -2000,6 +2418,28 @@
     "location": "Newtown",
     "remaining_spots": 17,
     "capacity": 20
+  },
+  {
+    "booking_id": "107book59642",
+    "date": "2026-08-24",
+    "time": "4:00 PM",
+    "name": "Breathwork: Deep Calm (Evening)",
+    "class_type": "Harmony Series",
+    "instructor": "Lauren Wainer",
+    "location": "North Sydney",
+    "remaining_spots": 22,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book56983",
+    "date": "2026-08-24",
+    "time": "4:00 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Carlos Gallo",
+    "location": "North Sydney",
+    "remaining_spots": 11,
+    "capacity": 24
   },
   {
     "booking_id": "101book59382",
@@ -2167,6 +2607,39 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book56612",
+    "date": "2026-08-24",
+    "time": "5:00 PM",
+    "name": "Upper Force",
+    "class_type": "S&C Series",
+    "instructor": "Asia Harris",
+    "location": "North Sydney",
+    "remaining_spots": 16,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book79630",
+    "date": "2026-08-24",
+    "time": "5:00 PM",
+    "name": "Reformer: Sculpt",
+    "class_type": "Reformer Series",
+    "instructor": "Carlos Gallo",
+    "location": "North Sydney",
+    "remaining_spots": 7,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book59274",
+    "date": "2026-08-24",
+    "time": "5:00 PM",
+    "name": "Mat Pilates",
+    "class_type": "Mat Series",
+    "instructor": "Kristen Marconi",
+    "location": "North Sydney",
+    "remaining_spots": 15,
+    "capacity": 30
+  },
+  {
     "booking_id": "105book28441",
     "date": "2026-08-24",
     "time": "5:15 PM",
@@ -2209,6 +2682,17 @@
     "location": "Newtown",
     "remaining_spots": 13,
     "capacity": 28
+  },
+  {
+    "booking_id": "107book58748",
+    "date": "2026-08-24",
+    "time": "5:15 PM",
+    "name": "Total Build",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Elizabeth Topfer",
+    "location": "North Sydney",
+    "remaining_spots": 0,
+    "capacity": 30
   },
   {
     "booking_id": "101book58652",
@@ -2299,6 +2783,17 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book57940",
+    "date": "2026-08-24",
+    "time": "5:30 PM",
+    "name": "Beatbox",
+    "class_type": "Spin Series",
+    "instructor": "Jonathon Balzanelli",
+    "location": "North Sydney",
+    "remaining_spots": 6,
+    "capacity": 40
+  },
+  {
     "booking_id": "101book58570",
     "date": "2026-08-24",
     "time": "5:30 PM",
@@ -2341,6 +2836,17 @@
     "location": "Merrylands",
     "remaining_spots": 20,
     "capacity": 22
+  },
+  {
+    "booking_id": "107book56881",
+    "date": "2026-08-24",
+    "time": "5:45 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Carlos Gallo",
+    "location": "North Sydney",
+    "remaining_spots": 0,
+    "capacity": 24
   },
   {
     "booking_id": "105book37053",
@@ -2420,6 +2926,28 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book59537",
+    "date": "2026-08-24",
+    "time": "6:00 PM",
+    "name": "BodySculpt",
+    "class_type": "Mat Series",
+    "instructor": "Kristen Marconi",
+    "location": "North Sydney",
+    "remaining_spots": 0,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book56402",
+    "date": "2026-08-24",
+    "time": "6:00 PM",
+    "name": "Upper Force",
+    "class_type": "S&C Series",
+    "instructor": "Asia Harris",
+    "location": "North Sydney",
+    "remaining_spots": 10,
+    "capacity": 24
+  },
+  {
     "booking_id": "101book60465",
     "date": "2026-08-24",
     "time": "6:00 PM",
@@ -2473,6 +3001,17 @@
     "location": "Newtown",
     "remaining_spots": 10,
     "capacity": 28
+  },
+  {
+    "booking_id": "107book58800",
+    "date": "2026-08-24",
+    "time": "6:15 PM",
+    "name": "Lower Build",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Elizabeth Topfer",
+    "location": "North Sydney",
+    "remaining_spots": 0,
+    "capacity": 30
   },
   {
     "booking_id": "101book59435",
@@ -2572,6 +3111,28 @@
     "location": "Newtown",
     "remaining_spots": 21,
     "capacity": 23
+  },
+  {
+    "booking_id": "107book56829",
+    "date": "2026-08-24",
+    "time": "6:30 PM",
+    "name": "Reformer: Strong",
+    "class_type": "Reformer Series",
+    "instructor": "Carlos Gallo",
+    "location": "North Sydney",
+    "remaining_spots": 4,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book43698",
+    "date": "2026-08-24",
+    "time": "6:30 PM",
+    "name": "Beatbox",
+    "class_type": "Spin Series",
+    "instructor": "Jonathon Balzanelli",
+    "location": "North Sydney",
+    "remaining_spots": 16,
+    "capacity": 40
   },
   {
     "booking_id": "101book60515",
@@ -2684,6 +3245,17 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book59854",
+    "date": "2026-08-24",
+    "time": "7:00 PM",
+    "name": "BodySculpt",
+    "class_type": "Mat Series",
+    "instructor": "Kristen Marconi",
+    "location": "North Sydney",
+    "remaining_spots": 21,
+    "capacity": 30
+  },
+  {
     "booking_id": "101book59329",
     "date": "2026-08-24",
     "time": "7:00 PM",
@@ -2737,6 +3309,17 @@
     "location": "Newtown",
     "remaining_spots": 23,
     "capacity": 28
+  },
+  {
+    "booking_id": "107book58904",
+    "date": "2026-08-24",
+    "time": "7:15 PM",
+    "name": "Upper Build",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Elizabeth Topfer",
+    "location": "North Sydney",
+    "remaining_spots": 0,
+    "capacity": 30
   },
   {
     "booking_id": "101book58915",
@@ -2816,6 +3399,17 @@
     "capacity": 23
   },
   {
+    "booking_id": "107book57036",
+    "date": "2026-08-24",
+    "time": "7:30 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Carlos Gallo",
+    "location": "North Sydney",
+    "remaining_spots": 13,
+    "capacity": 24
+  },
+  {
     "booking_id": "101book59276",
     "date": "2026-08-24",
     "time": "7:30 PM",
@@ -2858,6 +3452,28 @@
     "location": "Marrickville",
     "remaining_spots": 15,
     "capacity": 15
+  },
+  {
+    "booking_id": "107book61949",
+    "date": "2026-08-25",
+    "time": "5:30 AM",
+    "name": "Reformer: Athletic",
+    "class_type": "Reformer Series",
+    "instructor": "Nikki Rubbi-Clarke",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book71417",
+    "date": "2026-08-25",
+    "time": "5:30 AM",
+    "name": "Squad",
+    "class_type": "Spin Series",
+    "instructor": "Frances Lee",
+    "location": "North Sydney",
+    "remaining_spots": 40,
+    "capacity": 40
   },
   {
     "booking_id": "106book40103",
@@ -2981,6 +3597,28 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book72831",
+    "date": "2026-08-25",
+    "time": "6:00 AM",
+    "name": "Athletica",
+    "class_type": "S&C Series",
+    "instructor": "Billy Thornhill, Zoe Downing",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book73662",
+    "date": "2026-08-25",
+    "time": "6:00 AM",
+    "name": "Infrared Yoga",
+    "class_type": "Yoga Series",
+    "instructor": "Katie Jay",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
     "booking_id": "105book50068",
     "date": "2026-08-25",
     "time": "6:15 AM",
@@ -3032,6 +3670,28 @@
     "class_type": "S&C Series",
     "instructor": "Paulo Lole",
     "location": "Merrylands",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book60684",
+    "date": "2026-08-25",
+    "time": "6:15 AM",
+    "name": "Reformer: Athletic",
+    "class_type": "Reformer Series",
+    "instructor": "Nikki Rubbi-Clarke",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book49276",
+    "date": "2026-08-25",
+    "time": "6:15 AM",
+    "name": "Total Build",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Alyssa Liem",
+    "location": "North Sydney",
     "remaining_spots": 30,
     "capacity": 30
   },
@@ -3100,6 +3760,17 @@
     "location": "Newtown",
     "remaining_spots": 23,
     "capacity": 23
+  },
+  {
+    "booking_id": "107book48433",
+    "date": "2026-08-25",
+    "time": "6:30 AM",
+    "name": "The Zone",
+    "class_type": "Spin Series",
+    "instructor": "Frances Lee",
+    "location": "North Sydney",
+    "remaining_spots": 40,
+    "capacity": 40
   },
   {
     "booking_id": "101book64407",
@@ -3256,6 +3927,39 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book81580",
+    "date": "2026-08-25",
+    "time": "7:00 AM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Nikki Rubbi-Clarke",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book73510",
+    "date": "2026-08-25",
+    "time": "7:00 AM",
+    "name": "Yoga: Origins",
+    "class_type": "Yoga Series",
+    "instructor": "Katie Jay",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book50244",
+    "date": "2026-08-25",
+    "time": "7:00 AM",
+    "name": "Athletica",
+    "class_type": "S&C Series",
+    "instructor": "Billy Thornhill, Zoe Downing",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "105book49753",
     "date": "2026-08-25",
     "time": "7:15 AM",
@@ -3320,6 +4024,17 @@
     "location": "Merrylands",
     "remaining_spots": 23,
     "capacity": 23
+  },
+  {
+    "booking_id": "107book50300",
+    "date": "2026-08-25",
+    "time": "7:15 AM",
+    "name": "Upper Build",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Alyssa Liem",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
   },
   {
     "booking_id": "101book64178",
@@ -3498,6 +4213,39 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book78209",
+    "date": "2026-08-25",
+    "time": "8:00 AM",
+    "name": "Mat Pilates",
+    "class_type": "Mat Series",
+    "instructor": "Tan Hutton",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book61843",
+    "date": "2026-08-25",
+    "time": "8:00 AM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Nikki Rubbi-Clarke",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book49326",
+    "date": "2026-08-25",
+    "time": "8:00 AM",
+    "name": "Athletica",
+    "class_type": "S&C Series",
+    "instructor": "Billy Thornhill",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "105book39648",
     "date": "2026-08-25",
     "time": "8:15 AM",
@@ -3540,6 +4288,28 @@
     "location": "Merrylands",
     "remaining_spots": 23,
     "capacity": 23
+  },
+  {
+    "booking_id": "107book50137",
+    "date": "2026-08-25",
+    "time": "8:15 AM",
+    "name": "Upper Build",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Alyssa Liem",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book78209",
+    "date": "2026-08-25",
+    "time": "8:15 AM",
+    "name": "Mat Pilates",
+    "class_type": "Mat Series",
+    "instructor": "Tan Hutton",
+    "location": "North Sydney",
+    "remaining_spots": 0,
+    "capacity": 30
   },
   {
     "booking_id": "101book63065",
@@ -3696,6 +4466,28 @@
     "capacity": 23
   },
   {
+    "booking_id": "107book78033",
+    "date": "2026-08-25",
+    "time": "9:00 AM",
+    "name": "Power Pilates",
+    "class_type": "Mat Series",
+    "instructor": "Tan Hutton",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book62055",
+    "date": "2026-08-25",
+    "time": "9:00 AM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Alison Bruton",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "101book63752",
     "date": "2026-08-25",
     "time": "9:00 AM",
@@ -3715,6 +4507,17 @@
     "instructor": "Paulo Lole",
     "location": "Merrylands",
     "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book78033",
+    "date": "2026-08-25",
+    "time": "9:15 AM",
+    "name": "Power Pilates",
+    "class_type": "Mat Series",
+    "instructor": "Tan Hutton",
+    "location": "North Sydney",
+    "remaining_spots": 0,
     "capacity": 30
   },
   {
@@ -3747,6 +4550,17 @@
     "class_type": "Reformer Series",
     "instructor": "Estella Jones",
     "location": "Haymarket",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book62108",
+    "date": "2026-08-25",
+    "time": "9:45 AM",
+    "name": "Reformer: Strong",
+    "class_type": "Reformer Series",
+    "instructor": "Alison Bruton",
+    "location": "North Sydney",
     "remaining_spots": 24,
     "capacity": 24
   },
@@ -3894,6 +4708,17 @@
     "capacity": 36
   },
   {
+    "booking_id": "107book74487",
+    "date": "2026-08-25",
+    "time": "10:30 AM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Alison Bruton",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "101book64124",
     "date": "2026-08-25",
     "time": "10:30 AM",
@@ -4026,6 +4851,17 @@
     "capacity": 36
   },
   {
+    "booking_id": "107book61555",
+    "date": "2026-08-25",
+    "time": "11:30 AM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Alison Bruton",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "101book63700",
     "date": "2026-08-25",
     "time": "11:30 AM",
@@ -4125,6 +4961,28 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book49220",
+    "date": "2026-08-25",
+    "time": "12:00 PM",
+    "name": "Athletica",
+    "class_type": "S&C Series",
+    "instructor": "Billy Thornhill",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book62161",
+    "date": "2026-08-25",
+    "time": "12:00 PM",
+    "name": "Infrared Pilates",
+    "class_type": "Mat Series",
+    "instructor": "Tan Hutton",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
     "booking_id": "101book64073",
     "date": "2026-08-25",
     "time": "12:00 PM",
@@ -4178,6 +5036,28 @@
     "location": "Haymarket",
     "remaining_spots": 38,
     "capacity": 38
+  },
+  {
+    "booking_id": "107book62005",
+    "date": "2026-08-25",
+    "time": "12:15 PM",
+    "name": "Pulse",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Maeve O'Keeffe",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book61131",
+    "date": "2026-08-25",
+    "time": "12:15 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Alison Bruton",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
   },
   {
     "booking_id": "101book63965",
@@ -4246,6 +5126,17 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book62217",
+    "date": "2026-08-25",
+    "time": "1:00 PM",
+    "name": "Infrared Pilates",
+    "class_type": "Mat Series",
+    "instructor": "Tan Hutton",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
     "booking_id": "101book62359",
     "date": "2026-08-25",
     "time": "1:00 PM",
@@ -4277,6 +5168,28 @@
     "location": "Haymarket",
     "remaining_spots": 38,
     "capacity": 38
+  },
+  {
+    "booking_id": "107book50087",
+    "date": "2026-08-25",
+    "time": "1:15 PM",
+    "name": "Total Build",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Maeve O'Keeffe",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book61609",
+    "date": "2026-08-25",
+    "time": "1:15 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Alison Bruton",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
   },
   {
     "booking_id": "101book82808",
@@ -4334,6 +5247,17 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book61291",
+    "date": "2026-08-25",
+    "time": "2:15 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Zennah Chaudri",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "103book53616",
     "date": "2026-08-25",
     "time": "2:30 PM",
@@ -4376,6 +5300,17 @@
     "location": "Newtown",
     "remaining_spots": 20,
     "capacity": 20
+  },
+  {
+    "booking_id": "107book61184",
+    "date": "2026-08-25",
+    "time": "3:00 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Zennah Chaudri",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
   },
   {
     "booking_id": "101book63434",
@@ -4442,6 +5377,28 @@
     "location": "Newtown",
     "remaining_spots": 20,
     "capacity": 20
+  },
+  {
+    "booking_id": "107book61346",
+    "date": "2026-08-25",
+    "time": "4:00 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Zennah Chaudri",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book60814",
+    "date": "2026-08-25",
+    "time": "4:00 PM",
+    "name": "Yoga: Flowstate",
+    "class_type": "Yoga Series",
+    "instructor": "Kristy Hocking",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
   },
   {
     "booking_id": "101book63170",
@@ -4620,6 +5577,39 @@
     "capacity": 23
   },
   {
+    "booking_id": "107book50190",
+    "date": "2026-08-25",
+    "time": "5:00 PM",
+    "name": "Athletica",
+    "class_type": "S&C Series",
+    "instructor": "Jennia Klimenkova",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book61449",
+    "date": "2026-08-25",
+    "time": "5:00 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Zennah Chaudri",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book62267",
+    "date": "2026-08-25",
+    "time": "5:00 PM",
+    "name": "Ritual",
+    "class_type": "Mat Series",
+    "instructor": "Kristy Hocking",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
     "booking_id": "105book39383",
     "date": "2026-08-25",
     "time": "5:15 PM",
@@ -4673,6 +5663,17 @@
     "location": "Newtown",
     "remaining_spots": 28,
     "capacity": 28
+  },
+  {
+    "booking_id": "107book47370",
+    "date": "2026-08-25",
+    "time": "5:15 PM",
+    "name": "Pulse",
+    "class_type": "Pulse & Build Series",
+    "instructor": "George Malouf",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
   },
   {
     "booking_id": "101book59755",
@@ -4741,6 +5742,17 @@
     "capacity": 30
   },
   {
+    "booking_id": "107book41869",
+    "date": "2026-08-25",
+    "time": "5:30 PM",
+    "name": "Squad",
+    "class_type": "Spin Series",
+    "instructor": "Hayley van Stom",
+    "location": "North Sydney",
+    "remaining_spots": 40,
+    "capacity": 40
+  },
+  {
     "booking_id": "101book63543",
     "date": "2026-08-25",
     "time": "5:30 PM",
@@ -4772,6 +5784,17 @@
     "location": "Surry Hills",
     "remaining_spots": 34,
     "capacity": 34
+  },
+  {
+    "booking_id": "107book61502",
+    "date": "2026-08-25",
+    "time": "5:45 PM",
+    "name": "Reformer: Jump Board (Lower Body)",
+    "class_type": "Reformer Series",
+    "instructor": "Sarah Biordi",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
   },
   {
     "booking_id": "105book34699",
@@ -4884,6 +5907,17 @@
     "capacity": 23
   },
   {
+    "booking_id": "107book50350",
+    "date": "2026-08-25",
+    "time": "6:00 PM",
+    "name": "Athletica",
+    "class_type": "S&C Series",
+    "instructor": "Jennia Klimenkova",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "105book28673",
     "date": "2026-08-25",
     "time": "6:15 PM",
@@ -4915,6 +5949,28 @@
     "location": "Newtown",
     "remaining_spots": 28,
     "capacity": 28
+  },
+  {
+    "booking_id": "107book72193",
+    "date": "2026-08-25",
+    "time": "6:15 PM",
+    "name": "Infrared Yoga",
+    "class_type": "Yoga Series",
+    "instructor": "Kristy Hocking",
+    "location": "North Sydney",
+    "remaining_spots": 29,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book47392",
+    "date": "2026-08-25",
+    "time": "6:15 PM",
+    "name": "Lower Build",
+    "class_type": "Pulse & Build Series",
+    "instructor": "George Malouf",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
   },
   {
     "booking_id": "101book61620",
@@ -5003,6 +6059,28 @@
     "location": "Merrylands",
     "remaining_spots": 21,
     "capacity": 21
+  },
+  {
+    "booking_id": "107book61237",
+    "date": "2026-08-25",
+    "time": "6:30 PM",
+    "name": "Reformer: Strong",
+    "class_type": "Reformer Series",
+    "instructor": "Sarah Biordi",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book41774",
+    "date": "2026-08-25",
+    "time": "6:30 PM",
+    "name": "The Zone",
+    "class_type": "Spin Series",
+    "instructor": "Hayley van Stom",
+    "location": "North Sydney",
+    "remaining_spots": 40,
+    "capacity": 40
   },
   {
     "booking_id": "101book63119",
@@ -5115,6 +6193,17 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book49379",
+    "date": "2026-08-25",
+    "time": "7:00 PM",
+    "name": "Athletica",
+    "class_type": "S&C Series",
+    "instructor": "Jennia Klimenkova",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "101book63225",
     "date": "2026-08-25",
     "time": "7:00 PM",
@@ -5170,6 +6259,17 @@
     "capacity": 28
   },
   {
+    "booking_id": "107book47156",
+    "date": "2026-08-25",
+    "time": "7:15 PM",
+    "name": "Total Build",
+    "class_type": "Pulse & Build Series",
+    "instructor": "George Malouf",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
     "booking_id": "101book61408",
     "date": "2026-08-25",
     "time": "7:15 PM",
@@ -5223,6 +6323,17 @@
     "location": "Merrylands",
     "remaining_spots": 21,
     "capacity": 21
+  },
+  {
+    "booking_id": "107book61396",
+    "date": "2026-08-25",
+    "time": "7:30 PM",
+    "name": "Reformer: Strong",
+    "class_type": "Reformer Series",
+    "instructor": "Sarah Biordi",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
   },
   {
     "booking_id": "101book61725",
@@ -5289,6 +6400,17 @@
     "location": "Marrickville",
     "remaining_spots": 15,
     "capacity": 15
+  },
+  {
+    "booking_id": "107book63844",
+    "date": "2026-08-26",
+    "time": "5:30 AM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Lily Cole",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
   },
   {
     "booking_id": "106book43243",
@@ -5434,6 +6556,39 @@
     "capacity": 28
   },
   {
+    "booking_id": "107book51436",
+    "date": "2026-08-26",
+    "time": "6:00 AM",
+    "name": "Pulse",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Kelly Medina",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book49415",
+    "date": "2026-08-26",
+    "time": "6:00 AM",
+    "name": "Upper Force",
+    "class_type": "S&C Series",
+    "instructor": "Inge Schmidt",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book63738",
+    "date": "2026-08-26",
+    "time": "6:00 AM",
+    "name": "Ritual",
+    "class_type": "Mat Series",
+    "instructor": "Kristy Hocking",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
     "booking_id": "101book65932",
     "date": "2026-08-26",
     "time": "6:00 AM",
@@ -5498,6 +6653,17 @@
     "location": "Merrylands",
     "remaining_spots": 34,
     "capacity": 34
+  },
+  {
+    "booking_id": "107book63632",
+    "date": "2026-08-26",
+    "time": "6:15 AM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Lily Cole",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
   },
   {
     "booking_id": "101book67093",
@@ -5566,6 +6732,17 @@
     "capacity": 23
   },
   {
+    "booking_id": "107book41967",
+    "date": "2026-08-26",
+    "time": "6:30 AM",
+    "name": "Beatbox",
+    "class_type": "Spin Series",
+    "instructor": "Mark Brinker",
+    "location": "North Sydney",
+    "remaining_spots": 40,
+    "capacity": 40
+  },
+  {
     "booking_id": "101book66093",
     "date": "2026-08-26",
     "time": "6:30 AM",
@@ -5630,6 +6807,17 @@
     "location": "Surry Hills",
     "remaining_spots": 19,
     "capacity": 20
+  },
+  {
+    "booking_id": "107book51541",
+    "date": "2026-08-26",
+    "time": "6:50 AM",
+    "name": "Total Build",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Kelly Medina",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
   },
   {
     "booking_id": "105book40824",
@@ -5720,6 +6908,28 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book31533",
+    "date": "2026-08-26",
+    "time": "7:00 AM",
+    "name": "Upper Force",
+    "class_type": "S&C Series",
+    "instructor": "Inge Schmidt",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book63115",
+    "date": "2026-08-26",
+    "time": "7:00 AM",
+    "name": "Reformer: Strong",
+    "class_type": "Reformer Series",
+    "instructor": "Lily Cole",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "105book29078",
     "date": "2026-08-26",
     "time": "7:15 AM",
@@ -5773,6 +6983,17 @@
     "location": "Merrylands",
     "remaining_spots": 22,
     "capacity": 22
+  },
+  {
+    "booking_id": "107book63950",
+    "date": "2026-08-26",
+    "time": "7:15 AM",
+    "name": "Mat Pilates",
+    "class_type": "Mat Series",
+    "instructor": "Kristy Hocking",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
   },
   {
     "booking_id": "101book66828",
@@ -5852,6 +7073,17 @@
     "capacity": 23
   },
   {
+    "booking_id": "107book42265",
+    "date": "2026-08-26",
+    "time": "7:30 AM",
+    "name": "Beatbox",
+    "class_type": "Spin Series",
+    "instructor": "Mark Brinker",
+    "location": "North Sydney",
+    "remaining_spots": 40,
+    "capacity": 40
+  },
+  {
     "booking_id": "101book65879",
     "date": "2026-08-26",
     "time": "7:30 AM",
@@ -5894,6 +7126,17 @@
     "location": "Surry Hills",
     "remaining_spots": 18,
     "capacity": 18
+  },
+  {
+    "booking_id": "107book51121",
+    "date": "2026-08-26",
+    "time": "7:40 AM",
+    "name": "Pulse",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Kelly Medina",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
   },
   {
     "booking_id": "105book41451",
@@ -5973,6 +7216,17 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book62853",
+    "date": "2026-08-26",
+    "time": "8:00 AM",
+    "name": "Reformer: Strong",
+    "class_type": "Reformer Series",
+    "instructor": "Lily Cole",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "103book54676",
     "date": "2026-08-26",
     "time": "8:15 AM",
@@ -5993,6 +7247,17 @@
     "location": "Merrylands",
     "remaining_spots": 21,
     "capacity": 21
+  },
+  {
+    "booking_id": "107book62798",
+    "date": "2026-08-26",
+    "time": "8:15 AM",
+    "name": "Yoga: Flowstate",
+    "class_type": "Yoga Series",
+    "instructor": "Kristy Hocking",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
   },
   {
     "booking_id": "101book66510",
@@ -6070,6 +7335,17 @@
     "location": "Surry Hills",
     "remaining_spots": 34,
     "capacity": 34
+  },
+  {
+    "booking_id": "107book51171",
+    "date": "2026-08-26",
+    "time": "8:40 AM",
+    "name": "Upper Build",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Kelly Medina",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
   },
   {
     "booking_id": "105book41503",
@@ -6160,6 +7436,17 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book63168",
+    "date": "2026-08-26",
+    "time": "9:00 AM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Lily Cole",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "101book66616",
     "date": "2026-08-26",
     "time": "9:00 AM",
@@ -6224,6 +7511,17 @@
     "location": "Surry Hills",
     "remaining_spots": 34,
     "capacity": 34
+  },
+  {
+    "booking_id": "107book79040",
+    "date": "2026-08-26",
+    "time": "9:45 AM",
+    "name": "Reformer: Origins",
+    "class_type": "Reformer Series",
+    "instructor": "Gianna Petracic",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
   },
   {
     "booking_id": "101book66457",
@@ -6389,6 +7687,17 @@
     "location": "Marrickville",
     "remaining_spots": 26,
     "capacity": 26
+  },
+  {
+    "booking_id": "107book78936",
+    "date": "2026-08-26",
+    "time": "10:30 AM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Gianna Petracic",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
   },
   {
     "booking_id": "101book66143",
@@ -6567,6 +7876,17 @@
     "capacity": 15
   },
   {
+    "booking_id": "107book62903",
+    "date": "2026-08-26",
+    "time": "11:30 AM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Gianna Petracic",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "101book66407",
     "date": "2026-08-26",
     "time": "11:30 AM",
@@ -6666,6 +7986,28 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book49679",
+    "date": "2026-08-26",
+    "time": "12:00 PM",
+    "name": "Upper Force",
+    "class_type": "S&C Series",
+    "instructor": "Patrick Fox",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book63685",
+    "date": "2026-08-26",
+    "time": "12:00 PM",
+    "name": "Mat Pilates",
+    "class_type": "Mat Series",
+    "instructor": "Bronte Carrington",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
     "booking_id": "101book65731",
     "date": "2026-08-26",
     "time": "12:00 PM",
@@ -6708,6 +8050,28 @@
     "location": "Haymarket",
     "remaining_spots": 38,
     "capacity": 38
+  },
+  {
+    "booking_id": "107book49525",
+    "date": "2026-08-26",
+    "time": "12:15 PM",
+    "name": "Total Build",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Eisha Liyanage",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book62956",
+    "date": "2026-08-26",
+    "time": "12:15 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Gianna Petracic",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
   },
   {
     "booking_id": "101book65307",
@@ -6787,6 +8151,17 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book63379",
+    "date": "2026-08-26",
+    "time": "1:00 PM",
+    "name": "Power Pilates",
+    "class_type": "Mat Series",
+    "instructor": "Bronte Carrington",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
     "booking_id": "101book66352",
     "date": "2026-08-26",
     "time": "1:00 PM",
@@ -6829,6 +8204,28 @@
     "location": "Haymarket",
     "remaining_spots": 38,
     "capacity": 38
+  },
+  {
+    "booking_id": "107book63009",
+    "date": "2026-08-26",
+    "time": "1:15 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Carlos Gallo",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book49787",
+    "date": "2026-08-26",
+    "time": "1:15 PM",
+    "name": "Pulse",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Eisha Liyanage",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
   },
   {
     "booking_id": "101book67498",
@@ -6886,6 +8283,17 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book63326",
+    "date": "2026-08-26",
+    "time": "2:15 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Carlos Gallo",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "103book55615",
     "date": "2026-08-26",
     "time": "2:30 PM",
@@ -6917,6 +8325,17 @@
     "location": "Newtown",
     "remaining_spots": 20,
     "capacity": 20
+  },
+  {
+    "booking_id": "107book63223",
+    "date": "2026-08-26",
+    "time": "3:00 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Carlos Gallo",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
   },
   {
     "booking_id": "101book66563",
@@ -7007,6 +8426,28 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book62692",
+    "date": "2026-08-26",
+    "time": "4:00 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Sophia Rambaldini",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book63897",
+    "date": "2026-08-26",
+    "time": "4:00 PM",
+    "name": "Mat Pilates Origins",
+    "class_type": "Mat Series",
+    "instructor": "Bronte Carrington",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
     "booking_id": "101book66302",
     "date": "2026-08-26",
     "time": "4:00 PM",
@@ -7069,6 +8510,17 @@
     "class_type": "Reformer Series",
     "instructor": "Chelsea Bayntun",
     "location": "Haymarket",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book62374",
+    "date": "2026-08-26",
+    "time": "4:45 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Sophia Rambaldini",
+    "location": "North Sydney",
     "remaining_spots": 24,
     "capacity": 24
   },
@@ -7172,6 +8624,28 @@
     "capacity": 23
   },
   {
+    "booking_id": "107book49111",
+    "date": "2026-08-26",
+    "time": "5:00 PM",
+    "name": "Lower Force",
+    "class_type": "S&C Series",
+    "instructor": "Jennia Klimenkova",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book63791",
+    "date": "2026-08-26",
+    "time": "5:00 PM",
+    "name": "Mat Pilates",
+    "class_type": "Mat Series",
+    "instructor": "Bronte Carrington",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
     "booking_id": "101book64672",
     "date": "2026-08-26",
     "time": "5:00 PM",
@@ -7236,6 +8710,17 @@
     "location": "Merrylands",
     "remaining_spots": 21,
     "capacity": 21
+  },
+  {
+    "booking_id": "107book49577",
+    "date": "2026-08-26",
+    "time": "5:15 PM",
+    "name": "Lower Build",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Karol Karg",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
   },
   {
     "booking_id": "101book65676",
@@ -7313,6 +8798,28 @@
     "location": "Newtown",
     "remaining_spots": 32,
     "capacity": 32
+  },
+  {
+    "booking_id": "107book42363",
+    "date": "2026-08-26",
+    "time": "5:30 PM",
+    "name": "Beatbox",
+    "class_type": "Spin Series",
+    "instructor": "Mark Brinker",
+    "location": "North Sydney",
+    "remaining_spots": 40,
+    "capacity": 40
+  },
+  {
+    "booking_id": "107book78182",
+    "date": "2026-08-26",
+    "time": "5:30 PM",
+    "name": "Reformer: Sculpt",
+    "class_type": "Reformer Series",
+    "instructor": "Sophia Rambaldini",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
   },
   {
     "booking_id": "101book66722",
@@ -7436,6 +8943,28 @@
     "capacity": 23
   },
   {
+    "booking_id": "107book49164",
+    "date": "2026-08-26",
+    "time": "6:00 PM",
+    "name": "Lower Force",
+    "class_type": "S&C Series",
+    "instructor": "Jennia Klimenkova",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book83452",
+    "date": "2026-08-26",
+    "time": "6:00 PM",
+    "name": "BodyBlast",
+    "class_type": "Mat Series",
+    "instructor": "Bronte Carrington",
+    "location": "North Sydney",
+    "remaining_spots": 27,
+    "capacity": 27
+  },
+  {
     "booking_id": "101book64617",
     "date": "2026-08-26",
     "time": "6:00 PM",
@@ -7489,6 +9018,28 @@
     "location": "Merrylands",
     "remaining_spots": 31,
     "capacity": 31
+  },
+  {
+    "booking_id": "107book78644",
+    "date": "2026-08-26",
+    "time": "6:15 PM",
+    "name": "Reformer: Sculpt",
+    "class_type": "Reformer Series",
+    "instructor": "Sophia Rambaldini",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book49732",
+    "date": "2026-08-26",
+    "time": "6:15 PM",
+    "name": "Upper Build",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Karol Karg",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
   },
   {
     "booking_id": "101book67340",
@@ -7590,6 +9141,17 @@
     "capacity": 32
   },
   {
+    "booking_id": "107book42461",
+    "date": "2026-08-26",
+    "time": "6:30 PM",
+    "name": "Beatbox",
+    "class_type": "Spin Series",
+    "instructor": "Mark Brinker",
+    "location": "North Sydney",
+    "remaining_spots": 40,
+    "capacity": 40
+  },
+  {
     "booking_id": "101book66934",
     "date": "2026-08-26",
     "time": "6:30 PM",
@@ -7678,6 +9240,17 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book62321",
+    "date": "2026-08-26",
+    "time": "7:00 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Sophia Rambaldini",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "101book66881",
     "date": "2026-08-26",
     "time": "7:00 PM",
@@ -7731,6 +9304,17 @@
     "location": "Merrylands",
     "remaining_spots": 22,
     "capacity": 22
+  },
+  {
+    "booking_id": "107book49628",
+    "date": "2026-08-26",
+    "time": "7:15 PM",
+    "name": "Total Build",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Karol Karg",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
   },
   {
     "booking_id": "101book67287",
@@ -7830,6 +9414,17 @@
     "location": "Marrickville",
     "remaining_spots": 15,
     "capacity": 15
+  },
+  {
+    "booking_id": "107book63421",
+    "date": "2026-08-27",
+    "time": "5:30 AM",
+    "name": "The Zone.",
+    "class_type": "Spin Series",
+    "instructor": "Alexandra Doddridge",
+    "location": "North Sydney",
+    "remaining_spots": 40,
+    "capacity": 40
   },
   {
     "booking_id": "106book70894",
@@ -7964,6 +9559,28 @@
     "capacity": 32
   },
   {
+    "booking_id": "107book71988",
+    "date": "2026-08-27",
+    "time": "6:00 AM",
+    "name": "Infrared Yoga",
+    "class_type": "Yoga Series",
+    "instructor": "Hayley van Stom",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book64719",
+    "date": "2026-08-27",
+    "time": "6:00 AM",
+    "name": "Athletica",
+    "class_type": "S&C Series",
+    "instructor": "Jennia Klimenkova",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "103book57372",
     "date": "2026-08-27",
     "time": "6:15 AM",
@@ -7993,6 +9610,17 @@
     "class_type": "S&C Series",
     "instructor": "Paulo Lole",
     "location": "Merrylands",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book65673",
+    "date": "2026-08-27",
+    "time": "6:15 AM",
+    "name": "Total Build",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Kelly Medina",
+    "location": "North Sydney",
     "remaining_spots": 30,
     "capacity": 30
   },
@@ -8072,6 +9700,17 @@
     "location": "Newtown",
     "remaining_spots": 23,
     "capacity": 23
+  },
+  {
+    "booking_id": "107book42559",
+    "date": "2026-08-27",
+    "time": "6:30 AM",
+    "name": "Squad",
+    "class_type": "Spin Series",
+    "instructor": "Alexandra Doddridge",
+    "location": "North Sydney",
+    "remaining_spots": 40,
+    "capacity": 40
   },
   {
     "booking_id": "101book67553",
@@ -8228,6 +9867,28 @@
     "capacity": 32
   },
   {
+    "booking_id": "107book64878",
+    "date": "2026-08-27",
+    "time": "7:00 AM",
+    "name": "Athletica",
+    "class_type": "S&C Series",
+    "instructor": "Jennia Klimenkova",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book64085",
+    "date": "2026-08-27",
+    "time": "7:00 AM",
+    "name": "Yoga: Origins",
+    "class_type": "Yoga Series",
+    "instructor": "Hayley van Stom",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
     "booking_id": "105book29447",
     "date": "2026-08-27",
     "time": "7:15 AM",
@@ -8301,6 +9962,17 @@
     "class_type": "S&C Series",
     "instructor": "Paulo Lole",
     "location": "Merrylands",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book65620",
+    "date": "2026-08-27",
+    "time": "7:15 AM",
+    "name": "Lower Build",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Kelly Medina",
+    "location": "North Sydney",
     "remaining_spots": 30,
     "capacity": 30
   },
@@ -8481,6 +10153,28 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book75266",
+    "date": "2026-08-27",
+    "time": "8:00 AM",
+    "name": "Athletica",
+    "class_type": "S&C Series",
+    "instructor": "Jay Haydock",
+    "location": "North Sydney",
+    "remaining_spots": 17,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book64296",
+    "date": "2026-08-27",
+    "time": "8:00 AM",
+    "name": "Yoga: Flowstate",
+    "class_type": "Yoga Series",
+    "instructor": "Hayley van Stom",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
     "booking_id": "105book42527",
     "date": "2026-08-27",
     "time": "8:15 AM",
@@ -8534,6 +10228,17 @@
     "location": "Merrylands",
     "remaining_spots": 22,
     "capacity": 22
+  },
+  {
+    "booking_id": "107book65830",
+    "date": "2026-08-27",
+    "time": "8:15 AM",
+    "name": "Lower Build",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Kelly Medina",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
   },
   {
     "booking_id": "101book69519",
@@ -8800,6 +10505,17 @@
     "capacity": 36
   },
   {
+    "booking_id": "107book65037",
+    "date": "2026-08-27",
+    "time": "9:45 AM",
+    "name": "Reformer: Strong",
+    "class_type": "Reformer Series",
+    "instructor": "Michael Roache",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "101book68990",
     "date": "2026-08-27",
     "time": "9:45 AM",
@@ -8965,6 +10681,17 @@
     "capacity": 23
   },
   {
+    "booking_id": "107book65196",
+    "date": "2026-08-27",
+    "time": "10:30 AM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Michael Roache",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "101book68730",
     "date": "2026-08-27",
     "time": "10:30 AM",
@@ -9064,6 +10791,17 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book64138",
+    "date": "2026-08-27",
+    "time": "11:00 AM",
+    "name": "Yoga: Flowstate",
+    "class_type": "Yoga Series",
+    "instructor": "Luka Cubrilo",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
     "booking_id": "101book82411",
     "date": "2026-08-27",
     "time": "11:00 AM",
@@ -9117,6 +10855,17 @@
     "location": "Marrickville",
     "remaining_spots": 15,
     "capacity": 15
+  },
+  {
+    "booking_id": "107book65249",
+    "date": "2026-08-27",
+    "time": "11:30 AM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Michael Roache",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
   },
   {
     "booking_id": "101book69043",
@@ -9251,6 +11000,28 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book64246",
+    "date": "2026-08-27",
+    "time": "12:00 PM",
+    "name": "Yoga: Flowstate",
+    "class_type": "Yoga Series",
+    "instructor": "Luka Cubrilo",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book64560",
+    "date": "2026-08-27",
+    "time": "12:00 PM",
+    "name": "Athletica",
+    "class_type": "S&C Series",
+    "instructor": "Jose Da Rocha, Molly Williams",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "101book67758",
     "date": "2026-08-27",
     "time": "12:00 PM",
@@ -9282,6 +11053,28 @@
     "location": "Haymarket",
     "remaining_spots": 38,
     "capacity": 38
+  },
+  {
+    "booking_id": "107book65513",
+    "date": "2026-08-27",
+    "time": "12:15 PM",
+    "name": "Reformer: Strong",
+    "class_type": "Reformer Series",
+    "instructor": "Michael Roache",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book65881",
+    "date": "2026-08-27",
+    "time": "12:15 PM",
+    "name": "Upper Build",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Sophia Collins",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
   },
   {
     "booking_id": "101book68780",
@@ -9383,6 +11176,28 @@
     "capacity": 34
   },
   {
+    "booking_id": "107book65936",
+    "date": "2026-08-27",
+    "time": "1:15 PM",
+    "name": "Pulse",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Sophia Collins",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book65355",
+    "date": "2026-08-27",
+    "time": "1:15 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Nikki Rubbi-Clarke",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "101book69255",
     "date": "2026-08-27",
     "time": "1:15 PM",
@@ -9449,6 +11264,17 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book65090",
+    "date": "2026-08-27",
+    "time": "2:15 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Nikki Rubbi-Clarke",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "103book58004",
     "date": "2026-08-27",
     "time": "2:30 PM",
@@ -9480,6 +11306,17 @@
     "location": "Newtown",
     "remaining_spots": 20,
     "capacity": 20
+  },
+  {
+    "booking_id": "107book64932",
+    "date": "2026-08-27",
+    "time": "3:00 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Nikki Rubbi-Clarke",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
   },
   {
     "booking_id": "101book68833",
@@ -9546,6 +11383,17 @@
     "location": "Newtown",
     "remaining_spots": 20,
     "capacity": 20
+  },
+  {
+    "booking_id": "107book64614",
+    "date": "2026-08-27",
+    "time": "4:00 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Matthew Carney",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
   },
   {
     "booking_id": "101book69096",
@@ -9621,6 +11469,17 @@
     "class_type": "Reformer Series",
     "instructor": "Abigail Rose",
     "location": "Haymarket",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book64773",
+    "date": "2026-08-27",
+    "time": "4:45 PM",
+    "name": "Reformer: Strong",
+    "class_type": "Reformer Series",
+    "instructor": "Matthew Carney",
+    "location": "North Sydney",
     "remaining_spots": 24,
     "capacity": 24
   },
@@ -9702,6 +11561,17 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book64666",
+    "date": "2026-08-27",
+    "time": "5:00 PM",
+    "name": "Athletica",
+    "class_type": "S&C Series",
+    "instructor": "Jose Da Rocha",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "105book28945",
     "date": "2026-08-27",
     "time": "5:15 PM",
@@ -9733,6 +11603,17 @@
     "location": "Merrylands",
     "remaining_spots": 21,
     "capacity": 21
+  },
+  {
+    "booking_id": "107book65725",
+    "date": "2026-08-27",
+    "time": "5:15 PM",
+    "name": "Pulse",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Elizabeth Topfer",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
   },
   {
     "booking_id": "101book67972",
@@ -9821,6 +11702,39 @@
     "location": "Newtown",
     "remaining_spots": 28,
     "capacity": 28
+  },
+  {
+    "booking_id": "107book64403",
+    "date": "2026-08-27",
+    "time": "5:30 PM",
+    "name": "Reformer: Strong",
+    "class_type": "Reformer Series",
+    "instructor": "Matthew Carney",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book65775",
+    "date": "2026-08-27",
+    "time": "5:30 PM",
+    "name": "Power Pilates",
+    "class_type": "Mat Series",
+    "instructor": "Emmy Drew",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book43805",
+    "date": "2026-08-27",
+    "time": "5:30 PM",
+    "name": "Beatbox",
+    "class_type": "Spin Series",
+    "instructor": "Lily Jones",
+    "location": "North Sydney",
+    "remaining_spots": 40,
+    "capacity": 40
   },
   {
     "booking_id": "101book69992",
@@ -9944,6 +11858,17 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book64190",
+    "date": "2026-08-27",
+    "time": "6:00 PM",
+    "name": "Athletica",
+    "class_type": "S&C Series",
+    "instructor": "Jose Da Rocha",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "105book29283",
     "date": "2026-08-27",
     "time": "6:15 PM",
@@ -9975,6 +11900,28 @@
     "location": "Merrylands",
     "remaining_spots": 23,
     "capacity": 23
+  },
+  {
+    "booking_id": "107book64826",
+    "date": "2026-08-27",
+    "time": "6:15 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Matthew Carney",
+    "location": "North Sydney",
+    "remaining_spots": 23,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book65568",
+    "date": "2026-08-27",
+    "time": "6:15 PM",
+    "name": "Pulse",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Elizabeth Topfer",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
   },
   {
     "booking_id": "101book68205",
@@ -10087,6 +12034,28 @@
     "capacity": 28
   },
   {
+    "booking_id": "107book65987",
+    "date": "2026-08-27",
+    "time": "6:30 PM",
+    "name": "Infrared Pilates",
+    "class_type": "Mat Series",
+    "instructor": "Emmy Drew",
+    "location": "North Sydney",
+    "remaining_spots": 29,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book43364",
+    "date": "2026-08-27",
+    "time": "6:30 PM",
+    "name": "Beatbox",
+    "class_type": "Spin Series",
+    "instructor": "Lily Jones",
+    "location": "North Sydney",
+    "remaining_spots": 40,
+    "capacity": 40
+  },
+  {
     "booking_id": "101book69833",
     "date": "2026-08-27",
     "time": "6:30 PM",
@@ -10164,6 +12133,28 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book64456",
+    "date": "2026-08-27",
+    "time": "7:00 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Matthew Carney",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book63526",
+    "date": "2026-08-27",
+    "time": "7:00 PM",
+    "name": "Athletica",
+    "class_type": "S&C Series",
+    "instructor": "Jose Da Rocha",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "101book69360",
     "date": "2026-08-27",
     "time": "7:00 PM",
@@ -10208,6 +12199,17 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book66043",
+    "date": "2026-08-27",
+    "time": "7:15 PM",
+    "name": "Total Build",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Elizabeth Topfer",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
     "booking_id": "101book68467",
     "date": "2026-08-27",
     "time": "7:15 PM",
@@ -10217,6 +12219,17 @@
     "location": "Surry Hills",
     "remaining_spots": 34,
     "capacity": 34
+  },
+  {
+    "booking_id": "107book64032",
+    "date": "2026-08-27",
+    "time": "7:20 PM",
+    "name": "Yoga: Restore & Sound",
+    "class_type": "Yoga Series",
+    "instructor": "Aram Faizi",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
   },
   {
     "booking_id": "103book57847",
@@ -10305,6 +12318,17 @@
     "location": "Marrickville",
     "remaining_spots": 15,
     "capacity": 15
+  },
+  {
+    "booking_id": "107book67770",
+    "date": "2026-08-28",
+    "time": "5:30 AM",
+    "name": "Reformer: Strong",
+    "class_type": "Reformer Series",
+    "instructor": "Shannon Hsu",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
   },
   {
     "booking_id": "106book46091",
@@ -10450,6 +12474,28 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book53084",
+    "date": "2026-08-28",
+    "time": "6:00 AM",
+    "name": "Total Force",
+    "class_type": "S&C Series",
+    "instructor": "Billy Thornhill",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book68019",
+    "date": "2026-08-28",
+    "time": "6:00 AM",
+    "name": "Power Pilates",
+    "class_type": "Mat Series",
+    "instructor": "Emmy Drew",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
     "booking_id": "103book59853",
     "date": "2026-08-28",
     "time": "6:15 AM",
@@ -10470,6 +12516,28 @@
     "location": "Marrickville",
     "remaining_spots": 20,
     "capacity": 20
+  },
+  {
+    "booking_id": "107book51593",
+    "date": "2026-08-28",
+    "time": "6:15 AM",
+    "name": "Pulse",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Marcus Parkin",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book67252",
+    "date": "2026-08-28",
+    "time": "6:15 AM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Shannon Hsu",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
   },
   {
     "booking_id": "101book70045",
@@ -10725,6 +12793,39 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book67460",
+    "date": "2026-08-28",
+    "time": "7:00 AM",
+    "name": "Infrared Pilates",
+    "class_type": "Mat Series",
+    "instructor": "Emmy Drew",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book67823",
+    "date": "2026-08-28",
+    "time": "7:00 AM",
+    "name": "Reformer: Strong",
+    "class_type": "Reformer Series",
+    "instructor": "Shannon Hsu",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book52979",
+    "date": "2026-08-28",
+    "time": "7:00 AM",
+    "name": "Total Force",
+    "class_type": "S&C Series",
+    "instructor": "Billy Thornhill",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "105book29385",
     "date": "2026-08-28",
     "time": "7:15 AM",
@@ -10767,6 +12868,17 @@
     "location": "Merrylands",
     "remaining_spots": 22,
     "capacity": 22
+  },
+  {
+    "booking_id": "107book53243",
+    "date": "2026-08-28",
+    "time": "7:15 AM",
+    "name": "Total Build",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Marcus Parkin",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
   },
   {
     "booking_id": "101book70449",
@@ -10833,6 +12945,17 @@
     "location": "Newtown",
     "remaining_spots": 23,
     "capacity": 23
+  },
+  {
+    "booking_id": "107book42658",
+    "date": "2026-08-28",
+    "time": "7:30 AM",
+    "name": "Surge.",
+    "class_type": "Spin Series",
+    "instructor": "Alexandra Doddridge",
+    "location": "North Sydney",
+    "remaining_spots": 40,
+    "capacity": 40
   },
   {
     "booking_id": "101book71855",
@@ -10967,6 +13090,39 @@
     "capacity": 28
   },
   {
+    "booking_id": "107book67513",
+    "date": "2026-08-28",
+    "time": "8:00 AM",
+    "name": "Infrared Pilates",
+    "class_type": "Mat Series",
+    "instructor": "Emmy Drew",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book67717",
+    "date": "2026-08-28",
+    "time": "8:00 AM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Shannon Hsu",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book52820",
+    "date": "2026-08-28",
+    "time": "8:00 AM",
+    "name": "Total Force",
+    "class_type": "S&C Series",
+    "instructor": "Billy Thornhill",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "105book51599",
     "date": "2026-08-28",
     "time": "8:15 AM",
@@ -11020,6 +13176,17 @@
     "location": "Merrylands",
     "remaining_spots": 21,
     "capacity": 21
+  },
+  {
+    "booking_id": "107book53403",
+    "date": "2026-08-28",
+    "time": "8:15 AM",
+    "name": "Pulse",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Marcus Parkin",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
   },
   {
     "booking_id": "101book71485",
@@ -11220,6 +13387,17 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book67305",
+    "date": "2026-08-28",
+    "time": "9:00 AM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Shannon Hsu",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "101book71538",
     "date": "2026-08-28",
     "time": "9:00 AM",
@@ -11304,6 +13482,17 @@
     "class_type": "Reformer Series",
     "instructor": "Zennah Chaudri",
     "location": "Haymarket",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book67876",
+    "date": "2026-08-28",
+    "time": "9:45 AM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Gianna Petracic",
+    "location": "North Sydney",
     "remaining_spots": 24,
     "capacity": 24
   },
@@ -11506,6 +13695,17 @@
     "capacity": 36
   },
   {
+    "booking_id": "107book67358",
+    "date": "2026-08-28",
+    "time": "10:30 AM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Gianna Petracic",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "101book70661",
     "date": "2026-08-28",
     "time": "10:30 AM",
@@ -11627,6 +13827,17 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book68072",
+    "date": "2026-08-28",
+    "time": "11:00 AM",
+    "name": "Mat Pilates",
+    "class_type": "Mat Series",
+    "instructor": "Nikki Rubbi-Clarke",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
     "booking_id": "101book74812",
     "date": "2026-08-28",
     "time": "11:00 AM",
@@ -11713,6 +13924,17 @@
     "location": "Newtown",
     "remaining_spots": 23,
     "capacity": 23
+  },
+  {
+    "booking_id": "107book67664",
+    "date": "2026-08-28",
+    "time": "11:30 AM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Gianna Petracic",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
   },
   {
     "booking_id": "105book44961",
@@ -11803,6 +14025,28 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book67566",
+    "date": "2026-08-28",
+    "time": "12:00 PM",
+    "name": "Mat Pilates",
+    "class_type": "Mat Series",
+    "instructor": "Nikki Rubbi-Clarke",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book52926",
+    "date": "2026-08-28",
+    "time": "12:00 PM",
+    "name": "Total Force",
+    "class_type": "S&C Series",
+    "instructor": "Billy Thornhill",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "101book70767",
     "date": "2026-08-28",
     "time": "12:00 PM",
@@ -11854,6 +14098,28 @@
     "class_type": "Reformer Series",
     "instructor": "Sinead Chabowski",
     "location": "Haymarket",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book53298",
+    "date": "2026-08-28",
+    "time": "12:15 PM",
+    "name": "Lower Build",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Kayla Job",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book67929",
+    "date": "2026-08-28",
+    "time": "12:15 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Gianna Petracic",
+    "location": "North Sydney",
     "remaining_spots": 24,
     "capacity": 24
   },
@@ -11933,6 +14199,17 @@
     "location": "Newtown",
     "remaining_spots": 28,
     "capacity": 28
+  },
+  {
+    "booking_id": "107book42074",
+    "date": "2026-08-28",
+    "time": "12:30 PM",
+    "name": "Surge.",
+    "class_type": "Spin Series",
+    "instructor": "Eisha Liyanage",
+    "location": "North Sydney",
+    "remaining_spots": 40,
+    "capacity": 40
   },
   {
     "booking_id": "105book56447",
@@ -12023,6 +14300,28 @@
     "capacity": 23
   },
   {
+    "booking_id": "107book67611",
+    "date": "2026-08-28",
+    "time": "1:15 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Nikki Rubbi-Clarke",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book53455",
+    "date": "2026-08-28",
+    "time": "1:15 PM",
+    "name": "Total Build",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Kayla Job",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
     "booking_id": "101book69731",
     "date": "2026-08-28",
     "time": "1:15 PM",
@@ -12100,6 +14399,17 @@
     "capacity": 18
   },
   {
+    "booking_id": "107book79400",
+    "date": "2026-08-28",
+    "time": "2:15 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Nikki Rubbi-Clarke",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "103book59489",
     "date": "2026-08-28",
     "time": "2:30 PM",
@@ -12131,6 +14441,17 @@
     "location": "Newtown",
     "remaining_spots": 20,
     "capacity": 20
+  },
+  {
+    "booking_id": "107book81479",
+    "date": "2026-08-28",
+    "time": "3:00 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Nikki Rubbi-Clarke",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
   },
   {
     "booking_id": "101book70098",
@@ -12210,6 +14531,17 @@
     "capacity": 23
   },
   {
+    "booking_id": "107book80040",
+    "date": "2026-08-28",
+    "time": "4:00 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Matthew Carney",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "101book71016",
     "date": "2026-08-28",
     "time": "4:00 PM",
@@ -12274,6 +14606,17 @@
     "location": "Merrylands",
     "remaining_spots": 22,
     "capacity": 22
+  },
+  {
+    "booking_id": "107book53348",
+    "date": "2026-08-28",
+    "time": "4:30 PM",
+    "name": "Total Build",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Alyssa Liem",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
   },
   {
     "booking_id": "105book48445",
@@ -12351,6 +14694,17 @@
     "location": "Newtown",
     "remaining_spots": 23,
     "capacity": 23
+  },
+  {
+    "booking_id": "107book80250",
+    "date": "2026-08-28",
+    "time": "5:00 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Matthew Carney",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
   },
   {
     "booking_id": "103book60640",
@@ -12463,6 +14817,28 @@
     "capacity": 30
   },
   {
+    "booking_id": "107book53505",
+    "date": "2026-08-28",
+    "time": "5:30 PM",
+    "name": "Pulse",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Alyssa Liem",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book70792",
+    "date": "2026-08-28",
+    "time": "5:30 PM",
+    "name": "Infrared Pilates",
+    "class_type": "Mat Series",
+    "instructor": "Emmy Drew",
+    "location": "North Sydney",
+    "remaining_spots": 29,
+    "capacity": 30
+  },
+  {
     "booking_id": "101book33435",
     "date": "2026-08-28",
     "time": "5:30 PM",
@@ -12472,6 +14848,17 @@
     "location": "Surry Hills",
     "remaining_spots": 25,
     "capacity": 25
+  },
+  {
+    "booking_id": "107book80355",
+    "date": "2026-08-28",
+    "time": "5:45 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Matthew Carney",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
   },
   {
     "booking_id": "101book70857",
@@ -12551,6 +14938,17 @@
     "capacity": 32
   },
   {
+    "booking_id": "107book42759",
+    "date": "2026-08-28",
+    "time": "6:00 PM",
+    "name": "Beatbox",
+    "class_type": "Spin Series",
+    "instructor": "Benjamin Young",
+    "location": "North Sydney",
+    "remaining_spots": 40,
+    "capacity": 40
+  },
+  {
     "booking_id": "101book70804",
     "date": "2026-08-28",
     "time": "6:05 PM",
@@ -12613,6 +15011,28 @@
     "class_type": "S&C Series",
     "instructor": "Charbel Tasipale",
     "location": "Merrylands",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book80145",
+    "date": "2026-08-28",
+    "time": "6:30 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Matthew Carney",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book67410",
+    "date": "2026-08-28",
+    "time": "6:30 PM",
+    "name": "Mat Pilates",
+    "class_type": "Mat Series",
+    "instructor": "Emmy Drew",
+    "location": "North Sydney",
     "remaining_spots": 30,
     "capacity": 30
   },
@@ -12738,6 +15158,17 @@
     "capacity": 32
   },
   {
+    "booking_id": "107book53717",
+    "date": "2026-08-29",
+    "time": "7:00 AM",
+    "name": "Unity",
+    "class_type": "S&C Series",
+    "instructor": "Asia Harris",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "103book61266",
     "date": "2026-08-29",
     "time": "7:15 AM",
@@ -12747,6 +15178,17 @@
     "location": "Marrickville",
     "remaining_spots": 36,
     "capacity": 36
+  },
+  {
+    "booking_id": "107book53665",
+    "date": "2026-08-29",
+    "time": "7:15 AM",
+    "name": "Pulse",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Kelly Medina",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
   },
   {
     "booking_id": "105book46510",
@@ -12780,6 +15222,28 @@
     "location": "Merrylands",
     "remaining_spots": 30,
     "capacity": 30
+  },
+  {
+    "booking_id": "107book55249",
+    "date": "2026-08-29",
+    "time": "7:30 AM",
+    "name": "Mat Pilates",
+    "class_type": "Mat Series",
+    "instructor": "Ellie Chan",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book42173",
+    "date": "2026-08-29",
+    "time": "7:30 AM",
+    "name": "Surge.",
+    "class_type": "Spin Series",
+    "instructor": "Eisha Liyanage",
+    "location": "North Sydney",
+    "remaining_spots": 40,
+    "capacity": 40
   },
   {
     "booking_id": "101book72336",
@@ -12958,6 +15422,28 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book53610",
+    "date": "2026-08-29",
+    "time": "8:00 AM",
+    "name": "Unity",
+    "class_type": "S&C Series",
+    "instructor": "Asia Harris",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book55095",
+    "date": "2026-08-29",
+    "time": "8:00 AM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Sara Craighead",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "101book73085",
     "date": "2026-08-29",
     "time": "8:00 AM",
@@ -13000,6 +15486,17 @@
     "location": "Marrickville",
     "remaining_spots": 36,
     "capacity": 36
+  },
+  {
+    "booking_id": "107book53821",
+    "date": "2026-08-29",
+    "time": "8:15 AM",
+    "name": "Total Build",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Kelly Medina",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
   },
   {
     "booking_id": "105book43309",
@@ -13055,6 +15552,28 @@
     "location": "Newtown",
     "remaining_spots": 23,
     "capacity": 23
+  },
+  {
+    "booking_id": "107book42191",
+    "date": "2026-08-29",
+    "time": "8:30 AM",
+    "name": "Beatbox",
+    "class_type": "Spin Series",
+    "instructor": "Benjamin Young",
+    "location": "North Sydney",
+    "remaining_spots": 40,
+    "capacity": 40
+  },
+  {
+    "booking_id": "107book54934",
+    "date": "2026-08-29",
+    "time": "8:30 AM",
+    "name": "BodyBurn",
+    "class_type": "Mat Series",
+    "instructor": "Ellie Chan",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
   },
   {
     "booking_id": "101book72439",
@@ -13222,6 +15741,17 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book54832",
+    "date": "2026-08-29",
+    "time": "9:00 AM",
+    "name": "Reformer: Strong",
+    "class_type": "Reformer Series",
+    "instructor": "Sara Craighead",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "101book76739",
     "date": "2026-08-29",
     "time": "9:00 AM",
@@ -13288,6 +15818,28 @@
     "capacity": 28
   },
   {
+    "booking_id": "107book68605",
+    "date": "2026-08-29",
+    "time": "9:15 AM",
+    "name": "Athletica",
+    "class_type": "S&C Series",
+    "instructor": "Killian Bolster",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book53769",
+    "date": "2026-08-29",
+    "time": "9:15 AM",
+    "name": "Pulse",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Eisha Liyanage",
+    "location": "North Sydney",
+    "remaining_spots": 28,
+    "capacity": 30
+  },
+  {
     "booking_id": "105book46118",
     "date": "2026-08-29",
     "time": "9:30 AM",
@@ -13330,6 +15882,17 @@
     "location": "Newtown",
     "remaining_spots": 23,
     "capacity": 23
+  },
+  {
+    "booking_id": "107book84681",
+    "date": "2026-08-29",
+    "time": "9:30 AM",
+    "name": "Squad",
+    "class_type": "Spin Series",
+    "instructor": "Benjamin Young",
+    "location": "North Sydney",
+    "remaining_spots": 40,
+    "capacity": 40
   },
   {
     "booking_id": "101book72494",
@@ -13486,6 +16049,17 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book79905",
+    "date": "2026-08-29",
+    "time": "10:00 AM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Sara Craighead",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "101book73032",
     "date": "2026-08-29",
     "time": "10:00 AM",
@@ -13528,6 +16102,17 @@
     "location": "Newtown",
     "remaining_spots": 28,
     "capacity": 28
+  },
+  {
+    "booking_id": "107book53870",
+    "date": "2026-08-29",
+    "time": "10:15 AM",
+    "name": "Total Build",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Eisha Liyanage",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
   },
   {
     "booking_id": "105book43361",
@@ -13717,6 +16302,17 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book80460",
+    "date": "2026-08-29",
+    "time": "11:00 AM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Sara Craighead",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "101book77545",
     "date": "2026-08-29",
     "time": "11:00 AM",
@@ -13748,6 +16344,17 @@
     "location": "Newtown",
     "remaining_spots": 28,
     "capacity": 28
+  },
+  {
+    "booking_id": "107book84786",
+    "date": "2026-08-29",
+    "time": "11:15 AM",
+    "name": "Pulse",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Benjamin Young",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
   },
   {
     "booking_id": "101book72386",
@@ -13858,6 +16465,17 @@
     "location": "Newtown",
     "remaining_spots": 20,
     "capacity": 20
+  },
+  {
+    "booking_id": "107book80565",
+    "date": "2026-08-29",
+    "time": "12:00 PM",
+    "name": "Reformer: Strong",
+    "class_type": "Reformer Series",
+    "instructor": "Sara Craighead",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
   },
   {
     "booking_id": "105book43257",
@@ -13981,6 +16599,17 @@
     "capacity": 23
   },
   {
+    "booking_id": "107book55356",
+    "date": "2026-08-29",
+    "time": "1:00 PM",
+    "name": "Yoga: Flowstate",
+    "class_type": "Yoga Series",
+    "instructor": "Kristy Hocking",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
     "booking_id": "101book72228",
     "date": "2026-08-29",
     "time": "1:15 PM",
@@ -14010,6 +16639,17 @@
     "class_type": "Reformer Series",
     "instructor": "Janet Lapprathana",
     "location": "Haymarket",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book53977",
+    "date": "2026-08-29",
+    "time": "1:30 PM",
+    "name": "Reformer: Athletic",
+    "class_type": "Reformer Series",
+    "instructor": "Sarah Biordi",
+    "location": "North Sydney",
     "remaining_spots": 24,
     "capacity": 24
   },
@@ -14047,6 +16687,17 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book55304",
+    "date": "2026-08-29",
+    "time": "2:00 PM",
+    "name": "Yoga: Restore & Sound",
+    "class_type": "Yoga Series",
+    "instructor": "Kristy Hocking",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
     "booking_id": "104book44892",
     "date": "2026-08-29",
     "time": "2:15 PM",
@@ -14065,6 +16716,17 @@
     "class_type": "Reformer Series",
     "instructor": "Janet Lapprathana",
     "location": "Haymarket",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book53924",
+    "date": "2026-08-29",
+    "time": "2:30 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Sarah Biordi",
+    "location": "North Sydney",
     "remaining_spots": 24,
     "capacity": 24
   },
@@ -14113,6 +16775,17 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book54987",
+    "date": "2026-08-29",
+    "time": "3:30 PM",
+    "name": "Reformer: Jump Board (Lower Body)",
+    "class_type": "Reformer Series",
+    "instructor": "Sarah Biordi",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "101book72822",
     "date": "2026-08-29",
     "time": "3:30 PM",
@@ -14135,6 +16808,28 @@
     "capacity": 34
   },
   {
+    "booking_id": "107book72088",
+    "date": "2026-08-29",
+    "time": "4:00 PM",
+    "name": "Infrared Yoga",
+    "class_type": "Yoga Series",
+    "instructor": "Jessy Patterson",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book55040",
+    "date": "2026-08-29",
+    "time": "4:30 PM",
+    "name": "Reformer: Origins",
+    "class_type": "Reformer Series",
+    "instructor": "Sarah Biordi",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "101book72875",
     "date": "2026-08-29",
     "time": "4:30 PM",
@@ -14155,6 +16850,17 @@
     "location": "Surry Hills",
     "remaining_spots": 34,
     "capacity": 34
+  },
+  {
+    "booking_id": "107book55406",
+    "date": "2026-08-29",
+    "time": "5:00 PM",
+    "name": "Yoga: Restore & Sound",
+    "class_type": "Yoga Series",
+    "instructor": "Jessy Patterson",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
   },
   {
     "booking_id": "106book65468",
@@ -14267,6 +16973,17 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book69230",
+    "date": "2026-08-30",
+    "time": "8:30 AM",
+    "name": "Squad",
+    "class_type": "Spin Series",
+    "instructor": "Alexandra Doddridge",
+    "location": "North Sydney",
+    "remaining_spots": 40,
+    "capacity": 40
+  },
+  {
     "booking_id": "101book33122",
     "date": "2026-08-30",
     "time": "8:30 AM",
@@ -14342,6 +17059,28 @@
     "location": "Newtown",
     "remaining_spots": 23,
     "capacity": 23
+  },
+  {
+    "booking_id": "107book55932",
+    "date": "2026-08-30",
+    "time": "9:00 AM",
+    "name": "Breathwork: Dynamic Release (Morning)",
+    "class_type": "Harmony Series",
+    "instructor": "Lauren Wainer",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book55827",
+    "date": "2026-08-30",
+    "time": "9:00 AM",
+    "name": "Athletica",
+    "class_type": "S&C Series",
+    "instructor": "Billy Thornhill",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
   },
   {
     "booking_id": "101book73716",
@@ -14443,6 +17182,17 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book55616",
+    "date": "2026-08-30",
+    "time": "9:30 AM",
+    "name": "The Zone.",
+    "class_type": "Spin Series",
+    "instructor": "Alexandra Doddridge",
+    "location": "North Sydney",
+    "remaining_spots": 40,
+    "capacity": 40
+  },
+  {
     "booking_id": "101book33145",
     "date": "2026-08-30",
     "time": "9:40 AM",
@@ -14474,6 +17224,28 @@
     "location": "Marrickville",
     "remaining_spots": 36,
     "capacity": 36
+  },
+  {
+    "booking_id": "107book56039",
+    "date": "2026-08-30",
+    "time": "10:00 AM",
+    "name": "Athletica",
+    "class_type": "S&C Series",
+    "instructor": "Billy Thornhill",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book73147",
+    "date": "2026-08-30",
+    "time": "10:00 AM",
+    "name": "Yoga: Flowstate",
+    "class_type": "Yoga Series",
+    "instructor": "Victoire de Polignac",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
   },
   {
     "booking_id": "101book73455",
@@ -14529,6 +17301,17 @@
     "location": "Haymarket",
     "remaining_spots": 35,
     "capacity": 35
+  },
+  {
+    "booking_id": "107book73147",
+    "date": "2026-08-30",
+    "time": "10:15 AM",
+    "name": "Yoga: Flowstate",
+    "class_type": "Yoga Series",
+    "instructor": "Victoire de Polignac",
+    "location": "North Sydney",
+    "remaining_spots": 0,
+    "capacity": 30
   },
   {
     "booking_id": "105book47191",
@@ -14650,6 +17433,28 @@
     "location": "Surry Hills",
     "remaining_spots": 18,
     "capacity": 18
+  },
+  {
+    "booking_id": "107book55932",
+    "date": "2026-08-30",
+    "time": "11:15 AM",
+    "name": "Breathwork: Dynamic Release (Morning)",
+    "class_type": "Harmony Series",
+    "instructor": "Lauren Wainer",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book82493",
+    "date": "2026-08-30",
+    "time": "11:15 AM",
+    "name": "Yoga: Flowstate",
+    "class_type": "Yoga Series",
+    "instructor": "Victoire de Polignac",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
   },
   {
     "booking_id": "101book73766",
@@ -14861,6 +17666,17 @@
     "capacity": 23
   },
   {
+    "booking_id": "107book80870",
+    "date": "2026-08-30",
+    "time": "2:30 PM",
+    "name": "Reformer: Sculpt",
+    "class_type": "Reformer Series",
+    "instructor": "Emmy Drew",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "105book47243",
     "date": "2026-08-30",
     "time": "3:00 PM",
@@ -14916,6 +17732,17 @@
     "capacity": 34
   },
   {
+    "booking_id": "107book80610",
+    "date": "2026-08-30",
+    "time": "3:30 PM",
+    "name": "Reformer: Sculpt",
+    "class_type": "Reformer Series",
+    "instructor": "Emmy Drew",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "105book47139",
     "date": "2026-08-30",
     "time": "4:00 PM",
@@ -14925,6 +17752,17 @@
     "location": "Haymarket",
     "remaining_spots": 24,
     "capacity": 24
+  },
+  {
+    "booking_id": "107book55774",
+    "date": "2026-08-30",
+    "time": "4:00 PM",
+    "name": "Yoga: Flowstate",
+    "class_type": "Yoga Series",
+    "instructor": "Jessy Franks",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
   },
   {
     "booking_id": "101book73403",
@@ -14971,6 +17809,17 @@
     "capacity": 34
   },
   {
+    "booking_id": "107book55986",
+    "date": "2026-08-30",
+    "time": "4:30 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Emmy Drew",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "106book48712",
     "date": "2026-08-30",
     "time": "4:45 PM",
@@ -15004,6 +17853,17 @@
     "capacity": 18
   },
   {
+    "booking_id": "107book55880",
+    "date": "2026-08-30",
+    "time": "5:15 PM",
+    "name": "Yoga: Restore & Sound",
+    "class_type": "Yoga Series",
+    "instructor": "Jessy Franks",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
     "booking_id": "106book37581",
     "date": "2026-08-31",
     "time": "5:00 AM",
@@ -15035,6 +17895,17 @@
     "location": "Marrickville",
     "remaining_spots": 15,
     "capacity": 15
+  },
+  {
+    "booking_id": "107book59010",
+    "date": "2026-08-31",
+    "time": "5:30 AM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Sara Craighead",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
   },
   {
     "booking_id": "106book53672",
@@ -15191,6 +18062,39 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book59593",
+    "date": "2026-08-31",
+    "time": "6:00 AM",
+    "name": "Pulse",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Matt Bull",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book70038",
+    "date": "2026-08-31",
+    "time": "6:00 AM",
+    "name": "Power Pilates",
+    "class_type": "Mat Series",
+    "instructor": "Mackenzie Sengotta",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book56563",
+    "date": "2026-08-31",
+    "time": "6:00 AM",
+    "name": "Lower Force",
+    "class_type": "S&C Series",
+    "instructor": "Asia Harris",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "103book49096",
     "date": "2026-08-31",
     "time": "6:15 AM",
@@ -15211,6 +18115,17 @@
     "location": "Marrickville",
     "remaining_spots": 20,
     "capacity": 20
+  },
+  {
+    "booking_id": "107book59169",
+    "date": "2026-08-31",
+    "time": "6:15 AM",
+    "name": "Reformer: Strong",
+    "class_type": "Reformer Series",
+    "instructor": "Sara Craighead",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
   },
   {
     "booking_id": "101book58811",
@@ -15277,6 +18192,17 @@
     "location": "Newtown",
     "remaining_spots": 23,
     "capacity": 23
+  },
+  {
+    "booking_id": "107book47739",
+    "date": "2026-08-31",
+    "time": "6:30 AM",
+    "name": "Surge",
+    "class_type": "Spin Series",
+    "instructor": "Alexandra Doddridge",
+    "location": "North Sydney",
+    "remaining_spots": 40,
+    "capacity": 40
   },
   {
     "booking_id": "101book61203",
@@ -15354,6 +18280,17 @@
     "location": "Surry Hills",
     "remaining_spots": 20,
     "capacity": 20
+  },
+  {
+    "booking_id": "107book59330",
+    "date": "2026-08-31",
+    "time": "6:50 AM",
+    "name": "Total Build",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Matt Bull",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
   },
   {
     "booking_id": "105book37454",
@@ -15442,6 +18379,39 @@
     "location": "Newtown",
     "remaining_spots": 20,
     "capacity": 20
+  },
+  {
+    "booking_id": "107book70090",
+    "date": "2026-08-31",
+    "time": "7:00 AM",
+    "name": "Mat Pilates",
+    "class_type": "Mat Series",
+    "instructor": "Mackenzie Sengotta",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book56150",
+    "date": "2026-08-31",
+    "time": "7:00 AM",
+    "name": "Lower Force",
+    "class_type": "S&C Series",
+    "instructor": "Asia Harris",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book58851",
+    "date": "2026-08-31",
+    "time": "7:00 AM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Sara Craighead",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
   },
   {
     "booking_id": "105book59780",
@@ -15543,6 +18513,17 @@
     "capacity": 23
   },
   {
+    "booking_id": "107book47558",
+    "date": "2026-08-31",
+    "time": "7:30 AM",
+    "name": "Surge",
+    "class_type": "Spin Series",
+    "instructor": "Alexandra Doddridge",
+    "location": "North Sydney",
+    "remaining_spots": 40,
+    "capacity": 40
+  },
+  {
     "booking_id": "101book60993",
     "date": "2026-08-31",
     "time": "7:30 AM",
@@ -15585,6 +18566,17 @@
     "location": "Surry Hills",
     "remaining_spots": 34,
     "capacity": 34
+  },
+  {
+    "booking_id": "107book59488",
+    "date": "2026-08-31",
+    "time": "7:40 AM",
+    "name": "Pulse",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Matt Bull",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
   },
   {
     "booking_id": "105book36151",
@@ -15640,6 +18632,39 @@
     "location": "Newtown",
     "remaining_spots": 20,
     "capacity": 20
+  },
+  {
+    "booking_id": "107book70142",
+    "date": "2026-08-31",
+    "time": "8:00 AM",
+    "name": "Infrared Pilates",
+    "class_type": "Mat Series",
+    "instructor": "Mackenzie Sengotta",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book56098",
+    "date": "2026-08-31",
+    "time": "8:00 AM",
+    "name": "Lower Force",
+    "class_type": "S&C Series",
+    "instructor": "Asia Harris",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book58693",
+    "date": "2026-08-31",
+    "time": "8:00 AM",
+    "name": "Reformer: Strong",
+    "class_type": "Reformer Series",
+    "instructor": "Emmy Drew",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
   },
   {
     "booking_id": "103book48836",
@@ -15717,6 +18742,17 @@
     "location": "Surry Hills",
     "remaining_spots": 34,
     "capacity": 34
+  },
+  {
+    "booking_id": "107book59434",
+    "date": "2026-08-31",
+    "time": "8:40 AM",
+    "name": "Lower Build",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Matt Bull",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
   },
   {
     "booking_id": "106book67175",
@@ -15818,6 +18854,17 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book59063",
+    "date": "2026-08-31",
+    "time": "9:00 AM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Sara Craighead",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "101book59882",
     "date": "2026-08-31",
     "time": "9:00 AM",
@@ -15891,6 +18938,17 @@
     "class_type": "Reformer Series",
     "instructor": "Mily Ochoa",
     "location": "Haymarket",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book59116",
+    "date": "2026-08-31",
+    "time": "9:45 AM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Neave Welch",
+    "location": "North Sydney",
     "remaining_spots": 24,
     "capacity": 24
   },
@@ -16060,6 +19118,28 @@
     "capacity": 23
   },
   {
+    "booking_id": "107book56458",
+    "date": "2026-08-31",
+    "time": "10:30 AM",
+    "name": "Yoga: Flowstate",
+    "class_type": "Yoga Series",
+    "instructor": "Hayley van Stom",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book59222",
+    "date": "2026-08-31",
+    "time": "10:30 AM",
+    "name": "Reformer: Origins",
+    "class_type": "Reformer Series",
+    "instructor": "Neave Welch",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "101book60041",
     "date": "2026-08-31",
     "time": "10:30 AM",
@@ -16225,6 +19305,17 @@
     "capacity": 15
   },
   {
+    "booking_id": "107book58957",
+    "date": "2026-08-31",
+    "time": "11:30 AM",
+    "name": "Reformer: Strong",
+    "class_type": "Reformer Series",
+    "instructor": "Neave Welch",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "101book60252",
     "date": "2026-08-31",
     "time": "11:30 AM",
@@ -16324,6 +19415,28 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book59749",
+    "date": "2026-08-31",
+    "time": "12:00 PM",
+    "name": "Mat Pilates",
+    "class_type": "Mat Series",
+    "instructor": "Lily Cole",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book56508",
+    "date": "2026-08-31",
+    "time": "12:00 PM",
+    "name": "Lower Force",
+    "class_type": "S&C Series",
+    "instructor": "Jennifer Irvine, Patrick Fox",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "101book81532",
     "date": "2026-08-31",
     "time": "12:00 PM",
@@ -16377,6 +19490,39 @@
     "location": "Newtown",
     "remaining_spots": 28,
     "capacity": 28
+  },
+  {
+    "booking_id": "107book56375",
+    "date": "2026-08-31",
+    "time": "12:15 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Neave Welch",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book43600",
+    "date": "2026-08-31",
+    "time": "12:15 PM",
+    "name": "Squad",
+    "class_type": "Spin Series",
+    "instructor": "Hayley van Stom",
+    "location": "North Sydney",
+    "remaining_spots": 40,
+    "capacity": 40
+  },
+  {
+    "booking_id": "107book59697",
+    "date": "2026-08-31",
+    "time": "12:15 PM",
+    "name": "Total Build",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Kayla Job",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
   },
   {
     "booking_id": "101book59074",
@@ -16456,6 +19602,17 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book59380",
+    "date": "2026-08-31",
+    "time": "1:00 PM",
+    "name": "Infrared Pilates",
+    "class_type": "Mat Series",
+    "instructor": "Lily Cole",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
     "booking_id": "101book60202",
     "date": "2026-08-31",
     "time": "1:00 PM",
@@ -16476,6 +19633,28 @@
     "location": "Haymarket",
     "remaining_spots": 38,
     "capacity": 38
+  },
+  {
+    "booking_id": "107book59803",
+    "date": "2026-08-31",
+    "time": "1:15 PM",
+    "name": "Pulse",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Kayla Job",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book57090",
+    "date": "2026-08-31",
+    "time": "1:15 PM",
+    "name": "Reformer: Strong",
+    "class_type": "Reformer Series",
+    "instructor": "Neave Welch",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
   },
   {
     "booking_id": "101book58863",
@@ -16544,6 +19723,17 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book57145",
+    "date": "2026-08-31",
+    "time": "2:15 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Carlos Gallo",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "105book36478",
     "date": "2026-08-31",
     "time": "3:00 PM",
@@ -16575,6 +19765,17 @@
     "location": "Newtown",
     "remaining_spots": 20,
     "capacity": 20
+  },
+  {
+    "booking_id": "107book57195",
+    "date": "2026-08-31",
+    "time": "3:00 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Carlos Gallo",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
   },
   {
     "booking_id": "101book81090",
@@ -16663,6 +19864,28 @@
     "location": "Newtown",
     "remaining_spots": 20,
     "capacity": 20
+  },
+  {
+    "booking_id": "107book56984",
+    "date": "2026-08-31",
+    "time": "4:00 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Carlos Gallo",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book59643",
+    "date": "2026-08-31",
+    "time": "4:00 PM",
+    "name": "Breathwork: Deep Calm (Evening)",
+    "class_type": "Harmony Series",
+    "instructor": "Chris Sulfa",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
   },
   {
     "booking_id": "101book59383",
@@ -16830,6 +20053,39 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book56613",
+    "date": "2026-08-31",
+    "time": "5:00 PM",
+    "name": "Upper Force",
+    "class_type": "S&C Series",
+    "instructor": "Asia Harris",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book59275",
+    "date": "2026-08-31",
+    "time": "5:00 PM",
+    "name": "Mat Pilates",
+    "class_type": "Mat Series",
+    "instructor": "Eva Baonza",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book79631",
+    "date": "2026-08-31",
+    "time": "5:00 PM",
+    "name": "Reformer: Sculpt",
+    "class_type": "Reformer Series",
+    "instructor": "Carlos Gallo",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "105book28442",
     "date": "2026-08-31",
     "time": "5:15 PM",
@@ -16872,6 +20128,17 @@
     "location": "Newtown",
     "remaining_spots": 28,
     "capacity": 28
+  },
+  {
+    "booking_id": "107book58749",
+    "date": "2026-08-31",
+    "time": "5:15 PM",
+    "name": "Total Build",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Elizabeth Topfer",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
   },
   {
     "booking_id": "101book58653",
@@ -16962,6 +20229,17 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book57941",
+    "date": "2026-08-31",
+    "time": "5:30 PM",
+    "name": "Beatbox",
+    "class_type": "Spin Series",
+    "instructor": "Jonathon Balzanelli",
+    "location": "North Sydney",
+    "remaining_spots": 40,
+    "capacity": 40
+  },
+  {
     "booking_id": "101book59489",
     "date": "2026-08-31",
     "time": "5:30 PM",
@@ -17004,6 +20282,17 @@
     "location": "Merrylands",
     "remaining_spots": 22,
     "capacity": 22
+  },
+  {
+    "booking_id": "107book56882",
+    "date": "2026-08-31",
+    "time": "5:45 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Carlos Gallo",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
   },
   {
     "booking_id": "105book37054",
@@ -17083,6 +20372,28 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book59538",
+    "date": "2026-08-31",
+    "time": "6:00 PM",
+    "name": "BodySculpt",
+    "class_type": "Mat Series",
+    "instructor": "Eva Baonza",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book56403",
+    "date": "2026-08-31",
+    "time": "6:00 PM",
+    "name": "Upper Force",
+    "class_type": "S&C Series",
+    "instructor": "Asia Harris",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "101book60466",
     "date": "2026-08-31",
     "time": "6:00 PM",
@@ -17136,6 +20447,17 @@
     "location": "Newtown",
     "remaining_spots": 28,
     "capacity": 28
+  },
+  {
+    "booking_id": "107book58801",
+    "date": "2026-08-31",
+    "time": "6:15 PM",
+    "name": "Lower Build",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Elizabeth Topfer",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
   },
   {
     "booking_id": "101book59127",
@@ -17235,6 +20557,28 @@
     "location": "Newtown",
     "remaining_spots": 23,
     "capacity": 23
+  },
+  {
+    "booking_id": "107book56830",
+    "date": "2026-08-31",
+    "time": "6:30 PM",
+    "name": "Reformer: Strong",
+    "class_type": "Reformer Series",
+    "instructor": "Carlos Gallo",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book43699",
+    "date": "2026-08-31",
+    "time": "6:30 PM",
+    "name": "Beatbox",
+    "class_type": "Spin Series",
+    "instructor": "Jonathon Balzanelli",
+    "location": "North Sydney",
+    "remaining_spots": 40,
+    "capacity": 40
   },
   {
     "booking_id": "101book58518",
@@ -17347,6 +20691,17 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book59855",
+    "date": "2026-08-31",
+    "time": "7:00 PM",
+    "name": "BodySculpt",
+    "class_type": "Mat Series",
+    "instructor": "Eva Baonza",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
     "booking_id": "101book59330",
     "date": "2026-08-31",
     "time": "7:00 PM",
@@ -17400,6 +20755,17 @@
     "location": "Newtown",
     "remaining_spots": 28,
     "capacity": 28
+  },
+  {
+    "booking_id": "107book58905",
+    "date": "2026-08-31",
+    "time": "7:15 PM",
+    "name": "Upper Build",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Elizabeth Topfer",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
   },
   {
     "booking_id": "101book58916",
@@ -17479,6 +20845,17 @@
     "capacity": 23
   },
   {
+    "booking_id": "107book57037",
+    "date": "2026-08-31",
+    "time": "7:30 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Carlos Gallo",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "101book59277",
     "date": "2026-08-31",
     "time": "7:30 PM",
@@ -17521,6 +20898,28 @@
     "location": "Marrickville",
     "remaining_spots": 15,
     "capacity": 15
+  },
+  {
+    "booking_id": "107book71418",
+    "date": "2026-09-01",
+    "time": "5:30 AM",
+    "name": "Squad",
+    "class_type": "Spin Series",
+    "instructor": "Frances Lee",
+    "location": "North Sydney",
+    "remaining_spots": 40,
+    "capacity": 40
+  },
+  {
+    "booking_id": "107book61950",
+    "date": "2026-09-01",
+    "time": "5:30 AM",
+    "name": "Reformer: Athletic",
+    "class_type": "Reformer Series",
+    "instructor": "Nikki Rubbi-Clarke",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
   },
   {
     "booking_id": "106book40104",
@@ -17644,6 +21043,28 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book72832",
+    "date": "2026-09-01",
+    "time": "6:00 AM",
+    "name": "Athletica",
+    "class_type": "S&C Series",
+    "instructor": "Billy Thornhill",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book73663",
+    "date": "2026-09-01",
+    "time": "6:00 AM",
+    "name": "Infrared Yoga",
+    "class_type": "Yoga Series",
+    "instructor": "Katie Jay",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
     "booking_id": "105book50069",
     "date": "2026-09-01",
     "time": "6:15 AM",
@@ -17697,6 +21118,28 @@
     "location": "Merrylands",
     "remaining_spots": 30,
     "capacity": 30
+  },
+  {
+    "booking_id": "107book49277",
+    "date": "2026-09-01",
+    "time": "6:15 AM",
+    "name": "Total Build",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Alyssa Liem",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book60685",
+    "date": "2026-09-01",
+    "time": "6:15 AM",
+    "name": "Reformer: Athletic",
+    "class_type": "Reformer Series",
+    "instructor": "Nikki Rubbi-Clarke",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
   },
   {
     "booking_id": "101book62307",
@@ -17763,6 +21206,17 @@
     "location": "Newtown",
     "remaining_spots": 23,
     "capacity": 23
+  },
+  {
+    "booking_id": "107book48434",
+    "date": "2026-09-01",
+    "time": "6:30 AM",
+    "name": "The Zone",
+    "class_type": "Spin Series",
+    "instructor": "Frances Lee",
+    "location": "North Sydney",
+    "remaining_spots": 40,
+    "capacity": 40
   },
   {
     "booking_id": "101book64408",
@@ -17919,6 +21373,39 @@
     "capacity": 28
   },
   {
+    "booking_id": "107book50245",
+    "date": "2026-09-01",
+    "time": "7:00 AM",
+    "name": "Athletica",
+    "class_type": "S&C Series",
+    "instructor": "Billy Thornhill",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book81581",
+    "date": "2026-09-01",
+    "time": "7:00 AM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Nikki Rubbi-Clarke",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book73511",
+    "date": "2026-09-01",
+    "time": "7:00 AM",
+    "name": "Yoga: Origins",
+    "class_type": "Yoga Series",
+    "instructor": "Katie Jay",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
     "booking_id": "105book39596",
     "date": "2026-09-01",
     "time": "7:15 AM",
@@ -17983,6 +21470,17 @@
     "location": "Merrylands",
     "remaining_spots": 34,
     "capacity": 34
+  },
+  {
+    "booking_id": "107book50301",
+    "date": "2026-09-01",
+    "time": "7:15 AM",
+    "name": "Upper Build",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Alyssa Liem",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
   },
   {
     "booking_id": "101book64179",
@@ -18161,6 +21659,39 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book78210",
+    "date": "2026-09-01",
+    "time": "8:00 AM",
+    "name": "Mat Pilates",
+    "class_type": "Mat Series",
+    "instructor": "Tan Hutton",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book49327",
+    "date": "2026-09-01",
+    "time": "8:00 AM",
+    "name": "Athletica",
+    "class_type": "S&C Series",
+    "instructor": "Billy Thornhill",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book61844",
+    "date": "2026-09-01",
+    "time": "8:00 AM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Nikki Rubbi-Clarke",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "105book39649",
     "date": "2026-09-01",
     "time": "8:15 AM",
@@ -18203,6 +21734,28 @@
     "location": "Merrylands",
     "remaining_spots": 21,
     "capacity": 21
+  },
+  {
+    "booking_id": "107book78210",
+    "date": "2026-09-01",
+    "time": "8:15 AM",
+    "name": "Mat Pilates",
+    "class_type": "Mat Series",
+    "instructor": "Tan Hutton",
+    "location": "North Sydney",
+    "remaining_spots": 0,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book50138",
+    "date": "2026-09-01",
+    "time": "8:15 AM",
+    "name": "Upper Build",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Alyssa Liem",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
   },
   {
     "booking_id": "101book64352",
@@ -18359,6 +21912,28 @@
     "capacity": 23
   },
   {
+    "booking_id": "107book62056",
+    "date": "2026-09-01",
+    "time": "9:00 AM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Alison Bruton",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book78034",
+    "date": "2026-09-01",
+    "time": "9:00 AM",
+    "name": "Power Pilates",
+    "class_type": "Mat Series",
+    "instructor": "Tan Hutton",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
     "booking_id": "101book63753",
     "date": "2026-09-01",
     "time": "9:00 AM",
@@ -18378,6 +21953,17 @@
     "instructor": "Paulo Lole",
     "location": "Merrylands",
     "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book78034",
+    "date": "2026-09-01",
+    "time": "9:15 AM",
+    "name": "Power Pilates",
+    "class_type": "Mat Series",
+    "instructor": "Tan Hutton",
+    "location": "North Sydney",
+    "remaining_spots": 0,
     "capacity": 30
   },
   {
@@ -18410,6 +21996,17 @@
     "class_type": "Reformer Series",
     "instructor": "Estella Jones",
     "location": "Haymarket",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book62109",
+    "date": "2026-09-01",
+    "time": "9:45 AM",
+    "name": "Reformer: Strong",
+    "class_type": "Reformer Series",
+    "instructor": "Alison Bruton",
+    "location": "North Sydney",
     "remaining_spots": 24,
     "capacity": 24
   },
@@ -18568,6 +22165,17 @@
     "capacity": 36
   },
   {
+    "booking_id": "107book74488",
+    "date": "2026-09-01",
+    "time": "10:30 AM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Alison Bruton",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "101book64125",
     "date": "2026-09-01",
     "time": "10:30 AM",
@@ -18700,6 +22308,17 @@
     "capacity": 36
   },
   {
+    "booking_id": "107book61556",
+    "date": "2026-09-01",
+    "time": "11:30 AM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Alison Bruton",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "101book63701",
     "date": "2026-09-01",
     "time": "11:30 AM",
@@ -18810,6 +22429,28 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book49221",
+    "date": "2026-09-01",
+    "time": "12:00 PM",
+    "name": "Athletica",
+    "class_type": "S&C Series",
+    "instructor": "Billy Thornhill",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book62162",
+    "date": "2026-09-01",
+    "time": "12:00 PM",
+    "name": "Infrared Pilates",
+    "class_type": "Mat Series",
+    "instructor": "Tan Hutton",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
     "booking_id": "101book64074",
     "date": "2026-09-01",
     "time": "12:00 PM",
@@ -18863,6 +22504,28 @@
     "location": "Haymarket",
     "remaining_spots": 38,
     "capacity": 38
+  },
+  {
+    "booking_id": "107book62006",
+    "date": "2026-09-01",
+    "time": "12:15 PM",
+    "name": "Pulse",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Maeve O'Keeffe",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book61132",
+    "date": "2026-09-01",
+    "time": "12:15 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Alison Bruton",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
   },
   {
     "booking_id": "101book63966",
@@ -18931,6 +22594,17 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book62218",
+    "date": "2026-09-01",
+    "time": "1:00 PM",
+    "name": "Infrared Pilates",
+    "class_type": "Mat Series",
+    "instructor": "Tan Hutton",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
     "booking_id": "101book64018",
     "date": "2026-09-01",
     "time": "1:00 PM",
@@ -18962,6 +22636,28 @@
     "location": "Haymarket",
     "remaining_spots": 38,
     "capacity": 38
+  },
+  {
+    "booking_id": "107book50088",
+    "date": "2026-09-01",
+    "time": "1:15 PM",
+    "name": "Total Build",
+    "class_type": "Pulse & Build Series",
+    "instructor": "Maeve O'Keeffe",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book61610",
+    "date": "2026-09-01",
+    "time": "1:15 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Alison Bruton",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
   },
   {
     "booking_id": "101book82809",
@@ -19019,6 +22715,17 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book61292",
+    "date": "2026-09-01",
+    "time": "2:15 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Zennah Chaudri",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "103book53617",
     "date": "2026-09-01",
     "time": "2:30 PM",
@@ -19061,6 +22768,17 @@
     "location": "Newtown",
     "remaining_spots": 20,
     "capacity": 20
+  },
+  {
+    "booking_id": "107book61185",
+    "date": "2026-09-01",
+    "time": "3:00 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Zennah Chaudri",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
   },
   {
     "booking_id": "101book63435",
@@ -19127,6 +22845,28 @@
     "location": "Newtown",
     "remaining_spots": 20,
     "capacity": 20
+  },
+  {
+    "booking_id": "107book60815",
+    "date": "2026-09-01",
+    "time": "4:00 PM",
+    "name": "Yoga: Flowstate",
+    "class_type": "Yoga Series",
+    "instructor": "Kristy Hocking",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book61347",
+    "date": "2026-09-01",
+    "time": "4:00 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Zennah Chaudri",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
   },
   {
     "booking_id": "101book63171",
@@ -19305,6 +23045,39 @@
     "capacity": 23
   },
   {
+    "booking_id": "107book62268",
+    "date": "2026-09-01",
+    "time": "5:00 PM",
+    "name": "Ritual",
+    "class_type": "Mat Series",
+    "instructor": "Kristy Hocking",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book50191",
+    "date": "2026-09-01",
+    "time": "5:00 PM",
+    "name": "Athletica",
+    "class_type": "S&C Series",
+    "instructor": "Jennia Klimenkova",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book61450",
+    "date": "2026-09-01",
+    "time": "5:00 PM",
+    "name": "Reformer: Signature",
+    "class_type": "Reformer Series",
+    "instructor": "Zennah Chaudri",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "105book39384",
     "date": "2026-09-01",
     "time": "5:15 PM",
@@ -19358,6 +23131,17 @@
     "location": "Newtown",
     "remaining_spots": 28,
     "capacity": 28
+  },
+  {
+    "booking_id": "107book47371",
+    "date": "2026-09-01",
+    "time": "5:15 PM",
+    "name": "Pulse",
+    "class_type": "Pulse & Build Series",
+    "instructor": "George Malouf",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
   },
   {
     "booking_id": "101book59756",
@@ -19426,6 +23210,17 @@
     "capacity": 30
   },
   {
+    "booking_id": "107book41870",
+    "date": "2026-09-01",
+    "time": "5:30 PM",
+    "name": "Squad",
+    "class_type": "Spin Series",
+    "instructor": "Hayley van Stom",
+    "location": "North Sydney",
+    "remaining_spots": 40,
+    "capacity": 40
+  },
+  {
     "booking_id": "101book63544",
     "date": "2026-09-01",
     "time": "5:30 PM",
@@ -19457,6 +23252,17 @@
     "location": "Surry Hills",
     "remaining_spots": 34,
     "capacity": 34
+  },
+  {
+    "booking_id": "107book61503",
+    "date": "2026-09-01",
+    "time": "5:45 PM",
+    "name": "Reformer: Jump Board (Lower Body)",
+    "class_type": "Reformer Series",
+    "instructor": "Sarah Biordi",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
   },
   {
     "booking_id": "105book34700",
@@ -19569,6 +23375,17 @@
     "capacity": 23
   },
   {
+    "booking_id": "107book50351",
+    "date": "2026-09-01",
+    "time": "6:00 PM",
+    "name": "Athletica",
+    "class_type": "S&C Series",
+    "instructor": "Jennia Klimenkova",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "105book28674",
     "date": "2026-09-01",
     "time": "6:15 PM",
@@ -19600,6 +23417,28 @@
     "location": "Newtown",
     "remaining_spots": 28,
     "capacity": 28
+  },
+  {
+    "booking_id": "107book72194",
+    "date": "2026-09-01",
+    "time": "6:15 PM",
+    "name": "Infrared Yoga",
+    "class_type": "Yoga Series",
+    "instructor": "Kristy Hocking",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
+    "booking_id": "107book47393",
+    "date": "2026-09-01",
+    "time": "6:15 PM",
+    "name": "Lower Build",
+    "class_type": "Pulse & Build Series",
+    "instructor": "George Malouf",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
   },
   {
     "booking_id": "101book61621",
@@ -19688,6 +23527,28 @@
     "location": "Merrylands",
     "remaining_spots": 0,
     "capacity": 34
+  },
+  {
+    "booking_id": "107book61238",
+    "date": "2026-09-01",
+    "time": "6:30 PM",
+    "name": "Reformer: Strong",
+    "class_type": "Reformer Series",
+    "instructor": "Sarah Biordi",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
+    "booking_id": "107book41775",
+    "date": "2026-09-01",
+    "time": "6:30 PM",
+    "name": "The Zone",
+    "class_type": "Spin Series",
+    "instructor": "Hayley van Stom",
+    "location": "North Sydney",
+    "remaining_spots": 40,
+    "capacity": 40
   },
   {
     "booking_id": "101book63120",
@@ -19800,6 +23661,17 @@
     "capacity": 20
   },
   {
+    "booking_id": "107book49380",
+    "date": "2026-09-01",
+    "time": "7:00 PM",
+    "name": "Athletica",
+    "class_type": "S&C Series",
+    "instructor": "Jennia Klimenkova",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
+  },
+  {
     "booking_id": "101book63226",
     "date": "2026-09-01",
     "time": "7:00 PM",
@@ -19855,6 +23727,17 @@
     "capacity": 28
   },
   {
+    "booking_id": "107book47157",
+    "date": "2026-09-01",
+    "time": "7:15 PM",
+    "name": "Total Build",
+    "class_type": "Pulse & Build Series",
+    "instructor": "George Malouf",
+    "location": "North Sydney",
+    "remaining_spots": 30,
+    "capacity": 30
+  },
+  {
     "booking_id": "101book61409",
     "date": "2026-09-01",
     "time": "7:15 PM",
@@ -19908,6 +23791,17 @@
     "location": "Merrylands",
     "remaining_spots": 21,
     "capacity": 21
+  },
+  {
+    "booking_id": "107book61397",
+    "date": "2026-09-01",
+    "time": "7:30 PM",
+    "name": "Reformer: Strong",
+    "class_type": "Reformer Series",
+    "instructor": "Sarah Biordi",
+    "location": "North Sydney",
+    "remaining_spots": 24,
+    "capacity": 24
   },
   {
     "booking_id": "101book63385",

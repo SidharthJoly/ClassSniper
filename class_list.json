@@ -1,60 +1,5 @@
 [
   {
-    "booking_id": "105book56706",
-    "date": "2026-08-23",
-    "time": "12:30 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Jaclyn Bogdanovic",
-    "location": "Haymarket",
-    "remaining_spots": 0,
-    "capacity": 24
-  },
-  {
-    "booking_id": "103book65870",
-    "date": "2026-08-23",
-    "time": "12:30 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Bethany Rumore",
-    "location": "Marrickville",
-    "remaining_spots": 0,
-    "capacity": 15
-  },
-  {
-    "booking_id": "106book55585",
-    "date": "2026-08-23",
-    "time": "12:30 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Vivien Nguyen",
-    "location": "Merrylands",
-    "remaining_spots": 0,
-    "capacity": 21
-  },
-  {
-    "booking_id": "104book43734",
-    "date": "2026-08-23",
-    "time": "12:30 PM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Mia Callander",
-    "location": "Newtown",
-    "remaining_spots": 0,
-    "capacity": 20
-  },
-  {
-    "booking_id": "101book74082",
-    "date": "2026-08-23",
-    "time": "12:30 PM",
-    "name": "YogaBeats",
-    "class_type": "Yoga Series",
-    "instructor": "Alicia Quinn",
-    "location": "Surry Hills",
-    "remaining_spots": 17,
-    "capacity": 23
-  },
-  {
     "booking_id": "103book68715",
     "date": "2026-08-23",
     "time": "1:00 PM",
@@ -3670,7 +3615,7 @@
     "class_type": "Yoga Series",
     "instructor": "Kim Hoffenberg",
     "location": "Surry Hills",
-    "remaining_spots": 34,
+    "remaining_spots": 32,
     "capacity": 34
   },
   {
@@ -4680,7 +4625,7 @@
     "time": "11:00 AM",
     "name": "Reformer: Signature",
     "class_type": "Reformer Series",
-    "instructor": "Mia Hamilton",
+    "instructor": "Shannon Hsu",
     "location": "Surry Hills",
     "remaining_spots": 18,
     "capacity": 18
@@ -4856,7 +4801,7 @@
     "time": "12:00 PM",
     "name": "Reformer: Signature",
     "class_type": "Reformer Series",
-    "instructor": "Mia Hamilton",
+    "instructor": "Shannon Hsu",
     "location": "Surry Hills",
     "remaining_spots": 18,
     "capacity": 18

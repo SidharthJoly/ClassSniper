@@ -1877,7 +1877,7 @@
     "class_type": "Creche",
     "instructor": "Athena Nikolopoulos",
     "location": "Marrickville",
-    "remaining_spots": 1,
+    "remaining_spots": 0,
     "capacity": 4
   },
   {
@@ -1954,7 +1954,7 @@
     "class_type": "Reformer Series",
     "instructor": "Zennah Chaudri",
     "location": "Surry Hills",
-    "remaining_spots": 11,
+    "remaining_spots": 10,
     "capacity": 20
   },
   {

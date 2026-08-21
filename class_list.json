@@ -458,7 +458,7 @@
     "class_type": "Reformer Series",
     "instructor": "Vivien Nguyen",
     "location": "Merrylands",
-    "remaining_spots": 0,
+    "remaining_spots": 1,
     "capacity": 21
   },
   {
@@ -865,7 +865,7 @@
     "class_type": "Yoga Series",
     "instructor": "Jessy Franks",
     "location": "North Sydney",
-    "remaining_spots": 1,
+    "remaining_spots": 0,
     "capacity": 30
   },
   {

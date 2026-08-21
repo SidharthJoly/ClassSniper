@@ -3263,7 +3263,7 @@
     "class_type": "Mat Series",
     "instructor": "Sinead Chabowski",
     "location": "Haymarket",
-    "remaining_spots": 19,
+    "remaining_spots": 18,
     "capacity": 38
   },
   {
@@ -3318,7 +3318,7 @@
     "class_type": "Spin Series",
     "instructor": "Jonathon Balzanelli",
     "location": "North Sydney",
-    "remaining_spots": 10,
+    "remaining_spots": 9,
     "capacity": 40
   },
   {
@@ -3505,7 +3505,7 @@
     "class_type": "Yoga Series",
     "instructor": "Nick Gross",
     "location": "Marrickville",
-    "remaining_spots": 13,
+    "remaining_spots": 12,
     "capacity": 36
   },
   {
@@ -5989,7 +5989,7 @@
     "time": "4:30 PM",
     "name": "Infrared Yoga",
     "class_type": "Yoga Series",
-    "instructor": "Joey Curcio",
+    "instructor": "Sunil Tailor",
     "location": "Surry Hills",
     "remaining_spots": 34,
     "capacity": 34
@@ -6308,7 +6308,7 @@
     "time": "5:30 PM",
     "name": "Ritual",
     "class_type": "Mat Series",
-    "instructor": "Joey Curcio",
+    "instructor": "Jessy Patterson",
     "location": "Surry Hills",
     "remaining_spots": 34,
     "capacity": 34
@@ -10785,7 +10785,7 @@
     "time": "8:15 AM",
     "name": "Reformer: Strong",
     "class_type": "Reformer Series",
-    "instructor": "Elizabeth Chun",
+    "instructor": "Simon Corfield",
     "location": "Surry Hills",
     "remaining_spots": 20,
     "capacity": 20
@@ -10939,7 +10939,7 @@
     "time": "9:00 AM",
     "name": "Reformer: Signature",
     "class_type": "Reformer Series",
-    "instructor": "Elizabeth Chun",
+    "instructor": "Simon Corfield",
     "location": "Surry Hills",
     "remaining_spots": 20,
     "capacity": 20
@@ -12952,7 +12952,7 @@
     "time": "6:00 AM",
     "name": "Yoga: Flowstate",
     "class_type": "Yoga Series",
-    "instructor": "Jen Tran",
+    "instructor": "Daniel Konieczny",
     "location": "Merrylands",
     "remaining_spots": 34,
     "capacity": 34
@@ -13293,7 +13293,7 @@
     "time": "7:00 AM",
     "name": "Yoga: Origins",
     "class_type": "Yoga Series",
-    "instructor": "Jen Tran",
+    "instructor": "Daniel Konieczny",
     "location": "Merrylands",
     "remaining_spots": 34,
     "capacity": 34
@@ -16373,7 +16373,7 @@
     "time": "9:30 AM",
     "name": "Reformer: Signature",
     "class_type": "Reformer Series",
-    "instructor": "Samantha Smolens",
+    "instructor": "Shannon Hsu",
     "location": "Haymarket",
     "remaining_spots": 24,
     "capacity": 24
@@ -16648,7 +16648,7 @@
     "time": "10:30 AM",
     "name": "Reformer: Signature",
     "class_type": "Reformer Series",
-    "instructor": "Samantha Smolens",
+    "instructor": "Shannon Hsu",
     "location": "Haymarket",
     "remaining_spots": 24,
     "capacity": 24
@@ -16901,7 +16901,7 @@
     "time": "11:30 AM",
     "name": "Reformer: Jump Board (Lower Body)",
     "class_type": "Reformer Series",
-    "instructor": "Janet Lapprathana",
+    "instructor": "Shannon Hsu",
     "location": "Haymarket",
     "remaining_spots": 24,
     "capacity": 24

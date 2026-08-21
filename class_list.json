@@ -1248,7 +1248,7 @@
     "time": "6:30 AM",
     "name": "Reformer: Signature",
     "class_type": "Reformer Series",
-    "instructor": "Lauren Buck",
+    "instructor": "Phoebe Thomson",
     "location": "Haymarket",
     "remaining_spots": 6,
     "capacity": 24
@@ -1501,7 +1501,7 @@
     "time": "7:15 AM",
     "name": "Reformer: Strong",
     "class_type": "Reformer Series",
-    "instructor": "Lauren Buck",
+    "instructor": "Phoebe Thomson",
     "location": "Haymarket",
     "remaining_spots": 14,
     "capacity": 24
@@ -2493,7 +2493,7 @@
     "class_type": "Reformer Series",
     "instructor": "Kayla Stanton",
     "location": "Newtown",
-    "remaining_spots": 19,
+    "remaining_spots": 18,
     "capacity": 20
   },
   {
@@ -2581,7 +2581,7 @@
     "class_type": "Pulse & Build Series",
     "instructor": "Kayla Job",
     "location": "North Sydney",
-    "remaining_spots": 25,
+    "remaining_spots": 24,
     "capacity": 30
   },
   {
@@ -2801,7 +2801,7 @@
     "class_type": "Reformer Series",
     "instructor": "Joey Curcio",
     "location": "Surry Hills",
-    "remaining_spots": 20,
+    "remaining_spots": 19,
     "capacity": 20
   },
   {

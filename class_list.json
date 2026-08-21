@@ -2460,7 +2460,7 @@
     "class_type": "Dance Series",
     "instructor": "Maria Camila Silva Lopez",
     "location": "Newtown",
-    "remaining_spots": 10,
+    "remaining_spots": 9,
     "capacity": 20
   },
   {
@@ -2790,7 +2790,7 @@
     "class_type": "Yoga Series",
     "instructor": "Jessy Franks",
     "location": "Newtown",
-    "remaining_spots": 19,
+    "remaining_spots": 18,
     "capacity": 23
   },
   {
@@ -3450,7 +3450,7 @@
     "class_type": "Spin Series",
     "instructor": "Frances Lee",
     "location": "North Sydney",
-    "remaining_spots": 38,
+    "remaining_spots": 37,
     "capacity": 40
   },
   {

@@ -1,38 +1,5 @@
 [
   {
-    "booking_id": "105book46616",
-    "date": "2026-08-23",
-    "time": "8:00 AM",
-    "name": "Pulse",
-    "class_type": "Pulse & Build Series",
-    "instructor": "Kayla Job",
-    "location": "Haymarket",
-    "remaining_spots": 5,
-    "capacity": 32
-  },
-  {
-    "booking_id": "104book43473",
-    "date": "2026-08-23",
-    "time": "8:00 AM",
-    "name": "BodySculpt",
-    "class_type": "Mat Series",
-    "instructor": "Joe Jackson",
-    "location": "Newtown",
-    "remaining_spots": 0,
-    "capacity": 23
-  },
-  {
-    "booking_id": "101book73820",
-    "date": "2026-08-23",
-    "time": "8:00 AM",
-    "name": "Meditation Soundscape",
-    "class_type": "Harmony Series",
-    "instructor": "Shannon Hsu",
-    "location": "Surry Hills",
-    "remaining_spots": 15,
-    "capacity": 34
-  },
-  {
     "booking_id": "106book30759",
     "date": "2026-08-23",
     "time": "8:10 AM",
@@ -601,7 +568,7 @@
     "class_type": "Reformer Series",
     "instructor": "Mia Callander",
     "location": "Newtown",
-    "remaining_spots": 1,
+    "remaining_spots": 0,
     "capacity": 20
   },
   {

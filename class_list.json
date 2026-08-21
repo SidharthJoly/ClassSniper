@@ -1,16 +1,5 @@
 [
   {
-    "booking_id": "106book65467",
-    "date": "2026-08-23",
-    "time": "7:00 AM",
-    "name": "Legacy",
-    "class_type": "Fight Series",
-    "instructor": "Paulo Lole",
-    "location": "Merrylands",
-    "remaining_spots": 14,
-    "capacity": 31
-  },
-  {
     "booking_id": "105book46616",
     "date": "2026-08-23",
     "time": "8:00 AM",
@@ -3054,7 +3043,7 @@
     "class_type": "Reformer Series",
     "instructor": "Montana Cominos",
     "location": "Surry Hills",
-    "remaining_spots": 16,
+    "remaining_spots": 15,
     "capacity": 20
   },
   {

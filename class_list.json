@@ -1,16 +1,5 @@
 [
   {
-    "booking_id": "104book43838",
-    "date": "2026-08-23",
-    "time": "1:15 PM",
-    "name": "Yoga: Flowstate",
-    "class_type": "Yoga Series",
-    "instructor": "Sunil Tailor",
-    "location": "Newtown",
-    "remaining_spots": 12,
-    "capacity": 23
-  },
-  {
     "booking_id": "105book56808",
     "date": "2026-08-23",
     "time": "1:30 PM",
@@ -942,7 +931,7 @@
     "class_type": "Pulse & Build Series",
     "instructor": "Marcus Parkin",
     "location": "Haymarket",
-    "remaining_spots": 13,
+    "remaining_spots": 12,
     "capacity": 32
   },
   {
@@ -2031,7 +2020,7 @@
     "class_type": "Reformer Series",
     "instructor": "Bethany Rumore",
     "location": "Marrickville",
-    "remaining_spots": 6,
+    "remaining_spots": 5,
     "capacity": 15
   },
   {
@@ -3824,7 +3813,7 @@
     "class_type": "Reformer Series",
     "instructor": "Mandy Moussa",
     "location": "Merrylands",
-    "remaining_spots": 23,
+    "remaining_spots": 22,
     "capacity": 23
   },
   {
@@ -3835,7 +3824,7 @@
     "class_type": "Pulse & Build Series",
     "instructor": "Alyssa Liem",
     "location": "North Sydney",
-    "remaining_spots": 30,
+    "remaining_spots": 18,
     "capacity": 30
   },
   {

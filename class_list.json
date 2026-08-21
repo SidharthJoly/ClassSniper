@@ -689,7 +689,7 @@
     "class_type": "Reformer Series",
     "instructor": "Vivien Nguyen",
     "location": "Merrylands",
-    "remaining_spots": 5,
+    "remaining_spots": 4,
     "capacity": 21
   },
   {
@@ -1919,7 +1919,7 @@
     "time": "9:00 AM",
     "name": "Creche (18 months - 12 years)",
     "class_type": "Creche",
-    "instructor": "Chloe Burns",
+    "instructor": "Cristina Valdes",
     "location": "Merrylands",
     "remaining_spots": 3,
     "capacity": 8
@@ -2117,7 +2117,7 @@
     "time": "10:00 AM",
     "name": "Creche (18 months - 12 years)",
     "class_type": "Creche",
-    "instructor": "Chloe Burns",
+    "instructor": "Cristina Valdes",
     "location": "Merrylands",
     "remaining_spots": 3,
     "capacity": 8
@@ -2304,7 +2304,7 @@
     "time": "11:00 AM",
     "name": "Creche (18 months - 12 years)",
     "class_type": "Creche",
-    "instructor": "Chloe Burns",
+    "instructor": "Cristina Valdes",
     "location": "Merrylands",
     "remaining_spots": 8,
     "capacity": 8
@@ -2458,7 +2458,7 @@
     "time": "12:00 PM",
     "name": "Creche (18 months - 12 years)",
     "class_type": "Creche",
-    "instructor": "Chloe Burns",
+    "instructor": "Cristina Valdes",
     "location": "Merrylands",
     "remaining_spots": 8,
     "capacity": 8
@@ -2988,7 +2988,7 @@
     "class_type": "Reformer Series",
     "instructor": "Bethany Rumore",
     "location": "Marrickville",
-    "remaining_spots": 9,
+    "remaining_spots": 8,
     "capacity": 15
   },
   {
@@ -3010,7 +3010,7 @@
     "class_type": "S&C Series",
     "instructor": "Marcus Parkin",
     "location": "Haymarket",
-    "remaining_spots": 30,
+    "remaining_spots": 29,
     "capacity": 30
   },
   {

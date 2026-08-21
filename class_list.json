@@ -700,7 +700,7 @@
     "class_type": "Reformer Series",
     "instructor": "Mia Callander",
     "location": "Newtown",
-    "remaining_spots": 0,
+    "remaining_spots": 1,
     "capacity": 20
   },
   {
@@ -2031,7 +2031,7 @@
     "class_type": "Reformer Series",
     "instructor": "Neave Welch",
     "location": "North Sydney",
-    "remaining_spots": 16,
+    "remaining_spots": 15,
     "capacity": 24
   },
   {
@@ -3076,7 +3076,7 @@
     "class_type": "Mat Series",
     "instructor": "Bethany Rumore",
     "location": "Marrickville",
-    "remaining_spots": 18,
+    "remaining_spots": 17,
     "capacity": 20
   },
   {
@@ -3604,7 +3604,7 @@
     "class_type": "Pulse & Build Series",
     "instructor": "Colleen Antony",
     "location": "Marrickville",
-    "remaining_spots": 2,
+    "remaining_spots": 1,
     "capacity": 26
   },
   {
@@ -3923,7 +3923,7 @@
     "class_type": "Yoga Series",
     "instructor": "Jessy Franks",
     "location": "Newtown",
-    "remaining_spots": 19,
+    "remaining_spots": 18,
     "capacity": 23
   },
   {
@@ -4955,7 +4955,7 @@
     "time": "9:00 AM",
     "name": "Creche (18 months - 12 years)",
     "class_type": "Creche",
-    "instructor": "Chloe Burns",
+    "instructor": "Cristina Valdes",
     "location": "Merrylands",
     "remaining_spots": 8,
     "capacity": 8
@@ -5186,7 +5186,7 @@
     "time": "10:00 AM",
     "name": "Creche (18 months - 12 years)",
     "class_type": "Creche",
-    "instructor": "Chloe Burns",
+    "instructor": "Cristina Valdes",
     "location": "Merrylands",
     "remaining_spots": 8,
     "capacity": 8
@@ -5307,7 +5307,7 @@
     "time": "11:00 AM",
     "name": "Creche (18 months - 12 years)",
     "class_type": "Creche",
-    "instructor": "Chloe Burns",
+    "instructor": "Cristina Valdes",
     "location": "Merrylands",
     "remaining_spots": 8,
     "capacity": 8
@@ -5450,7 +5450,7 @@
     "time": "12:00 PM",
     "name": "Creche (18 months - 12 years)",
     "class_type": "Creche",
-    "instructor": "Chloe Burns",
+    "instructor": "Cristina Valdes",
     "location": "Merrylands",
     "remaining_spots": 8,
     "capacity": 8
@@ -7947,7 +7947,7 @@
     "time": "9:00 AM",
     "name": "Creche (18 months - 12 years)",
     "class_type": "Creche",
-    "instructor": "Chloe Burns",
+    "instructor": "Cristina Valdes",
     "location": "Merrylands",
     "remaining_spots": 8,
     "capacity": 8
@@ -8134,7 +8134,7 @@
     "time": "10:00 AM",
     "name": "Creche (18 months - 12 years)",
     "class_type": "Creche",
-    "instructor": "Chloe Burns",
+    "instructor": "Cristina Valdes",
     "location": "Merrylands",
     "remaining_spots": 8,
     "capacity": 8
@@ -8321,7 +8321,7 @@
     "time": "11:00 AM",
     "name": "Creche (18 months - 12 years)",
     "class_type": "Creche",
-    "instructor": "Chloe Burns",
+    "instructor": "Cristina Valdes",
     "location": "Merrylands",
     "remaining_spots": 8,
     "capacity": 8
@@ -8486,7 +8486,7 @@
     "time": "12:00 PM",
     "name": "Creche (18 months - 12 years)",
     "class_type": "Creche",
-    "instructor": "Chloe Burns",
+    "instructor": "Cristina Valdes",
     "location": "Merrylands",
     "remaining_spots": 8,
     "capacity": 8
@@ -10895,7 +10895,7 @@
     "time": "9:00 AM",
     "name": "Creche (18 months - 12 years)",
     "class_type": "Creche",
-    "instructor": "Chloe Burns",
+    "instructor": "Cristina Valdes",
     "location": "Merrylands",
     "remaining_spots": 8,
     "capacity": 8
@@ -11148,7 +11148,7 @@
     "time": "10:00 AM",
     "name": "Creche (18 months - 12 years)",
     "class_type": "Creche",
-    "instructor": "Chloe Burns",
+    "instructor": "Cristina Valdes",
     "location": "Merrylands",
     "remaining_spots": 8,
     "capacity": 8
@@ -11280,7 +11280,7 @@
     "time": "11:00 AM",
     "name": "Creche (18 months - 12 years)",
     "class_type": "Creche",
-    "instructor": "Chloe Burns",
+    "instructor": "Cristina Valdes",
     "location": "Merrylands",
     "remaining_spots": 8,
     "capacity": 8
@@ -11478,7 +11478,7 @@
     "time": "12:00 PM",
     "name": "Creche (18 months - 12 years)",
     "class_type": "Creche",
-    "instructor": "Chloe Burns",
+    "instructor": "Cristina Valdes",
     "location": "Merrylands",
     "remaining_spots": 8,
     "capacity": 8
@@ -13854,7 +13854,7 @@
     "time": "9:00 AM",
     "name": "Creche (18 months - 12 years)",
     "class_type": "Creche",
-    "instructor": "Chloe Burns",
+    "instructor": "Cristina Valdes",
     "location": "Merrylands",
     "remaining_spots": 8,
     "capacity": 8
@@ -14140,7 +14140,7 @@
     "time": "10:00 AM",
     "name": "Creche (18 months - 12 years)",
     "class_type": "Creche",
-    "instructor": "Chloe Burns",
+    "instructor": "Cristina Valdes",
     "location": "Merrylands",
     "remaining_spots": 8,
     "capacity": 8
@@ -14316,7 +14316,7 @@
     "time": "11:00 AM",
     "name": "Creche (18 months - 12 years)",
     "class_type": "Creche",
-    "instructor": "Chloe Burns",
+    "instructor": "Cristina Valdes",
     "location": "Merrylands",
     "remaining_spots": 8,
     "capacity": 8
@@ -14536,7 +14536,7 @@
     "time": "12:00 PM",
     "name": "Creche (18 months - 12 years)",
     "class_type": "Creche",
-    "instructor": "Chloe Burns",
+    "instructor": "Cristina Valdes",
     "location": "Merrylands",
     "remaining_spots": 8,
     "capacity": 8
@@ -15889,7 +15889,7 @@
     "time": "8:00 AM",
     "name": "Creche (18 months - 12 years)",
     "class_type": "Creche",
-    "instructor": "Kasey Lao",
+    "instructor": "Medina Sadiki",
     "location": "Merrylands",
     "remaining_spots": 8,
     "capacity": 8
@@ -16230,7 +16230,7 @@
     "time": "9:00 AM",
     "name": "Creche (18 months - 12 years)",
     "class_type": "Creche",
-    "instructor": "Kasey Lao",
+    "instructor": "Medina Sadiki",
     "location": "Merrylands",
     "remaining_spots": 8,
     "capacity": 8
@@ -16549,7 +16549,7 @@
     "time": "10:00 AM",
     "name": "Creche (18 months - 12 years)",
     "class_type": "Creche",
-    "instructor": "Kasey Lao",
+    "instructor": "Medina Sadiki",
     "location": "Merrylands",
     "remaining_spots": 8,
     "capacity": 8
@@ -16791,7 +16791,7 @@
     "time": "11:00 AM",
     "name": "Creche (18 months - 12 years)",
     "class_type": "Creche",
-    "instructor": "Kasey Lao",
+    "instructor": "Medina Sadiki",
     "location": "Merrylands",
     "remaining_spots": 8,
     "capacity": 8
@@ -19365,7 +19365,7 @@
     "time": "9:00 AM",
     "name": "Creche (18 months - 12 years)",
     "class_type": "Creche",
-    "instructor": "Chloe Burns",
+    "instructor": "Cristina Valdes",
     "location": "Merrylands",
     "remaining_spots": 8,
     "capacity": 8
@@ -19552,7 +19552,7 @@
     "time": "10:00 AM",
     "name": "Creche (18 months - 12 years)",
     "class_type": "Creche",
-    "instructor": "Chloe Burns",
+    "instructor": "Cristina Valdes",
     "location": "Merrylands",
     "remaining_spots": 8,
     "capacity": 8
@@ -19739,7 +19739,7 @@
     "time": "11:00 AM",
     "name": "Creche (18 months - 12 years)",
     "class_type": "Creche",
-    "instructor": "Chloe Burns",
+    "instructor": "Cristina Valdes",
     "location": "Merrylands",
     "remaining_spots": 8,
     "capacity": 8
@@ -19893,7 +19893,7 @@
     "time": "12:00 PM",
     "name": "Creche (18 months - 12 years)",
     "class_type": "Creche",
-    "instructor": "Chloe Burns",
+    "instructor": "Cristina Valdes",
     "location": "Merrylands",
     "remaining_spots": 8,
     "capacity": 8

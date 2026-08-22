@@ -524,7 +524,7 @@
     "class_type": "Reformer Series",
     "instructor": "Sara Craighead",
     "location": "North Sydney",
-    "remaining_spots": 0,
+    "remaining_spots": 1,
     "capacity": 24
   },
   {
@@ -700,7 +700,7 @@
     "class_type": "Pulse & Build Series",
     "instructor": "Matt Bull",
     "location": "North Sydney",
-    "remaining_spots": 6,
+    "remaining_spots": 5,
     "capacity": 30
   },
   {
@@ -2812,7 +2812,7 @@
     "class_type": "Reformer Series",
     "instructor": "Robynne Henry",
     "location": "Newtown",
-    "remaining_spots": 5,
+    "remaining_spots": 4,
     "capacity": 20
   },
   {
@@ -4924,7 +4924,7 @@
     "class_type": "Pulse & Build Series",
     "instructor": "Marcus Parkin",
     "location": "Haymarket",
-    "remaining_spots": 17,
+    "remaining_spots": 16,
     "capacity": 32
   },
   {
@@ -5672,7 +5672,7 @@
     "class_type": "Reformer Series",
     "instructor": "Kate Vose",
     "location": "Surry Hills",
-    "remaining_spots": 8,
+    "remaining_spots": 6,
     "capacity": 18
   },
   {

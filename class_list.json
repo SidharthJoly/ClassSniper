@@ -1,16 +1,5 @@
 [
   {
-    "booking_id": "103book48835",
-    "date": "2026-08-24",
-    "time": "8:10 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Eleni Vlahos",
-    "location": "Marrickville",
-    "remaining_spots": 0,
-    "capacity": 15
-  },
-  {
     "booking_id": "105book37209",
     "date": "2026-08-24",
     "time": "8:15 AM",
@@ -3780,7 +3769,7 @@
     "class_type": "S&C Series",
     "instructor": "Jennia Klimenkova",
     "location": "Surry Hills",
-    "remaining_spots": 23,
+    "remaining_spots": 22,
     "capacity": 26
   },
   {

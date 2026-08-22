@@ -744,7 +744,7 @@
     "class_type": "Reformer Series",
     "instructor": "Lily Cole",
     "location": "Newtown",
-    "remaining_spots": 3,
+    "remaining_spots": 4,
     "capacity": 20
   },
   {
@@ -810,7 +810,7 @@
     "class_type": "Reformer Series",
     "instructor": "Jaclyn Bogdanovic",
     "location": "Haymarket",
-    "remaining_spots": 11,
+    "remaining_spots": 12,
     "capacity": 24
   },
   {
@@ -2702,7 +2702,7 @@
     "class_type": "Spin Series",
     "instructor": "Jonathon Balzanelli",
     "location": "North Sydney",
-    "remaining_spots": 1,
+    "remaining_spots": 0,
     "capacity": 40
   },
   {

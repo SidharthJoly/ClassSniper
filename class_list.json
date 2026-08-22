@@ -1,16 +1,5 @@
 [
   {
-    "booking_id": "106book48711",
-    "date": "2026-08-23",
-    "time": "4:45 PM",
-    "name": "Breathwork: Deep Calm (Evening)",
-    "class_type": "Harmony Series",
-    "instructor": "Asami Iwasaki",
-    "location": "Merrylands",
-    "remaining_spots": 32,
-    "capacity": 34
-  },
-  {
     "booking_id": "101book74030",
     "date": "2026-08-23",
     "time": "5:00 PM",
@@ -95,7 +84,7 @@
     "class_type": "S&C Series",
     "instructor": "Charbel Tasipale",
     "location": "Merrylands",
-    "remaining_spots": 30,
+    "remaining_spots": 29,
     "capacity": 30
   },
   {
@@ -1096,7 +1085,7 @@
     "class_type": "Mat Series",
     "instructor": "Chloe Greenwood",
     "location": "Surry Hills",
-    "remaining_spots": 15,
+    "remaining_spots": 14,
     "capacity": 34
   },
   {
@@ -2526,7 +2515,7 @@
     "class_type": "Reformer Series",
     "instructor": "Kat Morrison",
     "location": "Merrylands",
-    "remaining_spots": 17,
+    "remaining_spots": 16,
     "capacity": 20
   },
   {
@@ -2790,7 +2779,7 @@
     "class_type": "Reformer Series",
     "instructor": "Kat Morrison",
     "location": "Merrylands",
-    "remaining_spots": 16,
+    "remaining_spots": 17,
     "capacity": 20
   },
   {
@@ -4121,7 +4110,7 @@
     "class_type": "S&C Series",
     "instructor": "Paulo Lole",
     "location": "Merrylands",
-    "remaining_spots": 30,
+    "remaining_spots": 29,
     "capacity": 30
   },
   {
@@ -4220,7 +4209,7 @@
     "class_type": "Reformer Series",
     "instructor": "Ivan Barrios",
     "location": "Marrickville",
-    "remaining_spots": 13,
+    "remaining_spots": 12,
     "capacity": 15
   },
   {

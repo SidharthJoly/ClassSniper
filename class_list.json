@@ -1,38 +1,5 @@
 [
   {
-    "booking_id": "106book38574",
-    "date": "2026-08-24",
-    "time": "5:45 AM",
-    "name": "Lower Force",
-    "class_type": "S&C Series",
-    "instructor": "Charbel Tasipale",
-    "location": "Merrylands",
-    "remaining_spots": 27,
-    "capacity": 30
-  },
-  {
-    "booking_id": "106book56564",
-    "date": "2026-08-24",
-    "time": "5:45 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Danielle Panayi",
-    "location": "Merrylands",
-    "remaining_spots": 15,
-    "capacity": 22
-  },
-  {
-    "booking_id": "106book53671",
-    "date": "2026-08-24",
-    "time": "5:45 AM",
-    "name": "Mat Pilates",
-    "class_type": "Mat Series",
-    "instructor": "Melissa Passe-De Silva",
-    "location": "Merrylands",
-    "remaining_spots": 24,
-    "capacity": 34
-  },
-  {
     "booking_id": "101book61304",
     "date": "2026-08-24",
     "time": "5:50 AM",
@@ -700,7 +667,7 @@
     "class_type": "Reformer Series",
     "instructor": "Lily Cole",
     "location": "Newtown",
-    "remaining_spots": 0,
+    "remaining_spots": 1,
     "capacity": 20
   },
   {

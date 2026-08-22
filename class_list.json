@@ -1,16 +1,5 @@
 [
   {
-    "booking_id": "106book67174",
-    "date": "2026-08-24",
-    "time": "8:45 AM",
-    "name": "Reformer: Signature",
-    "class_type": "Reformer Series",
-    "instructor": "Danielle Panayi",
-    "location": "Merrylands",
-    "remaining_spots": 20,
-    "capacity": 22
-  },
-  {
     "booking_id": "105book37313",
     "date": "2026-08-24",
     "time": "9:00 AM",
@@ -3758,7 +3747,7 @@
     "class_type": "Reformer Series",
     "instructor": "Abigail Rose",
     "location": "Surry Hills",
-    "remaining_spots": 11,
+    "remaining_spots": 10,
     "capacity": 20
   },
   {
